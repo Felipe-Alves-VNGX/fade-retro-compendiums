@@ -208,23 +208,31 @@ escrita antes do código que produz os dados.
 - **Versão do sistema.** `fantastic-depths` está em desenvolvimento ativo; uma
   mudança de schema quebra os packs. O `module.json` fixa a compatibilidade
   declarada, e o validador é a rede de proteção.
-- **`removeStats()` sobrescreve `_stats.coreVersion` com valor hardcoded
-  (achado na Task 8).** `scripts/build/dbConvert.mjs`, método `removeStats()`
-  (por volta da linha 367), grava incondicionalmente
+- **`removeStats()` sobrescrevia `_stats.coreVersion` com valor hardcoded
+  (achado na Task 8, corrigido na revisão final).** `scripts/build/dbConvert.mjs`,
+  método `removeStats()`, gravava incondicionalmente
   `{"coreVersion": "12.343", "systemId": "fantastic-depths"}` em todo
-  documento durante `packcompile` — independentemente do `_stats.coreVersion`
-  presente no JSON de origem em `packsrc/`. O código foi "adaptado
-  literalmente" do `Forelius/fade-compendiums` (ver comentário no topo do
-  arquivo) e herdou o valor de versão do Foundry usado por aquele projeto
-  upstream. Como resultado, o ciclo `packsrc → packs → packsrc` (Steps 4-5 da
-  Task 8) não é totalmente idempotente: os 3 itens de `packsrc/items`, escritos
-  à mão na Task 7 com `_stats.coreVersion: "13.347"`, voltam do
-  `decomppacks` com `"12.343"` — uma diferença de **valor**, não apenas de
-  formatação/ordem. Não corrompe os dados nem quebra a validação (o
-  `validate.mjs` não confere `_stats.coreVersion`), mas se não for corrigido
-  antes da Fase 2, todo item recompilado a partir de então herdará essa versão
-  incorreta. `git checkout -- packsrc` foi usado para restaurar os arquivos
-  da Task 7 sem essa mudança; a correção do hardcode (ler a versão real do
-  ambiente/`module.json`, ou preservar o `_stats.coreVersion` já existente no
-  documento em vez de sobrescrevê-lo) fica como item de backlog para antes de
-  depender de `packcompile` em produção.
+  documento durante `packcompile` e `packextract` — independentemente do
+  `_stats.coreVersion` presente no documento de origem. O código foi
+  "adaptado literalmente" do `Forelius/fade-compendiums` (ver comentário no
+  topo do arquivo) e herdou o valor de versão do Foundry usado por aquele
+  projeto upstream. Isso quebrava a idempotência de valor do ciclo
+  `packsrc → packs → packsrc` e, mais grave, fazia o próprio artefato
+  compilado (o que os usuários instalam) declarar `coreVersion: "12.343"`
+  enquanto `module.json` exige Foundry v13+. **Corrigido** na revisão final
+  do branch `phase-1-skeleton`: `removeStats()` agora preserva
+  `document._stats.coreVersion` quando já existe, usando `"13.347"` apenas
+  como padrão para documentos que nunca tiveram esse campo. Como o método é
+  chamado tanto na extração quanto na compilação, o round-trip completo
+  ficou idempotente de valor, não só o caminho de compilação.
+- **Regra "nenhum campo desconhecido" da seção 6 não implementada no
+  validador da Fase 1 (achado na revisão final).** `scripts/extract/validate.mjs`
+  implementa 5 das 6 regras que esta seção descreve para `validate.mjs`
+  (subtipo conhecido, campos obrigatórios presentes, `_id`, referência de
+  pasta, `_originalKey`) — a checagem de "nenhum campo desconhecido" foi
+  deliberadamente omitida, porque exigiria uma allowlist completa por
+  subtipo, e o próprio `docs/fantastic-depths-item-schema.md` (Task 4)
+  registra que nem todos os mixins do sistema `fantastic-depths` foram
+  localizados (`isAmmo`, `isCarried`, `dmgFormula`, `healFormula`,
+  `isUsable` continuam sem DataModel de origem identificado). Adicionar essa
+  regra é um item de fase futura, condicionado a mapear esses mixins.
