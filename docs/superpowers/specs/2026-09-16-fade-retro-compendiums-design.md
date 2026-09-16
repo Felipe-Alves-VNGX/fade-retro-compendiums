@@ -203,8 +203,12 @@ escrita antes do código que produz os dados.
   mapeamento — campo nativo aproximado, `flags` do módulo, ou descrição em
   prosa — registrada aqui quando tomada.
 - **Qualidade do texto extraído.** O PDF tem camada de texto (não é OCR), mas
-  usa hifenização, ligaduras e duas colunas. A normalização da fase 2 é
-  pré-requisito de todos os parsers.
+  usa hifenização e duas colunas. A normalização da fase 2 é pré-requisito
+  de todos os parsers. **Atualização (design da Fase 2):** testado em
+  amostra de 200 páginas — o `pdftotext` já decompõe ligaduras (fi/fl) em
+  letras separadas antes de emitir o texto; não há caractere de ligadura
+  na saída, logo não há normalização de ligadura a implementar. Ver
+  `docs/superpowers/specs/2026-09-17-fase2-extracao-pdf-design.md`, seção 2.
 - **Versão do sistema.** `fantastic-depths` está em desenvolvimento ativo; uma
   mudança de schema quebra os packs. O `module.json` fixa a compatibilidade
   declarada, e o validador é a rede de proteção.
