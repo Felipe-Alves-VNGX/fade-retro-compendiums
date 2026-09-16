@@ -21,13 +21,14 @@ disclaimed as set forth therein.
 Per the ORC License terms declared in *Dark Dungeons* (p. 473), **all text**
 in that work is Expressly Designated Licensed Material. Reserved Material —
 excluded from this project — is limited to the name "Dark Dungeons" and all
-art contained in that work. This module does not use the name "Dark
-Dungeons" and contains no artwork from the source book.
+art contained in that work. This module is not named 'Dark Dungeons' and
+contains no artwork from the source book; the name is referenced only for
+the attribution the ORC License requires.
 
 Dark Dungeons itself attributes material to the System Reference Document
 5.1 ("SRD5.1") by Wizards of the Coast LLC, licensed under the Creative
 Commons Attribution 4.0 International License
-(https://creative-commons.org/licenses/by/4.0/legalcode), and to Pathfinder
+(https://creativecommons.org/licenses/by/4.0/legalcode), and to Pathfinder
 Player Core, GM Core, and Monster Core, © Paizo Inc.
 
 ## This module

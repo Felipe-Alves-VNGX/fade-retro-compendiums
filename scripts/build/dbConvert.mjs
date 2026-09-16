@@ -368,8 +368,9 @@ class dbConvert {
     * @param {Object} documents - All documents from the .db file
     */
     async removeStats(document) {
+        const existingCoreVersion = document._stats?.coreVersion;
         document._stats = {
-            "coreVersion": "12.343",
+            "coreVersion": existingCoreVersion || "13.347",
             "systemId": "fantastic-depths",
         };
     }
