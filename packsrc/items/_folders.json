@@ -1,0 +1,47 @@
+{
+  "!folders!luTBWNJHVwpLxh6c": {
+    "name": "Equipment",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "luTBWNJHVwpLxh6c",
+    "description": "",
+    "sort": 100000,
+    "color": "#3c2f27",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!2AKCulCJIGNyAMaN": {
+    "name": "Weapons",
+    "sorting": "a",
+    "folder": "luTBWNJHVwpLxh6c",
+    "type": "Item",
+    "_id": "2AKCulCJIGNyAMaN",
+    "description": "",
+    "sort": 100000,
+    "color": "#5b3132",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!vItxVSiPb4vq0Mmc": {
+    "name": "Adventuring Gear",
+    "sorting": "a",
+    "folder": "luTBWNJHVwpLxh6c",
+    "type": "Item",
+    "_id": "vItxVSiPb4vq0Mmc",
+    "description": "",
+    "sort": 200000,
+    "color": "#42362f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  }
+}

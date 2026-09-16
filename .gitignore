@@ -1,0 +1,12 @@
+node_modules
+
+# Compiled FoundryVTT LevelDB pack output — rebuilt from packsrc/ via `npm run comppacks`
+packs
+
+# Release artifacts
+/module.zip
+release_notes.txt
+
+# Subagent-Driven Development workspace (ledgers, briefs, review packages) —
+# process scratch, never part of the shipped module.
+/.superpowers/

@@ -1,0 +1,29 @@
+{
+  "name": "fade-retro-compendiums",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Compendium content for the Fantastic Depths Foundry VTT system, derived from Dark Dungeons 4th Edition under the ORC License.",
+  "scripts": {
+    "packdump": "node scripts/build/LdbActions.mjs dump",
+    "packrestore": "node scripts/build/LdbActions.mjs restore",
+    "packextract": "node scripts/build/dbConvert.mjs extract",
+    "packcompile": "node scripts/build/dbConvert.mjs compile",
+    "decomppacks": "npm run packdump && npm run packextract && echo \"Decompiled packs\"",
+    "comppacks": "npm run validate && npm run packcompile && npm run packrestore && echo \"Compiled packs\"",
+    "validate": "node scripts/extract/validate.mjs",
+    "test": "node --test scripts/extract/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeAlves/fade-retro-compendiums.git"
+  },
+  "keywords": [
+    "foundryvtt",
+    "fantastic-depths"
+  ],
+  "author": "Felipe Alves",
+  "license": "MIT",
+  "dependencies": {
+    "level": "^10.0.0"
+  }
+}
