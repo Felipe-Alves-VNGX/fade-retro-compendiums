@@ -1,0 +1,8 @@
+node_modules
+
+# Compiled FoundryVTT LevelDB pack output — rebuilt from packsrc/ via `npm run comppacks`
+packs
+
+# Release artifacts
+/module.zip
+release_notes.txt
