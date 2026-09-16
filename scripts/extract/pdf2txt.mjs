@@ -10,8 +10,22 @@ const CHAPTERS_PATH = path.join(__dirname, "chapters.json");
 // Fixed for the whole book: every page is 612x792pt (confirmed via
 // `pdfinfo`), and the two-column body text sits within these bounds.
 // H=720 starting at y=36 already excludes the page-number footer.
-const LEFT_COLUMN = { x: 18, y: 36, W: 282, H: 720 };
-const RIGHT_COLUMN = { x: 312, y: 36, W: 264, H: 720 };
+//
+// Widths verified against `pdftotext -bbox` glyph extents sampled across
+// both columns on pages from every chapter (25, 40, 61, 70, 73, 90, 91,
+// 100, 111, 117, 125, 133, 147, 160): left-column glyphs run up to
+// x≈298.5 (original W=282 → right edge 300, ~1.5pt margin) and
+// right-column glyphs run up to x≈585.03 (original W=264 → right edge
+// 576, i.e. up to ~9pt of real column text falling outside the crop).
+// That right-column shortfall silently dropped the last 1-3 characters
+// of any line reaching the column's true right edge (e.g. "permanent"
+// -> "permanen", "special" -> "speci", "hours" -> "hou") — most visible
+// in spells.txt because "Duration: <value>" is right-aligned there, but
+// the same crop applies to every chapter. Both widths below add a
+// buffer well past the observed max glyph extent while staying short of
+// the neighboring column / page edge, so no more truncation.
+const LEFT_COLUMN = { x: 18, y: 36, W: 286, H: 720 };
+const RIGHT_COLUMN = { x: 312, y: 36, W: 282, H: 720 };
 
 /**
  * Run pdftotext over one page, optionally cropped to a column box.

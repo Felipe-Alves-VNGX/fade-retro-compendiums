@@ -1,0 +1,1146 @@
+--- page 73 ---
+                                    Chapter 6 – Weapons & We
+
+
+
+
+                      Chapter 6 –
+                       Weapon P
+A character's ability to use a particular type of weapon in
+combat is represented by weapon feats. These give a
+character increasing attack bonuses and access to special
+abilities such as armour class bonuses as they get more
+proficient with a weapon.
+
+STARTING WEAPON FEATS
+At 1st level, characters start with either two or four weapon
+feats, which must be immediately spent on basic weapon
+proficiency with different weapons usable by the character's
+class. A character may not spend more than one 1st level
+weapon feat on the same weapon.
+
+GAINING WEAPON FEATS
+As characters increase in level, they gain more weapon feats.
+See CHAPTER 4 – CREATING A CHARACTER for further details.
+These additional weapon feats cannot be spent immediately,
+but must be spent while weapon training. See
+CHAPTER 12 – GETTING BETTER for more information on weapon
+training. By training, the character can spend these additional
+weapon feats to either gain basic proficiency with new weapons
+or increase their proficiency rank with existing weapons.
+
+Spending a single weapon feat on a weapon will give the
+character a single increase in proficiency rank with that
+weapon (to a maximum rank of Grand Master proficiency)
+regardless of how proficient the character currently is with
+that weapon or how many other weapons the character is
+proficient with.
+
+There are 6 ranks of proficiency with each weapon:
+
+■ Non-proficient
+■ Basic proficiency
+■ Skilled proficiency
+■ Expert proficiency
+■ Master proficiency
+■ Grand Master proficiency
+
+Characters start out non-proficient with all weapons other
+than those they spent their starting weapon feats to gain
+proficiency with.
+
+ pon Proficiency
+
+
+
+
+ Weapons &
+Proficiency
+   EFFECTS OF PROFICIENCY
+   As a character gains more proficiency ranks with a weapon,
+   they will usually do more damage with it. The damage done
+   by a weapon is listed for each proficiency rank in the detailed
+   weapon descriptions in this chapter.
+
+   Some types of weapon have special abilities such as the
+   ability to deflect attacks or the ability to ensnare opponents,
+   which can be used only by characters with a high enough
+   proficiency rank.
+
+   OPPONENT TYPES
+   Although some weapons are equally effective against any
+   opponent, weapons intended for warfare are often more
+   effective against other opponents armed with melee weapons;
+   whereas weapons intended for hunting are often more effective
+   against unarmed opponents. In the weapon descriptions in
+   this chapter, each weapon has its effectiveness indicated
+   against each type of opponent separately.
+
+   Note that opponents wielding missile weapons or martial arts
+   use the same values as opponents who are completely
+   unarmed or using natural attacks such as claws.
+
+   AMMUNITION & LOADING
+   All missile weapons require ammunition, for example, bows
+   need arrows and guns need bullets. In addition, guns also
+   require a charge of red powder to work.
+
+   Any character can load a weapon with ammunition, even those
+   who are not proficient in its use. Loading a weapon does not
+   take an action, and is assumed to be part of the normal attack
+   action (see CHAPTER 11 – COMBAT for a full description of
+   actions).
+
+   If a character gets multiple attacks for any reason, they can
+   reload between each attack. For example, a 28th level fighter
+   is able to make three attacks against opponents that they
+   can hit on a 2+ (after modifiers). That fighter could make all
+   three attacks with a bow, crossbow, sling or gun and reload
+   between each attack all in a single attack action.
+
+   The only exception to this rule is with pistols. Although pistols
+   require only one hand to fire, they require two hands to reload.
+
+
+--- page 74 ---
+                                           Table 6–1: Weapon Summary
+                                                 Unarmed Attacks
+    Weapon          Cost Base Damage             Base Traits        Advanced Traits            Proficiency Group
+ Unarmed Strikes     –         1            Blunt, Natural, Simple Knockout, Off-hand               Brawling
+    Wrestling        –         –            Blunt, Natural, Simple  Entangle, Strangle             Grappling
+
+                                            One-Handed Weapons
+    Weapon          Cost Base Damage          Base Traits              Advanced Traits
+   Axe, Hand         4gp      1d6                 Throw                          –                 Short Axes
+   Blackjack         5gp      1d2             Blunt, Natural                Knockout          Brawling, Hammers
+     Cestus          5gp      1d3                    –                      Off-hand                Brawling
+      Club           3gp      1d6             Blunt, Natural              Deflect, Hurl             Hammers
+     Dagger          3gp      1d4      Simple, Off-Hand, Throw          Double Damage             Short Blades
+Hammer, Throwing     4gp      1d4             Blunt, Throw                     Stun                 Hammers
+  Hammer, War        4gp      1d6                  Blunt                    Stun, Hurl              Hammers
+     Javelin         1gp      1d6                 Throw                          –                   Spears
+     Lance          10gp     1d10                Charge                          –                   Spears
+      Mace           5gp      1d6                  Blunt                  Deflect, Hurl             Hammers
+  Morning Star       8gp      1d6                  Blunt             Deflect Penalty, Disarm         Chains
+       Net           4gp       –             Simple, Throw                  Entangle                  Nets
+ Shield, Buckler     6gp       –             Blunt, Off-hand                 Deflect                 Shields
+ Shield, Normal     10gp       –     Bulky, Blunt, Natural, Off-hand      Deflect, Delay             Shields
+  Shield, Tower     15gp       –         Bulky, Blunt, Off-hand           Deflect, Stun              Shields
+      Spear          3gp      1d6            Throw, Charge                  Stun, Set            Spears, Staves
+ Sword, Bastard     15gp    1d6+1               Versatile                    Deflect             Medium Blades
+ Sword, Normal      10gp      1d8                    –                Deflect, Disarm, Hurl      Medium Blades
+  Sword, Short       7gp      1d6                    –                Deflect, Disarm, Hurl Med. Blades, Short Blades
+     Trident         5gp      1d6                 Throw                      Skewer                  Spears
+      Whip          10gp      1d2                Simple                     Entangle                 Whips
+
+                                           Two-Handed Weapons
+     Weapon         Cost Base Damage         Base Traits             Advanced Traits
+    Axe, Battle      7gp      1d8                Bulky                Delay, Stun, Hurl     Short Axes, Long Axes
+     Bayonet        8gp       1d6                   –                       Hurl                    Spears
+       Flail        12gp      1d8             Bulky, Blunt         Deflect Penalty, Disarm          Chains
+     Halberd         7gp     1d10                Bulky              Hook, Deflect, Disarm         Pole Arms
+       Pike          3gp     1d10                Bulky                   Deflect, Set         Spears, Pole Arms
+     Poleaxe         5gp     1d10                Bulky                     Deflect          Long Axes, Pole Arms
+       Staff         5gp      1d6    Bulky, Blunt, Natural, Simple         Deflect                  Staves
+  Sword, Bastard    15gp    1d6+1              Versatile                Deflect, Hurl      Med. Blades, Long Blades
+Sword, Two-handed   15gp     1d10                Bulky                  Deflect, Stun            Long Blades
+
+                                                 Ranged Weapons
+     Weapon          Cost Base Damage            Base Traits            Advanced Traits
+      Bolas           5gp      1d2                     _                Entangle, Strangle        Line Weapons
+    Bow, Long       40gp      1d6                      –                      Delay                    Bows
+    Bow, Short       25gp     1d6                      –                      Delay                    Bows
+ Crossbow, Heavy    50gp      2d4                      –                      Stun                  Crossbows
+ Crossbow, Light     30gp     1d6                      –                      Stun                  Crossbows
+      Pistol        250gp     1d6                   Simple                    Delay                  Firearms
+      Sling           2gp     1d4           Blunt, Natural, Simple            Stun                Line Weapons
+   Smoothbore       150gp     2d4                    Bulky                    Stun                   Firearms
+
+
+
+
+                                                         74
+
+
+--- page 75 ---
+Therefore unless a character has a free hand, they can only
+fire a single shot from a pistol in one attack action even if
+they would normally get more than one attack.
+
+Similarly, if a character has no free hand, they cannot make
+a second attack with a pistol in subsequent rounds until such
+time as they have a free hand in order to reload.
+
+A character equipped with multiple pistols but no free hand
+can take advantage of having multiple attacks if they are
+prepared to drop each empty pistol after firing it and draw a
+new loaded one.
+
+WEAPON SUMMARY
+TABLE 6–1 shows a summary of the weapons that characters
+can buy, as well as unarmed attacks (unarmed strikes and
+wrestling) for comparison.
+
+The columns in that table are as follows:
+
+WEAPON
+This is the name of the weapon. CHAPTER 9 – EQUIPPING FOR
+ADVENTURE contains descriptions of each weapon listed here.
+
+COST
+This is the cost to buy one of these weapons. See
+CHAPTER 9 – EQUIPPING FOR ADVENTURE for more information
+about money and buying items. Note that none of the costs
+for ranged weapons include ammunition, which must be
+purchased separately.
+
+BASE DAMAGE
+This is the damage done by the weapon with basic proficiency.
+Weapons do less damage if you are not proficient with them
+and do more damage if your proficiency rank is above basic.
+
+BASE TRAITS
+These are the traits that the weapon has with basic proficiency.
+
+Blunt: The weapon is blunt and does not have an edge.
+Clerics may only use weapons that have this trait.
+
+Bulky: The weapon is large and unwieldy. Thieves and
+mountebanks may not use weapons that have this trait.
+
+Charge: When the wielder of a weapon with the charge trait
+is mounted and an attack is made after the wielder's mount
+has charged 20' or more in the round, the weapon does double
+the normal amount of damage.
+
+Natural: The weapons is made from natural materials such
+as wood, stone, and leather (or flesh in the case of unarmed
+attacks). Druids may only use weapons that have this trait.
+
+Off-hand: A weapon with this ability does not suffer the
+normal to-hit and proficiency penalties when used in the
+wielder's off hand. See CHAPTER 11 – COMBAT for more details
+about wielding weapons in your off hand.
+
+Simple: The weapon is easy to use and requires little
+expertise. Wizards may only use weapons that have this trait.
+
+Throw: Although primarily a melee weapon, this weapon may
+also be thrown at opponents. Both melee and thrown attacks
+with the weapon use the same proficiency.
+
+Versatile: The weapon may be used either one-handed or
+two-handed. The weapon has different statistics depending
+on the number of hands used, but the same proficiency is
+used for both one-handed and two-handed attacks.
+
+ADVANCED TRAITS
+Advanced traits are abilities that the weapon has when used
+at a higher proficiency rank than basic. See Weapon Abilities
+later in this chapter for when these abilities can be used and
+what they do.
+
+PROFICIENCY GROUPS
+Weapons in the same proficiency group are used in a similar
+manner, and when increasing your proficiency rank in one
+weapon in a group you may also increase your proficiency
+with others in the same group. See CHAPTER 12 – GETTING
+BETTER for more details on increasing proficiency ranks.
+
+SPECIAL WEAPON RULES
+The following weapons are special cases that each require
+their own rule:
+
+■ Bastard Swords: Bastard swords use the same proficiency
+  when used one-handed and two-handed.
+■ Unarmed Strikes and Martial Arts: Martial arts has no
+  proficiency of its own. When using martial arts, a mystic
+  may use the attack bonus granted by their proficiency in
+  unarmed strikes, but gets no other benefit from that
+  proficiency.
+■ Grenade-like Weapons: Throwing items that burst over
+  an area such as flasks of oil, holy water, or red powder does
+  not have a proficiency.
+
+WEAPON DETAILS
+The following pages list each weapon along with most of its
+abilities. All weapon abilities are described in detail after the
+weapon descriptions.
+
+See CHAPTER 9 – EQUIPPING FOR ADVENTURE for physical
+descriptions of the weapons listed in this chapter.
+
+
+--- page 76 ---
+                           Table 6–2a: Axe, Battle vs Armed Opponents
+                None          Basic          Skilled         Expert       Master      Grand Master
+Attack Bonus      –             –               +1             +2           +4             +6
+  Damage         1d4           1d8            1d8+2          1d8+4        1d8+6          1d8+8
+    Delay         –             –              Yes             Yes          Yes            Yes
+    Stun          –             –                –              –           Yes            Yes
+ Hurl Range       –             –                –           –/5/10       –/5/10         5/10/15
+
+                          Table 6–2b: Axe, Battle vs Unarmed Opponents
+                None          Basic           Skilled        Expert       Master      Grand Master
+Attack Bonus      –             –               +2              +4           +6            +8
+  Damage         1d4           1d8            1d8+2           1d8+4        1d8+8         1d8+10
+ AC Bonus         –             –            –2/–2/–/–      –3/–3/–/–    –3/–3/–3/–    –4/–4/–4/–4
+    Delay         –             –               Yes            Yes           Yes           Yes
+    Stun          –             –                –               –           Yes           Yes
+ Hurl Range       –             –                –           –/5/10        –/5/10        5/10/15
+
+                           Table 6–3a: Axe, Hand vs Armed Opponents
+                 None         Basic          Skilled        Expert        Master      Grand Master
+Attack Bonus       –            –              +1             +2            +4             +6
+  Damage          1d3          1d6           1d6+2          1d6+3         1d6+4          1d6+6
+Throw Range    10/20/30     10/20/30        15/25/35       25/35/45      30/40/50       40/50/60
+
+                          Table 6–3b: Axe, Hand vs Unarmed Opponents
+                 None         Basic          Skilled        Expert        Master      Grand Master
+Attack Bonus       –            –               +2            +4             +6            +8
+  Damage          1d3          1d6            1d6+2         1d6+3          2d4+4         2d4+7
+ AC Bonus          –            –            –1/–/–/–      –2/–2/–/–     –3/–3/–3/–    –3/–3/–3/–
+Throw Range    10/20/30     10/20/30        15/25/35       25/35/45      30/40/50       40/50/60
+
+                            Table 6–4a: Bayonet vs Armed Opponents
+                None         Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus      –            –               +2            +4             +6             +8
+  Damage         1d3          1d6            1d6+2         2d4+2          2d4+4          2d4+6
+ AC Bonus         –            –            –1/–/–/–      –2/–2/–/–      –3/–3/–/–     –3/–3/–3/–
+ Hurl Range       –            –                –          –/5/10         –/5/10         5/10/15
+
+                           Table 6–4b: Bayonet vs Unarmed Opponents
+                None         Basic          Skilled         Expert        Master      Grand Master
+Attack Bonus      –             –              +2             +4            +6             +8
+  Damage         1d3           1d6           1d6+2          2d4+2         2d4+4          2d4+6
+ AC Bonus         –             –           –1/–/–/–       –2/–2/–/–     –3/–3/–/–     –3/–3/–3/–
+ Hurl Range       –             –               –           –/5/10        –/5/10         5/10/15
+
+                           Table 6–5a: Blackjack vs Armed Opponents
+                None         Basic           Skilled        Expert        Master      Grand Master
+Attack Bonus     –             –               +2             +4            +6             +8
+  Damage          1           1d2             2d2           1d4+1         1d4+3          1d4+5
+  Knockout       –            +0               –1             –2            –3             –4
+
+
+
+
+                                              76
+
+
+--- page 77 ---
+                             Table 6–5b: Blackjack vs Unarmed Opponents
+                  None          Basic           Skilled        Expert        Master       Grand Master
+Attack Bonus       –               –              +1             +2           +4               +6
+  Damage            1            1d2             2d2           1d4+1         1d6+1           1d6+2
+  Knockout         –              +0              –1             –2            –3              –4
+
+                                Table 6–6a: Bolas vs Armed Opponents
+                  None           Basic          Skilled        Expert        Master       Grand Master
+Attack Bonus        –              –               +2            +4             +6              +8
+  Damage            1             1d2             1d3           1d3+1         1d3+2           1d3+3
+ AC Bonus           –              –            –1/–/–/–      –2/–2/–/–     –3/–3/–3/–     –4/–4/–4/–
+  Strangle          –           20 (+0)          20 (–1)     19–20 (–2)     18–20 (–3)      17–20 (–4)
+Throw Range     20/40/60       20/40/60       25/40/60       30/50/70       35/60/70        40/60/80
+
+                               Table 6–6b: Bolas vs Unarmed Opponents
+                  None           Basic          Skilled        Expert        Master       Grand Master
+Attack Bonus        –              –               +1            +2             +4              +6
+  Damage            1             1d2             1d3          1d3+1          1d3+2           1d3+3
+  Strangle          –           20 (+0)         20 (–1)      19–20 (–2)     18–20 (–3)      17–20 (–4)
+Throw Range     20/40/60       20/40/60        25/40/60      30/50/70       35/60/70        40/60/80
+
+                              Table 6–7a: Bow, Long vs Armed Opponents
+                   None         Basic           Skilled         Expert        Master      Grand Master
+Attack Bonus         –1            –               +1             +2            +4              +6
+  Damage            1d3           1d6            1d8+1          1d10+2        1d10+4         1d10+6
+ AC Bonus            –             –            –1/–/–/–       –2/–/–/–      –2/–2/–/–      –2/–2/–/–
+    Delay            –             –        Short/Medium    Short/Medium   Short/Medium   Short/Medium
+Missile Range   70/140/210    70/140/210     90/150/230      110/170/230   130/180/240    150/200/250
+
+                             Table 6–7b: Bow, Long vs Unarmed Opponents
+                   None         Basic           Skilled         Expert        Master      Grand Master
+Attack Bonus         –1            –               +2             +4             +6            +8
+  Damage            1d3           1d6            1d8+1          1d10+2          3d6          4d4+2
+    Delay            –             –         Short/Medium   Short/Medium   Short/Medium   Short/Medium
+Missile Range   70/140/210    70/140/210      90/150/230     110/170/230   130/180/240    150/200/250
+
+                              Table 6–8a: Bow, Short vs Armed Opponents
+                   None          Basic          Skilled         Expert       Master       Grand Master
+Attack Bonus         –1            –               +1             +2           +4               +6
+  Damage            1d3           1d6            1d6+2          1d6+4        1d4+6            1d6+7
+ AC Bonus            –             –            –1/–/–/–       –1/–1/–/–    –2/–2/–/–        –2/–2/–/–
+    Delay            –             –             Short           Short        Short            Short
+Missile Range   50/100/150    50/100/150      60/110/160      80/130/170   90/130/180      110/140/190
+
+                             Table 6–8b: Bow, Short vs Unarmed Opponents
+                   None          Basic          Skilled         Expert        Master      Grand Master
+Attack Bonus         –1            –              +2              +4            +6             +8
+  Damage            1d3           1d6           1d6+2           1d6+4         1d8+6          1d10+8
+    Delay            –             –             Short           Short         Short          Short
+Missile Range   70/140/210    70/140/210      90/150/230     110/170/230   130/180/240    150/200/250
+
+
+
+
+                                                 77
+
+
+--- page 78 ---
+                                  Table 6–9a: Cestus vs Armed Opponents
+                  None             Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus        –                –               +2            +4             +6              +8
+  Damage           1d2              1d3            1d4+1          2d4             2d4            3d4
+
+                                 Table 6–9b: Cestus vs Unarmed Opponents
+                  None             Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus        –                –               +1            +2              +4             +6
+  Damage           1d2              1d3            1d4+1          2d4            1d4+3          2d4+3
+
+                                   Table 6–10a: Club vs Armed Opponents
+                  None             Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –                –                +1            +2              +4             +6
+  Damage           1d2              1d4             1d6+1         1d6+3           1d4+5          1d4+6
+ AC Bonus           –                –            –1/–1/–/–     –2/–2/–/–       –3/–3/–3/–    –4/–4/–4/–4
+   Deflect          –                –                 1             1               2              2
+ Hurl Range         –                –                –          –/15/25         –/15/25       10/25/40
+
+                                  Table 6–10b: Club vs Unarmed Opponents
+                  None             Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –                –                +2            +4              +6             +8
+  Damage           1d2              1d4             1d6+1         1d6+3           1d6+5          1d6+6
+ AC Bonus           –                –            –1/–1/–/–     –2/–2/–/–       –3/–3/–3/–    –4/–4/–4/–4
+   Deflect          –                –                 1             1               2              2
+ Hurl Range         –                –                 –         –/15/25         –/15/25       10/25/40
+
+                              Table 6–11a: Crossbow, Heavy vs Armed Opponents
+                   None             Basic          Skilled         Expert         Master     Grand Master
+Attack Bonus         –1               –               +2             +4             +6            +8
+  Damage            1d4              2d4             2d6           2d6+2          3d6+2         4d4+4
+    Stun             –                –         Short/Medium    Short/Medium  Short/Medium   Short/Medium
+Missile Range   80/160/240       80/160/240      90/160/240     100/170/240    110/170/240   120/180/240
+
+                             Table 6–11b: Crossbow, Heavy vs Unarmed Opponents
+                   None             Basic           Skilled        Expert         Master     Grand Master
+Attack Bonus         –1               –               +1              +2            +4             +6
+  Damage            1d4              2d4             2d6           2d6+2          3d6+2         4d4+4
+ AC Bonus            –                –            –1/–/–/–       –2/–2/–/–      –3/–3/–/–    –3/–3/–3/–
+    Stun             –                –         Short/Medium    Short/Medium  Short/Medium   Short/Medium
+Missile Range   80/160/240       80/160/240      90/160/240     100/170/240    110/170/240   120/180/240
+
+                              Table 6–12a: Crossbow, Light vs Armed Opponents
+                  None              Basic          Skilled         Expert         Master     Grand Master
+Attack Bonus         –1               –              +2              +4             +6            +8
+  Damage            1d3              1d6           1d6+2           1d6+4          1d6+6         1d6+7
+    Stun             –                –             Short           Short          Short         Short
+Missile Range   60/120/180       60/120/180      60/120/180      75/130/180     75/130/180    90/140/180
+
+
+
+
+                                                    78
+
+
+--- page 79 ---
+                               Table 6–12b: Crossbow, Light vs Unarmed Opponents
+                     None             Basic          Skilled          Expert        Master     Grand Master
+Attack Bonus           –1               –               +1              +2            +4             +6
+  Damage              1d3              1d6            1d6+2           1d6+4         1d6+6         2d4+5
+ AC Bonus              –                –            –1/–/–/–        –2/–2/–/–     –3/–3/–/–    –3/–3/–3/–
+    Stun               –                –         Short/Medium    Short/Medium  Short/Medium   Short/Medium
+Missile Range     80/160/240       80/160/240      90/160/240      100/170/240   110/170/240   120/180/240
+
+                                    Table 6–13a: Dagger vs Armed Opponents
+                     None             Basic          Skilled       Expert         Master       Grand Master
+ Attack Bonus          –                –               +2            +4            +6               +8
+   Damage             1d2              1d4             1d6           2d4           3d4              4d4
+  AC Bonus             –                –            –1/–/–/–     –2/–2/–/–      –2/–2/–/–      –3/–3/–3/–
+Double Damage          –                –               20          19–20         18–20            17–20
+ Throw Range       10/20/30         10/20/30        15/25/35      20/30/45       25/35/50        30/50/60
+
+                                   Table 6–13b: Dagger vs Unarmed Opponents
+                     None             Basic          Skilled       Expert         Master       Grand Master
+ Attack Bonus          –                –               +1            +2            +4               +6
+   Damage             1d2              1d4             1d6           2d4          2d4+2           3d4+1
+Double Damage          –                –              20           19–20         18–20            17–20
+ Throw Range       10/20/30         10/20/30        15/25/35      20/30/45       25/35/50        30/50/60
+
+                                     Table 6–14a: Flail vs Armed Opponents
+                    None             Basic           Skilled        Expert        Master       Grand Master
+ Attack Bonus         –                 –               +2             +4            +6              +8
+   Damage            1d4              1d8             1d8+2          1d8+4         1d8+8          1d10+10
+  AC Bonus            –                 –           –2/–2/–/–      –3/–3/–/–     –3/–3/–3/–     –4/–4/–4/–4
+Deflect Penalty       –                –2               –4             –6            –8             –10
+    Disarm            –                 –               +0             –1            –2              –4
+
+                                    Table 6–14b: Flail vs Unarmed Opponents
+                    None             Basic            Skilled       Expert        Master       Grand Master
+ Attack Bonus         –                –                 +1            +2           +4              +6
+   Damage           11d4              1d8              1d8+2         1d8+4        1d8+6           1d8+8
+    Disarm            –                –                 +0            –1           –2              –4
+
+                                   Table 6–15a: Halberd vs Armed Opponents
+                    None             Basic          Skilled        Expert         Master       Grand Master
+ Attack Bonus         –                –              +2             +4              +6             +8
+   Damage            1d5             1d10           1d10+3         1d10+5          1d8+10         1d6+15
+  AC Bonus            –                –           –2/–2/–/–      –3/–3/–/–      –3/–3/–3/–     –4/–4/–4/–4
+     Hook             –               +0               –1            –2              –3             –4
+    Deflect           –                –               –              1               1              2
+    Disarm            –               +0              +0             +0              +0             +0
+
+
+
+
+                                                      79
+
+
+--- page 80 ---
+                              Table 6–15b: Halberd vs Unarmed Opponents
+                None             Basic          Skilled        Expert        Master       Grand Master
+Attack Bonus      –                –               +1            +2            +4              +6
+  Damage         1d5             1d10           1d10+3         1d10+5        1d8+8           1d6+12
+    Hook          –               +0               –1            –2            –3              –4
+   Deflect        –                –               –              1             1               2
+   Disarm         –               +0              +0             +0            +0              +0
+
+                           Table 6–16a: Hammer, Throwing vs Armed Opponents
+                 None             Basic          Skilled        Expert        Master      Grand Master
+Attack Bonus       –                –               +1             +2           +4              +6
+  Damage          1d2              1d4            1d4+2         1d6+2         1d4+4          1d4+6
+    Stun           –                –        Short/Medium    Short/Medium  Short/Medium   Short/Medium
+Throw Range    10/20/30         10/20/30        10/20/30       20/30/45      20/40/45       30/50/60
+
+                          Table 6–16b: Hammer, Throwing vs Unarmed Opponents
+                 None              Basic          Skilled        Expert       Master      Grand Master
+Attack Bonus       –                 –              +2             +4            +6             +8
+  Damage          1d2               1d4           1d4+2          1d6+2         1d6+4          1d6+6
+ AC Bonus          –                 –           –1/–1/–/–     –2/–2/–2/–   –3/–3/–3/–3    –4/–4/–4/–4
+    Stun           –                 –       Short/Medium    Short/Medium  Short/Medium   Short/Medium
+Throw Range    10/20/30          10/20/30       10/20/30       20/30/45      20/40/45       30/50/60
+
+                             Table 6–17a: Hammer, War vs Armed Opponents
+                None             Basic         Skilled         Expert        Master       Grand Master
+Attack Bonus      –                 –             +2              +4            +6              +8
+  Damage         1d3              1d6           1d6+2           1d8+2         1d8+5           1d8+7
+    Stun          –                 –             Yes            Yes           Yes             Yes
+ Hurl Range       –                 –              –           –/10/20       –/10/20        10/20/30
+
+                            Table 6–17b: Hammer, War vs Unarmed Opponents
+                None              Basic         Skilled        Expert         Master      Grand Master
+Attack Bonus      –                 –              +1            +2             +4              +6
+  Damage         1d3               1d6           1d6+2         1d8+2          1d6+4           1d6+7
+ AC Bonus         –                 –         –2/–2/–/–      –3/–3/–3/–     –4/–4/–4/–       –5 vs 4
+    Stun          –                 –             Yes           Yes            Yes             Yes
+ Hurl Range       –                 –              –          –/10/20        –/10/20        10/20/30
+
+                               Table 6–18a: Javelin vs Armed Opponents
+                 None            Basic          Skilled        Expert        Master       Grand Master
+Attack Bonus       –               –               +2             +4            +6             +8
+  Damage          1d3             1d6            1d6+2          1d6+4         1d6+6          1d6+9
+Throw Range    30/60/90        30/60/90        30/60/90       40/80/120     40/80/120      50/100/150
+
+                               Table 6–18b: Javelin vs Unarmed Opponents
+                 None             Basic          Skilled        Expert       Master       Grand Master
+Attack Bonus       –                –               +1             +2           +4             +6
+  Damage          1d3              1d6            1d6+2          1d6+4        1d4+6          1d4+8
+Throw Range    30/60/90         30/60/90        30/60/90       40/80/120    40/80/120      50/100/150
+
+
+
+
+                                                  80
+
+
+--- page 81 ---
+                                 Table 6–19a: Lance vs Armed Opponents
+                   None           Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus         –              –               +1            +2             +4             +6
+  Damage            1d5           1d10           1d10+3         1d10+7         1d8+10         1d6+12
+
+                                Table 6–19b: Lance vs Unarmed Opponents
+                   None           Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus         –              –               +2            +4             +6             +8
+  Damage            1d5           1d10           1d10+3         1d10+7         1d8+12         1d8+16
+ AC Bonus            –              –            –2/–/–/–      –3/–/–/–       –3/–3/–/–      –4/–4/–/–
+
+                                 Table 6–20a: Mace vs Armed Opponents
+                   None           Basic         Skilled        Expert          Master      Grand Master
+Attack Bonus         –              –              +2             +4              +6            +8
+  Damage            1d3            1d6            2d4           2d4+2           2d4+4         2d4+6
+ AC Bonus            –              –           –1/–/–/–      –2/–2/–/–       –3/–3/–3/–    –4/–4/–4/–
+   Deflect           –              –               1              2               3             3
+ Hurl Range          –              –               –          –/10/20         –/10/20       10/20/30
+
+                                Table 6–20b: Mace vs Unarmed Opponents
+                   None           Basic         Skilled        Expert          Master      Grand Master
+Attack Bonus         –              –              +2             +4              +6            +8
+  Damage            1d3            1d6            2d4           2d4+2           2d4+4         2d4+6
+   Deflect           –              –               1              2               3             3
+ Hurl Range          –              –               –          –/10/20         –/10/20       10/20/30
+
+                              Table 6–21a: Morning Star vs Armed Opponents
+                   None           Basic           Skilled        Expert        Master      Grand Master
+ Attack Bonus        –               –              +2             +4             +6             +8
+   Damage           1d3            1d6             2d4           2d4+2          2d4+4          2d4+6
+  AC Bonus           –               –           –2/–2/–/–      –3/–3/–/–     –3/–3/–3/–    –4/–4/–4/–4
+Deflect Penalty      –              –2              –4             –6             –8            –10
+    Disarm           –               –              +0              –1            –2             –4
+
+                             Table 6–21b: Morning Star vs Unarmed Opponents
+                   None           Basic          Skilled         Expert        Master      Grand Master
+Attack Bonus         –              –               +1             +2            +4             +6
+  Damage            1d3            1d6             2d4           2d4+2         2d4+4          2d4+6
+   Disarm            –              –               +0             –1            –2             –4
+
+                                  Table 6–22a: Net vs Armed Opponents
+                    None          Basic          Skilled        Expert          Master     Grand Master
+Attack Bonus          –             –               +1            +2              +4            +6
+  Damage              –             –               –              –               –             –
+ AC Bonus             –             –            –2/–/–/–      –4/–4/–/–      –6/–6/–6/–    –8/–8/–8/–
+  Entangle           +0            +0               +1            +2              +2            +3
+Throw Range       10/20/30      10/20/30        15/25/35       20/30/40        25/35/45      30/40/50
+
+
+
+
+                                                  81
+
+
+--- page 82 ---
+                               Table 6–22b: Net vs Unarmed Opponents
+                   None         Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus         –            –               +2            +4             +6             +8
+  Damage             –            –                –             –              –              –
+ AC Bonus            –            –            –2/–/–/–      –4/–4/–/–     –6/–6/–6/–     –8/–8/–8/–
+  Entangle          +0           +0               +1            +2             +4             +6
+Throw Range      10/20/30     10/20/30        15/25/35       20/30/40       25/35/45       30/40/50
+
+                               Table 6–23a: Pike vs Armed Opponents
+                  None         Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –             –              +2            +4              +6              +8
+  Damage           1d5          1d10           1d12+2        1d12+5          1d12+9         1d10+14
+ AC Bonus           –             –           –2/–/–/–      –2/–2/–/–       –3/–3/–/–     –3/–3/–3/–
+   Deflect          –             –               1             1               2               2
+     Set            –            Yes             Yes           Yes             Yes            Yes
+
+                              Table 6–23b: Pike vs Unarmed Opponents
+                  None         Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –             –               +1           +2              +4             +6
+  Damage           1d5          1d10           1d12+2        1d12+5          1d10+8         1d8+10
+   Deflect          –             –                1            1               2              2
+     Set            –            Yes             Yes           Yes             Yes            Yes
+
+                              Table 6–24a: Pistol vs Armed Opponents
+                   None        Basic           Skilled        Expert         Master      Grand Master
+Attack Bonus         –            –               +2            +4              +6            +8
+  Damage            1d3          1d6            1d8+1         1d10+2           3d6          4d4+2
+    Delay            –            –        Short/Medium    Short/Medium   Short/Medium   Short/Medium
+Missile Range   50/100/150   50/100/150      60/110/160     80/130/170     90/130/180    100/140/190
+
+                             Table 6–24b: Pistol vs Unarmed Opponents
+                   None        Basic           Skilled        Expert         Master      Grand Master
+Attack Bonus         –            –               +1             +2            +4              +6
+  Damage            1d3          1d6            1d8+1         1d10+2         1d10+4         1d10+6
+    Delay            –            –        Short/Medium    Short/Medium   Short/Medium   Short/Medium
+Missile Range   50/100/150   50/100/150      60/110/160     80/130/170     90/130/180    100/140/190
+
+                              Table 6–25a: Poleaxe vs Armed Opponents
+                  None          Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus        –             –               +2            +4             +6             +8
+  Damage           1d5          1d10           1d10+3         1d10+6        1d10+10         1d8+16
+ AC Bonus           –             –            –1/–/–/–      –2/–/–/–       –2/–2/–/–      –3/–3/–/–
+   Deflect          –             –                1             1              2              2
+
+                             Table 6–25b: Poleaxe vs Unarmed Opponents
+                  None          Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus        –              –             +1             +2             +4             +8
+  Damage           1d5           1d10          1d10+3         1d10+6         1d10+8         1d8+12
+   Deflect          –              –              1              1              2              2
+
+
+
+
+                                                82
+
+
+--- page 83 ---
+                           Table 6–26a: Shield, Buckler vs Armed Opponents
+                None            Basic            Skilled         Expert        Master      Grand Master
+Attack Bonus       –               –               +2              +4             +6            +8
+  Damage           –               –                –             1d4           1d4+1           2d4
+ AC Bonus      –1/–/–/–        –1/–1/–/–       –2/–2/–2/–      –2/–2/–2/–    –2/–2/–2/–2    –3/–3/–3/–3
+   Deflect         –               –                –               1              1             2
+
+                          Table 6–26b: Shield, Buckler vs Unarmed Opponents
+                None             Basic          Skilled          Expert       Master       Grand Master
+Attack Bonus       –               –               +2              +4            +6             +8
+  Damage           –               –                –             1d4          1d4+1            2d4
+ AC Bonus      –1/–/–/–        –1/–1/–/–       –2/–2/–2/–      –2/–2/–2/–   –2/–2/–2/–2     –3/–3/–3/–3
+   Deflect         –               –                –               1             1              2
+
+                           Table 6–27a: Shield, Normal vs Armed Opponents
+                None            Basic            Skilled       Expert         Master       Grand Master
+Attack Bonus       –               –               +2            +4              +6             +8
+  Damage           –               –                –            1d6           1d6+2          1d8+2
+ AC Bonus      –1/–/–/–        –1/–1/–/–        –2/–2/–/–     –3/–3/–/–      –3/–3/–3/–     –4/–4/–4/–
+    Delay          –               –                –             –               –            Yes
+   Deflect         –               –                1             1               2              2
+
+                          Table 6–27b: Shield, Normal vs Unarmed Opponents
+                None            Basic            Skilled       Expert         Master       Grand Master
+Attack Bonus       –               –               +2            +4              +6             +8
+  Damage           –               –                –            1d6           1d6+2          1d8+2
+ AC Bonus      –1/–/–/–        –1/–1/–/–        –2/–2/–/–     –3/–3/–/–      –3/–3/–3/–     –4/–4/–4/–
+    Delay          –               –                –             –               –            Yes
+   Deflect         –               –                1             1               2              2
+
+                           Table 6–28a: Shield, Tower vs Armed Opponents
+                None            Basic           Skilled        Expert         Master       Grand Master
+Attack Bonus       –              –               +2             +4             +6              +8
+  Damage           –              –              1d6           1d6+2          1d8+2           1d8+4
+ AC Bonus      –1/–/–/–       –2/–2/–/–       –2/–2/–/–       –3/–3/–/–      –3/–3/–/–       –4/–4/–/–
+    Stun           –              –                –              –             Yes             Yes
+   Deflect         –              –                1              1              1               1
+
+                          Table 6–28b: Shield, Tower vs Unarmed Opponents
+                None            Basic           Skilled        Expert         Master       Grand Master
+Attack Bonus       –              –                +2            +4             +6              +8
+  Damage           –              –               1d6          1d6+2          1d8+2           1d8+4
+ AC Bonus      –1/–/–/–       –2/–2/–/–        –2/–2/–/–      –3/–3/–/–      –3/–3/–/–       –4/–4/–/–
+    Stun           –              –                 –             –             Yes             Yes
+   Deflect         –              –                 1             1              1               1
+
+
+
+
+                                                 83
+
+
+--- page 84 ---
+                                Table 6–29a: Sling vs Armed Opponents
+                  None           Basic           Skilled        Expert        Master      Grand Master
+Attack Bonus        –              –                +2            +4             +6            +8
+  Damage           1d2            1d4              1d6           2d4            3d4            4d4
+ AC Bonus           –              –            –1/–1/–/–     –2/–2/–2/–    –3/–3/–3/–     –4/–4/–4/–4
+    Stun            –              –         Short/Medium   Short/Medium   Short/Medium   Short/Medium
+Missile Range   40/80/160      40/80/160      40/80/160      60/110/170     60/110/170     80/130/180
+
+                               Table 6–29b: Sling vs Unarmed Opponents
+                  None           Basic          Skilled         Expert        Master      Grand Master
+Attack Bonus        –              –               +1             +2            +4              +6
+  Damage           1d2            1d4             1d6            2d4          1d8+2          1d10+2
+    Stun            –              –         Short/Medium   Short/Medium   Short/Medium   Short/Medium
+Missile Range   40/80/160      40/80/160       40/80/160      60/110/170    60/110/170     80/130/180
+
+                              Table 6–30a: Smoothbore vs Armed Opponents
+                   None           Basic         Skilled         Expert         Master     Grand Master
+Attack Bonus         –1             –              +1             +2             +4             +6
+  Damage            1d4            2d4            2d6           2d6+2          1d12+4        1d12+6
+    Stun             –              –        Short/Medium   Short/Medium   Short/Medium   Short/Medium
+Missile Range   80/160/240     80/160/240     90/160/240     100/170/240    110/170/240   120/180/240
+
+                             Table 6–30b: Smoothbore vs Unarmed Opponents
+                   None           Basic         Skilled         Expert        Master      Grand Master
+Attack Bonus         –1             –              +2             +4            +6             +8
+  Damage            1d4            2d4            2d6           2d6+2         3d6+2          4d4+4
+ AC Bonus            –              –           –1/–/–/–       –2/–2/–/–     –3/–3/–/–     –3/–3/–3/–
+    Stun             –              –        Short/Medium   Short/Medium  Short/Medium    Short/Medium
+Missile Range   80/160/240     80/160/240     90/160/240     100/170/240   110/170/240    120/180/240
+
+                                 Table 6–31a: Spear vs Armed Opponents
+                  None            Basic          Skilled        Expert       Master       Grand Master
+Attack Bonus        –               –              +2             +4           +6              +8
+  Damage           1d3             1d6           1d6+2          2d4+2        2d4+4           2d4+6
+     Set            –              Yes             Yes           Yes          Yes             Yes
+    Stun            –               –               –            Yes          Yes             Yes
+Throw Range     20/40/60        20/40/60        20/40/60       40/60/75     40/60/75        60/75/80
+
+                               Table 6–31b: Spear vs Unarmed Opponents
+                  None           Basic          Skilled        Expert        Master       Grand Master
+Attack Bonus        –              –               +2            +4            +6              +8
+  Damage           1d3            1d6            1d6+2         2d4+2         2d4+4           2d4+6
+     Set            –             Yes             Yes           Yes           Yes             Yes
+    Stun            –              –                –           Yes           Yes             Yes
+Throw Range     20/40/60       20/40/60        20/40/60       40/60/75      40/60/75        60/75/80
+
+
+
+
+                                                  84
+
+
+--- page 85 ---
+                             Table 6–32a: Staff vs Armed Opponents
+               None           Basic          Skilled         Expert         Master      Grand Master
+Attack Bonus     –              –               +2             +4              +6             +8
+  Damage        1d3            1d6            1d6+2          1d8+2           1d8+5          1d8+7
+ AC Bonus        –              –           –1/–1/–/–      –2/–2/–2/–      –3/–3/–3/–    –4/–4/–4/–4
+   Deflect       –              –                1              2               3              4
+
+                            Table 6–32b: Staff vs Unarmed Opponents
+               None           Basic           Skilled        Expert         Master      Grand Master
+Attack Bonus     –              –               +2             +4              +6             +8
+  Damage        1d3            1d6            1d6+2          1d8+2           1d8+5          1d8+7
+ AC Bonus        –              –            –1/–1/–/–     –2/–2/–2/–      –3/–3/–3/–    –4/–4/–4/–4
+   Deflect       –              –                1              2               3              4
+
+                   Table 6–33a: Sword, Bastard (One Handed) vs Armed Opponents
+               None            Basic           Skilled        Expert        Master      Grand Master
+Attack Bonus     –               –               +2             +4            +6             +8
+  Damage        1d3            1d6+1           1d6+3          1d6+5         1d8+8          1d8+10
+ AC Bonus        –               –            –1/–/–/–       –2/–2/–/–     –3/–3/–/–     –4/–4/–4/–
+   Deflect       –               –                –              1             1              2
+
+                 Table 6–33b: Sword, Bastard (One Handed) vs Unarmed Opponents
+               None           Basic           Skilled        Expert        Master       Grand Master
+Attack Bonus     –              –               +1             +2            +4              +6
+  Damage        1d3           1d6+1           1d6+3          1d6+5         1d6+7           1d6+8
+   Deflect       –              –                –              1             1               2
+
+                   Table 6–33c: Sword, Bastard (Two Handed) vs Armed Opponents
+               None            Basic           Skilled        Expert        Master      Grand Master
+Attack Bonus     –               –               +2              +4           +6              +8
+  Damage        1d4            1d8+1           1d8+3           1d8+5        1d10+8         1d12+10
+ AC Bonus        –               –                –           –1/–/–/–     –2/–2/–/–      –3/–3/–/–
+   Deflect       –               –                1               1            2               3
+ Hurl Range      –               –                –             –/–/5        –/–/5          –/5/10
+
+                 Table 6–33d: Sword, Bastard (Two Handed) vs Unarmed Opponents
+               None            Basic          Skilled        Expert       Master        Grand Master
+Attack Bonus     –               –              +1             +2            +4              +6
+  Damage        1d4           1d8+1           1d8+3          1d8+5         1d8+7           1d10+8
+   Deflect       –               –               1              1             2               3
+ Hurl Range      –               –               –            –/–/5        –/–/5           –/5/10
+
+                         Table 6–34a: Sword, Normal vs Armed Opponents
+               None           Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus     –              –               +2            +4               +6            +8
+  Damage        1d4            1d8             1d12          2d8             2d8+4         2d6+6
+ AC Bonus        –              –            –2/–/–/–      –2/–2/–/–       –3/–3/–3/–    –4/–4/–4/–
+   Deflect       –              –                1             2                2             3
+   Disarm        –              –               +0             –1              –2            –4
+ Hurl Range      –              –                –          –/5/10           –/5/10        5/10/15
+
+
+
+
+                                               85
+
+
+--- page 86 ---
+                            Table 6–34b: Sword, Normal vs Unarmed Opponents
+                None              Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus      –                 –               +1            +2              +4             +6
+  Damage         1d4              1d8+1           1d8+3         1d8+5           1d8+7          1d10+8
+   Deflect        –                 –                1             2               2              3
+   Disarm         –                 –               +0            –1              –2             –4
+ Hurl Range       –                 –                –          –/5/10          –/5/10         5/10/15
+
+                              Table 6–35a: Sword, Short vs Armed Opponents
+                None              Basic           Skilled        Expert         Master      Grand Master
+Attack Bonus      –                  –              +2              +4             +6             +8
+  Damage         1d3               1d6            1d6+2           1d6+4          1d6+7          1d6+9
+ AC Bonus         –                  –           –1/–/–/–       –2/–2/–/–      –3/–3/–3/–    –3/–3/–3/–3
+   Deflect        –                  –               1               2              3              3
+   Disarm         –                  –              +0              –2             –4             –6
+ Hurl Range       –                  –               –           –/10/20        –/10/20       10/20/30
+
+                             Table 6–35b: Sword, Short vs Unarmed Opponents
+                None               Basic          Skilled        Expert         Master      Grand Master
+Attack Bonus      –                  –              +1             +2              +4            +6
+  Damage         1d3                1d6           1d6+2          1d6+4           1d4+7         1d4+9
+   Deflect        –                  –               1              2               3             3
+   Disarm         –                  –              +0             –2              –4            –6
+ Hurl Range       –                  –               –          –/10/20         –/10/20       10/20/30
+
+                           Table 6–36a: Sword, Two-Handed vs Armed Opponents
+                None               Basic         Skilled        Expert          Master      Grand Master
+Attack Bonus      –                  –              +1            +2              +4             +6
+  Damage         1d5               1d10           2d6+1         2d8+2           2d8+3          3d6+2
+    Stun          –                  –             Yes           Yes             Yes            Yes
+   Deflect        –                  –               1             2               2              3
+
+                          Table 6–36b: Sword, Two-Handed vs Unarmed Opponents
+                None               Basic         Skilled        Expert        Master        Grand Master
+Attack Bonus      –                  –             +2             +4            +6               +8
+  Damage         1d5               1d10           2d6+1         2d8+2         3d6+3            3d6+6
+    Stun          –                  –             Yes           Yes           Yes              Yes
+   Deflect        –                  –              1              2             2                3
+
+                                Table 6–37a: Trident vs Armed Opponents
+                 None             Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus       –                –               +1            +2              +4              +6
+  Damage          1d3              1d6            1d8+1         1d8+4           1d6+6          1d4+8
+   Skewer          –                –             4 HD           7 HD           10 HD           12 HD
+Throw Range    10/20/30         10/20/30        10/20/30       20/30/45        20/30/45       30/45/60
+
+
+
+
+                                                  86
+
+
+--- page 87 ---
+                              Table 6–37b: Trident vs Unarmed Opponents
+                 None            Basic          Skilled        Expert          Master      Grand Master
+Attack Bonus       –               –               +2            +4              +6              +8
+  Damage          1d3             1d6            1d8+1         1d8+4           1d8+6          1d6+9
+   Skewer          –               –             4 HD           7 HD           10 HD           12 HD
+Throw Range    10/20/30        10/20/30        10/20/30       20/30/45        20/30/45       30/45/60
+
+                           Table 6–38a: Unarmed Strikes vs Armed Opponents
+                None             Basic         Skilled         Expert          Master      Grand Master
+Attack Bonus     –                 –             +2               +4            +6              +8
+  Damage          1                1             1d3            1d4+1           2d4            3d4
+  Knockout       –                +0             +0               –1             –3             –5
+  Off-Hand       –                 –              –              Yes            Yes            Yes
+
+                          Table 6–38b: Unarmed Strikes vs Unarmed Opponents
+                None             Basic         Skilled         Expert          Master      Grand Master
+Attack Bonus     –                  –             +1              +2             +4             +6
+  Damage          1                 1            1d3            1d4+1          1d4+1          2d4+1
+  Knockout       –                 +0             +0              –1             –3             –5
+  Off-Hand       –                  –              –             Yes            Yes            Yes
+
+                                Table 6–39a: Whip vs Armed Opponents
+                None             Basic         Skilled        Expert           Master      Grand Master
+Attack Bonus     –                 –              +1            +2               +4             +6
+  Damage          1               1d2            1d4          1d4+1            1d3+2          1d3+3
+  Entangle       –                +0              –1            –2               –3             –4
+
+                               Table 6–39b: Whip vs Unarmed Opponents
+                None             Basic          Skilled        Expert           Master     Grand Master
+Attack Bonus     –                 –               +2            +4               +6             +8
+  Damage          1               1d2             1d4          1d4+1            1d4+3          1d4+5
+ AC Bonus        –                 –           –2/–2/–/–     –3/–3/–3/–       –4/–4/–4/–    –4/–4/–4/–4
+  Entangle       –                +0               –1            –2               –3             –4
+
+                              Table 6–40a: Wrestling vs Armed Opponents
+                None             Basic         Skilled          Expert         Master      Grand Master
+Attack Bonus     –                 –              +2              +4             +6              +8
+  Damage         –                 –               1             1d2             1d4           1d6+1
+  Strangle       –              20 (+0)         20 (–1)       19–20 (–2)      18–20 (–3)     17–20 (–4)
+
+                             Table 6–40b: Wrestling vs Unarmed Opponents
+                None             Basic          Skilled         Expert         Master      Grand Master
+Attack Bonus     –                 –               +2             +4             +6              +8
+  Damage         –                 –                1            1d2             1d3            1d4
+  Strangle       –              20 (+0)          20 (–1)      19–20 (–2)      18–20 (–3)     17–20 (–4)
+
+
+
+
+                                                 87
+
+
+--- page 88 ---
+WEAPON ABILITIES
+The various weapon abilities listed on the previous tables are
+described below.
+
+AC Bonus: When using the weapon, a character gains the
+listed armour class bonuses against the given number of
+incoming attacks each round. For example, an entry of –2/–
+2/–/– means that the wielder of the weapon gains a –2 bonus
+to their armour class against two incoming attacks.
+
+The character can decide which attacks to use the bonus
+against so they can save the bonus for use against a tougher
+opponent who is attacking later in the round rather than having
+to use them against a weak opponent who happens to be
+attacking first. However, the character must announce which
+attacks they wish to use the bonus against before those
+attacks are rolled.
+
+These armour class bonuses must be used against attacks
+coming from opponents of the relevant type, regardless of
+what type of opponent the character is attacking.
+
+For example, a character who is skilled with a normal sword
+gets a –2 armour class bonus against one attack from an
+armed opponent per round, even if the character is actually
+attacking an unarmed opponent.
+
+When a character uses two weapons in combat, they get
+whichever AC bonus is most beneficial against each incoming
+attack. The bonuses do not stack. To work this out, compare
+the number of attacks each set of bonuses works against,
+and pair them up until one weapon has run out of attacks that
+it can give a bonus against. Each bonus can be used for either
+value and attacker type in the pair.
+
+Example: Black Leaf is wielding a normal sword in her main
+hand and a buckler in her off hand. She has skilled
+proficiency with the sword and basic proficiency with the
+shield. The sword gives her an armour class bonus of –2/
+–/–/– against attacks by an armed opponent. The shield
+gives her –1/–1/–/– against attacks by any opponents.
+
+Pairing these up, we get:
+
+A first bonus that is –2 if the attack is armed (from the
+sword) or –1 if the attack is either armed or unarmed (from
+the shield).
+
+A second bonus that is –1 if the attack is either armed or
+unarmed (from the shield – there were no more sword
+bonuses to pair up with this one).
+
+Therefore, each round, Black Leaf has armour class bonuses
+of –2/–1/–/– against armed attacks and –1/–1/–/– against
+unarmed attacks.
+
+In other words, she receives a –2 armour class bonus against
+an armed attack (her first bonus) and a –1 armour class
+bonus against any attack (her second bonus) or she can
+receive a –1 armour class bonus against an unarmed attack
+(her first bonus) and a –1 armour class bonus against any
+attack (her second bonus).
+
+In either case, the first bonus does not necessarily have to
+be used against the first incoming attack. She can choose
+which bonus is applied to which attack when the attacks
+are declared as long as no bonus is used more than once.
+
+Charge: When a weapon with the charge ability is used after
+the wielder's mount has charged 20' or more in the round,
+the weapon does double the normal amount of damage.
+
+Deflect: If a number is listed for this ability, the wielder of
+the weapon can attempt to deflect a number of incoming
+attacks equal to this number by making a doom save against
+each of them. A successful save means that the attack is
+deflected and the character takes no damage.
+
+The character can decide which attacks to try to deflect, so
+they can save the attempts for use against a tougher
+opponent who is attacking later in the round rather than having
+to use them against a weak opponent who happens to be
+attacking first. However, the character must announce which
+attacks they wish to try to deflect against before attacks are
+rolled.
+
+When a character uses two weapons in combat, the deflection
+attempts given by each weapon do not stack. The character
+gets to use a number of attempts equal to the higher number
+granted by either of the weapons.
+
+Deflect Penalty: Weapons that have the deflect penalty
+ability are hard to deflect because of their flexible nature. Any
+attempts to deflect attacks with one of these weapons is
+made at the listed penalty for the wielders proficiency rank.
+
+Delay: When the wielder of a weapon with the delay ability
+hits an opponent with it, the opponent must make a stasis
+save or automatically lose initiative in the following round.
+
+Disarm: The wielder of a weapon with the disarm ability can
+choose to try to disarm their opponent instead of attacking
+for damage. The character's player must announce that a
+disarm attempt is being made before rolling any dice for the
+attack. If the attack hits then the target of the attack must
+
+
+--- page 89 ---
+                                               Table 6–41: Entangling Weapons
+   Level or Hit Dice            Save Bonus            Non/Basic/Skilled      Expert/Master                      Grand Master
+        Up to 1                     +0                    Entangled            Entangled                          Entangled
+        1+ to 3                     +1                    Entangled            Entangled                          Entangled
+        3+ to 6                     +2                       Slow              Entangled                          Entangled
+        6+ to 9                     +3                       Slow                Slow                             Entangled
+        9+ to 12                    +4                      Delay                Slow                               Slow
+       12+ to 16                    +5                      Delay                Delay                              S;low
+     16+ or more                    +5                      Delay                Delay                              Delay
+
+                                                Table 6–42: Knockout Weapons
+   Level or Hit Dice            Save Bonus            Non/Basic/Skilled      Expert/Master                      Grand Master
+        Up to 1                     +0                    Knockout             Knockout                           Knockout
+        1+ to 3                     +1                    Knockout             Knockout                           Knockout
+        3+ to 6                     +2                       Stun              Knockout                           Knockout
+        6+ to 9                     +3                       Stun                Stun                             Knockout
+        9+ to 12                    +4                       Delay               Stun                               Stun
+       12+ to 16                    +5                       Delay               Delay                              Stun
+     16+ or more                    +5                       Delay               Delay                              Delay
+
+make a dexterity check (see CHAPTER 5 – ABILITY CHECKS,                Such hurling of weapons uses the character's strength modifier
+SKILLS, & TALENTS) with the listed penalty to their effective          rather than their dexterity modifier. Because such weapons
+dexterity or drop their weapon.                                        are not aerodynamic and do not fly well, opponents who are
+                                                                       not surprised by the attack may make a doom save in order
+Double Damage: If the wielder of the weapon rolls the                  to take half damage.
+number indicated or higher on the dice, before modifiers,
+and the attack hits the target after modifiers, then the attack        However, the first time in each fight that an opponent has
+does double the normal amount of damage.                               the weapon thrown at them, they must roll for surprise at
+                                                                       normal chances due to the unexpected nature of the attack.
+Entangle: Any target that the weapon hits may become
+delayed, slowed or entangled depending on their hit dice or            Knockout: Any target that the weapon hits may become
+level compared to the proficiency rank of the weapon wielder.          delayed, stunned or knocked out depending on their hit dice
+See TABLE 6–41 for details. The target must make a doom                or level compared to the proficiency rank of the weapon
+save with a penalty based on the proficiency of the wielder            wielder. See TABLE 6–42 for details.
+when first hit in order to avoid the effect. If this fails, the
+target is affected but may repeat the save each round until            The target must make a doom save with a penalty based on
+they make it, at which point they are no longer affected.              the proficiency of the wielder when hit in order to avoid the
+                                                                       effect. If this fails, the target is affected as normal by the
+An entangled target cannot attack, cast spells, or move.               delay, stun or knock out.
+
+Hook: The wielder of a weapon with the hook ability can                An enemy who is knocked out will be unconscious for 1d100
+choose to try to hook their opponent and trip them instead             rounds before waking up.
+of attacking for damage. The character's player must announce
+that a hook attempt is being made before rolling any dice for          Missile Range: The three numbers given are the short/
+the attack. If the attack hits, the weapon causes only                 medium/long ranges of the missiles that the weapon shoots.
+minimum damage and the target must make a stasis save or
+fall prone.                                                            Off-hand: A weapon with this ability does not suffer the
+                                                                       normal to-hit and proficiency penalties when used in the
+Hurl Range: A weapon with a hurl range is one that is not              wielder's off hand.
+normally thrown, but with great skill and effort can be hurled
+at an opponent at the short/medium/long ranges shown.                  Set: The wielder of this weapon may brace it against a
+                                                                       charging foe. The wielder automatically attacks just before
+
+
+
+
+                                                                  89
+
+
+--- page 90 ---
+the charging foe, regardless of initiative roll, and if they hit
+then they do double normal damage.
+
+Skewer: If the weapon hits an opponent with the listed
+number of hit dice (or levels) or less, the opponent may be
+skewered if the attacker so chooses. The attacker must let
+go of the weapon, and it remains caught in the opponent
+for 1d4+4 rounds, doing 1d6 damage each round. If the
+opponent spends a round removing the weapon, they take
+double damage that round but are then free of the weapon.
+
+Strangle: This works in an identical manner to the entangle
+ability, with the addition that if the wielder of the weapon rolls
+the number indicated or higher on the dice, before modifiers,
+and the attack hits the target after modifiers, then the target
+of the attack must make an immediate doom save with the
+listed penalty or be paralysed and die after 1d6+2 rounds of
+strangulation. Should the target be freed from strangulation,
+they will remain paralysed for 2d6 rounds.
+
+If the wielder of the weapon does not roll the required
+numbers but still hits the target, the target is affected as
+though the weapon were an entangling weapon with the same
+save penalty.
+
+Stun: A weapon with the stun ability will stun any opponent
+it hits that is approximately the same size as the wielder of
+the weapon (or smaller) unless they make a doom save.
+
+Some ranged weapons can only stun opponents at listed
+ranges.
+
+A stunned opponent cannot attack or cast spells and can only
+move at ¾ normal speed. Stunned opponents also have a +2
+penalty to armour class and a –2 penalty to all saves. A stunned
+character can make a doom save each round to shake off the
+stun.
+
+Throw Range: The three numbers given are the short/
+medium/long ranges of the missiles that the weapon can be
+thrown
+
