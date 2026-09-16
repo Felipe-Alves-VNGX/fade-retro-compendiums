@@ -22,3 +22,19 @@ npm run decomppacks   # packs/<name> (LevelDB) -> packs/*.db -> packsrc/*.json
 `packsrc/` is the source of truth and is version-controlled. `packs/` is
 build output (LevelDB) and is gitignored — regenerate it with
 `npm run comppacks` before loading the module in Foundry.
+
+## Extracting the source PDF (Phase 2+)
+
+The compendium content is derived from *Dark Dungeons, 4th Edition*
+(Gurbintroll Games). The PDF itself is never committed to this
+repository — point the extraction tool at your own copy:
+
+```bash
+export DD4_PDF_PATH="$HOME/Documentos/DD4/Dark_Dungeons_(4th_Edition).pdf"
+node scripts/extract/pdf2txt.mjs --chapter equipment   # one chapter
+node scripts/extract/pdf2txt.mjs --all                 # all chapters in scripts/extract/chapters.json
+```
+
+Output lands in `extract/raw/<chapter-id>.txt`, versioned and
+human-auditable. See `docs/superpowers/specs/2026-09-17-fase2-extracao-pdf-design.md`
+for how the extraction and normalization work.
