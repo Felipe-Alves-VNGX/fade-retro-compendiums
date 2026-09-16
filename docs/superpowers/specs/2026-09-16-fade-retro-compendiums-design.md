@@ -208,3 +208,23 @@ escrita antes do código que produz os dados.
 - **Versão do sistema.** `fantastic-depths` está em desenvolvimento ativo; uma
   mudança de schema quebra os packs. O `module.json` fixa a compatibilidade
   declarada, e o validador é a rede de proteção.
+- **`removeStats()` sobrescreve `_stats.coreVersion` com valor hardcoded
+  (achado na Task 8).** `scripts/build/dbConvert.mjs`, método `removeStats()`
+  (por volta da linha 367), grava incondicionalmente
+  `{"coreVersion": "12.343", "systemId": "fantastic-depths"}` em todo
+  documento durante `packcompile` — independentemente do `_stats.coreVersion`
+  presente no JSON de origem em `packsrc/`. O código foi "adaptado
+  literalmente" do `Forelius/fade-compendiums` (ver comentário no topo do
+  arquivo) e herdou o valor de versão do Foundry usado por aquele projeto
+  upstream. Como resultado, o ciclo `packsrc → packs → packsrc` (Steps 4-5 da
+  Task 8) não é totalmente idempotente: os 3 itens de `packsrc/items`, escritos
+  à mão na Task 7 com `_stats.coreVersion: "13.347"`, voltam do
+  `decomppacks` com `"12.343"` — uma diferença de **valor**, não apenas de
+  formatação/ordem. Não corrompe os dados nem quebra a validação (o
+  `validate.mjs` não confere `_stats.coreVersion`), mas se não for corrigido
+  antes da Fase 2, todo item recompilado a partir de então herdará essa versão
+  incorreta. `git checkout -- packsrc` foi usado para restaurar os arquivos
+  da Task 7 sem essa mudança; a correção do hardcode (ler a versão real do
+  ambiente/`module.json`, ou preservar o `_stats.coreVersion` já existente no
+  documento em vez de sobrescrevê-lo) fica como item de backlog para antes de
+  depender de `packcompile` em produção.
