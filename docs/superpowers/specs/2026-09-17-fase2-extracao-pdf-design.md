@@ -55,11 +55,20 @@ de texto")
 Aplicado ao texto já extraído e concatenado, antes de escrever em
 `extract/raw/`:
 
-1. **Desidifenização de fim de linha.** Uma palavra quebrada por hífen no
-   fim de uma linha de texto justificado (ex.: `adventur-\ner`) vira
-   `adventurer`. Regra: uma linha terminando em hífen seguida de uma
-   palavra minúscula na linha seguinte é juntada, removendo o hífen e a
-   quebra de linha.
+1. **Junção de fim de linha em palavras compostas com hífen.** **Achado
+   que corrige a suposição original desta seção:** o livro usa texto de
+   alinhamento à direita irregular (ragged-right), não justificado — não
+   há hifenização artificial de palavras longas. Busquei todas as 7
+   ocorrências reais de hífen em fim de linha nos 5 capítulos desta fase
+   (`grep` por `[a-z]-$` em cada coluna de cada capítulo) e **cada uma** é
+   uma palavra composta com hífen próprio que calhou de cair na quebra de
+   linha: `non-\nliving`, `non-\nmagical` (×3), `life-\nforce`,
+   `semi-\ndesert`. Não existe nenhum caso de palavra comum quebrada
+   arbitrariamente. Regra correta: uma linha terminando em hífen seguida
+   de quebra de linha tem a quebra removida e **o hífen preservado**
+   (`"non-\nliving"` → `"non-living"`) — nunca remover o hífen, pois isso
+   destruiria a palavra composta (`"non-\nliving"` → `"nonliving"` estaria
+   errado).
 2. **Aspas e apóstrofos tipográficos → ASCII reto.** `’ ‘` → `'`; `" "` →
    `"`. Esta é a mesma convenção que os 3 itens escritos à mão da Fase 1
    (`Dagger.json`, `Torch.json`) já usam — a revisão final da Fase 1
@@ -192,12 +201,30 @@ confirmar, por capítulo:
 
 ## 10. Riscos e decisões pendentes
 
-- **`fullWidthPages` incompleto até a implementação.** A seção 5 descreve
-  o método; a lista real por capítulo só existe depois que a primeira
-  tarefa do plano rodar o método nos 5 capítulos. Se uma página de tabela
-  escapar da lista, o sintoma é texto de tabela garbled em `extract/raw/`
-  — detectável na verificação da seção 9, mas vale registrar como o modo
-  de falha mais provável desta fase.
+- **`fullWidthPages` resolvido durante o planejamento (não mais um risco em
+  aberto).** O método da seção 5 foi rodado nas 130 páginas dos 5
+  capítulos; os valores exatos estão no plano de implementação. Mantido
+  aqui só o modo de falha residual: se uma página escapar da lista, o
+  sintoma é texto de tabela garbled em `extract/raw/`, detectável na
+  verificação da seção 9.
+- **Páginas com tabela de largura total misturada a prosa de duas colunas
+  degradam a ordem de leitura da prosa (achado durante o planejamento).**
+  Duas páginas nos 5 capítulos (p.93 e p.103, ambas do capítulo de magias)
+  têm uma tabela de largura total seguida ou cercada de prosa em duas
+  colunas no restante da página. Extrair a página inteira em modo largura
+  total (necessário para a tabela) faz a prosa perder a ordem de leitura
+  correta — nos dois casos observados, cada parágrafo continua
+  gramaticalmente íntegro, mas a ordem entre parágrafos de colunas
+  diferentes não é garantida (às vezes agrupada por coluna inteira, às
+  vezes intercalada linha a linha, dependendo de como o `pdftotext`
+  interpreta a geometria daquela página específica). Decisão: aceitar essa
+  degradação nesta fase em vez de implementar um recorte de três bandas
+  (coluna dupla acima da tabela + largura total na tabela + coluna dupla
+  abaixo) — o texto de `extract/raw/` continua auditável e o parser de
+  magias da Fase 3 já vai precisar de lógica própria para separar verbetes
+  de magia nessas duas páginas de qualquer forma. Se mais páginas assim
+  aparecerem em capítulos futuros e a degradação afetar dados importantes,
+  reconsiderar o recorte de três bandas.
 - **Notas de rodapé com símbolos (`†ᅟ‡`) e frações (`½ ¾`) não são
   tratadas.** Se algum domínio da Fase 3 precisar delas (ex.: uma nota de
   rodapé referenciada por `†` em uma tabela), o parser daquele domínio
