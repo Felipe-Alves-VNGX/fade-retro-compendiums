@@ -46,10 +46,13 @@ test("buildLevels maps Hurl Range to range.{short,medium,long}, treating '–' a
    assert.deepEqual(levels[0].range, { short: 0, medium: 0, long: 0 });
 });
 
-test("buildLevels preserves the full 4-value AC Bonus string for gm.notes, using only the first value as acBonus", () => {
+test("buildLevels preserves each rank's full 4-value AC Bonus string for gm.notes, using only the first value as acBonus", () => {
    const { levels, acBonusRaw } = buildLevels(CLUB_ARMED, CLUB_UNARMED);
    assert.equal(levels[5].acBonus, -4);
-   assert.match(acBonusRaw, /–4\/–4\/–4\/–4$/);
+   assert.equal(
+      acBonusRaw,
+      "None: –; Basic: –; Skilled: –1/–1/–/–; Expert: –2/–2/–/–; Master: –3/–3/–3/–; Grand Master: –4/–4/–4/–4"
+   );
 });
 
 test("buildLevels combines two extra-ability rows into one special string", () => {

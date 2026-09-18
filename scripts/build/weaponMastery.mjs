@@ -8,7 +8,7 @@ const WEAPON_MASTERIES_FOLDER_ID = "RcR10M9pJBiQMs2H";
 
 const RANK_NAMES = ["None", "Basic", "Skilled", "Expert", "Master", "Grand Master"];
 const RANGE_LABELS = new Set(["Hurl Range", "Throw Range", "Missile Range"]);
-const SPECIAL_LABELS = ["Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun", "Strangle", "Entangle", "Skewer", "Off-Hand"];
+const SPECIAL_LABELS = ["Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun", "Strangle", "Entangle", "Skewer", "Off-Hand"];
 
 /**
  * Derive a stable 16-char alphanumeric Foundry-style _id from a seed
@@ -99,7 +99,10 @@ export function buildLevels(armedRows, unarmedRows) {
          special: buildSpecial(armedMap, unarmedMap, i),
       });
    }
-   return { levels, acBonusRaw: acRow ? acRow.join("/") : null };
+   const acBonusRaw = acRow
+      ? RANK_NAMES.map((name, i) => `${name}: ${acRow[i]}`).join("; ")
+      : null;
+   return { levels, acBonusRaw };
 }
 
 function splitFileName(name) {
