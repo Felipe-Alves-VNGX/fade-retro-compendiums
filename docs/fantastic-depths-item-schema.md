@@ -123,3 +123,49 @@ O `Dagger.json` real do `fade-compendiums` inclui `isAmmo`, `isCarried`,
 (`Usable`/`Ammo`) ainda não localizado no código-fonte. **Não** são exigidos
 pelo validador desta fase; ficam como item aberto para quando um domínio
 futuro (munição, itens usáveis) precisar deles — ver spec, seção 8.
+
+## `ArmorItemDataModel extends GearItemDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`, `src/item/dataModel/ArmorItemDataModel.ts`.
+
+Campos adicionais:
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `ac` | number | **sim** | `9` |
+| `isShield` | boolean | não | `false` |
+| `av` | string, nullable | não | `null` |
+| `armorWeight` | string (`"light"` \| `"heavy"`) | **sim** | `"light"` |
+| `mod` | number | **sim** | `0` |
+| `modRanged` | number | **sim** | `0` |
+| `totalAC` | number | **sim** | `9` |
+| `totalRangedAC` | number | **sim** | `9` |
+| `totalAAC` | number | **sim** | `9` |
+| `totalRangedAAC` | number | **sim** | `9` |
+| `natural` | boolean | não | `false` |
+
+**`ac`**: valor absoluto de Armour Class já "melhor que 9" (não um bônus) —
+corresponde diretamente à coluna "Armour Class" da Table 9-3 do livro.
+
+**`armorWeight`**: só tem dois valores válidos no código-fonte
+(`src/sheets/item/ArmorItemSheet.ts`, `lang/en.json`: `FADE.Armor.armorWeight.choices.light`/`.heavy`).
+`src/sys/registry/EncSystem.ts` usa esse campo para decidir o nível de
+encumbrance do personagem quando `encSetting === "basic"` — exatamente o
+papel que a coluna "Movement Rate" da Table 9-3 desempenha no livro (30'
+para as armaduras mais leves, 20' para as mais pesadas). Mapeamento
+adotado: `movementRate === "30'" → "light"`, `movementRate === "20'" →
+"heavy"`. Não há campo nativo para armazenar a string `"30'"`/`"20'"` em
+si — o valor do livro só sobrevive de forma indireta, via `armorWeight`.
+
+**`totalAC`/`totalRangedAC`/`totalAAC`/`totalRangedAAC`**: campos "totais"
+que a engine recalcula em runtime a partir de `ac` mais modificadores;
+como dado de origem (`packsrc`), são inicializados iguais a `ac` (sem
+modificadores aplicados ainda) — mesmo padrão do próprio schema, que já
+inicializa `totalAC` igual ao default de `ac` (`9`).
+
+**`isShield`/`natural`**: sempre `false` para os 6 conjuntos de armadura
+da Table 9-3 (nenhum é escudo ou armadura natural).
+
+Campos obrigatórios usados pelo validador para o subtipo `armor`: os de
+`item` + `ac, armorWeight, mod, modRanged, totalAC, totalRangedAC,
+totalAAC, totalRangedAAC`.

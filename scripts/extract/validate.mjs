@@ -19,6 +19,7 @@ const SUBTYPE_REQUIRED_FIELDS = {
    item: GEAR_REQUIRED_FIELDS,
    weapon: [...GEAR_REQUIRED_FIELDS, "damageRoll", "damageType", "canMelee", "canRanged", "mastery", "weaponType", "range"],
    light: [...GEAR_REQUIRED_FIELDS, "light"],
+   armor: [...GEAR_REQUIRED_FIELDS, "ac", "armorWeight", "mod", "modRanged", "totalAC", "totalRangedAC", "totalAAC", "totalRangedAAC"],
 };
 
 /**

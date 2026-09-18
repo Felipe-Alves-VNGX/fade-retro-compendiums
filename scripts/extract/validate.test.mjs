@@ -83,6 +83,55 @@ test("validateDocument rejects an unknown subtype", () => {
    assert.ok(errors.some((e) => e.includes("unknown subtype")));
 });
 
+const validArmor = {
+   name: "Leather Armour",
+   type: "armor",
+   _id: "xdkGfiDCe4dPI7Up",
+   folder: "2AKCulCJIGNyAMaN",
+   _originalKey: "!items!xdkGfiDCe4dPI7Up",
+   system: {
+      tags: [],
+      description: "<p>Leather armour.</p>",
+      quantity: 1,
+      weight: 200,
+      cost: 20,
+      equipped: false,
+      container: false,
+      equippable: true,
+      isDropped: false,
+      isTreasure: false,
+      ac: 7,
+      armorWeight: "light",
+      mod: 0,
+      modRanged: 0,
+      totalAC: 7,
+      totalRangedAC: 7,
+      totalAAC: 7,
+      totalRangedAAC: 7,
+   },
+};
+
+test("validateDocument accepts a fully-formed armor", () => {
+   const errors = validateDocument(validArmor, {
+      packName: "items",
+      knownFolderIds: new Set(["2AKCulCJIGNyAMaN"]),
+   });
+   assert.deepEqual(errors, []);
+});
+
+test("validateDocument flags a missing required armor field", () => {
+   const broken = structuredClone(validArmor);
+   delete broken.system.armorWeight;
+   const errors = validateDocument(broken, {
+      packName: "items",
+      knownFolderIds: new Set(["2AKCulCJIGNyAMaN"]),
+   });
+   assert.ok(
+      errors.some((e) => e.includes("system.armorWeight")),
+      `expected an error mentioning system.armorWeight, got: ${errors.join(", ")}`
+   );
+});
+
 test("validatePack reports zero errors for a well-formed packsrc directory", async () => {
    const dir = await fs.mkdtemp(path.join(os.tmpdir(), "fade-retro-validate-"));
    try {
