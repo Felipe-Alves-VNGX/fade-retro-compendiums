@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Etiquette",
+  "_id": "H01HOFrPod4G5qjj",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!H01HOFrPod4G5qjj",
+  "type": "skill",
+  "system": {
+    "description": "<p>The etiquette skill is not a single skill. It is a group of related skills used in social situations in a variety of cultures. Each point spent in the etiquette skill for a particular culture gives a +1 bonus to charisma rolls used to behave properly in formal social situations in that culture.</p><p>Modifiers to the effective charisma used for these checks should come from particularly common or particularly obscure social situations within that culture.</p>",
+    "gm": {
+      "notes": "Skill de escolha de especialização (CHOOSE CULTURE) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

@@ -478,5 +478,35 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!bdZqEE0lrGcMSfrf": {
+    "name": "General Skills",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "bdZqEE0lrGcMSfrf",
+    "description": "",
+    "sort": 400000,
+    "color": "#2f4a3c",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!j9aZ9DmKQ3HTKb1R": {
+    "name": "Talents",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "j9aZ9DmKQ3HTKb1R",
+    "description": "",
+    "sort": 500000,
+    "color": "#4a3c2f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }

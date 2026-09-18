@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "History",
+  "_id": "I761sDWiCySsXLos",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!I761sDWiCySsXLos",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the history skill gives a +1 bonus to intelligence checks made to recollect information about the game world's past. The use of this skill should be modified by the obscurity of the facts that the player wishes their character to recollect. Knowing the name of countries involved in a war a couple of generations ago should be easier than knowing the name of the vizier of an empire that hasn't existed for thousands of years.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

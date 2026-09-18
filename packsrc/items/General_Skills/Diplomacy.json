@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Diplomacy",
+  "_id": "cp20HVMHraebhHD9",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!cp20HVMHraebhHD9",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the diplomacy skill gives a +1 bonus to charisma checks made to work out compromises and calm tensions. Diplomacy checks should get modifiers for both the amount of hostility between the parties and the amount that either side has to lose if the diplomacy fails.</p><p>For example, trying to persuade the leader of a marauding band of pirates not to attack a small and lightly armed party is going to be much more difficult than trying to persuade an offended landlady that you shouldn't be thrown out of her inn and you should be allowed to spend your spare cash there instead.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Arcane Lore",
+  "_id": "7JNLT2xKnSHIiNs4",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7JNLT2xKnSHIiNs4",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the arcane lore skill gives a +1 bonus to intelligence checks made to recognise spells, magical effects, and magical creatures.</p><p>An \"average\" spell or effect (at the Gameguide's discretion) will give no bonus or penalty to the effective intelligence used for the roll, but a particularly common spell might give a bonus and a particularly rare spell might give a penalty. Relative obscurity is more important in this regard than level of power.</p><p>Note: Arcane lore checks should not be used to allow the players to identify magic items without using the Analyse spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

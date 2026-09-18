@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Riding",
+  "_id": "lTpMFQhSso8bC68V",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!lTpMFQhSso8bC68V",
+  "type": "skill",
+  "system": {
+    "description": "<p>The riding skill is not a single skill. It is a group of related skills used when making rolls to control or stay on various riding animals in unusual circumstances. When spending a skill point on this skill, you must specify what sort of animal your character is skilled at riding. An exhaustive list of animals is not possible, but examples include:</p><p>■ Horse (includes mules and donkeys) ■ Camel ■ Elephant ■ Dire wolf ■ Griffon ■ Pegasus ■ Hippogriff ■ Giant eagle</p><p>Each skill point spent on a specific riding skill gives a +1 bonus to dexterity checks used to ride that type of animal. Generally, simply riding a calm animal as it walks shouldn't require a riding check. However, staying on an animal when it bolts or stumbles, or when it is damaged by an attack, should require a check – with the effective dexterity modified by the exact circumstances provoking the check.</p>",
+    "gm": {
+      "notes": "Skill de escolha de especialização (CHOOSE ANIMAL) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

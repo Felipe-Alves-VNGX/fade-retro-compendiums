@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Locate Traps",
+  "_id": "yxuBQNvRJG0f1gpb",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!yxuBQNvRJG0f1gpb",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Normally, when a character searches an area or an item for traps they will roll a Spot roll with a modifier based on how difficult the trap is to find. On a success, the character will spot the trap, although they will only be told what is visible about it (e.g., a trip wire, a pressure plate, or a set of suspicious holes in the wall). They will not be told the exact nature of the trap, such as what the trip wire or pressure plate will trigger, or what will emerge from the holes.</p><p>A character with the Locate Traps talent may make this roll as normal, but may also make a Locate Traps roll. If the Locate Traps roll succeeds, the character will get all the information they would have got from a normal Spot roll (whether they succeeded that roll or not) and also information about the type of trap derived from the context of the visible part and minor but recognisable clues unnoticeable to someone without the talent (e.g., the tripwire will cause a blade to scythe from the wall, the pressure plate will release a falling block from the ceiling, the holes will emit a poisonous gas).</p><p>Most magical traps cannot be found by simple Spot rolls, but a successful Locate Traps roll will allow the character to feel the subtle magical boundaries of the triggering area.</p><p>Example: Black Leaf and Aloysius are standing some distance from a suspicious looking vault door, and they suspect that the door might be trapped.</p><p>They decide to search the area, and the Gameguide makes Spot rolls for them in secret so that the players won't know whether or not their characters have succeeded. She also rolls for Black Leaf's Locate Traps ability.</p><p>Aloysius's Spot roll is a success, but Black Leaf's is a failure. However, Black Leaf's Locate Traps roll is a success.</p><p>The door is in fact trapped, with a magical trap that will shoot a Lightning Bolt down the corridor if the door is approached. Since this is a magical trap, Aloysius's Spot roll won't find it (although the Gameguide doesn't tell him that). However, Black Leaf's Locate Traps ability will.</p><p>The Gameguide informs the players that although Aloysius can't see anything, Black Leaf can feel the tell-tale signs of a magical ward in front of the door and that it will let off some kind of spell if they cross into it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

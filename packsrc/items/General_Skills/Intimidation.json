@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Intimidation",
+  "_id": "cESy3mHLvHZMRkmj",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!cESy3mHLvHZMRkmj",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the intimidation skill gives a +1 bonus to both charisma checks and strength checks made to bully an NPC into co-operation through threats or shows of physical strength. Intimidation checks should get modifiers for both the plausibility of the threats being made and the potential consequences to the target of the skill for co-operation.</p><p>Using a threat of immediate physical violence to get a bandit to flee is both a realistic threat and has only minor consequences to the bandit if they do flee; so it should be easier than using a threat of sending a dragon to kill the family of an ogre if they don't betray their tribe's location to you, which is both an unrealistic threat and has potentially fatal consequences to the ogre and their tribe.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>",
+    "gm": {
+      "notes": "Bônus também se aplica a checks de str (dupla ability no livro)."
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

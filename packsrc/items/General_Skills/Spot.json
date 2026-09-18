@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Spot",
+  "_id": "DyDVwgCicZTfnx0j",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DyDVwgCicZTfnx0j",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spend on the spot skill gives a +1 bonus to wisdom checks used to notice things such as prepared ambushes, hidden creatures, and traps.</p><p>Note: See Skills and Talents for how this interacts with the Hide in Shadows, Move Silently, and Locate Traps talents.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

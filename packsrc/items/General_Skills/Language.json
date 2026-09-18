@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Language",
+  "_id": "14cHxQmRp7rNhXMZ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!14cHxQmRp7rNhXMZ",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each skill point spent on the language skill means that the character knows another language to an acceptable level that they can converse. However, even though the character speaks the language, their speech will be accented and they will be clearly noticeable as a foreigner.</p><p>If a character spends a second skill point on the same language, their skill increases to the point where they speak it like a native and no longer have a noticeable foreign accent.</p><p>The Gameguide will determine which languages exist in their game world.</p>",
+    "gm": {
+      "notes": "Special skill — não concede bônus de ability check, ver descrição. Skill de escolha de especialização (CHOOSE LANGUAGE) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "str",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

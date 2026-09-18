@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Geography",
+  "_id": "alZ2YL3mBq8ur3pb",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!alZ2YL3mBq8ur3pb",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the geography skill gives a +1 bonus to intelligence checks made to recollect information about countries and regions of the game world.</p><p>The use of this skill should be modified by the obscurity of the facts that the player wishes their character to recollect. Knowing the name of a country and the majority ethnic group that lives there should be easier than knowing the name of the palace in which the king of that country lives or knowing the major trade imports and exports of that country.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

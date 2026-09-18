@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Tracking",
+  "_id": "x3lPeDgbxFeLxPug",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!x3lPeDgbxFeLxPug",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the tracking skill gives a +1 bonus to wisdom checks made to follow the tracks left by one or more creatures. Following (at a slow walk) a single human sized creature who walked through light woodland or farmland less than a day ago would require a roll with no modifiers.</p><p>The effective wisdom used for the tracking check should be modified by many factors such as:</p><p>■ Number of creatures being tracked ■ Size of creatures being tracked ■ Method of locomotion of creatures being tracked ■ Age of the tracks ■ Terrain being tracked through ■ Weather conditions ■ Tracking as a speed faster than a slow walk</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

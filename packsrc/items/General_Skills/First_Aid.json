@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "First Aid",
+  "_id": "LCHBAMoD1DXeL5xk",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!LCHBAMoD1DXeL5xk",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent in the first aid skill gives a +1 bonus on wisdom rolls used to treat injuries and poison.</p><p>The most common use of this skill is to patch people up after they have taken damage. After each time a character has been injured (a whole combat only counts as a single injury for this purpose) they can be healed 1d3 of the hit points lost in this particular injury by someone making a successful first aid check.</p><p>Each character using the skill is only able to make one attempt per injury, and if this first attempt fails then further attempts will not succeed. If someone succeeds with a first aid check against a particular injury then further first aid checks will be of no benefit.</p><p>All hit points lost in a fight counts as a single injury for the purposes of the first aid skill.</p><p>The other use of the skill is to prevent people from dying when they have been poisoned. See CHAPTER 12 – GETTING BETTER for detailed rules on poison.</p><p>There are normally no modifiers to the effective wisdom used in first aid checks.</p><p>Example: Black Leaf is unlucky enough to fall down a pit, and is injured, taking 5 points of damage out of her 9 hit points, leaving her on 4 hit points.</p><p>She uses the first aid skill to treat this injury, and succeeds in her roll. Her player rolls 1d3 to see how many hit points are recovered and unfortunately only gets a 1. Black Leaf now recovers one of the hit points lost in the injury, taking her from 4 hit points to 5 hit points.</p><p>Since she has now had this injury treated, further first aid rolls won't be able to recover any more of the lost hit points.</p><p>Shortly afterwards, the party encounters some ruffians spoiling for a fight. After a brief combat with the ruffians, Black Leaf has lost another 2 hit points, leaving her with 3.</p><p>While the party are resting, she tries to use the first aid skill on herself in order to recover some of these hit points. The skill check is not successful and Black Leaf is unable to heal this injury, and cannot try again.</p><p>Seeing that her wife is still injured, Elfstar tries to use the skill on her. Elfstar's player succeeds her skill check and rolls 1d3 to see how much is healed, getting a 3. Although Black Leaf has lost a total of 6 hit points, only 2 were lost in the injury being treated by the skill roll, so the first aid can only result in the recovery of these 2 hit points.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

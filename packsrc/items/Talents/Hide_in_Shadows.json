@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Hide in Shadows",
+  "_id": "gVkDohMHzcWVzdrt",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!gVkDohMHzcWVzdrt",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>As with Move Silently, characters without the Hide in Shadows talent may still attempt to hide from targets and to do so they must roll a Sneak roll that equals or beats the Spot roll of the character they are hiding from.</p><p>Characters with the Hide in Shadows talent may make a Hide in Shadows roll as well as a Sneak roll, and if the Hide in Shadows roll is a success then the character is not visible and will not be seen regardless of the result of the target's Spot check. If the Hide in Shadows roll fails then compare the Sneak roll and the Spot roll as normal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Climb Walls",
+  "_id": "paeotusYva9hbDaH",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!paeotusYva9hbDaH",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Any character can climb a tree or scramble up a scree-covered slope without needing to make a roll. For steeper and more difficult climbs, such as climbing up a rough cliff or a wall with uneven brickwork a character without the Climb Walls talent may make a Climbing roll to successfully complete the climb (if it is a long climb, a roll per 100' is required).</p><p>Characters with the Climb Walls talent can climb things that a character without the talent would need to make a Climbing roll for. Additionally, by making a Climb Walls roll they are able to climb things that someone without the talent would not even get a roll for, such as walls made from close-fitting stone blocks with only the tiniest of handholds.</p><p>Even surfaces like smooth glass can be climbed with a successful roll using the Climb Walls talent, although such extreme climbs should be given a modifier to the roll by the Gameguide.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

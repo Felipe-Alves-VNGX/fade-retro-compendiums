@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Cooking",
+  "_id": "F6Xsc5Epf1nMaZ2c",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!F6Xsc5Epf1nMaZ2c",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the cooking skill gives a +1 bonus to wisdom checks made to cook.</p><p>Modifiers to the effective wisdom used for this roll are likely to be only rarely needed, except in the case of not having adequate equipment or when using ingredients that the character has never cooked before.</p><p>In most cases, failing a cooking check won't result in inedible food; merely food that is not as nice as that produced by a successful cooking check.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

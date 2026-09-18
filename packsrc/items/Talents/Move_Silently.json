@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Move Silently",
+  "_id": "PMFD8Ao0qSWOgdqo",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!PMFD8Ao0qSWOgdqo",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Characters who are attempting to sneak past someone must make a Sneak check opposed by the target's Spot check. If the result of the Sneak roll equals or beats that of the Spot roll then the character has successfully gone unnoticed, but if the Spot beats the Sneak then the character has been heard.</p><p>Characters with the Move Silently talent can roll a Sneak check as normal, but may also roll a Move Silently check. If the Move Silently check succeeds then they have made no noise at all and will have successfully gone unnoticed regardless of the result of their target's Spot check. If the Move Silently check fails then compare the Sneak check and Spot check as normal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}
