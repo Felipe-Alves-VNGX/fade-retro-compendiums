@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Pike",
+  "_id": "PxWH1vMUJgH4QNNo",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!PxWH1vMUJgH4QNNo",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Pike",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d5",
+        "sDmgFormula": "1d5",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d10",
+        "sDmgFormula": "1d10",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d12+2",
+        "sDmgFormula": "1d12+2",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Deflect 1"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d12+5",
+        "sDmgFormula": "1d12+5",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Deflect 1"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d12+9",
+        "sDmgFormula": "1d10+8",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Deflect 2"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d10+14",
+        "sDmgFormula": "1d8+10",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Deflect 2"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –2/–/–/–; Expert: –2/–2/–/–; Master: –3/–3/–/–; Grand Master: –3/–3/–3/–"
+    }
+  },
+  "sort": 2200000
+}

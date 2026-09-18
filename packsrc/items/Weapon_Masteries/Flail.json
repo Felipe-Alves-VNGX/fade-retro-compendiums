@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Flail",
+  "_id": "qTSFqrcDZYqSBAxz",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!qTSFqrcDZYqSBAxz",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Flail",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d4",
+        "sDmgFormula": "11d4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d8",
+        "sDmgFormula": "1d8",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Deflect Penalty –2"
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d8+2",
+        "sDmgFormula": "1d8+2",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Deflect Penalty –4, Disarm +0"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d8+4",
+        "sDmgFormula": "1d8+4",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Deflect Penalty –6, Disarm –1"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d8+8",
+        "sDmgFormula": "1d8+6",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Deflect Penalty –8, Disarm –2"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d10+10",
+        "sDmgFormula": "1d8+8",
+        "acBonusType": null,
+        "acBonus": -4,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Deflect Penalty –10, Disarm –4"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –2/–2/–/–; Expert: –3/–3/–/–; Master: –3/–3/–3/–; Grand Master: –4/–4/–4/–4"
+    }
+  },
+  "sort": 1300000
+}

@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Trident",
+  "_id": "RWho6RMWu4QuIEJT",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!RWho6RMWu4QuIEJT",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Trident",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d8+1",
+        "sDmgFormula": "1d8+1",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 1,
+        "sToHit": 2,
+        "special": "Skewer 4 HD"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 45
+        },
+        "pDmgFormula": "1d8+4",
+        "sDmgFormula": "1d8+4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 4,
+        "special": "Skewer 7 HD"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 45
+        },
+        "pDmgFormula": "1d6+6",
+        "sDmgFormula": "1d8+6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 6,
+        "special": "Skewer 10 HD"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 30,
+          "medium": 45,
+          "long": 60
+        },
+        "pDmgFormula": "1d4+8",
+        "sDmgFormula": "1d6+9",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 8,
+        "special": "Skewer 12 HD"
+      }
+    ],
+    "gm": {
+      "notes": ""
+    }
+  },
+  "sort": 3700000
+}

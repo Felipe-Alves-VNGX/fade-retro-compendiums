@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Blackjack",
+  "_id": "Q8Al5JXsFByjg5nI",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Q8Al5JXsFByjg5nI",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Blackjack",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1",
+        "sDmgFormula": "1",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d2",
+        "sDmgFormula": "1d2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Knockout +0"
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "2d2",
+        "sDmgFormula": "2d2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Knockout –1"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d4+1",
+        "sDmgFormula": "1d4+1",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Knockout –2"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d4+3",
+        "sDmgFormula": "1d6+1",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Knockout –3"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 0,
+          "medium": 0,
+          "long": 0
+        },
+        "pDmgFormula": "1d4+5",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Knockout –4"
+      }
+    ],
+    "gm": {
+      "notes": ""
+    }
+  },
+  "sort": 400000
+}

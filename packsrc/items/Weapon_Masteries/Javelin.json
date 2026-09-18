@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Javelin",
+  "_id": "eae9aDjnGyR9E0aP",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!eae9aDjnGyR9E0aP",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Javelin",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 30,
+          "medium": 60,
+          "long": 90
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 30,
+          "medium": 60,
+          "long": 90
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 30,
+          "medium": 60,
+          "long": 90
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": null
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 120
+        },
+        "pDmgFormula": "1d6+4",
+        "sDmgFormula": "1d6+4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": null
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 120
+        },
+        "pDmgFormula": "1d6+6",
+        "sDmgFormula": "1d4+6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": null
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d6+9",
+        "sDmgFormula": "1d4+8",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": null
+      }
+    ],
+    "gm": {
+      "notes": ""
+    }
+  },
+  "sort": 1700000
+}

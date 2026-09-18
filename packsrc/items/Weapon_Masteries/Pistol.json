@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Pistol",
+  "_id": "VDiYDA1qOO4rtAu4",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VDiYDA1qOO4rtAu4",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Pistol",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 60,
+          "medium": 110,
+          "long": 160
+        },
+        "pDmgFormula": "1d8+1",
+        "sDmgFormula": "1d8+1",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Delay Short/Medium"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 80,
+          "medium": 130,
+          "long": 170
+        },
+        "pDmgFormula": "1d10+2",
+        "sDmgFormula": "1d10+2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Delay Short/Medium"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 90,
+          "medium": 130,
+          "long": 180
+        },
+        "pDmgFormula": "3d6",
+        "sDmgFormula": "1d10+4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Delay Short/Medium"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 100,
+          "medium": 140,
+          "long": 190
+        },
+        "pDmgFormula": "4d4+2",
+        "sDmgFormula": "1d10+6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Delay Short/Medium"
+      }
+    ],
+    "gm": {
+      "notes": ""
+    }
+  },
+  "sort": 2300000
+}

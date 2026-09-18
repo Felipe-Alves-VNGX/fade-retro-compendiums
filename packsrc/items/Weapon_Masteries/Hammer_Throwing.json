@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Hammer, Throwing",
+  "_id": "NbGl4TPxPC4M4X92",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NbGl4TPxPC4M4X92",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Hammer, Throwing",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d2",
+        "sDmgFormula": "1d2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d4",
+        "sDmgFormula": "1d4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d4+2",
+        "sDmgFormula": "1d4+2",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 1,
+        "sToHit": 2,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 45
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 4,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 45
+        },
+        "pDmgFormula": "1d4+4",
+        "sDmgFormula": "1d6+4",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 6,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 30,
+          "medium": 50,
+          "long": 60
+        },
+        "pDmgFormula": "1d4+6",
+        "sDmgFormula": "1d6+6",
+        "acBonusType": null,
+        "acBonus": -4,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 8,
+        "special": "Stun Short/Medium"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –1/–1/–/–; Expert: –2/–2/–2/–; Master: –3/–3/–3/–3; Grand Master: –4/–4/–4/–4"
+    }
+  },
+  "sort": 1500000
+}
