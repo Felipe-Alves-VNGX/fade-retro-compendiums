@@ -280,9 +280,9 @@ este subtipo NÃO estende `GearItemDataModel` — é uma especialização
 |---|---|---|---|
 | `description` | string | não | `""` |
 | `gm.notes` | string | não | `""` |
-| `ability` | string | **sim** | — |
-| `targetFormula` | string | **sim** | — |
-| `operator` | string | **sim** | — |
+| `ability` | string | **sim** | `"str"` |
+| `targetFormula` | string | **sim** | `"@rollTarget"` |
+| `operator` | string | **sim** | `"lte"` |
 | `rollFormula` | string | **sim** | `"1d20"` |
 | `level` | number | **sim** | `1` |
 | `rollMode` | string | não | `""` |
@@ -290,8 +290,8 @@ este subtipo NÃO estende `GearItemDataModel` — é uma especialização
 | `showResult` | boolean | não | `true` |
 | `skillBonus` | number | **sim** | `0` |
 | `skillPenalty` | number | **sim** | `0` |
-| `autoSuccess` | boolean, nullable | não | `null` |
-| `autoFail` | boolean, nullable | não | `null` |
+| `autoSuccess` | number, nullable | não | `null` |
+| `autoFail` | number, nullable | não | `null` |
 
 **`ability`**: uma das 6 core abilities (`str`, `dex`, `con`, `int`, `wis`, `cha`).
 Default para skills com dupla ability é registrado em `gm.notes` (não há campo
@@ -309,9 +309,11 @@ Campos obrigatórios usados pelo validador para o subtipo `skill`: `ability`,
 ## `SpecialAbilityDataModel`
 
 Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
-`src/item/fields/SpecialAbilityField.ts`. Similar a `SpellItemDataModel` e
-`SkillItemDataModel`, este subtipo NÃO estende `GearItemDataModel` — é uma
-especialização `TypeDataModel` própria.
+`src/item/fields/SpecialAbilityField.ts`. Este subtipo NÃO estende
+`GearItemDataModel` — `SpecialAbilityDataModel` é a especialização
+`TypeDataModel` própria (sem campos de encumbrance, equipamento ou treasure
+tracking), que delega seus campos para `SpecialAbilityData`, a qual estende
+diretamente `foundry.abstract.DataModel` (não `TypeDataModel`).
 
 | Campo | Tipo | Obrigatório | Default |
 |---|---|---|---|
@@ -322,8 +324,8 @@ especialização `TypeDataModel` própria.
 | `operator` | string | não | `""` |
 | `target` | string | não | `""` |
 | `rollMode` | string | não | `"publicroll"` |
-| `autoSuccess` | boolean, nullable | não | `null` |
-| `autoFail` | boolean, nullable | não | `null` |
+| `autoSuccess` | number, nullable | não | `null` |
+| `autoFail` | number, nullable | não | `null` |
 | `abilityMod` | string | não | `""` |
 | `savingThrow` | string, nullable | não | `null` |
 | `dmgFormula` | string, nullable | não | `null` |

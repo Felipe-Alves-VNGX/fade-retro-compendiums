@@ -15,6 +15,26 @@ const ABILITY_MAP = {
 const ABILITY_RE = /bonus\s+(?:to|on)\s+(?:both\s+)?(\w+)\s+(?:checks|rolls)(?:\s+and\s+(\w+)\s+checks)?/i;
 
 /**
+ * Collapse a page-boundary run (form feed + blank lines + the literal
+ * "--- page N ---" marker line) into either a paragraph break or a
+ * single space, depending on whether the text immediately before it
+ * ends a sentence. Verified against all 12 page breaks in this
+ * chapter: 11 end in sentence-ending punctuation and must stay
+ * paragraph breaks (otherwise legitimate breaks like Bluff's "Note:"
+ * paragraph or Disguise's bullet list get merged into the preceding
+ * text); exactly 1 (Magical Engineering, p.71) does not, and joining
+ * it with a space is what keeps that sentence intact.
+ * @param {string} text
+ * @returns {string}
+ */
+function stripPageBoundaries(text) {
+   return text.replace(/([^\n])\n\f?\n*--- page \d+ ---\n/g, (match, lastChar) => {
+      const endsSentence = /[.!?:;"'’”\)\]]/.test(lastChar);
+      return endsSentence ? `${lastChar}\n\n` : `${lastChar} `;
+   });
+}
+
+/**
  * Join raw text into one `<p>` block per blank-line-separated
  * paragraph, continuation lines joined with a single space.
  * @param {string} text
@@ -40,7 +60,7 @@ function paragraphsToHtml(text) {
 export function parseTalents(rawText) {
    const startIdx = rawText.indexOf("SKILLS & TALENTS");
    const endIdx = rawText.indexOf("ALPHABETIC SKILL LISTING");
-   const body = rawText.slice(startIdx, endIdx).replace(/\n--- page \d+ ---\n/g, "\n");
+   const body = stripPageBoundaries(rawText.slice(startIdx, endIdx));
 
    const positions = TALENT_NAMES.map((name) => {
       const idx = body.indexOf(`${name}:`);
@@ -66,7 +86,7 @@ export function parseTalents(rawText) {
  */
 export function parseSkills(rawText) {
    const startIdx = rawText.indexOf("ALPHABETIC SKILL LISTING") + "ALPHABETIC SKILL LISTING".length;
-   const body = rawText.slice(startIdx).replace(/\n--- page \d+ ---\n/g, "\n");
+   const body = stripPageBoundaries(rawText.slice(startIdx));
    const lines = body.split("\n");
 
    const headerRe = /^[A-Z][A-Z0-9 /()\-]+$/;

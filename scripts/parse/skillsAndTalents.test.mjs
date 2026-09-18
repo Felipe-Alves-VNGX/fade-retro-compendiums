@@ -133,3 +133,38 @@ test("parseSkills title-cases a multi-word ALL-CAPS header", () => {
    const skills = parseSkills(SKILLS_FIXTURE);
    assert.equal(skills.find((s) => s.name === "Arcane Lore").name, "Arcane Lore");
 });
+
+const PAGE_BREAK_FIXTURE = `ALPHABETIC SKILL LISTING
+MAGICAL ENGINEERING
+Each point spent on the magical engineering skill gives a +1
+bonus to intelligence checks made to identify magic items. The
+threshold of difficulty required to identify such magic should
+come from the obscurity of the effect being examined. Something
+that uses a standard spell
+\f
+--- page 71 ---
+effect should be easier than something that uses a unique
+effect. When designing such effects, keep this in mind.
+
+STEALTH
+Each point spent on the stealth skill gives a +1 bonus to
+dexterity checks made to avoid detection.
+`;
+
+test("parseSkills joins a mid-sentence page break with a space instead of splitting the paragraph", () => {
+   const skills = parseSkills(PAGE_BREAK_FIXTURE);
+   const magicalEngineering = skills.find((s) => s.name === "Magical Engineering");
+   assert.match(
+      magicalEngineering.description,
+      /that uses a standard spell effect should be easier than something that uses a unique/
+   );
+   const paragraphCount = (magicalEngineering.description.match(/<p>/g) || []).length;
+   assert.equal(paragraphCount, 1);
+});
+
+test("parseSkills never leaves a page marker in the output", () => {
+   const skills = parseSkills(PAGE_BREAK_FIXTURE);
+   for (const skill of skills) {
+      assert.equal(skill.description.includes("--- page"), false);
+   }
+});
