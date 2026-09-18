@@ -35,6 +35,61 @@ export function normalizeTag(trait) {
    return trait.toLowerCase().replace(/\s+/g, "-");
 }
 
+function escapeRegExp(value) {
+   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function hasInteriorGap(line) {
+   return /\S\s{5,}\S/.test(line);
+}
+
+// This shape (a page-footer number, a form-feed, then a "--- page N ---"
+// marker) is specific to this book's pdftotext-based extraction (Phase 2)
+// and would need re-verifying against a different source. Independent
+// copy of the equipment domain's function of the same name/shape.
+function stripPageBoundaries(text) {
+   return text
+      .replace(/\f/g, "")
+      .replace(/\n[ \t]*\n+[ \t]*\d{1,4}[ \t]*\n[ \t]*\n*--- page \d+ ---\n/g, "\n");
+}
+
+/**
+ * Find a weapon's narrative description paragraph by matching a
+ * "<Name>: " line header in the chapter's raw text (extract/raw/
+ * equipment.txt — Table 9-2's surrounding prose, not weapons.txt, which
+ * has no per-weapon flavor text). Independent copy of the equipment
+ * domain's function of the same name/shape/behavior (page-boundary
+ * stripping, interior-gap rejection on a corrupted header, stop-not-
+ * reject on a corrupted or table-title continuation line) — no
+ * cross-module import.
+ * @param {string} name
+ * @param {string} rawText
+ * @returns {string | null}
+ */
+export function matchDescription(name, rawText) {
+   const cleanedText = stripPageBoundaries(rawText);
+   const lines = cleanedText.split("\n");
+   const headerRe = new RegExp(`^${escapeRegExp(name)}:\\s*(.*)$`, "i");
+   for (let i = 0; i < lines.length; i++) {
+      const trimmedHeader = lines[i].trim();
+      const headerMatch = trimmedHeader.match(headerRe);
+      if (!headerMatch) continue;
+      if (hasInteriorGap(trimmedHeader)) continue;
+
+      const paragraph = [headerMatch[1]];
+      for (let j = i + 1; j < lines.length; j++) {
+         const next = lines[j].trim();
+         if (next === "") break;
+         if (/^Table \d/.test(next)) break;
+         if (/^[A-Z][A-Za-z ,'()-]{1,40}:\s/.test(next)) break;
+         if (hasInteriorGap(next)) break;
+         paragraph.push(next);
+      }
+      return paragraph.join(" ").trim();
+   }
+   return null;
+}
+
 function splitFileName(name) {
    const sanitized = name.replace(/[^A-Za-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
    return `${sanitized}.json`;
@@ -48,9 +103,15 @@ function convertCost(cost) {
 /**
  * Map one parsed row (Task 1 shape) to a full Foundry weapon Item document.
  * @param {object} row
+ * @param {{ rawText: string }} context - rawText: full extract/raw/equipment.txt, for description matching.
  * @returns {object}
  */
-export function buildDocument(row) {
+export function buildDocument(row, { rawText }) {
+   const description = matchDescription(row.name, rawText);
+   if (description === null) {
+      console.warn(`[build/weapons] no description match for "${row.name}"`);
+   }
+
    const isNatural = row.section === "unarmed";
    const hasThrow = row.traits.includes("Throw");
    const canRanged = row.section === "ranged" || hasThrow;
@@ -75,7 +136,7 @@ export function buildDocument(row) {
       type: "weapon",
       system: {
          tags: row.traits.map(normalizeTag),
-         description: "",
+         description: description ? `<p>${description}</p>` : "",
          gm: { notes: gmNotes },
          quantity: 1,
          quantityMax: 0,
@@ -138,7 +199,9 @@ async function removeIfExists(filePath) {
 
 async function main() {
    const parsedPath = path.join(process.cwd(), "extract", "parsed", "weapons.json");
+   const rawPath = path.join(process.cwd(), "extract", "raw", "equipment.txt");
    const rows = JSON.parse(await fs.readFile(parsedPath, "utf8"));
+   const rawText = await fs.readFile(rawPath, "utf8");
 
    const weaponsDir = path.join(process.cwd(), "packsrc", "items", "Equipment", "Weapons");
    await removeIfExists(path.join(weaponsDir, "Dagger.json"));
@@ -146,7 +209,7 @@ async function main() {
    let sort = 100000;
    let written = 0;
    for (const row of rows) {
-      const doc = buildDocument(row);
+      const doc = buildDocument(row, { rawText });
       doc.sort = sort;
       sort += 100000;
       const filePath = path.join(weaponsDir, splitFileName(row.name));

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { deterministicId, normalizeTag, buildDocument } from "./weapons.mjs";
+import { deterministicId, normalizeTag, matchDescription, buildDocument } from "./weapons.mjs";
 
 test("deterministicId matches the 16-char alphanumeric ID pattern", () => {
    assert.match(deterministicId("weapons:Dagger"), /^[a-zA-Z0-9]{16}$/);
@@ -24,7 +24,7 @@ test("buildDocument maps a plain melee weapon", () => {
       name: "Club", lookupName: "Club", section: "one-handed",
       cost: { value: 3, currency: "gp" }, damageRoll: "1d6",
       traits: ["Blunt", "Natural", "Deflect", "Hurl"], masteryGroups: ["Hammers"], weightLb: 5,
-   });
+   }, { rawText: "" });
    assert.equal(doc.type, "weapon");
    assert.equal(doc.system.damageRoll, "1d6");
    assert.equal(doc.system.canMelee, true);
@@ -41,7 +41,7 @@ test("buildDocument gives a thrown weapon both canMelee and canRanged", () => {
       name: "Dagger", lookupName: "Dagger", section: "one-handed",
       cost: { value: 3, currency: "gp" }, damageRoll: "1d4",
       traits: ["Simple", "Off-Hand", "Throw"], masteryGroups: ["Short Blades"], weightLb: 1,
-   });
+   }, { rawText: "" });
    assert.equal(doc.system.canMelee, true);
    assert.equal(doc.system.canRanged, true);
 });
@@ -51,7 +51,7 @@ test("buildDocument gives a Ranged-section weapon only canRanged", () => {
       name: "Bow, Long", lookupName: "Bow, Long", section: "ranged",
       cost: { value: 40, currency: "gp" }, damageRoll: "1d6",
       traits: ["Delay"], masteryGroups: ["Bows"], weightLb: 3,
-   });
+   }, { rawText: "" });
    assert.equal(doc.system.canMelee, false);
    assert.equal(doc.system.canRanged, true);
 });
@@ -60,7 +60,7 @@ test("buildDocument marks an unarmed-section row as natural with zero cost", () 
    const doc = buildDocument({
       name: "Unarmed Strikes", lookupName: "Unarmed Strikes", section: "unarmed",
       cost: null, damageRoll: "1", traits: ["Blunt", "Natural", "Simple"], masteryGroups: ["Brawling"], weightLb: 0,
-   });
+   }, { rawText: "" });
    assert.equal(doc.system.natural, true);
    assert.equal(doc.system.cost, 0);
    assert.equal(doc.system.weight, 0);
@@ -71,7 +71,7 @@ test("buildDocument records extra mastery groups in gm.notes without inventing a
       name: "Sword, Short", lookupName: "Sword, Short", section: "one-handed",
       cost: { value: 7, currency: "gp" }, damageRoll: "1d6",
       traits: ["Deflect", "Disarm", "Hurl"], masteryGroups: ["Med. Blades", "Short Blades"], weightLb: 3,
-   });
+   }, { rawText: "" });
    assert.equal(doc.system.mastery, "Med. Blades");
    assert.match(doc.system.gm.notes, /Short Blades/);
 });
@@ -81,7 +81,7 @@ test("buildDocument leaves range at schema defaults", () => {
       name: "Bow, Long", lookupName: "Bow, Long", section: "ranged",
       cost: { value: 40, currency: "gp" }, damageRoll: "1d6",
       traits: ["Delay"], masteryGroups: ["Bows"], weightLb: 3,
-   });
+   }, { rawText: "" });
    assert.deepEqual(doc.system.range, { short: null, medium: null, long: null, min: 0 });
 });
 
@@ -91,7 +91,42 @@ test("buildDocument is idempotent: same row produces byte-identical output twice
       cost: { value: 3, currency: "gp" }, damageRoll: "1d6",
       traits: ["Blunt", "Natural", "Deflect", "Hurl"], masteryGroups: ["Hammers"], weightLb: 5,
    };
-   const first = buildDocument(row);
-   const second = buildDocument(row);
+   const first = buildDocument(row, { rawText: "" });
+   const second = buildDocument(row, { rawText: "" });
    assert.deepEqual(first, second);
+});
+
+const DESCRIPTION_FIXTURE = `Dagger: A dagger is a short light blade which is 18" long or
+less. Daggers are popular because their small size makes
+them easy to conceal and they can be either thrown or used
+in melee.
+
+Blackjack: A blackjack, also known as a cosh, is a small
+leather club usually filled with sand.
+`;
+
+test("matchDescription finds a weapon's narrative text by exact name", () => {
+   const desc = matchDescription("Dagger", DESCRIPTION_FIXTURE);
+   assert.match(desc, /^A dagger is a short light blade/);
+});
+
+test("matchDescription returns null when no header matches", () => {
+   assert.equal(matchDescription("Unarmed Strikes", DESCRIPTION_FIXTURE), null);
+});
+
+test("buildDocument fills description from rawText when a match is found", () => {
+   const doc = buildDocument({
+      name: "Dagger", lookupName: "Dagger", section: "one-handed",
+      cost: { value: 3, currency: "gp" }, damageRoll: "1d4",
+      traits: ["Simple", "Off-Hand", "Throw"], masteryGroups: ["Short Blades"], weightLb: 1,
+   }, { rawText: DESCRIPTION_FIXTURE });
+   assert.match(doc.system.description, /^<p>A dagger is a short light blade/);
+});
+
+test("buildDocument leaves description empty when no match is found", () => {
+   const doc = buildDocument({
+      name: "Unarmed Strikes", lookupName: "Unarmed Strikes", section: "unarmed",
+      cost: null, damageRoll: "1", traits: ["Blunt", "Natural", "Simple"], masteryGroups: ["Brawling"], weightLb: 0,
+   }, { rawText: DESCRIPTION_FIXTURE });
+   assert.equal(doc.system.description, "");
 });
