@@ -75,6 +75,47 @@ test("groupByWeapon pairs armed/unarmed tables into one entry per weapon", () =>
    assert.ok(club.unarmed.length > 0);
 });
 
+test("parses 'Double Damage' and 'Set' ability rows (Dagger, Pike/Spear labels missing from a prior fixture)", () => {
+   const fixture = `--- page 80 ---
+                                  Table 6–15a: Dagger vs Armed Opponents
+                  None             Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –                –                +1            +2              +4             +6
+  Damage           1d4              1d4             1d4+1         1d4+2           1d4+3          1d4+4
+Double Damage        –                –                20         19–20           18–20          17–20
+
+--- page 88 ---
+WEAPON ABILITIES
+The various weapon abilities listed on the previous tables are
+described below.
+`;
+   const tables = parseWeaponMasteryTables(fixture);
+   const daggerArmed = tables.find((t) => t.name === "Dagger" && t.side === "armed");
+   const doubleDamage = daggerArmed.rows.find((r) => r.label === "Double Damage");
+   assert.deepEqual(doubleDamage.values, ["–", "–", "20", "19–20", "18–20", "17–20"]);
+   // Must not be mis-parsed as a shorter "Damage" row with a leading "Double" token.
+   const damage = daggerArmed.rows.find((r) => r.label === "Damage");
+   assert.deepEqual(damage.values, ["1d4", "1d4", "1d4+1", "1d4+2", "1d4+3", "1d4+4"]);
+});
+
+test("parses 'Set' ability row (Pike/Spear)", () => {
+   const fixture = `--- page 82 ---
+                                  Table 6–20a: Pike vs Armed Opponents
+                  None             Basic           Skilled       Expert          Master      Grand Master
+Attack Bonus        –                –                +1            +2              +4             +6
+  Damage           1d10             1d10            1d10+1        1d10+2          1d10+3         1d10+4
+   Set              –               Yes              Yes           Yes            Yes             Yes
+
+--- page 88 ---
+WEAPON ABILITIES
+The various weapon abilities listed on the previous tables are
+described below.
+`;
+   const tables = parseWeaponMasteryTables(fixture);
+   const pikeArmed = tables.find((t) => t.name === "Pike" && t.side === "armed");
+   const set = pikeArmed.rows.find((r) => r.label === "Set");
+   assert.deepEqual(set.values, ["–", "Yes", "Yes", "Yes", "Yes", "Yes"]);
+});
+
 test("groupByWeapon matches table titles to canonical names case-insensitively", () => {
    const tables = parseWeaponMasteryTables(FIXTURE);
    // Simulate the real book's casing mismatch: canonical list says "Sword, Two-handed",

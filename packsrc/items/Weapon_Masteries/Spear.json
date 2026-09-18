@@ -49,7 +49,7 @@
         "acBonusAT": null,
         "pToHit": 0,
         "sToHit": 0,
-        "special": null
+        "special": "Set"
       },
       {
         "name": "Skilled",
@@ -65,7 +65,7 @@
         "acBonusAT": null,
         "pToHit": 2,
         "sToHit": 2,
-        "special": null
+        "special": "Set"
       },
       {
         "name": "Expert",
@@ -81,7 +81,7 @@
         "acBonusAT": null,
         "pToHit": 4,
         "sToHit": 4,
-        "special": "Stun"
+        "special": "Stun, Set"
       },
       {
         "name": "Master",
@@ -97,7 +97,7 @@
         "acBonusAT": null,
         "pToHit": 6,
         "sToHit": 6,
-        "special": "Stun"
+        "special": "Stun, Set"
       },
       {
         "name": "Grand Master",
@@ -113,7 +113,7 @@
         "acBonusAT": null,
         "pToHit": 8,
         "sToHit": 8,
-        "special": "Stun"
+        "special": "Stun, Set"
       }
     ],
     "gm": {

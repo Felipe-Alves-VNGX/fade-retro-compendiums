@@ -65,7 +65,7 @@
         "acBonusAT": null,
         "pToHit": 2,
         "sToHit": 1,
-        "special": null
+        "special": "Double Damage 20"
       },
       {
         "name": "Expert",
@@ -81,7 +81,7 @@
         "acBonusAT": null,
         "pToHit": 4,
         "sToHit": 2,
-        "special": null
+        "special": "Double Damage 19–20"
       },
       {
         "name": "Master",
@@ -97,7 +97,7 @@
         "acBonusAT": null,
         "pToHit": 6,
         "sToHit": 4,
-        "special": null
+        "special": "Double Damage 18–20"
       },
       {
         "name": "Grand Master",
@@ -113,7 +113,7 @@
         "acBonusAT": null,
         "pToHit": 8,
         "sToHit": 6,
-        "special": null
+        "special": "Double Damage 17–20"
       }
     ],
     "gm": {

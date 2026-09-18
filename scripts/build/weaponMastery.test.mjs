@@ -76,6 +76,59 @@ test("buildLevels treats a missing Damage cell ('–') as null, not the string",
    assert.equal(levels[2].pDmgFormula, "1");
 });
 
+test("buildLevels maps 'Double Damage' and 'Set' rows into special", () => {
+   const daggerArmed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Damage", values: ["1d4", "1d4", "1d4+1", "1d4+2", "1d4+3", "1d4+4"] },
+      { label: "Double Damage", values: ["–", "–", "20", "19–20", "18–20", "17–20"] },
+   ];
+   const { levels } = buildLevels(daggerArmed, daggerArmed);
+   assert.equal(levels[0].special, null);
+   assert.equal(levels[2].special, "Double Damage 20");
+
+   const pikeArmed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Damage", values: ["1d10", "1d10", "1d10+1", "1d10+2", "1d10+3", "1d10+4"] },
+      { label: "Set", values: ["–", "Yes", "Yes", "Yes", "Yes", "Yes"] },
+   ];
+   const { levels: pikeLevels } = buildLevels(pikeArmed, pikeArmed);
+   assert.equal(pikeLevels[0].special, null);
+   assert.equal(pikeLevels[1].special, "Set");
+});
+
+test("buildLevels records a divergence note in acBonusRaw when armed/unarmed range rows differ (Bow Short-style)", () => {
+   const armed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Missile Range", values: ["50/100/150", "50/100/150", "60/110/160", "70/120/170", "90/130/180", "110/140/190"] },
+   ];
+   const unarmed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Missile Range", values: ["70/140/210", "70/140/210", "90/160/230", "110/180/250", "130/190/250", "150/200/250"] },
+   ];
+   const { acBonusRaw } = buildLevels(armed, unarmed);
+   assert.ok(acBonusRaw.includes("Missile Range (vs Unarmed) diverge"), acBonusRaw);
+   assert.ok(acBonusRaw.includes("70/140/210"), acBonusRaw);
+});
+
+test("buildLevels records a divergence note in acBonusRaw when a special-ability row differs (Net Entangle-style)", () => {
+   const armed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Entangle", values: ["+0", "+0", "+1", "+2", "+2", "+3"] },
+   ];
+   const unarmed = [
+      { label: "Attack Bonus", values: ["–", "–", "+1", "+2", "+4", "+6"] },
+      { label: "Entangle", values: ["+0", "+0", "+1", "+2", "+4", "+6"] },
+   ];
+   const { acBonusRaw } = buildLevels(armed, unarmed);
+   assert.ok(acBonusRaw.includes("Entangle (vs Unarmed) diverge"), acBonusRaw);
+   assert.ok(acBonusRaw.includes("+0 / +0 / +1 / +2 / +4 / +6"), acBonusRaw);
+});
+
+test("buildLevels does NOT add a divergence note when armed/unarmed rows are identical (Club)", () => {
+   const { acBonusRaw } = buildLevels(CLUB_ARMED, CLUB_UNARMED);
+   assert.ok(!acBonusRaw.includes("diverge"), acBonusRaw);
+});
+
 test("buildDocument produces a weaponMastery document with 6 levels and the arm's name", () => {
    const doc = buildDocument({ name: "Club", armed: CLUB_ARMED, unarmed: CLUB_UNARMED });
    assert.equal(doc.type, "weaponMastery");

@@ -14,8 +14,8 @@ const END_MARKER = "WEAPON ABILITIES";
 
 const KNOWN_LABELS = [
    "Attack Bonus", "AC Bonus", "Hurl Range", "Throw Range", "Missile Range",
-   "Damage", "Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun",
-   "Strangle", "Entangle", "Skewer", "Off-Hand",
+   "Double Damage", "Damage", "Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun",
+   "Strangle", "Entangle", "Skewer", "Off-Hand", "Set",
 ].sort((a, b) => b.length - a.length);
 
 // A cell value is normally one whitespace-free token, but some ability rows

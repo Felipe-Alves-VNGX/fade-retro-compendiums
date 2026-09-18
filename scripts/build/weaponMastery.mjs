@@ -8,7 +8,7 @@ const WEAPON_MASTERIES_FOLDER_ID = "RcR10M9pJBiQMs2H";
 
 const RANK_NAMES = ["None", "Basic", "Skilled", "Expert", "Master", "Grand Master"];
 const RANGE_LABELS = new Set(["Hurl Range", "Throw Range", "Missile Range"]);
-const SPECIAL_LABELS = ["Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun", "Strangle", "Entangle", "Skewer", "Off-Hand"];
+const SPECIAL_LABELS = ["Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun", "Strangle", "Entangle", "Skewer", "Off-Hand", "Double Damage", "Set"];
 
 /**
  * Derive a stable 16-char alphanumeric Foundry-style _id from a seed
@@ -49,9 +49,38 @@ function parseRangeTriplet(value) {
 
 function findRangeRow(map) {
    for (const label of RANGE_LABELS) {
-      if (map.has(label)) return map.get(label);
+      if (map.has(label)) return { label, values: map.get(label) };
    }
    return null;
+}
+
+// The schema has only ONE range and ONE special per level (no primary/
+// secondary split, unlike pToHit/pDmgFormula) — so whichever side
+// (armed/unarmed) buildLevels reads from, the OTHER side's values for
+// the same row are silently dropped if they differ. This happens for
+// real: Bow Short and Crossbow Light's Missile Range, and Net's
+// Entangle, all diverge between armed and unarmed. Describe what got
+// dropped so it survives in gm.notes instead of vanishing, using the
+// same document-level-note mechanism already used for acBonus's
+// dropped 3-of-4 slash-segments.
+function describeDivergence(armedMap, unarmedMap) {
+   const notes = [];
+   const armedRange = findRangeRow(armedMap);
+   const unarmedRange = findRangeRow(unarmedMap);
+   if (
+      armedRange && unarmedRange && armedRange.label === unarmedRange.label &&
+      JSON.stringify(armedRange.values) !== JSON.stringify(unarmedRange.values)
+   ) {
+      notes.push(`${armedRange.label} (vs Unarmed) diverge do impresso acima: ${unarmedRange.values.join(" / ")}`);
+   }
+   for (const label of SPECIAL_LABELS) {
+      const a = armedMap.get(label);
+      const u = unarmedMap.get(label);
+      if (a && u && JSON.stringify(a) !== JSON.stringify(u)) {
+         notes.push(`${label} (vs Unarmed) diverge do impresso acima: ${u.join(" / ")}`);
+      }
+   }
+   return notes;
 }
 
 function buildSpecial(armedMap, unarmedMap, levelIndex) {
@@ -81,7 +110,7 @@ export function buildLevels(armedRows, unarmedRows) {
    const pDmg = armedMap.get("Damage");
    const sDmg = unarmedMap.get("Damage");
    const acRow = unarmedMap.get("AC Bonus") || armedMap.get("AC Bonus");
-   const rangeRow = findRangeRow(armedMap) || findRangeRow(unarmedMap);
+   const rangeRow = (findRangeRow(armedMap) || findRangeRow(unarmedMap))?.values;
 
    const levels = [];
    for (let i = 0; i < 6; i++) {
@@ -99,9 +128,11 @@ export function buildLevels(armedRows, unarmedRows) {
          special: buildSpecial(armedMap, unarmedMap, i),
       });
    }
-   const acBonusRaw = acRow
+   const acBonusNote = acRow
       ? RANK_NAMES.map((name, i) => `${name}: ${acRow[i]}`).join("; ")
       : null;
+   const divergenceNotes = describeDivergence(armedMap, unarmedMap);
+   const acBonusRaw = [acBonusNote, ...divergenceNotes].filter(Boolean).join(" | ") || null;
    return { levels, acBonusRaw };
 }
 
