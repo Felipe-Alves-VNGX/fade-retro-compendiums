@@ -1,7 +1,7 @@
 {
-  "folder": "vItxVSiPb4vq0Mmc",
-  "name": "Torch",
-  "_id": "HV2CfgIBvdEcD9kB",
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Chain Mail",
+  "_id": "hWqGclMm6NoVv3de",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,11 +12,11 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!HV2CfgIBvdEcD9kB",
-  "type": "item",
+  "_originalKey": "!items!hWqGclMm6NoVv3de",
+  "type": "armor",
   "system": {
     "tags": [],
-    "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. A torch gives off light in a 30' radius and burns for one hour. If used in combat, a torch has the same statistics (and uses the same weapon feats) as a club.</p>",
+    "description": "",
     "gm": {
       "notes": ""
     },
@@ -24,9 +24,9 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 5,
-    "weightEquipped": 5,
-    "cost": 0.2,
+    "weight": 400,
+    "weightEquipped": 400,
+    "cost": 40,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -43,7 +43,18 @@
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
-    "isCursed": false
+    "isCursed": false,
+    "ac": 5,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "light",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 5,
+    "totalRangedAC": 5,
+    "totalAAC": 5,
+    "totalRangedAAC": 5,
+    "natural": false
   },
-  "sort": 4200000
+  "sort": 4700000
 }

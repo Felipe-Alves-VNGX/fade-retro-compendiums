@@ -1,7 +1,7 @@
 {
-  "folder": "vItxVSiPb4vq0Mmc",
-  "name": "Torch",
-  "_id": "HV2CfgIBvdEcD9kB",
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Scale Mail",
+  "_id": "zJ15Td8JkJi4sZKC",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,11 +12,11 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!HV2CfgIBvdEcD9kB",
-  "type": "item",
+  "_originalKey": "!items!zJ15Td8JkJi4sZKC",
+  "type": "armor",
   "system": {
     "tags": [],
-    "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. A torch gives off light in a 30' radius and burns for one hour. If used in combat, a torch has the same statistics (and uses the same weapon feats) as a club.</p>",
+    "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armour class of 6.</p>",
     "gm": {
       "notes": ""
     },
@@ -24,9 +24,9 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 5,
-    "weightEquipped": 5,
-    "cost": 0.2,
+    "weight": 300,
+    "weightEquipped": 300,
+    "cost": 30,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -43,7 +43,18 @@
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
-    "isCursed": false
+    "isCursed": false,
+    "ac": 6,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "light",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 6,
+    "totalRangedAC": 6,
+    "totalAAC": 6,
+    "totalRangedAAC": 6,
+    "natural": false
   },
-  "sort": 4200000
+  "sort": 4600000
 }

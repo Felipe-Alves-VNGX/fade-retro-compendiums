@@ -1,7 +1,7 @@
 {
   "folder": "vItxVSiPb4vq0Mmc",
-  "name": "Torch",
-  "_id": "HV2CfgIBvdEcD9kB",
+  "name": "Thieves' Tools",
+  "_id": "anbEZUUUYGDCbSuo",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,11 +12,11 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!HV2CfgIBvdEcD9kB",
+  "_originalKey": "!items!anbEZUUUYGDCbSuo",
   "type": "item",
   "system": {
     "tags": [],
-    "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. A torch gives off light in a 30' radius and burns for one hour. If used in combat, a torch has the same statistics (and uses the same weapon feats) as a club.</p>",
+    "description": "<p>A variety of lock picks, needles, wire, pliers, etc. A thief cannot pick locks or disarm traps without a set of these tools.</p>",
     "gm": {
       "notes": ""
     },
@@ -26,7 +26,7 @@
     "chargesMax": 0,
     "weight": 5,
     "weightEquipped": 5,
-    "cost": 0.2,
+    "cost": 25,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -45,5 +45,5 @@
     "isIdentified": true,
     "isCursed": false
   },
-  "sort": 4200000
+  "sort": 4000000
 }
