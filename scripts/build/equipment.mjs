@@ -40,22 +40,38 @@ function escapeRegExp(value) {
  * @param {string} rawText
  * @returns {string | null}
  */
+function hasInteriorGap(line) {
+   return /\S\s{5,}\S/.test(line);
+}
+
+function stripPageBoundaries(text) {
+   return text
+      .replace(/\f/g, "")
+      .replace(/\n[ \t]*\n+[ \t]*\d{1,4}[ \t]*\n[ \t]*\n*--- page \d+ ---\n/g, "\n");
+}
+
 export function matchDescription(name, rawText) {
+   const cleanedText = stripPageBoundaries(rawText);
    const candidates = [name];
    const parenMatch = name.match(/^(.*?)\s*\([^)]*\)\s*$/);
    if (parenMatch) candidates.push(parenMatch[1].trim());
 
-   const lines = rawText.split("\n");
+   const lines = cleanedText.split("\n");
    for (const candidate of candidates) {
       const headerRe = new RegExp(`^${escapeRegExp(candidate)}:\\s*(.*)$`, "i");
       for (let i = 0; i < lines.length; i++) {
-         const match = lines[i].trim().match(headerRe);
-         if (!match) continue;
-         const paragraph = [match[1]];
+         const trimmedHeader = lines[i].trim();
+         const headerMatch = trimmedHeader.match(headerRe);
+         if (!headerMatch) continue;
+         if (hasInteriorGap(trimmedHeader)) return null;
+
+         const paragraph = [headerMatch[1]];
          for (let j = i + 1; j < lines.length; j++) {
             const next = lines[j].trim();
             if (next === "") break;
+            if (/^Table \d/.test(next)) break;
             if (/^[A-Z][A-Za-z ,'()-]{1,40}:\s/.test(next)) break;
+            if (hasInteriorGap(next)) break;
             paragraph.push(next);
          }
          return paragraph.join(" ").trim();

@@ -16,7 +16,7 @@
   "type": "armor",
   "system": {
     "tags": [],
-    "description": "<p>This is a suit primarily composed of large metal plates – the largest being the breastplate – linked together with chain mail. Plate mail gives a character an armour class</p>",
+    "description": "<p>This is a suit primarily composed of large metal plates – the largest being the breastplate – linked together with chain mail. Plate mail gives a character an armour class of 3. It is the best armour that can be bought second hand or looted, since suit armour must be custom made.</p>",
     "gm": {
       "notes": ""
     },

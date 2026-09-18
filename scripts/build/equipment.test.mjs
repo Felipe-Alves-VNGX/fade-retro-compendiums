@@ -39,6 +39,42 @@ test("matchDescription returns null when no header matches either candidate", ()
    assert.equal(desc, null);
 });
 
+test("matchDescription rejects a header line with column-merged text instead of returning garbled text", () => {
+   const fixture = `Banded Mail: This is a suit primarily composed of chain mail           is made from natural materials it can be worn by druids. It is
+with horizontal metal strips fastened into the mail. Banded            also light and quiet enough to be worn by thieves and
+mail gives a character an armour class of 4. It doesn't quite          mountebanks. have the protection of plate mail, but is cheaper and lighter.
+`;
+   assert.equal(matchDescription("Banded Mail", fixture), null);
+});
+
+test("matchDescription continues a paragraph across a page-break marker instead of truncating", () => {
+   const fixture = "Plate Mail: This is a suit primarily composed of large metal\n"
+      + "plates and linked together with chain mail. Plate mail gives a character an armour class\n"
+      + "\n\n\n\n                                                                 153\n"
+      + "\f\n"
+      + "\n--- page 154 ---\n"
+      + "of 3. It is the best armour that can be bought second hand\n"
+      + "or looted, since suit armour must be custom made.\n"
+      + "\n"
+      + "Scale Mail: This is a suit primarily composed of leather plates\n";
+   const desc = matchDescription("Plate Mail", fixture);
+   assert.ok(desc.includes("of 3. It is the best armour"), `expected the description to include the post-page-break continuation, got: ${desc}`);
+   assert.ok(!desc.includes("Scale Mail"), "must stop before the next item's header");
+});
+
+test("matchDescription stops before a table title that follows a page break, without swallowing it", () => {
+   const fixture = " MUNDANE ITEMS\n"
+      + " Arrows: Arrows are the ammunition used by bows. The same\n"
+      + " type of arrows are used in both long and short bows. Arrows\n"
+      + " are often broken in use. At the end of a combat, a character\n"
+      + "\f\n"
+      + "\n--- page 148 ---\n"
+      + "                   Table 9–1: Mundane Items\n"
+      + "              Item                 Weight           Cost\n";
+   const desc = matchDescription("Arrows", fixture);
+   assert.equal(desc, "Arrows are the ammunition used by bows. The same type of arrows are used in both long and short bows. Arrows are often broken in use. At the end of a combat, a character");
+});
+
 test("buildDocument maps a mundane-items row with a bundle quantity", () => {
    const doc = buildDocument({
       table: "mundane-items",
