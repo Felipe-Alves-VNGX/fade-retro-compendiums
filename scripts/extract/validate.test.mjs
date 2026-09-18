@@ -6,6 +6,7 @@ import path from "node:path";
 import { validateDocument, validatePack } from "./validate.mjs";
 import { buildDocument as buildSpellDocument } from "../build/spells.mjs";
 import { buildSkillDocument, buildTalentDocument } from "../build/skillsAndTalents.mjs";
+import { buildDocument as buildClassDocument } from "../build/classesCore.mjs";
 
 const validWeapon = {
    name: "Dagger",
@@ -287,4 +288,36 @@ test("validateDocument accepts a real specialAbility document built via buildTal
       knownFolderIds: new Set([doc.folder]),
    });
    assert.deepEqual(errors, []);
+});
+
+const validClassRecord = {
+   key: "battlemage", name: "Battlemage", primeAbility: "int", basicProficiency: true,
+   circleCount: 9,
+   levels: [{ level: 1, xp: 0, hd: "6+c", thbonus: 1 }],
+   spells: [[1, 0, 0, 0, 0, 0, 0, 0, 0]],
+   saves: [{ level: 1, doom: 7, ray: 6, stasis: 7, blast: 4, spell: 5 }],
+   description: "<p>Battlemages learn magic.</p>",
+   resourceTable: null,
+};
+
+test("validateDocument accepts a real class document built via buildClassDocument()", () => {
+   const doc = buildClassDocument(validClassRecord);
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.deepEqual(errors, []);
+});
+
+test("validateDocument flags a missing required class field", () => {
+   const doc = buildClassDocument(validClassRecord);
+   delete doc.system.primeReqs;
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.ok(
+      errors.some((e) => e.includes("system.primeReqs")),
+      `expected an error mentioning system.primeReqs, got: ${errors.join(", ")}`
+   );
 });

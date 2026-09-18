@@ -354,3 +354,92 @@ são sempre vazios/null pois talents são habilidades passivas sem teste obrigat
 
 Campos obrigatórios usados pelo validador para o subtipo `specialAbility`: nenhum
 (lista vazia de campos obrigatórios — só envelopes e referências são checadas).
+
+## `ClassDefinitionDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
+`src/item/dataModel/ClassDefinitionDataModel.ts`. Este subtipo NÃO estende
+`GearItemDataModel` — é uma especialização `TypeDataModel` própria, sem campos
+de encumbrance, equipamento ou treasure tracking.
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `key` | string | **sim** | — |
+| `species` | string | **sim** | `"Human"` |
+| `firstLevel` | number | **sim** | `1` |
+| `maxLevel` | number | **sim** | `36` |
+| `firstSpellLevel` | number | **sim** | `1` |
+| `maxSpellLevel` | number | **sim** | `0` |
+| `basicProficiency` | boolean | **sim** | `false` |
+| `unskilledToHitMod` | number | **sim** | `-2` |
+| `alignment` | string | não | `"Any"` |
+| `description` | string | não | `""` |
+| `castAsKey` | string, nullable | não | `null` |
+| `primeReqs` | array de objetos | **sim** | — |
+| `levels` | array de objetos | **sim** | — |
+| `saves` | array de objetos | **sim** | — |
+| `spells` | 2D array | não | `[]` |
+| `specialAbilities` | array | não | `[]` |
+| `classItems` | array | não | `[]` |
+| `abilities` | object | não | atribuído dinamicamente via `game.fade.registry` em runtime |
+
+Cada elemento de `primeReqs`:
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `ability` | string | **sim** | — |
+| `minScore` | number | não | `0` |
+| `percentage` | number | não | `5` |
+| `concatLogic` | string, nullable | não | `null` |
+
+Cada elemento de `levels`:
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `level` | number | **sim** | — |
+| `xp` | number | **sim** | — |
+| `thbonus` | number | não | `0` |
+| `hd` | string | não | `"1d4"` |
+| `hdcon` | boolean | não | `true` |
+| `title` | string, nullable | não | `null` |
+| `femaleTitle` | string, nullable | não | `null` |
+| `attackRank` | number, nullable | não | `null` |
+
+Cada elemento de `saves`:
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `level` | number | **sim** | — |
+| `doom` | number | não | `15` |
+| `ray` | number | não | `15` |
+| `stasis` | number | não | `15` |
+| `blast` | number | não | `15` |
+| `spell` | number | não | `15` |
+
+**`key`**: identificador único da classe, único dentro do domínio (ex. `"fighter"`, `"battlemage"`).
+Corresponde ao arquivo `parsedKey` derivado pelo parser (Task 1) do nome na tabela do livro.
+
+**`species`**: sempre `"Human"` para este sub-projeto (domínio núcleo de classes).
+Diferenças de espécie ficam para um sub-projeto futuro (skills variadas por espécie).
+
+**`maxSpellLevel`**: para não-lançadores, sempre `0`; para lançadores, igual a
+`circleCount` do parser (Task 1) — mapeamento direto.
+
+**`firstSpellLevel`**: para todos os lançadores, sempre `1` (primeira magia
+disponível no nível 1 da classe).
+
+**`spells`**: 2D array `[circleCount][9]` descrevendo quantas preparações de
+magia cada círculo tem em cada nível da classe; para não-lançadores, vazio `[]`.
+
+**`specialAbilities`** e **`classItems`**: inicialmente vazios (já que as
+class abilities pertencem a um sub-projeto separado — "habilidades e talentos").
+Será populado pelo sub-projeto 2 da fase 3 em commits subsequentes, *sobre o
+mesmo documento com mesmo `_id` determinístico*.
+
+**`abilities`**: campo de runtime do Foundry, atribuído dinamicamente via
+`game.fade.registry` quando uma classe é carregada num ator/personagem. **Fora
+do alcance de qualquer builder deste projeto** — nunca é populado estaticamente.
+
+Campos obrigatórios usados pelo validador para o subtipo `class`: `key`, `species`,
+`firstLevel`, `maxLevel`, `firstSpellLevel`, `maxSpellLevel`, `basicProficiency`,
+`unskilledToHitMod`, `primeReqs`, `levels`, `saves`.

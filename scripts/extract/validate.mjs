@@ -23,6 +23,7 @@ const SUBTYPE_REQUIRED_FIELDS = {
    weaponMastery: ["name", "primaryType", "levels"],
    spell: ["spellLevel", "range", "duration"],
    skill: ["ability", "targetFormula", "operator", "rollFormula", "level", "skillBonus", "skillPenalty"],
+   class: ["key", "species", "firstLevel", "maxLevel", "firstSpellLevel", "maxSpellLevel", "basicProficiency", "unskilledToHitMod", "primeReqs", "levels", "saves"],
    specialAbility: [],
 };
 
