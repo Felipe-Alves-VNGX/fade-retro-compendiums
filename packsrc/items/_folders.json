@@ -58,5 +58,20 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!RcR10M9pJBiQMs2H": {
+    "name": "Weapon Masteries",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "RcR10M9pJBiQMs2H",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }
