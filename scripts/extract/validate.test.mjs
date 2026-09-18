@@ -132,6 +132,48 @@ test("validateDocument flags a missing required armor field", () => {
    );
 });
 
+const validWeaponMastery = {
+   name: "Club",
+   type: "weaponMastery",
+   _id: "IGtW7yuUTcYkhN4O",
+   folder: "RcR10M9pJBiQMs2H",
+   _originalKey: "!items!IGtW7yuUTcYkhN4O",
+   system: {
+      name: "Club",
+      weaponType: "handheld",
+      primaryType: "all",
+      levels: [
+         { name: "None", range: { short: 0, medium: 0, long: 0 }, pDmgFormula: "1d2", sDmgFormula: "1d2", acBonusType: null, acBonus: null, acBonusAT: null, pToHit: 0, sToHit: 0, special: null },
+         { name: "Basic", range: { short: 0, medium: 0, long: 0 }, pDmgFormula: "1d4", sDmgFormula: "1d4", acBonusType: null, acBonus: null, acBonusAT: null, pToHit: 0, sToHit: 0, special: null },
+         { name: "Skilled", range: { short: 0, medium: 0, long: 0 }, pDmgFormula: "1d6+1", sDmgFormula: "1d6+1", acBonusType: null, acBonus: -1, acBonusAT: null, pToHit: 1, sToHit: 2, special: "Deflect 1" },
+         { name: "Expert", range: { short: 0, medium: 15, long: 25 }, pDmgFormula: "1d6+3", sDmgFormula: "1d6+3", acBonusType: null, acBonus: -2, acBonusAT: null, pToHit: 2, sToHit: 4, special: "Deflect 1" },
+         { name: "Master", range: { short: 0, medium: 15, long: 25 }, pDmgFormula: "1d4+5", sDmgFormula: "1d6+5", acBonusType: null, acBonus: -3, acBonusAT: null, pToHit: 4, sToHit: 6, special: "Deflect 2" },
+         { name: "Grand Master", range: { short: 10, medium: 25, long: 40 }, pDmgFormula: "1d4+6", sDmgFormula: "1d6+6", acBonusType: null, acBonus: -4, acBonusAT: null, pToHit: 6, sToHit: 8, special: "Deflect 2" },
+      ],
+   },
+};
+
+test("validateDocument accepts a fully-formed weaponMastery", () => {
+   const errors = validateDocument(validWeaponMastery, {
+      packName: "items",
+      knownFolderIds: new Set(["RcR10M9pJBiQMs2H"]),
+   });
+   assert.deepEqual(errors, []);
+});
+
+test("validateDocument flags a missing required weaponMastery field", () => {
+   const broken = structuredClone(validWeaponMastery);
+   delete broken.system.primaryType;
+   const errors = validateDocument(broken, {
+      packName: "items",
+      knownFolderIds: new Set(["RcR10M9pJBiQMs2H"]),
+   });
+   assert.ok(
+      errors.some((e) => e.includes("system.primaryType")),
+      `expected an error mentioning system.primaryType, got: ${errors.join(", ")}`
+   );
+});
+
 test("validatePack reports zero errors for a well-formed packsrc directory", async () => {
    const dir = await fs.mkdtemp(path.join(os.tmpdir(), "fade-retro-validate-"));
    try {

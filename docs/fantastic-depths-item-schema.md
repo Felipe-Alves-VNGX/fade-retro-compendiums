@@ -169,3 +169,51 @@ da Table 9-3 (nenhum é escudo ou armadura natural).
 Campos obrigatórios usados pelo validador para o subtipo `armor`: os de
 `item` + `ac, armorWeight, mod, modRanged, totalAC, totalRangedAC,
 totalAAC, totalRangedAAC`.
+
+## `MasteryDefinitionDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
+`src/item/dataModel/MasteryDefinitionDataModel.ts`. Registrado em
+`src/fantastic-depths.ts:119` como `weaponMastery:
+MasteryDefinitionDataModel` — distinto do subtipo `mastery`
+(`ActorMasteryItemDM`, linha 116), que é tracking por personagem em
+tempo de jogo (embarcado em Actor), não conteúdo de compêndio.
+
+Ao contrário de `item`/`weapon`/`armor`/`light`, este subtipo NÃO
+estende `GearItemDataModel` — é `foundry.abstract.TypeDataModel`
+direto, sem `tags`, `weight`, `cost`, `description`, etc.
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `name` | string | **sim** | — |
+| `weaponType` | string | não | `"handheld"` |
+| `primaryType` | string | **sim** | `"all"` |
+| `levels` | array de 6 objetos | **sim** | ver abaixo |
+
+Cada elemento de `levels` (um por rank de proficiência):
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `name` | string | **sim** | — |
+| `range.{short,medium,long}` | number (NÃO nullable) | **sim** | `0` |
+| `pDmgFormula` | string, nullable | não | `null` |
+| `sDmgFormula` | string, nullable | não | `null` |
+| `acBonusType` | string, nullable | não | `null` |
+| `acBonus` | number, nullable | não | `null` |
+| `acBonusAT` | number, nullable | não | `null` |
+| `pToHit` | number | **sim** | `0` |
+| `sToHit` | number | **sim** | `0` |
+| `special` | string, nullable | não | `null` |
+
+`p`/`s` = primário/secundário. A estrutura (duas colunas paralelas de
+to-hit e dano) bate com o par de tabelas "a" (vs Armed) / "b" (vs
+Unarmed) do livro — mapeamento adotado: `p* = tabela "a"`, `s* = tabela
+"b"`. O campo `acBonus` de 4 valores do livro (ex. `"–2/–2/–/–"`) não
+tem documentação clara de significado por posição; só o primeiro valor
+vira `acBonus`, a string completa fica em `system.gm.notes` do
+documento (não por nível — o schema não tem notas por nível).
+
+Campos obrigatórios usados pelo validador para o subtipo
+`weaponMastery`: `name`, `primaryType`, `levels` (só a presença do
+array — a validação dos campos internos de cada nível fica fora do
+escopo do validador atual, mesmo padrão dos demais subtipos).
