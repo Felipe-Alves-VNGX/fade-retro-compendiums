@@ -2,7 +2,10 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const CURRENCY_PATTERN = "(?:gp|sp|ep|pp)";
+// Includes "cp" deliberately, even though no row in the book currently uses it:
+// the builder's CURRENCY_TO_GP table already supports cp, and omitting it here
+// would make a future cp-priced row silently vanish instead of failing loudly.
+const CURRENCY_PATTERN = "(?:cp|gp|sp|ep|pp)";
 
 const MUNDANE_ROW_RE = new RegExp(
    `^\\s*(.+?)\\s{2,}(\\d+(?:\\.\\d+)?)lb\\s{2,}(\\d+(?:\\.\\d+)?)(\\+)?(${CURRENCY_PATTERN})\\s*$`

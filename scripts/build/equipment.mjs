@@ -28,28 +28,37 @@ function escapeRegExp(value) {
    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-/**
- * Find the narrative description paragraph for an item by matching a
- * "<Name>: " line header in the chapter's raw text, trying the full name
- * first and then the name with a trailing "(...)" qualifier stripped
- * (many table rows add a qualifier — e.g. "Backpack (holds 40lb)" — that
- * the book's own prose header omits — e.g. "Backpack: ..."). Returns null,
- * never throws, when neither candidate has a matching header; the caller
- * is responsible for logging that as a warning.
- * @param {string} name
- * @param {string} rawText
- * @returns {string | null}
- */
 function hasInteriorGap(line) {
    return /\S\s{5,}\S/.test(line);
 }
 
+// This shape (a page-footer number, a form-feed, then a "--- page N ---"
+// marker) is specific to this book's pdftotext-based extraction (Phase 2)
+// and would need re-verifying against a different source.
 function stripPageBoundaries(text) {
    return text
       .replace(/\f/g, "")
       .replace(/\n[ \t]*\n+[ \t]*\d{1,4}[ \t]*\n[ \t]*\n*--- page \d+ ---\n/g, "\n");
 }
 
+/**
+ * Find the narrative description paragraph for an item by matching a
+ * "<Name>: " line header in the chapter's raw text, trying the full name
+ * first and then the name with a trailing "(...)" qualifier stripped
+ * (many table rows add a qualifier — e.g. "Backpack (holds 40lb)" — that
+ * the book's own prose header omits — e.g. "Backpack: ..."). Page-boundary
+ * artifacts are stripped before scanning so a paragraph split across pages
+ * still reads as one block; a header line with a column-merged gap is
+ * rejected (real data) since it means two side-by-side columns of prose got
+ * flattened into one unreadable line, while a column-merged or table-title
+ * continuation line merely stops the paragraph rather than rejecting the
+ * whole match, since the header itself was still clean. Returns null, never
+ * throws, when no candidate ever finds a clean header; the caller is
+ * responsible for logging that as a warning.
+ * @param {string} name
+ * @param {string} rawText
+ * @returns {string | null}
+ */
 export function matchDescription(name, rawText) {
    const cleanedText = stripPageBoundaries(rawText);
    const candidates = [name];
@@ -63,7 +72,7 @@ export function matchDescription(name, rawText) {
          const trimmedHeader = lines[i].trim();
          const headerMatch = trimmedHeader.match(headerRe);
          if (!headerMatch) continue;
-         if (hasInteriorGap(trimmedHeader)) return null;
+         if (hasInteriorGap(trimmedHeader)) continue;
 
          const paragraph = [headerMatch[1]];
          for (let j = i + 1; j < lines.length; j++) {
@@ -116,6 +125,31 @@ function baseGearSystem({ description, quantity, weightLb, cost, gmNotes }) {
       isCursed: false,
    };
 }
+
+// Phase 1 hand-wrote Torch as a `light`-subtype item with a full light-emission
+// block; the Table 9-1 regeneration must not silently regress that behavior.
+// No other mundane item was ever hand-written as `light` in Phase 1, so this
+// override stays specific to "Torch" — adding light support for Lantern, Oil
+// (flask), etc. is a future domain decision, not part of this fix.
+const TORCH_LIGHT_OVERRIDE = {
+   tags: ["light-source"],
+   isLight: true,
+   fuelType: "wood",
+   light: {
+      enabled: false,
+      type: "torch",
+      duration: 6,
+      radius: 30,
+      fuelType: "wood",
+      secondsRemain: 0,
+      bright: 6,
+      color: "#d0a750",
+      attenuation: 0.7,
+      luminosity: 0.5,
+      angle: 360,
+      animation: { type: "torch", speed: 2, intensity: 3 },
+   },
+};
 
 function costNote(cost) {
    if (!cost.isMinimum) return "";
@@ -176,16 +210,26 @@ export function buildDocument(row, { rawText }) {
       };
    }
 
+   const gearSystem = baseGearSystem({
+      description,
+      quantity: row.bundleQty,
+      weightLb: row.weightLb,
+      cost: row.cost,
+      gmNotes: costNote(row.cost),
+   });
+
+   if (row.name === "Torch") {
+      return {
+         ...base,
+         type: "light",
+         system: { ...gearSystem, ...TORCH_LIGHT_OVERRIDE },
+      };
+   }
+
    return {
       ...base,
       type: "item",
-      system: baseGearSystem({
-         description,
-         quantity: row.bundleQty,
-         weightLb: row.weightLb,
-         cost: row.cost,
-         gmNotes: costNote(row.cost),
-      }),
+      system: gearSystem,
    };
 }
 

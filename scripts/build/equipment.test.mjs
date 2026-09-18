@@ -142,6 +142,26 @@ test("buildDocument maps an armour row, deriving armorWeight from movementRate",
    assert.equal(heavy.system.armorWeight, "heavy");
 });
 
+test("buildDocument gives Torch the light subtype instead of generic item", () => {
+   const doc = buildDocument({
+      table: "mundane-items", name: "Torch", bundleQty: 1, weightLb: 0.5,
+      cost: { value: 2, currency: "sp", isMinimum: false },
+   }, { rawText: "" });
+   assert.equal(doc.type, "light");
+   assert.equal(doc.system.isLight, true);
+   assert.equal(doc.system.light.type, "torch");
+   assert.equal(doc.system.light.radius, 30);
+   assert.equal(doc.system.weight, 5); // still driven by the normal weight calc, not hardcoded
+});
+
+test("buildDocument does not give other mundane items the light subtype", () => {
+   const doc = buildDocument({
+      table: "mundane-items", name: "Lantern", bundleQty: 1, weightLb: 0.5,
+      cost: { value: 1, currency: "gp", isMinimum: false },
+   }, { rawText: "" });
+   assert.equal(doc.type, "item");
+});
+
 test("buildDocument is idempotent: same row produces byte-identical _id and name twice", () => {
    const row = {
       table: "mundane-items", name: "Torch", bundleQty: 1, weightLb: 0.5,

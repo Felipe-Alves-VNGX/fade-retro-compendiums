@@ -13,9 +13,11 @@
     "systemId": "fantastic-depths"
   },
   "_originalKey": "!items!HV2CfgIBvdEcD9kB",
-  "type": "item",
+  "type": "light",
   "system": {
-    "tags": [],
+    "tags": [
+      "light-source"
+    ],
     "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. A torch gives off light in a 30' radius and burns for one hour. If used in combat, a torch has the same statistics (and uses the same weapon feats) as a club.</p>",
     "gm": {
       "notes": ""
@@ -34,7 +36,7 @@
     "container": false,
     "isOpen": false,
     "equippable": true,
-    "fuelType": "",
+    "fuelType": "wood",
     "isDropped": false,
     "isTreasure": false,
     "specialAbilities": [],
@@ -43,7 +45,26 @@
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
-    "isCursed": false
+    "isCursed": false,
+    "isLight": true,
+    "light": {
+      "enabled": false,
+      "type": "torch",
+      "duration": 6,
+      "radius": 30,
+      "fuelType": "wood",
+      "secondsRemain": 0,
+      "bright": 6,
+      "color": "#d0a750",
+      "attenuation": 0.7,
+      "luminosity": 0.5,
+      "angle": 360,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 3
+      }
+    }
   },
   "sort": 4200000
 }
