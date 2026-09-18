@@ -21,6 +21,7 @@ const SUBTYPE_REQUIRED_FIELDS = {
    light: [...GEAR_REQUIRED_FIELDS, "light"],
    armor: [...GEAR_REQUIRED_FIELDS, "ac", "armorWeight", "mod", "modRanged", "totalAC", "totalRangedAC", "totalAAC", "totalRangedAAC"],
    weaponMastery: ["name", "primaryType", "levels"],
+   spell: ["name", "spellLevel", "range", "duration"],
 };
 
 /**

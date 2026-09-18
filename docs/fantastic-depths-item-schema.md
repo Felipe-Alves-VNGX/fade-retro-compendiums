@@ -217,3 +217,54 @@ Campos obrigatórios usados pelo validador para o subtipo
 `weaponMastery`: `name`, `primaryType`, `levels` (só a presença do
 array — a validação dos campos internos de cada nível fica fora do
 escopo do validador atual, mesmo padrão dos demais subtipos).
+
+## `SpellItemDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
+`src/item/fields/SpellField.ts`. Ao contrário de `item`/`weapon`/`armor`/`light`,
+este subtipo NÃO estende `GearItemDataModel` — é uma especialização
+`TypeDataModel` própria, sem campos de encumbrance (`quantity`, `weight`,
+`cost`), equipamento (`equipped`, `container`, etc), ou treasure tracking
+(`isTreasure`).
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `tags` | string[] | não | `[]` |
+| `description` | string | não | `""` |
+| `gm.notes` | string | não | `""` |
+| `spellLevel` | number | **sim** | — |
+| `range` | string | não | `""` |
+| `duration` | string | não | `"Instant"` |
+| `effect` | string | não | `""` |
+| `memorized` | number, nullable | não | `0` |
+| `cast` | number | não | `0` |
+| `targetSelf` | boolean | não | `true` |
+| `targetOther` | boolean | não | `true` |
+| `dmgFormula` | string, nullable | não | `null` |
+| `healFormula` | string, nullable | não | `null` |
+| `maxTargetFormula` | string, nullable | não | `null` |
+| `durationFormula` | string, nullable | não | `null` |
+| `savingThrow` | string, nullable | não | `null` |
+| `saveDmgFormula` | string, nullable | não | `null` |
+| `attackType` | string | não | `""` |
+| `damageType` | string | não | `""` |
+| `conditions` | array | não | `[]` |
+| `classes` | array | não | `[]` |
+
+**`spellLevel`**: número do círculo da magia (1-9), correspondente à coluna
+"Circle" do livro. É a única propriedade verdadeiramente obrigatória
+do schema (sem default), especificada como `required: true` em
+`SpellField.ts`.
+
+**`targetSelf`/`targetOther`**: o schema tem default `true` para ambos,
+indicando que qualquer magia pode ter o lançador como alvo e/ou outros
+— quando não há valor explícito na interface, ambos são verdadeiros.
+O builder, porém, sempre escreve um valor explícito derivado do campo
+`target` (texto livre do livro), nunca deixa no default.
+
+**`tags`**: lista de esferas de magia normalizadas (lowercase, espaços viram
+hífens): `"Energy"` → `"energy"`, `"Inertia"` → `"inertia"`, etc.
+Corresponde às colunas "Sphere" do livro, podendo ser múltiplas.
+
+Campos obrigatórios usados pelo validador para o subtipo `spell`:
+`name`, `spellLevel`, `range`, `duration`.
