@@ -188,13 +188,23 @@ não é tocado (é `weapon`, fora deste domínio).
 
 ## 7. Riscos e decisões pendentes
 
-- **Schema de `armor` desconhecido até a Task 1 rodar.** O builder da
-  Table 9-3 não pode ser escrito em detalhe antes disso; o plano de
-  implementação deve sequenciar a Task 1 (pesquisa de schema) antes de
-  qualquer task de parser/builder de armadura.
-- **`Movement Rate` da Table 9-3 sem campo confirmado no schema.** Pode
-  não haver campo nativo — decisão de mapeamento (`flags` vs `gm.notes`
-  vs descartar) fica condicionada ao que a Task 1 encontrar.
+- **Schema de `armor` — resolvido durante o planejamento.** Lido de
+  `ArmorItemDataModel.ts` (`Forelius/fantastic-depths` @ `4a8f2c8`) antes
+  de escrever o plano de implementação, para não deixar a Task 1 como
+  pesquisa em aberto. Não há campo nativo para `Movement Rate`; o
+  `EncSystem.ts` do próprio `fantastic-depths` usa o campo `armorWeight`
+  (`"light"`/`"heavy"`) para o mesmo papel que a coluna Movement Rate
+  desempenha no livro — mapeamento adotado: `30' → light`, `20' →
+  heavy`. Detalhe completo em
+  `docs/fantastic-depths-item-schema.md` e no plano de implementação.
 - **Munição como `item` genérico é uma simplificação deliberada**, não um
   esquecimento — registrado na seção 2 para não ser reaberto como bug
   numa revisão futura.
+- **Achado durante a verificação do plano**: ao contrário do que se
+  esperava só de olhar o texto logo após a Table 9-3, 4 das 6 armaduras
+  (Scale Mail, Banded Mail, Plate Mail, Suit Armour) têm descrição
+  narrativa individual mais adiante no capítulo — o algoritmo de
+  casamento por nome (seção 5) encontra essas automaticamente sem
+  nenhuma mudança de design. Só Leather Armour e Chain Mail (e, na Table
+  9-1, Darts e as duas variantes de Sack) ficam de fato sem
+  correspondência.
