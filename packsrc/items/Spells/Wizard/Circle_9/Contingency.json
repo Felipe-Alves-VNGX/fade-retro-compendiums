@@ -15,7 +15,6 @@
   "_originalKey": "!items!xQZCFFU2DjP5mVtp",
   "type": "spell",
   "system": {
-    "name": "Contingency",
     "tags": [
       "energy"
     ],
@@ -25,7 +24,7 @@
     },
     "spellLevel": 9,
     "range": "touch",
-    "duration": "special           make a spell save or be blinded until the spell is cancelled.",
+    "duration": "special",
     "effect": "",
     "memorized": 0,
     "cast": 0,

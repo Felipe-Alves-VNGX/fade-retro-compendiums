@@ -4,6 +4,7 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { validateDocument, validatePack } from "./validate.mjs";
+import { buildDocument as buildSpellDocument } from "../build/spells.mjs";
 
 const validWeapon = {
    name: "Dagger",
@@ -171,6 +172,34 @@ test("validateDocument flags a missing required weaponMastery field", () => {
    assert.ok(
       errors.some((e) => e.includes("system.primaryType")),
       `expected an error mentioning system.primaryType, got: ${errors.join(", ")}`
+   );
+});
+
+const validSpellRecord = {
+   name: "Fireball", sphere: ["Energy"], class: "Wizard", circle: 3,
+   target: "20' radius", range: "240'", duration: "instant",
+   description: "<p>Boom.</p>",
+};
+
+test("validateDocument accepts a real spell document built via buildDocument()", () => {
+   const doc = buildSpellDocument(validSpellRecord);
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.deepEqual(errors, []);
+});
+
+test("validateDocument flags a missing required spell field", () => {
+   const doc = buildSpellDocument(validSpellRecord);
+   delete doc.system.spellLevel;
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.ok(
+      errors.some((e) => e.includes("system.spellLevel")),
+      `expected an error mentioning system.spellLevel, got: ${errors.join(", ")}`
    );
 });
 

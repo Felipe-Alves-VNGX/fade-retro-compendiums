@@ -15,7 +15,6 @@
   "_originalKey": "!items!IprRP674eIqiQ2YG",
   "type": "spell",
   "system": {
-    "name": "Control Winds",
     "tags": [],
     "description": "<p>This spell lets the caster completely control the speed and direction of wind within the area, from dead calm to gale force. Changing the wind is slow and it can take up to 10 minutes to change from one extreme to another.</p><p>If cast at an air elemental or other creature made of air, the creature can resist the spell by making a spell save. If this save fails, the caster can completely control the creature for the duration of the spell – or even choose to kill it outright.</p>",
     "gm": {

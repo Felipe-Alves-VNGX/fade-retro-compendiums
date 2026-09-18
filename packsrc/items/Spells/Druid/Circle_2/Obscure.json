@@ -15,7 +15,6 @@
   "_originalKey": "!items!nMAlX3tDfVQlLpoU",
   "type": "spell",
   "system": {
-    "name": "Obscure",
     "tags": [],
     "description": "<p>This spell creates a cold, dense cloud of mist around the caster, 1' high per level of the caster and 10' radius per level of the caster. The mist has no effect other than to completely obscure vision within it. Only the caster and creatures able to see invisible things can see through the mist.</p>",
     "gm": {

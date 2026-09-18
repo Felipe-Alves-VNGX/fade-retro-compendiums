@@ -15,7 +15,6 @@
   "_originalKey": "!items!nRjHmHTflHAjTDEf",
   "type": "spell",
   "system": {
-    "name": "Plant Door",
     "tags": [],
     "description": "<p>This spell causes the caster to be completely intangible to plants. The caster can walk through dense undergrowth and even step through living trees (or hide inside them). The spell only works on living plants, not dead wood; and although the effect includes the caster's equipment, it doesn't include other creatures carried by the caster.</p><p>When the duration ends, flexible plants will be bent around the caster to give them room as they reappear, and solid plants such as trees will gently push the caster out.</p>",
     "gm": {

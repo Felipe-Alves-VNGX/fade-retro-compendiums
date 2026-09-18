@@ -298,9 +298,9 @@
     ],
     "class": "Wizard",
     "circle": 9,
-    "target": "one creature, object or place           If this spell is cast on a creature's eyes, that creature must",
+    "target": "one creature, object or place",
     "range": "touch",
-    "duration": "special           make a spell save or be blinded until the spell is cancelled.",
+    "duration": "special",
     "description": "<p>When this spell is cast, the caster also casts a second spell</p>"
   },
   {

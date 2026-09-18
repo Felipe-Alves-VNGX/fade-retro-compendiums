@@ -15,7 +15,6 @@
   "_originalKey": "!items!ACH2IkvJHU52jVBZ",
   "type": "spell",
   "system": {
-    "name": "Anti-Animal Shell",
     "tags": [],
     "description": "<p>This spell prevents any animals from coming within 1\" of the caster's body, and therefore prevents them from physically attacking the caster. This protection also prevents the caster from physically attacking animals for the duration.</p><p>Since the protection is only against the animals themselves, it does not prevent such things as animals throwing things at the caster or spitting at the caster. Similarly, it does not prevent the caster from using missile weapons or spells against animals – unless those spells have a touch range.</p>",
     "gm": {

@@ -15,7 +15,6 @@
   "_originalKey": "!items!cEWW58hMrOamSns7",
   "type": "spell",
   "system": {
-    "name": "Anti-Plant Shell",
     "tags": [],
     "description": "<p>This spell prevents any plants from coming within 1\" of the caster's body, and therefore prevents plant-like monsters from physically attacking the caster. This protection also prevents the caster from physically attacking plants or plant-like monsters for the duration. Since the protection is only against the plants themselves, it does not prevent such things as plants shooting spores at the caster. Similarly, it does not prevent the caster from using missile weapons or spells against plants – unless those spells have a touch range.</p><p>While using this spell, the caster can push their way through thorny and tangled undergrowth without danger, leaving a trail that others can follow.</p>",
     "gm": {

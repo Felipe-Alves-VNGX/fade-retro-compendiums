@@ -29,6 +29,21 @@ function splitOnLabel(line, label) {
 }
 
 /**
+ * Truncate a header-line-extracted value (target/range/duration) at the
+ * first run of 5+ spaces — the same column-merge corruption signature
+ * INTERIOR_GAP_RE catches for description lines, but header lines never
+ * pass through that check since their fields are extracted via
+ * splitOnLabel rather than accumulated line-by-line. Equivalent-risk
+ * substitute for "reject the whole header line": truncate just the
+ * extracted value instead of discarding the whole record.
+ * @param {string} value
+ * @returns {string}
+ */
+function truncateAtGap(value) {
+   return value.split(/\s{5,}/)[0].trim();
+}
+
+/**
  * Join raw description lines into one `<p>` block per blank-line-
  * separated paragraph, continuation lines joined with a single space.
  * @param {string[]} lines
@@ -86,7 +101,7 @@ export function parseSpells(rawText) {
       const l2 = next.trim();
       const l2split = splitOnLabel(l2, "Target:");
       const classCircleSeg = l2split ? l2split[0] : l2;
-      const target = l2split ? l2split[1] : "";
+      const target = l2split ? truncateAtGap(l2split[1]) : "";
       const classCircles = [];
       CLASS_TOKEN_RE.lastIndex = 0;
       let cm;
@@ -102,8 +117,8 @@ export function parseSpells(rawText) {
          const rest = l3split[1];
          const durSplit = splitOnLabel(rest, "Duration:") || splitOnLabel(rest, "Damage:");
          if (durSplit) {
-            range = durSplit[0];
-            duration = durSplit[1];
+            range = truncateAtGap(durSplit[0]);
+            duration = truncateAtGap(durSplit[1]);
          }
       }
 

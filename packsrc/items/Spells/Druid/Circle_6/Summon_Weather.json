@@ -15,7 +15,6 @@
   "_originalKey": "!items!1x2lRZzUzfJzf8Dy",
   "type": "spell",
   "system": {
-    "name": "Summon Weather",
     "tags": [],
     "description": "<p>This spell summons a weather phenomenon within range that the caster is aware of (either by being able to see it or knowing about it through a Predict Weather spell or other form or scrying) to the caster's current location.</p><p>The weather phenomenon must be within 5 miles, plus a mile for every caster level above 15th.</p><p>Particularly powerful weather conditions such as hurricanes, tornadoes, etc. Can only be summoned by a caster of 21st level or higher.</p>",
     "gm": {

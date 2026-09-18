@@ -15,7 +15,6 @@
   "_originalKey": "!items!wAZE5b7TJNNL8sMW",
   "type": "spell",
   "system": {
-    "name": "Protection from Poison",
     "tags": [],
     "description": "<p>This spell makes the target completely immune to all non-magical poisons and to magical poison spells such as the Cloudkill spell. It also gives the target a +4 bonus to all saves against the poisonous breath weapons that some creatures possess.</p>",
     "gm": {

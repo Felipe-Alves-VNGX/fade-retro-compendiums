@@ -73,7 +73,6 @@ export function buildDocument(record) {
       _originalKey: `!items!${id}`,
       type: "spell",
       system: {
-         name: record.name,
          tags: record.sphere.map(normalizeTag),
          description: record.description,
          gm: { notes: "" },

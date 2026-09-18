@@ -15,7 +15,6 @@
   "_originalKey": "!items!bnrm7ijoBQzVyw5j",
   "type": "spell",
   "system": {
-    "name": "Transport Through Plants",
     "tags": [],
     "description": "<p>This spell allows the caster to magically enter a plant large enough to hold them within range that is and emerge from a similar plant at their chosen destination.</p><p>The caster can either specify an exact plant that they wish to emerge from, or specify a general location; in which case they will emerge from a random plant at that location. There is no limit to the distance that can be travelled using this spell, although both plants must be alive and both plants must be on the same plane and within the same celestial sphere.</p><p>If either plant is dead, or if there is no plant large enough to hold the caster at the specified location, the spell fails.</p><p>The caster can take up to two creatures with them, provided each creature is small enough to fit into the plants and each creature is willing.</p><p>This spell can only be cast once per day.</p>",
     "gm": {

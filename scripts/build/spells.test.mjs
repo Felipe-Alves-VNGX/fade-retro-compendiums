@@ -50,13 +50,14 @@ test("buildDocument maps a single-sphere spell", () => {
    assert.equal(doc.system.effect, "");
 });
 
-test("buildDocument writes system.name matching the record name (regression test)", () => {
+test("buildDocument does not write a system.name field (not part of the real SpellItemDataModel schema)", () => {
    const doc = buildDocument({
       name: "Magic Missile", sphere: ["Energy"], class: "Wizard", circle: 1,
       target: "one or more creatures", range: "150'", duration: "instant",
       description: "<p>Missiles.</p>",
    });
-   assert.equal(doc.system.name, "Magic Missile");
+   assert.equal(doc.name, "Magic Missile");
+   assert.ok(!("name" in doc.system), "system.name should not exist");
 });
 
 test("buildDocument maps a no-sphere spell to an empty tags array", () => {

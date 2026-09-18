@@ -15,7 +15,6 @@
   "_originalKey": "!items!1cT99G52peZocJVU",
   "type": "spell",
   "system": {
-    "name": "Predict Weather",
     "tags": [],
     "description": "<p>This spell lets the caster know exactly what the weather will be like for the next 12 hours, over a range of 1 mile per level of the caster.</p>",
     "gm": {

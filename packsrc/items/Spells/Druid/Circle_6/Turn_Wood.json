@@ -15,7 +15,6 @@
   "_originalKey": "!items!vNmLoW4uEp2lCYER",
   "type": "spell",
   "system": {
-    "name": "Turn Wood",
     "tags": [],
     "description": "<p>This spell creates an invisible force field 120' wide and 60' tall anywhere within 30' of the caster. The field moves away from the caster at 10' a round until it reaches a maximum distance of 360' from the caster. The caster can stop the movement of the field at a shorter distance, but if they do so they cannot re-start it again.</p><p>The field pushes all wood and wooden objects, including those held by creatures but excluding those securely fastened down, away. The objects aren't harmed by the pushing – if pushed against a wall they won't be damaged – but can't be moved back through the field and are therefore probably unusable.</p><p>The caster can cancel the spell at any time, or it can be dispelled. Otherwise, the force field remains until the end of the duration.</p>",
     "gm": {

@@ -15,7 +15,6 @@
   "_originalKey": "!items!reeyUomGyD8RGewc",
   "type": "spell",
   "system": {
-    "name": "Locate",
     "tags": [],
     "description": "<p>This spell lets the caster know the direction and distance to all instances of a particular animal or plant (chosen at the time of casting) that fall within range. Animals detected by this spell do not get a save. It will not locate animals or plants that are not on the same plane as the caster.</p>",
     "gm": {

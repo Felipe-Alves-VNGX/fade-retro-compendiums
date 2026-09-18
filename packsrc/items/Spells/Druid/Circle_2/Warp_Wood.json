@@ -15,7 +15,6 @@
   "_originalKey": "!items!wbebougsQlIjPwK4",
   "type": "spell",
   "system": {
-    "name": "Warp Wood",
     "tags": [],
     "description": "<p>This spell causes one or more wooden weapons within range to bend and twist and become unusable. The spell will affect one arrow per level of the caster. Spears, javelins or magical wands count as two arrows each, and clubs, bows, axe or mace shafts, or staffs count as four arrows each. Weapons wielded by creatures will be unaffected if their holders make a spell save. Weapons merely carried by creatures get no such save.</p><p>Magic items have a 10% chance per magical plus (rolled independently of the save, if any) to be unaffected.</p>",
     "gm": {

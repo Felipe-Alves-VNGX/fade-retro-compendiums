@@ -15,7 +15,6 @@
   "_originalKey": "!items!30WuTNbRHw14AkA7",
   "type": "spell",
   "system": {
-    "name": "Metal to Wood",
     "tags": [],
     "description": "<p>This spell changes a single metal item weighing up to 5 pounds per level of the caster into wood. If the metal is magical then this spell has only a 10% chance of working, otherwise it automatically works.</p><p>The item becomes normal non-magical wood, and this spell cannot be dispelled. Armour affected by this spell becomes useless and metal weapons become non-magical clubs.</p>",
     "gm": {

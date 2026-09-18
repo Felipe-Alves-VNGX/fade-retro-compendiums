@@ -15,7 +15,6 @@
   "_originalKey": "!items!YH1PKG4XG6guuHe4",
   "type": "spell",
   "system": {
-    "name": "Produce Fire",
     "tags": [],
     "description": "<p>This spell causes a small ball of flame to appear in the caster's hand. The flame sheds light as a torch, and does not burn the caster. The caster can cause the flame to disappear or reappear by concentrating for a round at any time during the duration of the spell.</p><p>The fire can be thrown up to 30' by the caster and will set fire to particularly flammable objects that it hits or do 1d4 damage to a creature.</p><p>In either case, the flame will then disappear, although the caster can make it reappear again (back in their hand) as normal.</p>",
     "gm": {

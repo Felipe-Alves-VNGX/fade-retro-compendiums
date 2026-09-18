@@ -267,4 +267,4 @@ hífens): `"Energy"` → `"energy"`, `"Inertia"` → `"inertia"`, etc.
 Corresponde às colunas "Sphere" do livro, podendo ser múltiplas.
 
 Campos obrigatórios usados pelo validador para o subtipo `spell`:
-`name`, `spellLevel`, `range`, `duration`.
+`spellLevel`, `range`, `duration`.

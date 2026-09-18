@@ -174,6 +174,21 @@ This spell outlines a creature in visible light.
    assert.match(records[1].description, /outlines a creature/);
 });
 
+test("parseSpells truncates target/range/duration at a column-merge corruption in the header lines (Contingency, p.103)", () => {
+   const text = HEADER + `Contingency                                            Energy
+Wizard 9                Target: one creature, object or place           If this spell is cast on a creature's eyes, that creature must
+Range: touch                                Duration: special           make a spell save or be blinded until the spell is cancelled.
+When this spell is cast, the caster also casts a second spell.
+
+`;
+   const records = parseSpells(text);
+   assert.equal(records.length, 1);
+   assert.equal(records[0].name, "Contingency");
+   assert.equal(records[0].target, "one creature, object or place");
+   assert.equal(records[0].range, "touch");
+   assert.equal(records[0].duration, "special");
+});
+
 test("paragraphsToHtml joins continuation lines with a space and wraps each paragraph in <p>", () => {
    const html = paragraphsToHtml(["This is line one", "continuing here.", "", "Second paragraph."]);
    assert.equal(html, "<p>This is line one continuing here.</p><p>Second paragraph.</p>");

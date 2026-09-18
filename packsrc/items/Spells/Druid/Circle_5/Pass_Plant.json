@@ -15,7 +15,6 @@
   "_originalKey": "!items!ATtjER1I3mIoGuMg",
   "type": "spell",
   "system": {
-    "name": "Pass Plant",
     "tags": [],
     "description": "<p>This spell allows the caster to step inside a tree that is large enough to enclose them and instantly step out of another tree of the same kind some distance away. The maximum distance that can be teleported using this spell depends on the type of tree:</p><p>oak = 1,800' ash, elm, linden = 1,080' other deciduous = 900' evergreen = 720'</p>",
     "gm": {

@@ -15,7 +15,6 @@
   "_originalKey": "!items!j0rpeS3ZC52pavTs",
   "type": "spell",
   "system": {
-    "name": "Hold Animal",
     "tags": [],
     "description": "<p>This spell will paralyse several animals for the duration. It will affect 1 hit dice of animal per level of the caster, although each animal gets a spell save to avoid the effect.</p>",
     "gm": {

@@ -15,7 +15,6 @@
   "_originalKey": "!items!l7SJY0tA1WLiyeFW",
   "type": "spell",
   "system": {
-    "name": "Heat Metal",
     "tags": [],
     "description": "<p>This spell heats one metal object to red hot over the course of 4 rounds. The object then takes a further three rounds to cool. Any metal object of up to half a pound per caster level can be affected by this spell.</p><p>The metal is not damaged by the heating and cooling, although if the metal forms part of an object that also has wood or leather then the non-metal parts of the object may be scorched unless the object is magical.</p><p>If the object is being held or worn by a creature, the creature will take 1 damage on the first round, 2 on the second, 4 on the third, 8 on the fourth, 4 on the fifth, 2 on the sixth, and 1 on the seventh. The holder of the item gets no save, although</p><p>creatures will usually drop the item before the duration is up. The holder cannot cast spells while holding a hot item.</p>",
     "gm": {

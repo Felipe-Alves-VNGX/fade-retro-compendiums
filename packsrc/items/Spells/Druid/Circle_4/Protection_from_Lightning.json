@@ -15,7 +15,6 @@
   "_originalKey": "!items!Sz62GALs92fGJbTF",
   "type": "spell",
   "system": {
-    "name": "Protection from Lightning",
     "tags": [],
     "description": "<p>This spell protects the target from lightning damage. The spell will stop a total of 1 dice of damage (of whatever dice type the attack uses) per level of the caster from attacks. In the case of dragon breath, each hit dice of the dragon counts as a damage dice. Dice that are stopped by this spell are removed before rolling the damage.</p>",
     "gm": {

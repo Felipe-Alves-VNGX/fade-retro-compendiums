@@ -15,7 +15,6 @@
   "_originalKey": "!items!6pCjgbCSDDa46hab",
   "type": "spell",
   "system": {
-    "name": "Call Lightning",
     "tags": [],
     "description": "<p>This spell can only be used outside when there is stormy weather. Once per 10 minutes (60 rounds) the caster may</p><p>direct the storm to strike the area of their choosing (within range) with lightning. All creatures within 10' of the strike take 8d6 points of electrical damage, but can make a spell save to take half damage.</p>",
     "gm": {
