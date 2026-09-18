@@ -55,10 +55,22 @@ página ou prosa comum com um novo verbete.
 página contém a Table 7-4 (Contact Outer Plane) embutida *dentro* do
 verbete "Contact Outer Plane" como parte de sua própria descrição —
 nenhuma linha da tabela bate com o padrão de classe+círculo, então não
-gera falso positivo de fronteira. A ordem de leitura das colunas nessa
-página está correta (não há problema de merge de coluna full-width
-como nas páginas 93–95, já documentadas na Fase 2 como degradação
-aceita em outro contexto).
+gera falso positivo de fronteira.
+
+**Correção (achada só rodando o parser contra o arquivo inteiro, não por
+amostra — ver plano de implementação, seção "Correção a uma afirmação
+errada do spec")**: a afirmação original aqui de que "a ordem de leitura
+das colunas nessa página está correta" estava **errada**. A partir da
+linha logo após a Table 7-4, a p.103 tem a mesma corrupção de merge de
+coluna full-width das páginas 93–95 — a coluna esquerda (fim de "Contact
+Outer Plane", depois "Contingency") e a direita ("Continual Light Rev")
+ficam intercaladas na mesma linha física por várias linhas seguidas. O
+verbete "Continual Light Rev" (e sua contraparte reversa "Continual
+Darkness") fica de fora do parser como gap aceito (ver seção 11); o
+parser também precisa de uma condição de parada explícita (gap interior
+de 5+ espaços, ou linha de título de tabela) para não deixar esse texto
+corrompido vazar para dentro da descrição de "Contact Outer Plane" —
+detalhes no plano de implementação.
 
 Como em equipment/weapons, o parser reaproveita (cópia independente,
 sem import cruzado) `stripPageBoundaries`/`hasInteriorGap` para
