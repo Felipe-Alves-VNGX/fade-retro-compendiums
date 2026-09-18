@@ -1,0 +1,45 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Power Word Blind",
+  "_id": "YlTjvs03jwkFLdeR",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YlTjvs03jwkFLdeR",
+  "type": "spell",
+  "system": {
+    "name": "Power Word Blind",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell blinds the targeted creature with no save allowed. Creatures with 40 or fewer hit points are blinded for 1d4 days. Creatures with 41–80 hit points are blinded for 2d4 hours. Creatures with 81+ hit points are unaffected by the spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "120'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Detect Evil",
+  "_id": "IvorAkbWwoiPrjgI",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!IvorAkbWwoiPrjgI",
+  "type": "spell",
+  "system": {
+    "name": "Detect Evil",
+    "tags": [
+      "spirit",
+      "truth"
+    ],
+    "description": "<p>This spell allows the caster to see a glow around any creature or intelligent object within range that wishes them harm. The caster does not know exactly what harm the creature is intending or what they are capable of, merely that the intent is there.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

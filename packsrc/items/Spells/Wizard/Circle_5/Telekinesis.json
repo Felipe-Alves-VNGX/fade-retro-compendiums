@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Telekinesis",
+  "_id": "Jm9neB4xaMJHpn0A",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Jm9neB4xaMJHpn0A",
+  "type": "spell",
+  "system": {
+    "name": "Telekinesis",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell lets the caster move an object or creature weighing up to 20 pounds per level of the caster by concentrating on it. The object can be moved at a speed of 20' per round.</p><p>If the target is a creature, it can avoid the effect by making a spell save.</p><p>If the target is an object being held by a creature, such as a weapon in the creature's hand, the creature can make a spell save with a –2 penalty in order to keep hold of the object – but if the caster is high enough level to move the weight of both the object and creature together, this will result in the creature being dragged along with the object unless they let go.</p><p>If the target is an object being carried (but not held) by a creature, such as a weapon in the creature's scabbard, the creature can make a spell save with a –5 penalty in order to keep hold of the object. However if the caster is high enough level to move the weight of both the object and creature together, this will result in the creature being dragged along with the object unless they let go.</p><p>If the target is an object being worn by a creature, such as a backpack, it cannot be moved unless the caster is high enough level to move the weight of both the object and creature together, this will result in the creature being dragged along with the object.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "6 rounds",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

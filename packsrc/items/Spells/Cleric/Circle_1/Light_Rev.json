@@ -1,0 +1,46 @@
+{
+  "folder": "MYhsd7IkAKrOTomk",
+  "name": "Light Rev",
+  "_id": "DfF5bhjW9dWhZ4eE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DfF5bhjW9dWhZ4eE",
+  "type": "spell",
+  "system": {
+    "name": "Light Rev",
+    "tags": [
+      "energy",
+      "creation/destruction"
+    ],
+    "description": "<p>When this spell is cast, the area within 15' of the target point is lit with light as bright as torchlight. The caster can choose to either cast this spell in a location, in which case it will stay in that location, or cast it on an object – in which case it will move as the object moves.</p><p>This spell creates a central light source that radiates light throughout the area, so there are shadows in the area covered by this spell, and covering the object that the spell is centred on will block out the light.</p><p>If this spell is cast on a creature's eyes, that creature must make a spell save or be blinded for the duration of the spell. See CHAPTER 10 – DUNGEON DELVING for details about how different types of natural and magical light and darkness interact. Reverse: Darkness causes the area within 15' of the target point to be absolutely dark, although the Infravision spell or the dark vision of some monsters is able to penetrate it. This spell creates a central source that radiates darkness rather than light, so covering the object that the spell was cast on will block the darkness.</p><p>If this spell is cast on a creature's eyes, that creature must make a spell save or be blinded for the duration of the spell. See CHAPTER 10 – DUNGEON DELVING for details about how different types of natural and magical light and darkness interact.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "1 hour + 10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

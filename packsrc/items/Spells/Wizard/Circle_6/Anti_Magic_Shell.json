@@ -1,0 +1,45 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Anti-Magic Shell",
+  "_id": "iqUF7uifDv1MsPwc",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!iqUF7uifDv1MsPwc",
+  "type": "spell",
+  "system": {
+    "name": "Anti-Magic Shell",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>When this spell is cast, it creates an invisible shell around the caster that prevents the passage of magic in either direction. For the duration of the spell, the caster cannot be affected by any spell or other magical effect except those that they cast themselves; but also cannot affect anything other than themselves with their magic; since magic cannot pass through the shell in either direction. The shell cannot be bypassed by any other magic except a Wish spell, which can be used to destroy it. The caster can cancel the shell at any time before the duration has expired, but if they do so then they can't put it back without casting this spell again.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

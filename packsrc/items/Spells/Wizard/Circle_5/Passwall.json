@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Passwall",
+  "_id": "osjGbFRe64re43vx",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!osjGbFRe64re43vx",
+  "type": "spell",
+  "system": {
+    "name": "Passwall",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell opens a tunnel through a stone wall, ceiling, or floor by making the stone disappear. The tunnel is 5' wide and tall, and 10' long.</p><p>At the end of the duration, the stone re-appears and the tunnel closes. Anyone caught in it when that happens must make a spell save or be trapped in the re-appearing stone and killed.</p><p>Those who make their saves are ejected from the closest end of the tunnel.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

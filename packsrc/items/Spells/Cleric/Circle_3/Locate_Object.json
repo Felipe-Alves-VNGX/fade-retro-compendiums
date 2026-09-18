@@ -1,0 +1,46 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Locate Object",
+  "_id": "saPBaZlqS8lyLTLM",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!saPBaZlqS8lyLTLM",
+  "type": "spell",
+  "system": {
+    "name": "Locate Object",
+    "tags": [
+      "matter",
+      "truth"
+    ],
+    "description": "<p>This spell lets the caster know the direction (but not distance) to the closest instance of a particular type of object (chosen at the time of casting) that falls within range. The description of the object can be as vague or detailed as the caster chooses, although the object must be described rather than named. This spell will not detect living creatures, and the object must be on the same plane as the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

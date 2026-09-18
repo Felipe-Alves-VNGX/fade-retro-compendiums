@@ -1,0 +1,43 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Predict Weather",
+  "_id": "1cT99G52peZocJVU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!1cT99G52peZocJVU",
+  "type": "spell",
+  "system": {
+    "name": "Predict Weather",
+    "tags": [],
+    "description": "<p>This spell lets the caster know exactly what the weather will be like for the next 12 hours, over a range of 1 mile per level of the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Sticks to Snakes",
+  "_id": "SwLPCE1WqCM4Qeaq",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!SwLPCE1WqCM4Qeaq",
+  "type": "spell",
+  "system": {
+    "name": "Sticks to Snakes",
+    "tags": [
+      "vitality"
+    ],
+    "description": "<p>This spell turns a number of normal sticks into snakes. Roll 2d8. That many sticks in range turn into small snakes. Each snake has an equal chance to be a pit viper or a racer (see CHAPTER 19 – BESTIARY for details of these snakes). The snakes obey the caster, and then turn back to sticks when either the duration ends or they are killed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

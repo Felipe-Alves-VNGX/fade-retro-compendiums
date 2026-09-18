@@ -1,0 +1,43 @@
+{
+  "folder": "Y4c5tVDaiVYRzy0k",
+  "name": "Call Lightning",
+  "_id": "6pCjgbCSDDa46hab",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!6pCjgbCSDDa46hab",
+  "type": "spell",
+  "system": {
+    "name": "Call Lightning",
+    "tags": [],
+    "description": "<p>This spell can only be used outside when there is stormy weather. Once per 10 minutes (60 rounds) the caster may</p><p>direct the storm to strike the area of their choosing (within range) with lightning. All creatures within 10' of the strike take 8d6 points of electrical damage, but can make a spell save to take half damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "360'",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

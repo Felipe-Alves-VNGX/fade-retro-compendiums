@@ -1,0 +1,45 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Steelform",
+  "_id": "u2tY5Afn55HUK6pI",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!u2tY5Afn55HUK6pI",
+  "type": "spell",
+  "system": {
+    "name": "Steelform",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a sheet of high quality steel up to 2\" thick and up to 500 square feet in area. The sheet can be created flat or can be created pre-shaped.</p><p>The steel does not appear instantly, but takes time to form, ranging from a single round for a simple sheet of steel to two hours to create something with a precise specification, such as a sword.</p><p>Whatever the complexity of the shape, the steel must form a single piece with no moving parts. However, the caster can create the steel in a \"rough\" form, which can then have the Steelform spell cast on it again in order to either add to the object or reshape it. If the caster does create the steel in</p><p>rough form, then this spell is cast once again to \"set\" the steel in its final form so that other casters can't cast this spell on it in order to modify it.</p><p>Note that whatever shape the sheet takes, it is always a maximum of 2\" thick – so that if it is formed into a statue, for example, the statue would be hollow.</p><p>Once created, the steel is real and cannot be dispelled, and it will last until it is physically or magically destroyed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Pass Plant",
+  "_id": "ATtjER1I3mIoGuMg",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ATtjER1I3mIoGuMg",
+  "type": "spell",
+  "system": {
+    "name": "Pass Plant",
+    "tags": [],
+    "description": "<p>This spell allows the caster to step inside a tree that is large enough to enclose them and instantly step out of another tree of the same kind some distance away. The maximum distance that can be teleported using this spell depends on the type of tree:</p><p>oak = 1,800' ash, elm, linden = 1,080' other deciduous = 900' evergreen = 720'</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "special",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

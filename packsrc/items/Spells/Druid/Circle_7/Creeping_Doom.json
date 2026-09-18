@@ -1,0 +1,43 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Creeping Doom",
+  "_id": "Eh55noK6t0f7jjs2",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Eh55noK6t0f7jjs2",
+  "type": "spell",
+  "system": {
+    "name": "Creeping Doom",
+    "tags": [],
+    "description": "<p>This spell summons a swarm of hundreds of thousands of crawling insects and spiders. The swarm can vary from having a 10' radius to a 30' radius, and the caster can move the swarm up to 20' per round and also alter the radius on a round by round basis.</p><p>The swarm is initially capable of doing 1,000 points of damage per round, which must be split as evenly as possible between all creatures in the area of the swarm; although no individual creature can be dealt more than 50 damage, so if there are fewer than 20 creatures in the area then some of the potential damage will be wasted. The insects cannot damage creatures that can be hit only by magical weapons.</p><p>Normal attacks will slay many dozens of insects, with each point of damage reducing the damage potential of the swarm on a one-for-one basis, so if an attack deals 50 damage then the swarm will only be capable of doing 950 points of damage from then on. Area effect attacks, such as a Fireball spell, do double damage against the swarm.</p><p>A Protection from Evil spell won't keep the insects out, but a Dispel Magic will work against the swarm with normal chances of success.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Create Water",
+  "_id": "lATA5yDyUoZIm6mX",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!lATA5yDyUoZIm6mX",
+  "type": "spell",
+  "system": {
+    "name": "Create Water",
+    "tags": [
+      "creation"
+    ],
+    "description": "<p>When this spell is cast, a magical spring will appear from the ground or a wall and flow for an hour.</p><p>The spring will provide enough water for 36 people (50 gallons or enough water to fill a 10' x 10' x 2' pool) before drying up. If mounts such as horses are being watered, each one will take the same water as 2 people. For each level of the caster above 8th, enough water for an additional 36 people will flow through. The caster can stop the spring at any time before the duration has expired, although this will not make the existing water disappear.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "10'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

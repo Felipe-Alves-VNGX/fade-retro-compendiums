@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Magic Jar",
+  "_id": "Il3HSqWdICv3ootx",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Il3HSqWdICv3ootx",
+  "type": "spell",
+  "system": {
+    "name": "Magic Jar",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell takes the caster's life-force and places it in one object within range (the object does not have to be an actual jar). The caster's body falls into a deep trance while their life-force is missing, and appears dead to all but a detailed examination. The caster's body does not need air or sustenance while their life-force is in the jar, so the caster can stay in the jar indefinitely.</p><p>The caster may attempt to possess any creature within a range of 120' of the jar. The target must make a spell save to prevent this possession, and if the save succeeds the caster may not try to possess that target again for 10 minutes – although they may try to possess a different target immediately.</p><p>If the caster successfully possesses the target, the caster's life-force moves into the target's body, and the target's life-force is forced into the jar.</p><p>The caster can use the target's body, and its natural physical abilities; but cannot use the target's special or magical abilities, and can cast neither their own spells nor the target's spells.</p><p>If the target's body is killed while the caster is in it, the target dies and the caster's life-force returns to the jar.</p><p>If the jar is destroyed while the caster's life-force is in it, the caster is killed. If the jar is destroyed while the target's life-force is in it, the target is killed and the caster is trapped in the target's body until death.</p><p>If the caster's own body is killed while the caster is either in the jar or in a target's body, there is no immediate effect but the caster can no longer return to their body and must either stay in the jar or possess other bodies.</p><p>A Protection from Evil spell will stop the caster from possessing a potential target, and a Dispel Evil spell will force the caster back into the jar.</p><p>Immortal bodies cannot be possessed by use of this spell, and if an immortal tries to possess a mortal body, the body is destroyed as if by a Disintegrate spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

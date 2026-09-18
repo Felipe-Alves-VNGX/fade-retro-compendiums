@@ -1,0 +1,43 @@
+{
+  "folder": "YzSRuBARh4uUg2M8",
+  "name": "Commune",
+  "_id": "cRpjIgXQn9bcGetC",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!cRpjIgXQn9bcGetC",
+  "type": "spell",
+  "system": {
+    "name": "Commune",
+    "tags": [],
+    "description": "<p>This spell can be cast only once per week. The caster uses it to ask three questions of whatever supernatural power their religion focuses on (which could be a god or an ancestral spirit or just the universal collective, depending on the religion) that can be answered with a \"yes\" or a \"no\". The power will answer these questions to the best of their ability, which will almost always be sufficient to answer correctly. The power may lie if they have a reason to mislead the caster, and on very rare occasions may be forced to answer \"unknown\".</p><p>If this spell is cast on the religion's most holy day of the year (which will vary from religion to religion), the caster will get to ask 6 questions instead of the usual 3.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "personal",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

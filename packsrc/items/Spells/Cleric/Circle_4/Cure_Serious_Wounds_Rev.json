@@ -1,0 +1,45 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Cure Serious Wounds Rev",
+  "_id": "kivgqE8Eb6cN1yLZ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!kivgqE8Eb6cN1yLZ",
+  "type": "spell",
+  "system": {
+    "name": "Cure Serious Wounds Rev",
+    "tags": [
+      "comfort/pain"
+    ],
+    "description": "<p>This spell cures one living (not undead or non-living) creature of 2d6+2 points of damage. The caster can cure themselves with this spell.</p><p>Reverse: Cause Serious Wounds inflicts 2d6+2 damage to a touched living (not undead or non-living) target. The target gets no save against the damage, but the caster must make a normal attack roll to touch an unwilling target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Read Magic",
+  "_id": "BYMVMHWvXUafrsQn",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!BYMVMHWvXUafrsQn",
+  "type": "spell",
+  "system": {
+    "name": "Read Magic",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell lets the caster read magical runes and writings. Once a particular magical inscription has been read by this spell, the caster can re-read it at any time without needing to cast this spell again. The most common use of this spell is to read magical scrolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

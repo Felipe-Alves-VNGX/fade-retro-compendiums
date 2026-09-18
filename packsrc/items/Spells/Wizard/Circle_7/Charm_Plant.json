@@ -1,0 +1,45 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Charm Plant",
+  "_id": "wRCeeQymFD5kV1E5",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!wRCeeQymFD5kV1E5",
+  "type": "spell",
+  "system": {
+    "name": "Charm Plant",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>When this spell is cast, one plant or plant-like creature will imagine the caster to be their best friend, and treat them accordingly. In the case of plant-like creatures, it does not make them fanatically loyal and will not make them attack their other friends. Similarly, it does not create any romantic attachment and does not override consent.</p><p>This spell will affect one tree or plant-like creature, six medium sized bushes, or 24 smaller plants. If the target is a plant-like creature such as a treant, it gets a spell save to avoid the effect. Normal plants get no save. Normal plants affected by this spell will understand the commands of the caster and mindlessly carry them out, such as entangling or attacking creatures that come near them.</p><p>On normal plants, the effect lasts for 6 months.</p><p>If an intelligent plant-like target fails its save, then it gets another one periodically to throw off the charm effect. The frequency of the save is based on the target's intelligence:</p><p>0 Intelligence = save every 120 days 1 Intelligence = save every 90 days 2 Intelligence = save every 60 days 3 Intelligence = save every 45 days 4–5 Intelligence = save every 30 days 6–8 Intelligence = save every 15 days 9–12 Intelligence = save every 7 days 13–15 Intelligence = save every 3 days 16–17 Intelligence = save every 24 hours 18 Intelligence = save every 8 hours 19 Intelligence = save every 3 hours 20 Intelligence = save every hour 21–29 Intelligence = save every 10 minutes 30+ Intelligence = save every round</p><p>If the caster behaves in an overtly hostile manner to a charmed plant-like creature, such as attacking it or ordering others to attack it, then the charm is broken.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

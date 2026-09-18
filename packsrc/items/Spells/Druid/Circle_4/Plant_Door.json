@@ -1,0 +1,43 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Plant Door",
+  "_id": "nRjHmHTflHAjTDEf",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!nRjHmHTflHAjTDEf",
+  "type": "spell",
+  "system": {
+    "name": "Plant Door",
+    "tags": [],
+    "description": "<p>This spell causes the caster to be completely intangible to plants. The caster can walk through dense undergrowth and even step through living trees (or hide inside them). The spell only works on living plants, not dead wood; and although the effect includes the caster's equipment, it doesn't include other creatures carried by the caster.</p><p>When the duration ends, flexible plants will be bent around the caster to give them room as they reappear, and solid plants such as trees will gently push the caster out.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

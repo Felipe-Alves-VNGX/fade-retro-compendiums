@@ -1,0 +1,45 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Raise Dead Fully Rev",
+  "_id": "AkwCUTbWfmWXXR00",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!AkwCUTbWfmWXXR00",
+  "type": "spell",
+  "system": {
+    "name": "Raise Dead Fully Rev",
+    "tags": [
+      "vitality/inertia"
+    ],
+    "description": "<p>This spell raises the body of any formerly living creature from the dead. The target is aware of who is casting the Raise Dead spell and the circumstances in which it is being cast, and may refuse to return to life if they do not trust the caster.</p><p>If the body has been dead for more than four months per level of the caster above 16th then this spell will not work.</p><p>If the body has been dismembered, eaten or otherwise damaged, then only a small piece of it – a lock of hair or a sliver of bone – is needed to cast this spell, and the whole</p><p>body will re-form around that piece. The piece must have been recovered from the body after death.</p><p>The target is raised back up to full health and can immediately use abilities and spells with no rest period required.</p><p>If a Raise Dead Fully spell is cast on an undead creature with 7 or fewer hit dice, the creature is destroyed with no save. If a Raise Dead Fully spell is cast on an undead creature with 8–14 hit dice, the creature must make a spell save with a –4 penalty or be destroyed.</p><p>If Raise Dead Fully is cast on an undead creature with 15+ hit dice, the creature takes 6d10 damage, although it can make a spell save to take only half damage.</p><p>When a character becomes an immortal, this spell will not bring their former mortal body back to life.</p><p>Reverse: Obliterate will kill any one living creature. If an Obliterate spell is cast on a living creature with 7 or fewer hit dice or levels, the creature is killed with no save. If an Obliterate spell is cast on a living creature with 8–14 hit dice or levels, the creature must make a spell save with a –4 penalty or be killed. If Obliterate is cast on a living creature with 15+ hit dice or levels, the creature takes 6d10 damage, although it can make a spell save to take only half damage.</p><p>If Obliterate is cast on an undead creature, it will cure nearly all damage from the target, leaving them with only 1d6 damage – although if the target is already healthier than that it won't damage them.</p><p>Alternatively, the spell can be used on an undead creature as a Remove Curse, Cure Disease or Cure Blindness spell, or it can be used to cure an undead creature of a Feeblemind spell. However, it will only cure one thing per casting.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "60'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

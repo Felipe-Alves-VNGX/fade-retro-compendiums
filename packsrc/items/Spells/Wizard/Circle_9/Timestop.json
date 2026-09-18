@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Timestop",
+  "_id": "1cBgiShWwQ3Rr1BC",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!1cBgiShWwQ3Rr1BC",
+  "type": "spell",
+  "system": {
+    "name": "Timestop",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell freezes time within a 100' radius of the caster for the duration. The caster can freely move around within the area including leaving it and re-entering it, but everything else is frozen in time and immobile. Nothing outside the area other than the caster can enter the frozen area, finding its edges an impenetrable barrier.</p><p>The Timestop can be dispelled by a Dispel Magic cast at the area from the outside.</p><p>The caster's movement and actions within the area are not affected by Haste and Slow effects that the caster might be under. The caster always gets the normal one action per round. During the spell, the caster is still harmed by magical fire, cold, gas, poison and so on that are in the area; but not by their non-magical equivalents.</p><p>The caster can move freely through air and water during the Timestop, but cannot affect creatures or normal objects (other than those the caster was carrying when the spell was cast) in any way. The caster can cast other spells during the Timestop. Those of instant duration such as a Fireball spell will have no effect on anything other than the caster, and</p><p>those with a non-instant duration will not come into effect until the Timestop runs out.</p><p>The caster cannot pass through a Protection from Evil or an Anti-Magic Shell during the Timestop.</p><p>Immortals are unaffected by this spell and may continue to move and act inside the area in the same way that the caster can.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "caster",
+    "duration": "1d4+1 rounds",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

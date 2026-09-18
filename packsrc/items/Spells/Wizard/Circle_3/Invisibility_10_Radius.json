@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Invisibility 10' Radius",
+  "_id": "6sWuRbubRBhVTyMP",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!6sWuRbubRBhVTyMP",
+  "type": "spell",
+  "system": {
+    "name": "Invisibility 10' Radius",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell makes all creatures in a 10' radius around the target invisible. The creatures' clothing and equipment also become invisible. Any item any creature drops will become visible, but items that one of the creatures pick up will not become invisible.</p><p>Any creature that strays more than 10' from the target creature also becomes visible, and re-entering that radius does not make the creature become invisible again. Any creature will become visible again if it attacks another creature or if it casts a spell. Otherwise the invisibility is permanent.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

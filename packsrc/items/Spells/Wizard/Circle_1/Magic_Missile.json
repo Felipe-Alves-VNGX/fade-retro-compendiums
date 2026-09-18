@@ -1,0 +1,45 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Magic Missile",
+  "_id": "UDTcKDCPJi60Teaq",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!UDTcKDCPJi60Teaq",
+  "type": "spell",
+  "system": {
+    "name": "Magic Missile",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates one or more glowing orbs that appear in the air around the caster and launch themselves at a single target that is visible to the caster (if the caster is firing more than one missile then they may be aimed at different targets) and automatically hit for 1d6+1 damage each, with no save allowed.</p><p>For each 5 levels the caster has above 1st two more missiles are created (i.e., 3 missiles at 6th level, 5 missiles at 11th level, 7 missiles at 16th level, 9 missiles at 21st level, 11 missiles at 26th level, 13 missiles at 31st level, 15 missiles at 36th level).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "150'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

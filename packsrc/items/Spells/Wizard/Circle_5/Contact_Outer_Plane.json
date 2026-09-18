@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Contact Outer Plane",
+  "_id": "BVPgQ8ebqtdmE3St",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!BVPgQ8ebqtdmE3St",
+  "type": "spell",
+  "system": {
+    "name": "Contact Outer Plane",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell contacts an immortal or other powerful entity on another plane and asks it questions. It can only be cast once per month. It is a risky procedure, since the immortal is under no obligation to the caster and may not appreciate being disturbed. The caster may not get accurate answers and may be overwhelmed by the mental contact.</p><p>The caster must choose which plane to direct their questions to – further planes allow more questions but also increase the chance of being overwhelmed, as shown in TABLE 7–4. The chance of being overwhelmed must be checked first before any questions are asked.</p><p>For each level of the caster above level 20, the chance of being overwhelmed is reduced by 5%. If the caster is</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "personal",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Feeblemind",
+  "_id": "Wl84pdefB3gpTgik",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Wl84pdefB3gpTgik",
+  "type": "spell",
+  "system": {
+    "name": "Feeblemind",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell blasts the mind of the target, who must be a spell caster. The target must make a spell save (with a penalty of –4 to the roll unless the target is an immortal) or be made helpless, unable to think clearly and unable to cast spells. The victim's intelligence is reduced to a score of 2.</p><p>The effect is permanent, although it can be removed by a Dispel Magic (with the normal chance of success) or by a Cureall spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

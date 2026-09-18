@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Lightning Bolt",
+  "_id": "hoKIdruGwsAMDfdG",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!hoKIdruGwsAMDfdG",
+  "type": "spell",
+  "system": {
+    "name": "Lightning Bolt",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a bolt of lightning that strikes creatures in the area for 1d6 damage per caster level (to a maximum of 20d6 unless the caster is an immortal). Each creature hit may make a spell save to take half damage. The caster may start the Lightning Bolt up to 180' away from themselves, and the 60' area of effect is then measured directly away from the caster in the same direction.</p><p>If the bolt hits a wall, door, or other solid obstacle before it reaches a length of 60', it will double back and return directly towards the caster. Creatures in a doubled portion of the bolt do not take double damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "180'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

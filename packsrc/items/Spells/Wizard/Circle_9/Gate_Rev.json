@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Gate Rev",
+  "_id": "y9Cb45ZIQBxUqEx8",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!y9Cb45ZIQBxUqEx8",
+  "type": "spell",
+  "system": {
+    "name": "Gate Rev",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell opens a one-way rift between two planes, even those attached to two different celestial spheres. Normally, the caster must specify the target plane and the name of a creature on that plane. If the creature is on the named plane, then the spell opens a one way physical portal between the caster's current location and the creature's location allowing the creature to step through to the caster (but not vice versa). If the creature is not on the named plane then the spell fails. If the creature is an immortal, it can refuse to allow the Gate to open.</p><p>However, the spell can also be cast through the open end of an open one-way Gate, targeting the other end of the Gate rather than a specific creature. In this case, the caster does not need to specify (or even know) where the other end of the Gate is located. If cast in this manner, the Gate becomes two-way and creatures can pass through in either direction.</p><p>The open end of a one-way Gate appears misty and is opaque. The closed end of a one-way Gate is invisible, although detectable with a Detect Magic spell. A two-way Gate can be seen through in either direction.</p><p>If the either end of the Gate is an outer plane then the Gate only stays open for 10 minutes. Otherwise it stays open for 1d10 x 100 minutes.</p><p>Any creature can step through the open end of a Gate, and there is a base 10% chance of a random inhabitant of the far plane (modified by the location that the Gate is opened to) noticing the open Gate and investigating it.</p><p>It costs an immortal 50pp to step through a Gate. This makes summoning one for frivolous reasons a risky proposition at best.</p><p>Reverse: Close Gate closes a Gate to another plane, whether one made by this spell or a natural planar rift.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "30'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

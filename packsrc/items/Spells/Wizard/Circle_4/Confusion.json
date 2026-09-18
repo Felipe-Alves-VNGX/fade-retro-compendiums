@@ -1,0 +1,45 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Confusion",
+  "_id": "o9ydjtEhHOybKsIm",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!o9ydjtEhHOybKsIm",
+  "type": "spell",
+  "system": {
+    "name": "Confusion",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>When this spell is cast, 3d6 creatures within 30' of the target point of the spell, starting with the closest, will be both confused and enraged, wishing to lash out at enemies but being unable to determine who those enemies are. Creatures with 2 hit dice or fewer will be automatically affected, but creatures with more than 2 hit dice may make a spell save each round to shake off the effect. Creatures who leave the area automatically shake off the effect, and new creatures who enter the area are unaffected.</p><p>Confused creatures must roll 2d6 each round to see how they are affected:</p><p>■ 2–5 = attack the caster's party ■ 6–8 = do nothing but shout and scream ■ 9–12 = attack the creature's own party</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "12 rounds",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

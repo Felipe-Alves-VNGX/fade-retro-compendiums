@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Teleport",
+  "_id": "NR9GVRX5XYXcoE7y",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NR9GVRX5XYXcoE7y",
+  "type": "spell",
+  "system": {
+    "name": "Teleport",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell instantly transports a living (not undead or non-living) creature to another place on the same plane and within the same celestial sphere.</p><p>The caster can use this spell to transport themselves. The destination can be any distance from the target's current location, but it cannot be a place occupied by a solid object and must be a place with a solid ground or floor.</p><p>If the target is unwilling to be teleported, they may make a spell save to avoid the effect.</p><p>There is a chance that a Teleport spell will result in the target appearing too high or too low. A character appearing in solid matter (usually because they appeared to low) is instantly killed.</p><p>The chance of failure depends on how familiar the caster is with the destination:</p><p>Very Familiar: The caster can see the destination or the</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "10'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

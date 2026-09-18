@@ -1,0 +1,45 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Shield",
+  "_id": "4doLCmsAfZUc0nWD",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4doLCmsAfZUc0nWD",
+  "type": "spell",
+  "system": {
+    "name": "Shield",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a magical barrier an inch away from the caster's body that shields the caster from harm. While this spell is in effect, the caster has an armour class of 2 against missile attacks and an armour class of 4 against all other attacks rather than their normal armour class. Dexterity and magical bonuses apply to this armour class as normal, but worn armour does not change it.</p><p>This spell also grants the caster a spell save each time they would be hit by the missile from a Magic Missile spell. If the save fails, the missile hits the caster normally. If the save succeeds, the missiles are blocked, but this spell is ends immediately.</p><p>When cast by an immortal, this spell gives the caster a –4 AC bonus against missile attacks and a –2 AC bonus against other attacks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "20 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Survival",
+  "_id": "kUDgCXRJHda32bkt",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!kUDgCXRJHda32bkt",
+  "type": "spell",
+  "system": {
+    "name": "Survival",
+    "tags": [
+      "matter",
+      "hope"
+    ],
+    "description": "<p>This spell protects the target from harmful environments. The target is completely protected from normal heat and cold, and can survive without air, food, water or sleep. This spell does not protect the target against attacks of any kind, only the natural environment. It does protect completely from the environment of other planes, and even the luminiferous aether.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "touch",
+    "duration": "1 hour / level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

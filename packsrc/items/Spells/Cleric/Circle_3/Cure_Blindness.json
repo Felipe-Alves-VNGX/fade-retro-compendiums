@@ -1,0 +1,45 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Cure Blindness",
+  "_id": "4FpJWlLRQXux8A7S",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4FpJWlLRQXux8A7S",
+  "type": "spell",
+  "system": {
+    "name": "Cure Blindness",
+    "tags": [
+      "comfort"
+    ],
+    "description": "<p>This spell cures both mundane blindness and magical blindness caused by Light and Darkness spells (and their continual versions).</p><p>The only form of blindness it will not normally cure is that caused by a Curse. This spell can only cure blindness caused by a Curse when it is cast by an immortal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

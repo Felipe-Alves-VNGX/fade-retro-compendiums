@@ -1,0 +1,45 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Massmorph",
+  "_id": "3fftuyb6f5KfXlFW",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!3fftuyb6f5KfXlFW",
+  "type": "spell",
+  "system": {
+    "name": "Massmorph",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates an illusion that makes up to 100 human sized creatures within a 120' radius of the target point appear to be trees. Creatures that are larger than human sized may count as more than one towards this 100 creature total, for example, horses count as two people each.</p><p>The illusion is effective against creatures both outside and passing through the area, and is not broken by movement of the illusion covered creatures within the area. If creatures covered by the illusion leave the area or attack or cast spells then the illusion ends for those individual creatures (even if they return to the area), but continues to affect those that remain.</p><p>The spell lasts until none of the targeted creatures are still covered or until it is dispelled, although the caster can cancel it early if they desire.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

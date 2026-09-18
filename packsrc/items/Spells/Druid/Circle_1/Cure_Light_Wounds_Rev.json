@@ -1,0 +1,45 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Cure Light Wounds Rev",
+  "_id": "EEzRiWnPiITenx24",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!EEzRiWnPiITenx24",
+  "type": "spell",
+  "system": {
+    "name": "Cure Light Wounds Rev",
+    "tags": [
+      "comfort/pain"
+    ],
+    "description": "<p>This spell cures one living (not undead or non-living) creature of 1d6+1 points of damage. The caster can cure themselves with this spell.</p><p>Alternatively, the spell can be used to cure paralysis (except that caused by a Hold Person or Hold Monster spell), although if it does so then no damage will be cured at the same time.</p><p>Reverse: Cause Light Wounds inflicts 1d6+1 damage to a touched living (not undead or non-living) target. The target gets no save against the damage, but the caster must make a normal attack roll to touch an unwilling target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

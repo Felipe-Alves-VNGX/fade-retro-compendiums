@@ -1,0 +1,43 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Summon Animals",
+  "_id": "CPfhJXu3Jn5OkfvY",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!CPfhJXu3Jn5OkfvY",
+  "type": "spell",
+  "system": {
+    "name": "Summon Animals",
+    "tags": [],
+    "description": "<p>This spell summons one or more animals within range. It only affects normal, non-magical animals, and not normal insects and arthropods. The caster may specify a particular species</p><p>or group of animals (but not individual named animals) or may summon any animals in range.</p><p>The minimum number of animals that arrive will be none – if there are no animals within range – and the maximum number of animals is a number whose hit dice are equal to the caster's level. Tiny animals (such as mice, songbirds, frogs, rabbits etc.) count as a tenth of a hit dice each.</p><p>When the animals arrive, they will understand the caster's instructions and help the caster in any way they can, although if they are attacked by anything they will not fight to the death but will flee instead – although if the caster is already in combat when the animals arrive, they will fight to help the caster unless badly injured.</p><p>When deciding which animals answer the summons, animals that the caster can see will be affected first, even if they are currently hostile to the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "360'",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

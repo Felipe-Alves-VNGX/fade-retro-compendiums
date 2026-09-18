@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Clairvoyance",
+  "_id": "03BNlwnT5abxz9bn",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!03BNlwnT5abxz9bn",
+  "type": "spell",
+  "system": {
+    "name": "Clairvoyance",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell allows the caster to see through the eyes of any one creature within range. Once the spell is cast, it takes 10 minutes to start seeing through the eyes of a creature, but then once the connection is established, the caster can change to a different creature (within range of the caster and within sight of the current creature) instantly. The caster can keep changing creatures until the spell duration runs out.</p><p>The creatures affected by this spell do not get a save and are not aware that they are affected by it. The sight is temporarily blocked if the creature goes out of range or there is more than two feet or rock (or a thin coating of lead) between the creature and the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "60'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

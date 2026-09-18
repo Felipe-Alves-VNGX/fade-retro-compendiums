@@ -1,0 +1,45 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Clothform",
+  "_id": "rUKGc9tLhSlVDDGQ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!rUKGc9tLhSlVDDGQ",
+  "type": "spell",
+  "system": {
+    "name": "Clothform",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>When this spell is cast, it creates a single piece of un-worked and un-dyed linen up to 30' x 30' in size. If the caster makes a dexterity check (with an appropriate craft skill) then the cloth can be created in a more finished form, such as with seams or twisted into 60' of rope. The Gameguide must decide on any penalties to the caster's effective dexterity based on the complexity of what is desired.</p><p>The cloth is non-magical once created, and cannot be dispelled. If the caster chooses to leave one or more ends of the cloth unfinished, with loose thread hanging from it, then a second casting of this spell can add to the existing cloth at that edge rather than creating a separate piece.</p><p>The cloth comes out of the caster's hands when created and falls in a heap on the floor. The caster cannot use this spell to create cloth over targets' heads or create cloth attached to (or tying) anything.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "touch",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Growth of Animal",
+  "_id": "2CO3sHDBuO5sdLSy",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!2CO3sHDBuO5sdLSy",
+  "type": "spell",
+  "system": {
+    "name": "Growth of Animal",
+    "tags": [
+      "vitality"
+    ],
+    "description": "<p>This spell causes one animal to grow to double its normal size, giving it twice its normal strength and making it do twice its normal damage in combat. The animal may also carry twice its normal load.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

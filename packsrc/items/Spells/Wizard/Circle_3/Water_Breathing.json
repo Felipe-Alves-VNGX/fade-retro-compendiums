@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Water Breathing",
+  "_id": "ZOyxgfxCLYV0uqbP",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZOyxgfxCLYV0uqbP",
+  "type": "spell",
+  "system": {
+    "name": "Water Breathing",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell lets the target creature breathe both water and air for its duration and switch between the two automatically even if unconscious. It does not affect movement in any way.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "1 day",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

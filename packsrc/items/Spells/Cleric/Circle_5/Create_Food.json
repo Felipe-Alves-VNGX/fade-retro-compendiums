@@ -1,0 +1,45 @@
+{
+  "folder": "YzSRuBARh4uUg2M8",
+  "name": "Create Food",
+  "_id": "QRAiHoZlPyQG7dge",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!QRAiHoZlPyQG7dge",
+  "type": "spell",
+  "system": {
+    "name": "Create Food",
+    "tags": [
+      "creation"
+    ],
+    "description": "<p>Each time this spell is cast, it creates enough food to feed up to 36 people. If mounts such as horses are fed using this spell, each one eats food equivalent to 2 people.</p><p>For every caster level above 10, 36 extra people can be fed by this spell, although the caster can produce less food if desired.</p><p>The food created by this spell is similar to a bland and almost tasteless porridge, but is highly nutritious. However, it will spoil after 24 hours.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

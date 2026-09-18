@@ -1,0 +1,45 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Hold Monster Rev",
+  "_id": "PLOibPLqLZr8Xk7m",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!PLOibPLqLZr8Xk7m",
+  "type": "spell",
+  "system": {
+    "name": "Hold Monster Rev",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell will paralyse up to four living creatures (not undead or non-living creatures) for the duration.</p><p>It can be cast at a single target, in which case the target may make a spell save at a –2 penalty to avoid the effect; or at a group, in which case it will affect 1d4 of them each of which may make spell saves without penalty to avoid the effect.</p><p>Reverse: Free Monster removes the paralysis caused by either this spell or a Hold Person spell. It will also remove the paralysis effect of an immortal's aura, but only when cast by an immortal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "1 hour + 10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

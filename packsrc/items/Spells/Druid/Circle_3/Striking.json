@@ -1,0 +1,45 @@
+{
+  "folder": "Y4c5tVDaiVYRzy0k",
+  "name": "Striking",
+  "_id": "Bm8Zqng6ptJMnhxI",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Bm8Zqng6ptJMnhxI",
+  "type": "spell",
+  "system": {
+    "name": "Striking",
+    "tags": [
+      "vitality"
+    ],
+    "description": "<p>This spell temporarily enchants a weapon to do extra damage. It can only be cast on hand-held weapons or missile weapons, not on the natural weaponry of a creature.</p><p>Until the duration ends, the weapon does an extra 1d6 damage to anything it hits, and can hit creatures that are only hit by magical weapons (although it does not grant the weapon any magical bonuses to hit).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

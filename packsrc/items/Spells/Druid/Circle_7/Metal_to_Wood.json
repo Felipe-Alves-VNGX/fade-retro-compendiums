@@ -1,0 +1,43 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Metal to Wood",
+  "_id": "30WuTNbRHw14AkA7",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!30WuTNbRHw14AkA7",
+  "type": "spell",
+  "system": {
+    "name": "Metal to Wood",
+    "tags": [],
+    "description": "<p>This spell changes a single metal item weighing up to 5 pounds per level of the caster into wood. If the metal is magical then this spell has only a 10% chance of working, otherwise it automatically works.</p><p>The item becomes normal non-magical wood, and this spell cannot be dispelled. Armour affected by this spell becomes useless and metal weapons become non-magical clubs.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "120'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

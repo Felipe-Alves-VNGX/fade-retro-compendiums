@@ -1,0 +1,46 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Hold Person Rev",
+  "_id": "oSFTtMiJ1600fPg2",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!oSFTtMiJ1600fPg2",
+  "type": "spell",
+  "system": {
+    "name": "Hold Person Rev",
+    "tags": [
+      "spirit",
+      "inertia/vitality"
+    ],
+    "description": "<p>This spell will paralyse up to four living humanoid creatures (not undead or non-living creatures) for the duration. It can be cast at a single target, in which case the target may make a spell save at a –2 penalty to avoid the effect; or at a group, in which case it will affect 4 of them each of which may make a spell save without penalty to avoid the effect.</p><p>Reverse: Free Person removes the paralysis caused by this spell. It will also remove the paralysis effect of an immortal's aura, but only when cast by an immortal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "180'",
+    "duration": "90 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

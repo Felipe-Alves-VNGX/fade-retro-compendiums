@@ -1,0 +1,45 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Speak with Dead",
+  "_id": "kr58Rbd1OrE4WhI1",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!kr58Rbd1OrE4WhI1",
+  "type": "spell",
+  "system": {
+    "name": "Speak with Dead",
+    "tags": [
+      "inertia"
+    ],
+    "description": "<p>This spell lets the caster ask three questions to a dead body. The spirit of the deceased is summoned and must answer the questions, although it cannot interact in any other way unless it is already an undead creature such as a ghost or spectre.</p><p>The caster must possess a part of the corpse, such as a lock of hair or a piece of bone. The age of the corpse that can be spoken with by use of this spell depends on the level of the caster:</p><p>6th-7th = 4 days 8th-14th = 4 months 15th-20th = 4 years 21st+ = unlimited</p><p>The spirit of the deceased will always reply in a language known to the caster, and must answer the questions truthfully, but a hostile spirit may equivocate and mislead if it chooses provided it does not directly lie.</p><p>The spirit will only have knowledge of things that it experienced when it was alive.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "10'",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

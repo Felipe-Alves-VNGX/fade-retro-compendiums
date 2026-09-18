@@ -1,0 +1,43 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Control Winds",
+  "_id": "IprRP674eIqiQ2YG",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!IprRP674eIqiQ2YG",
+  "type": "spell",
+  "system": {
+    "name": "Control Winds",
+    "tags": [],
+    "description": "<p>This spell lets the caster completely control the speed and direction of wind within the area, from dead calm to gale force. Changing the wind is slow and it can take up to 10 minutes to change from one extreme to another.</p><p>If cast at an air elemental or other creature made of air, the creature can resist the spell by making a spell save. If this save fails, the caster can completely control the creature for the duration of the spell – or even choose to kill it outright.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

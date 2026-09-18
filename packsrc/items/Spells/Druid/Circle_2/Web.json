@@ -1,0 +1,45 @@
+{
+  "folder": "VvKqEXWZb6P5oWHq",
+  "name": "Web",
+  "_id": "7bGfHqKMtreCkTZM",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7bGfHqKMtreCkTZM",
+  "type": "spell",
+  "system": {
+    "name": "Web",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a mass of sticky web in the area, blocking the area from movement and trapping all those within it.</p><p>Creatures caught in the web can still defend themselves but cannot move.</p><p>To break through or out of the web takes 2d4 x 10 minutes for creatures of human strength. Creatures with giant strength (21+) can break through or out in two rounds, and creatures with ogre strength (18+) can break through or out in four rounds.</p><p>The web is highly flammable and if touched by a flame it will burn away in two rounds doing 1d6 damage to all creatures within it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "10'",
+    "duration": "8 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Growth of Plants Rev",
+  "_id": "1vfB2paTEZyZHJo2",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!1vfB2paTEZyZHJo2",
+  "type": "spell",
+  "system": {
+    "name": "Growth of Plants Rev",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell causes all undergrowth (grasses, brambles, vines, etc.) within a 3,000 square foot area of whatever shape the caster desires to become thickly overgrown. This growth makes the area impassable to creatures smaller than giant sized.</p><p>Alternatively, the spell can be used on food crops, making them produce ten times their normal yield. If used in this manner, the crops must still be growing – the spell won't work on produce that has already been harvested.</p><p>Reverse: Shrink Plants reverses this spell or makes a similar area of naturally overgrown plants shrink and shrivel making the area easily passable.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

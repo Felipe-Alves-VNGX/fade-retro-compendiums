@@ -1,0 +1,45 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Death Spell",
+  "_id": "DzvPEBRSPBxhMD45",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DzvPEBRSPBxhMD45",
+  "type": "spell",
+  "system": {
+    "name": "Death Spell",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell sucks the life out of all creatures within a 30' radius of the target point of the spell. Roll 4d8 to see how many hit dice worth of creatures are slain by the effect.</p><p>Go through all the living (not undead or non-living) creatures in the area with fewer than 8 hit dice or levels, starting with the weakest. If there are enough hit dice left from the roll, that creature is slain unless they can make a doom save and their hit dice are taken from the running total (whether they</p><p>make or fail the save). Once there are no more creatures left with fewer (or equal) hit dice to the number of hit dice left over, the spell stops.</p><p>Creatures with no hit points (vermin, insects, small plants, etc.) are instantly slain with no save, and do not count towards this total.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "240'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "LO776LJz0iGTVDGH",
+  "name": "Holy Word",
+  "_id": "qDTHIZw4AZJzqbhO",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!qDTHIZw4AZJzqbhO",
+  "type": "spell",
+  "system": {
+    "name": "Holy Word",
+    "tags": [
+      "antipathy"
+    ],
+    "description": "<p>This spell affects all creatures within 40' of the caster. The exact effect varies depending on the creature's level or hit dice, and only allies of the caster (and any creature of 13 or more hit dice) may make a spell save to avoid the effect:</p><p>■ Up to 5 hit dice: killed ■ 6–8 hit dice: stunned for 2d10 x 10 minutes ■ 9–12 hit dice: stunned for 1d10 rounds ■ 13+ hit dice: deafened for 1d6 x 10 minutes</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "40'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

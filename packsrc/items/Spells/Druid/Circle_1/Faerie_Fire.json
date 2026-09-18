@@ -1,0 +1,43 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Faerie Fire",
+  "_id": "CBl0uplhpiolwg7s",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!CBl0uplhpiolwg7s",
+  "type": "spell",
+  "system": {
+    "name": "Faerie Fire",
+    "tags": [],
+    "description": "<p>This spell causes one or more creatures or objects within the area to glow with flickering greenish flames as if on fire. The fire is bright enough to make the targets glow in the dark, but not bright enough to use as a light source.</p><p>The caster can outline one human sized target or the equivalent per 5 levels. All attacks against outlined creatures gain a +2 bonus to hit.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "60'",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

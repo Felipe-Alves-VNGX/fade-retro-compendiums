@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Immunity",
+  "_id": "fZMUdKwX7r2vUEvi",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fZMUdKwX7r2vUEvi",
+  "type": "spell",
+  "system": {
+    "name": "Immunity",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell gives the creature touched complete immunity to spells of 3rd level or less, and spells of 5th level or less only have half normal effect (halve whatever quantifiable effects they have, such as damage, duration, penalties, etc.).</p><p>The spell also grants immunity to all missiles and all non-magical weapons. The target can drop the Immunity temporarily by concentrating, if they wish to be affected by a beneficial spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "touch",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

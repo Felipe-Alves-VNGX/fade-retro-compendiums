@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Maze",
+  "_id": "a6NS5RTi71FtYZEW",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!a6NS5RTi71FtYZEW",
+  "type": "spell",
+  "system": {
+    "name": "Maze",
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell transports the target to an indestructible maze within a temporarily created outer planar space unless they can make a spell save.</p><p>After the target has negotiated their way out of the Maze, they reappear in the exact location that they left (or as near to it as possible without appearing inside a solid object) and the outer planar space collapses into nothingness.</p><p>The length of time taken to escape the Maze is based on the creature's intelligence:</p><p>up to 8 Int = 1d6 x 10 minutes 9 Int to 12 Int = 2d20 rounds 13 Int to 17 Int = 2d4 rounds 18+ Int = 1d4 rounds</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "60'",
+    "duration": "varies",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

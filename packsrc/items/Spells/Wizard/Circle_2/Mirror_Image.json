@@ -1,0 +1,45 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Mirror Image",
+  "_id": "BKSvrFbpCDP7ObqS",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!BKSvrFbpCDP7ObqS",
+  "type": "spell",
+  "system": {
+    "name": "Mirror Image",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates 1d4 duplicate images of the caster that follow the caster's every move and shift into and through each</p><p>other. It is impossible to tell which is the real caster and which are the images.</p><p>Every time the caster is hit by an attack that requires an attack roll, the attack will instead strike an image, destroying it. The caster takes no damage or other effect from the attack. Attacks and other effects that cause damage automatically (without an attack roll), such as falling or the Magic Missile spell, affect the caster normally without destroying any images.</p><p>Any attack that affects everything in an area, such as a Fireball spell or a dragon's breath, will destroy all remaining images and the caster will be affected normally by the attack.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

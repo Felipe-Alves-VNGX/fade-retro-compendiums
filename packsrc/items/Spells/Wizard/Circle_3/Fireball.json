@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Fireball",
+  "_id": "weduANi1JE70snzi",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!weduANi1JE70snzi",
+  "type": "spell",
+  "system": {
+    "name": "Fireball",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a small ball of flame that shoots out to the target point and then explodes into a 20' radius ball of fire. The fire does 1d6 damage per caster level (to a maximum of 20d6, unless the caster is an immortal) to each creature</p><p>in the area. Creatures that make a spell save take only half damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "240'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

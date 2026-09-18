@@ -1,0 +1,45 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Create Magical Monsters",
+  "_id": "xrrVm03AoBakqwCL",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xrrVm03AoBakqwCL",
+  "type": "spell",
+  "system": {
+    "name": "Create Magical Monsters",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell causes monsters to temporarily appear and obey the caster's commands for the duration, before disappearing. Any type of creature that has up to two special abilities (up to two asterisks on its hit-dice) can be created except for humans and the setting's other playable ancestries, and the creatures will be typical for their species. Creatures of only one species can be created per casting.</p><p>The total number of hit dice of creatures that can be created at once is equal to the caster's level.</p><p>Monsters created by this spell are considered to be enchanted for purposes of the Protection from Evil, Dispel Evil and Anti-Magic Shell spells, and they can be dispelled by a Dispel Magic with normal chances of success.</p><p>This spell can also be used to create a construct with up to two special abilities (up to two asterisks on its hit-dice). See CHAPTER 19 – BESTIARY for details of different types of construct and CHAPTER 22 – GAMEGUIDE ADVICE for how to create them.</p><p>When used to create a construct, the duration of the spell is permanent, and the construct cannot be destroyed by a Dispel Magic, although it is still affected by Protection from Evil, Dispel Evil and Anti-Magic Shell.</p><p>If this spell is cast by an immortal, the caster may choose to let the monsters remain in existence after the spell runs out, although if they do so the monsters will no longer be under their control.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "60'",
+    "duration": "20 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

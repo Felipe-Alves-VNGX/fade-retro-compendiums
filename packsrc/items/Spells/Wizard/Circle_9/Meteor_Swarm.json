@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Meteor Swarm",
+  "_id": "WxpXdmQRe0hvdNVU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!WxpXdmQRe0hvdNVU",
+  "type": "spell",
+  "system": {
+    "name": "Meteor Swarm",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a number of flaming meteors that streak out from the caster's fingertips and strike enemies, before each explodes into a 20' radius fire ball. The meteors automatically hit their targets (no attack roll or save allowed) doing physical damage, and then explode for fire damage. All in the radius of the fire damage (including the target struck) can make spell saves to take half damage from the explosion.</p><p>Each meteor must be aimed at a different target, although if the targets are close together then some or all of them may take damage from multiple explosions, which do stack with each other. The caster can choose to shoot either four meteors that each do 8d6 physical damage (no save) to their targets plus 8d6 fire damage (save for half) in their explosions or eight meteors that each do 4d6 physical damage (no save) to their targets plus 4d6 fire damage (save for half) in their explosions.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "240'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

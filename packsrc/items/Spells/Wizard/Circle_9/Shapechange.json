@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Shapechange",
+  "_id": "geEcvqNtcyZXzrOb",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!geEcvqNtcyZXzrOb",
+  "type": "spell",
+  "system": {
+    "name": "Shapechange",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell allows the caster to change their shape into that of other races or mortal (not exalted) species. The caster can change shape as often as they like during the spell's duration, with each change taking a round.</p><p>The caster cannot take the form of a specific individual, only a generic individual of the desired race or species. The caster's basic statistics (armour class, attack rolls, number of attacks) change, although the caster's hit points and saves do not.</p><p>The caster does get the special abilities of the new form (such as the breath of a dragon or hellhound, and the regeneration ability of a troll). This applies to flaws of the form as well as benefits.</p><p>The caster cannot cast spells while shapechanged, unless in the form of a bipedal humanoid.</p><p>In any case, the caster can only cast their own spells, not spells that are innate to the form (such as a dryad's innate Charm Person spell). If the caster is killed while shapechanged, this spell ends and they revert back to their normal shape. It also ends if dispelled.</p><p>A shapechanged caster cannot pass through a Protection from Evil spell or an Anti-Magic Shell spell.</p><p>A shapechanged immortal retains their aura, and can cast spells regardless of form.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

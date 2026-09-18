@@ -1,0 +1,43 @@
+{
+  "folder": "Y4c5tVDaiVYRzy0k",
+  "name": "Hold Animal",
+  "_id": "j0rpeS3ZC52pavTs",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!j0rpeS3ZC52pavTs",
+  "type": "spell",
+  "system": {
+    "name": "Hold Animal",
+    "tags": [],
+    "description": "<p>This spell will paralyse several animals for the duration. It will affect 1 hit dice of animal per level of the caster, although each animal gets a spell save to avoid the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "180'",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

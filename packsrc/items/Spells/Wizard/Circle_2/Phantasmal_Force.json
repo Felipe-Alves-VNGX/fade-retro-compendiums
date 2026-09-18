@@ -1,0 +1,45 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Phantasmal Force",
+  "_id": "wFF3A1jOAr9e1KD8",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!wFF3A1jOAr9e1KD8",
+  "type": "spell",
+  "system": {
+    "name": "Phantasmal Force",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a visual illusion within the area of effect that disappears when touched or when the caster stops concentrating. The illusion can alter the appearance of everything within the area, and create images where there is nothing. The images can be mobile or static.</p><p>Any illusionary creatures created by this spell are armour class 9, and disappear if they take any damage. If an illusion is of something which attacks a target, the attack is made as if the caster was making it. If that illusionary attack would damage the target, the target may make a spell save. If the save succeeds, the target realises that the attack is illusionary and the attack has no effect.</p><p>If the target fails the save, they take damage as normal from the attack (assuming it is something they would expect to damage them) but such damage is illusionary and fades away in 1d4 x 10 minutes. Such illusionary damage cannot kill the target. At the most it can knock them unconscious until it fades.</p><p>Since attacking a target with an illusion usually involves the illusion touching the target, this will normally end the illusion.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "240'",
+    "duration": "concentration",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

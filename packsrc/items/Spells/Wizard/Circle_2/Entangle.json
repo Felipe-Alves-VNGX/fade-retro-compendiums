@@ -1,0 +1,45 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Entangle",
+  "_id": "osTza560hZF9tVsr",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!osTza560hZF9tVsr",
+  "type": "spell",
+  "system": {
+    "name": "Entangle",
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell animates a single rope or vine that can be up to 50' long plus 5' per level of the caster. The rope cannot be ordered to attack, but it can be ordered to loop or tie around something, to knot or un-knot itself, or to neatly coil up.</p><p>Using a combination of these commands, the rope can be used for climbing or for capturing enemies. The rope cannot stretch itself out, it can only grasp things within 1' of it – so it must be thrown by hand at the thing it is commanded to loop or tie around.</p><p>If the rope is thrown at a creature and commanded to tie it, the creature gets a spell save to avoid the rope.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "30'",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Create Normal Animals",
+  "_id": "ZzjvplQ9ChJ2L66i",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZzjvplQ9ChJ2L66i",
+  "type": "spell",
+  "system": {
+    "name": "Create Normal Animals",
+    "tags": [
+      "creation"
+    ],
+    "description": "<p>This spell causes animals to temporarily appear and obey the caster's commands for the duration, before disappearing. The spell will create one large animal (rhinoceros, elephant, etc.), three medium sized animals (tiger, bear, horse, etc.), or six small animals (wolf, cat, monkey, etc.) and the creatures will be typical for their species.</p><p>The caster can decide on the number and size of creature that they wish to create, but not on the actual species. Only one species of animal will appear per casting, and the animals will be typical for their species.</p><p>Animals created by this spell are considered to be enchanted for purposes of the Protection from Evil, Dispel Evil and</p><p>Anti-Magic Shell spells, and they can be dispelled by a Dispel Magic with normal chances of success.</p><p>If this spell is cast by an immortal, the caster may choose to let the animals remain in existence after the spell runs out, although if they do so the animals will no longer be under their control.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "30'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

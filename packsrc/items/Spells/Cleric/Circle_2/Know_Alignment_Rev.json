@@ -1,0 +1,45 @@
+{
+  "folder": "cQb9gynDy7oNtDyw",
+  "name": "Know Alignment Rev",
+  "_id": "EILG5vWql3H4M2Ty",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!EILG5vWql3H4M2Ty",
+  "type": "spell",
+  "system": {
+    "name": "Know Alignment Rev",
+    "tags": [
+      "truth/deceit"
+    ],
+    "description": "<p>This spell allows the caster to discern whether a single creature or item within 10' would be considered to be \"good\", \"neutral\" or \"evil\" by the moral teachings of their religion (or how natural it is in the case of druids). However, it does not give the specific reason why they would view the target in that light.</p><p>It is important to note that the attitudes of different religions (and what they approve and disapprove of) will vary. This spell does not measure things against any objective standard of morality (whether or not one exists in your campaign world).</p><p>Reverse: Confuse Alignment lets the caster give a false reading to any attempts to use the normal form of this spell on a touched creature for 10 minutes per level of the caster. The caster must choose whether the creature will detect as \"good\", \"neutral\" or \"evil\" at the time of casting.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "10'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

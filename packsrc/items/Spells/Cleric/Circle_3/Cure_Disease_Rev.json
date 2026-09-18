@@ -1,0 +1,45 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Cure Disease Rev",
+  "_id": "mzMK4rAFs96bUwch",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!mzMK4rAFs96bUwch",
+  "type": "spell",
+  "system": {
+    "name": "Cure Disease Rev",
+    "tags": [
+      "purity/corruption"
+    ],
+    "description": "<p>This spell will cure any living (not undead or non-living) creature of a single disease. It will cure any mundane disease, and will even cure magical diseases such as mummy rot and kill disease-like monsters such as green slime.</p><p>This spell will only cure lycanthropy if cast by a caster of 11th level or higher.</p><p>Reverse: Cause Disease causes the target to contract a non-contagious disease that gives them a –2 to attack rolls, stops magical healing from working on them, and causes natural healing to take twice as long. The target may make a spell save to avoid the effect.</p><p>This magical disease is not contagious, but it can only be cured by a Cure Disease spell, and if not cured it will prove fatal in 2d12 days.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

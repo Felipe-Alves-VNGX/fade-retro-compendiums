@@ -1,0 +1,45 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Wall of Fire",
+  "_id": "2UNgEMe2XYvm4Ywl",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!2UNgEMe2XYvm4Ywl",
+  "type": "spell",
+  "system": {
+    "name": "Wall of Fire",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a vertical wall of fire of any shape with a total area of up to 1,200 square feet. The entire wall must be within 60' of the caster. The wall cannot be created in the space occupied by creatures or objects.</p><p>The wall blocks sight, and lasts as long as the caster concentrates. The wall cannot be pushed through by creatures with less than 4 hit dice or levels. Creatures with 4 or more hit dice or levels can push through the wall but take 1d6 damage while doing so (cold based creatures and undead take double damage). Pushing through does not break the wall or leave a hole in it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "concentration",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

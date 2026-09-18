@@ -1,0 +1,45 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Haste Rev",
+  "_id": "Sny8YsOVwhU7SrJL",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Sny8YsOVwhU7SrJL",
+  "type": "spell",
+  "system": {
+    "name": "Haste Rev",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell speeds up creatures in a 30' radius of the target point. Up to 24 creatures can be affected.</p><p>Hasted creatures move and act at twice normal speed, although spell casting (whether innate or through items) is not sped up. See CHAPTER 11 – COMBAT for details about how Haste affects combat.</p><p>This spell has no effect on immortals.</p><p>Reverse: Slow slows creatures in the area rather than hasting them. Affected creatures move and act at half normal speed, although spell casting (whether innate or through items) is not slowed down. See CHAPTER 11 – COMBAT for details about how Slow affects combat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "240'",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

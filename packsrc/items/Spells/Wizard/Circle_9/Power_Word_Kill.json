@@ -1,0 +1,45 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Power Word Kill",
+  "_id": "M5U0yhdpGJ0P1V8j",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!M5U0yhdpGJ0P1V8j",
+  "type": "spell",
+  "system": {
+    "name": "Power Word Kill",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell can be cast on either a single living (not undead or nonliving) creature or a group of creatures.</p><p>If cast on a single creature with 60 or fewer hit points the creature dies. If cast on a single creature with 61–100 hit points the creature is stunned for 1d4 x 10 minutes. Creatures with 101+ hit points are unaffected by the spell. If cast on a group of up to five creatures, any of them with 20 or fewer hit points will die, but any with 21+ hit points will be unaffected by the spell.</p><p>The target or targets of this do not get a save unless they can cast wizard spells. Even if they can cast such spells, they must make a spell save at a penalty of –4 in order to avoid the effects of this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "120'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Sword",
+  "_id": "bjp2gSTAzH3MgUCf",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!bjp2gSTAzH3MgUCf",
+  "type": "spell",
+  "system": {
+    "name": "Sword",
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a glowing sword made from magical force next to the caster. The caster can make the sword attack any creature within 30' by concentrating. The sword flies to the target and attacks.</p><p>If the caster stops concentrating, the sword stops attacking, but remains in existence and returns to the caster's side, following them for the duration.</p><p>The sword attacks twice per round, making attacks at the caster's base attack bonus for 1d10 damage. The sword has no magical bonuses to its attack rolls, but can hit any target.</p><p>The sword cannot be physically damaged in any way, but may be dispelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "30'",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "cQb9gynDy7oNtDyw",
+  "name": "Bless Rev",
+  "_id": "VHc2AR2AEoEODwQ9",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VHc2AR2AEoEODwQ9",
+  "type": "spell",
+  "system": {
+    "name": "Bless Rev",
+    "tags": [
+      "purity/corruption"
+    ],
+    "description": "<p>When this spell is cast, all friendly creatures in the area of effect gain a +1 bonus to attack, damage, and morale rolls for the duration, provided they are not already engaged in combat.</p><p>Reverse: Blight gives each enemy in the area a –1 penalty to attack, damage and morale rolls for the duration provided they are not already in combat. Each of these enemies may make a spell save to avoid the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Insect Plague",
+  "_id": "6t41HmDM9SSMhjem",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!6t41HmDM9SSMhjem",
+  "type": "spell",
+  "system": {
+    "name": "Insect Plague",
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell summons a 30' radius swarm of insects which obscures vision in the area. The insects do no damage, but will drive away any creature of less than 3 hit dice with their stinging and biting. There is no save against this effect.</p><p>The insect swarm can be moved up to 20' per round by the caster, and lasts until the caster stops concentrating.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "480'",
+    "duration": "concentration",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

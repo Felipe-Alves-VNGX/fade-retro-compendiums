@@ -1,0 +1,45 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Disintegrate",
+  "_id": "smGkmEQB5dFEm05K",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!smGkmEQB5dFEm05K",
+  "type": "spell",
+  "system": {
+    "name": "Disintegrate",
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell destroys a single creature or a single non-magical object, leaving only a trace of fine silvery dust. If targeted on a creature, that creature may make a doom save to avoid the effect.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}
