@@ -4,16 +4,25 @@ import { fileURLToPath } from "node:url";
 
 const TABLE_TITLE_RE = /^Table 6–\d+[a-d]: (.+?) vs (Armed|Unarmed) Opponents$/;
 
+// The last table (Wrestling vs Unarmed) is immediately followed by prose
+// ("WEAPON ABILITIES" and per-ability descriptions like "Hook: The wielder
+// of a weapon with the hook ability can...") whose description lines start
+// with a KNOWN_LABELS word followed by a colon — parseDataLine would
+// otherwise misread them as real table rows and append them to the last
+// table. Scanning stops the instant this line is seen.
+const END_MARKER = "WEAPON ABILITIES";
+
 const KNOWN_LABELS = [
    "Attack Bonus", "AC Bonus", "Hurl Range", "Throw Range", "Missile Range",
-   "Damage", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun",
+   "Damage", "Deflect Penalty", "Deflect", "Disarm", "Hook", "Knockout", "Delay", "Stun",
    "Strangle", "Entangle", "Skewer", "Off-Hand",
 ].sort((a, b) => b.length - a.length);
 
-// A cell value is normally one whitespace-free token, but two ability rows
-// print a compound value with an internal space — "4 HD" (Skewer) and
-// "20 (+0)" (Strangle) — that must stay together as a single token.
-const VALUE_TOKEN_RE = /\S+\s+HD|\S+\s+\([^)]*\)|\S+/g;
+// A cell value is normally one whitespace-free token, but some ability rows
+// print a compound value with an internal space — "4 HD" (Skewer),
+// "20 (+0)" (Strangle), and "–5 vs 4" (Hammer, War's AC Bonus) — that must
+// stay together as a single token.
+const VALUE_TOKEN_RE = /\S+\s+HD|\S+\s+\([^)]*\)|\S+\s+vs\s+\S+|\S+/g;
 
 function parseDataLine(line) {
    const trimmed = line.trim();
@@ -51,6 +60,10 @@ export function parseWeaponMasteryTables(rawText) {
    let current = null;
    for (const line of lines) {
       const trimmed = line.trim();
+      if (trimmed === END_MARKER) {
+         if (current) tables.push(current);
+         return tables;
+      }
       const titleMatch = trimmed.match(TABLE_TITLE_RE);
       if (titleMatch) {
          if (current) tables.push(current);

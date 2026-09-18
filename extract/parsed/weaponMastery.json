@@ -1198,9 +1198,8 @@
         ]
       },
       {
-        "label": "Deflect",
+        "label": "Deflect Penalty",
         "values": [
-          "Penalty",
           "–",
           "–2",
           "–4",
@@ -1570,9 +1569,7 @@
           "–2/–2/–/–",
           "–3/–3/–3/–",
           "–4/–4/–4/–",
-          "–5",
-          "vs",
-          "4"
+          "–5 vs 4"
         ]
       },
       {
@@ -1877,9 +1874,8 @@
         ]
       },
       {
-        "label": "Deflect",
+        "label": "Deflect Penalty",
         "values": [
-          "Penalty",
           "–",
           "–2",
           "–4",
@@ -3931,201 +3927,6 @@
           "19–20 (–2)",
           "18–20 (–3)",
           "17–20 (–4)"
-        ]
-      },
-      {
-        "label": "AC Bonus",
-        "values": [
-          ":",
-          "When",
-          "using",
-          "the",
-          "weapon,",
-          "a",
-          "character",
-          "gains",
-          "the"
-        ]
-      },
-      {
-        "label": "Deflect",
-        "values": [
-          ":",
-          "If",
-          "a",
-          "number",
-          "is",
-          "listed",
-          "for",
-          "this",
-          "ability,",
-          "the",
-          "wielder",
-          "of"
-        ]
-      },
-      {
-        "label": "Deflect",
-        "values": [
-          "Penalty:",
-          "Weapons",
-          "that",
-          "have",
-          "the",
-          "deflect",
-          "penalty"
-        ]
-      },
-      {
-        "label": "Delay",
-        "values": [
-          ":",
-          "When",
-          "the",
-          "wielder",
-          "of",
-          "a",
-          "weapon",
-          "with",
-          "the",
-          "delay",
-          "ability"
-        ]
-      },
-      {
-        "label": "Disarm",
-        "values": [
-          ":",
-          "The",
-          "wielder",
-          "of",
-          "a",
-          "weapon",
-          "with",
-          "the",
-          "disarm",
-          "ability",
-          "can"
-        ]
-      },
-      {
-        "label": "Entangle",
-        "values": [
-          ":",
-          "Any",
-          "target",
-          "that",
-          "the",
-          "weapon",
-          "hits",
-          "may",
-          "become"
-        ]
-      },
-      {
-        "label": "Hook",
-        "values": [
-          ":",
-          "The",
-          "wielder",
-          "of",
-          "a",
-          "weapon",
-          "with",
-          "the",
-          "hook",
-          "ability",
-          "can",
-          "An",
-          "enemy",
-          "who",
-          "is",
-          "knocked",
-          "out",
-          "will",
-          "be",
-          "unconscious",
-          "for",
-          "1d100"
-        ]
-      },
-      {
-        "label": "Hurl Range",
-        "values": [
-          ":",
-          "A",
-          "weapon",
-          "with",
-          "a",
-          "hurl",
-          "range",
-          "is",
-          "one",
-          "that",
-          "is",
-          "not",
-          "wielder's",
-          "off",
-          "hand."
-        ]
-      },
-      {
-        "label": "Skewer",
-        "values": [
-          ":",
-          "If",
-          "the",
-          "weapon",
-          "hits",
-          "an",
-          "opponent",
-          "with",
-          "the",
-          "listed"
-        ]
-      },
-      {
-        "label": "Strangle",
-        "values": [
-          ":",
-          "This",
-          "works",
-          "in",
-          "an",
-          "identical",
-          "manner",
-          "to",
-          "the",
-          "entangle"
-        ]
-      },
-      {
-        "label": "Stun",
-        "values": [
-          ":",
-          "A",
-          "weapon",
-          "with",
-          "the",
-          "stun",
-          "ability",
-          "will",
-          "stun",
-          "any",
-          "opponent"
-        ]
-      },
-      {
-        "label": "Throw Range",
-        "values": [
-          ":",
-          "The",
-          "three",
-          "numbers",
-          "given",
-          "are",
-          "the",
-          "short/"
         ]
       }
     ]
