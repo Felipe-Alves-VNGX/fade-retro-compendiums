@@ -1,7 +1,7 @@
 {
   "folder": "2AKCulCJIGNyAMaN",
-  "name": "Dagger",
-  "_id": "gQ5RBclaRSTmOdwk",
+  "name": "Hammer, War",
+  "_id": "Sjbmagwiirs1AMEr",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,14 +12,13 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!gQ5RBclaRSTmOdwk",
+  "_originalKey": "!items!Sjbmagwiirs1AMEr",
   "type": "weapon",
   "system": {
     "tags": [
-      "simple",
-      "off-hand",
-      "throw",
-      "double-damage"
+      "blunt",
+      "stun",
+      "hurl"
     ],
     "description": "",
     "gm": {
@@ -29,9 +28,9 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
-    "cost": 3,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 4,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -49,17 +48,17 @@
     "unidentifiedDesc": "",
     "isIdentified": true,
     "isCursed": false,
-    "damageRoll": "1d4",
-    "damageLabel": "1d4",
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
     "damageType": "physical",
     "breath": null,
     "canMelee": true,
-    "canRanged": true,
+    "canRanged": false,
     "canSet": false,
     "isSlow": false,
     "savingThrow": null,
     "saveDmgFormula": null,
-    "mastery": "Short Blades",
+    "mastery": "Hammers",
     "weaponType": "handheld",
     "ammoType": "",
     "range": {
@@ -96,5 +95,5 @@
       "artillerist": false
     }
   },
-  "sort": 700000
+  "sort": 900000
 }

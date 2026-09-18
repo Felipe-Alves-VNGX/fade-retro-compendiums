@@ -1,7 +1,7 @@
 {
   "folder": "2AKCulCJIGNyAMaN",
-  "name": "Dagger",
-  "_id": "gQ5RBclaRSTmOdwk",
+  "name": "Shield, Normal",
+  "_id": "hId2g2CKtNv0i95u",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,14 +12,16 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!gQ5RBclaRSTmOdwk",
+  "_originalKey": "!items!hId2g2CKtNv0i95u",
   "type": "weapon",
   "system": {
     "tags": [
-      "simple",
+      "bulky",
+      "blunt",
+      "natural",
       "off-hand",
-      "throw",
-      "double-damage"
+      "deflect",
+      "delay"
     ],
     "description": "",
     "gm": {
@@ -29,9 +31,9 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
-    "cost": 3,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 10,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -49,17 +51,17 @@
     "unidentifiedDesc": "",
     "isIdentified": true,
     "isCursed": false,
-    "damageRoll": "1d4",
-    "damageLabel": "1d4",
+    "damageRoll": "0",
+    "damageLabel": "0",
     "damageType": "physical",
     "breath": null,
     "canMelee": true,
-    "canRanged": true,
+    "canRanged": false,
     "canSet": false,
     "isSlow": false,
     "savingThrow": null,
     "saveDmgFormula": null,
-    "mastery": "Short Blades",
+    "mastery": "Shields",
     "weaponType": "handheld",
     "ammoType": "",
     "range": {
@@ -96,5 +98,5 @@
       "artillerist": false
     }
   },
-  "sort": 700000
+  "sort": 1600000
 }

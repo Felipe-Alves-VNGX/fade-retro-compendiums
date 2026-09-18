@@ -1,7 +1,7 @@
 {
   "folder": "2AKCulCJIGNyAMaN",
-  "name": "Dagger",
-  "_id": "gQ5RBclaRSTmOdwk",
+  "name": "Cestus",
+  "_id": "iqpIsnDIKLGOE4Tg",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,14 +12,11 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!gQ5RBclaRSTmOdwk",
+  "_originalKey": "!items!iqpIsnDIKLGOE4Tg",
   "type": "weapon",
   "system": {
     "tags": [
-      "simple",
-      "off-hand",
-      "throw",
-      "double-damage"
+      "off-hand"
     ],
     "description": "",
     "gm": {
@@ -31,7 +28,7 @@
     "chargesMax": 0,
     "weight": 10,
     "weightEquipped": 10,
-    "cost": 3,
+    "cost": 5,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -49,17 +46,17 @@
     "unidentifiedDesc": "",
     "isIdentified": true,
     "isCursed": false,
-    "damageRoll": "1d4",
-    "damageLabel": "1d4",
+    "damageRoll": "1d3",
+    "damageLabel": "1d3",
     "damageType": "physical",
     "breath": null,
     "canMelee": true,
-    "canRanged": true,
+    "canRanged": false,
     "canSet": false,
     "isSlow": false,
     "savingThrow": null,
     "saveDmgFormula": null,
-    "mastery": "Short Blades",
+    "mastery": "Brawling",
     "weaponType": "handheld",
     "ammoType": "",
     "range": {
@@ -96,5 +93,5 @@
       "artillerist": false
     }
   },
-  "sort": 700000
+  "sort": 500000
 }

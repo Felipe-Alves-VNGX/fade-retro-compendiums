@@ -1,7 +1,7 @@
 {
   "folder": "2AKCulCJIGNyAMaN",
-  "name": "Dagger",
-  "_id": "gQ5RBclaRSTmOdwk",
+  "name": "Sling",
+  "_id": "0iD28mA2Y5UPMSyf",
   "img": "icons/svg/item-bag.svg",
   "effects": [],
   "ownership": {
@@ -12,14 +12,14 @@
     "coreVersion": "13.347",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!gQ5RBclaRSTmOdwk",
+  "_originalKey": "!items!0iD28mA2Y5UPMSyf",
   "type": "weapon",
   "system": {
     "tags": [
+      "blunt",
+      "natural",
       "simple",
-      "off-hand",
-      "throw",
-      "double-damage"
+      "stun"
     ],
     "description": "",
     "gm": {
@@ -29,9 +29,9 @@
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
-    "weight": 10,
-    "weightEquipped": 10,
-    "cost": 3,
+    "weight": 20,
+    "weightEquipped": 20,
+    "cost": 2,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
@@ -53,13 +53,13 @@
     "damageLabel": "1d4",
     "damageType": "physical",
     "breath": null,
-    "canMelee": true,
+    "canMelee": false,
     "canRanged": true,
     "canSet": false,
     "isSlow": false,
     "savingThrow": null,
     "saveDmgFormula": null,
-    "mastery": "Short Blades",
+    "mastery": "Line Weapons",
     "weaponType": "handheld",
     "ammoType": "",
     "range": {
@@ -96,5 +96,5 @@
       "artillerist": false
     }
   },
-  "sort": 700000
+  "sort": 3900000
 }
