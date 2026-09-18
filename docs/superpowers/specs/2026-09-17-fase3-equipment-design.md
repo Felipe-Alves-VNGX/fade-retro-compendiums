@@ -208,3 +208,24 @@ não é tocado (é `weapon`, fora deste domínio).
   nenhuma mudança de design. Só Leather Armour e Chain Mail (e, na Table
   9-1, Darts e as duas variantes de Sack) ficam de fato sem
   correspondência.
+- **Achado durante a implementação (Task 4)**: duas páginas full-width
+  do cap. 9 (152, 153 — mesma classe de degradação já aceita para
+  p.93/p.103 na Fase 2) mesclam colunas de itens diferentes numa única
+  linha de texto. Isso quebrou a descrição de Banded Mail (texto
+  ilegível, corrigido: `matchDescription` agora rejeita e retorna vazio
+  quando a própria linha de cabeçalho tem esse padrão) e truncou a de
+  Plate Mail num salto de página (corrigido: a função agora atravessa
+  corretamente o marcador `--- page N ---`). `Arrows` e `Arrows
+  (silver)` (Table 9-1) sofrem uma variante do mesmo problema — a
+  continuação do texto fica do outro lado do bloco inteiro da Table
+  9-1 — e ficam com a descrição truncada em "...At the end of a combat,
+  a character" como degradação aceita, não corrigida: consertar
+  exigiria fazer `matchDescription` atravessar um bloco de tabela
+  inteiro, o que é mais especial-caseamento do que vale a pena nesta
+  fase. **Risco para a próxima fase (armas/masteries)**: as mesmas
+  páginas full-width que mesclam colunas de armadura também mesclam
+  colunas de arma (`extract/raw/equipment.txt:463-469` — Shield/Sword
+  intercalados) — o domínio de armas provavelmente vai bater no mesmo
+  problema em escala maior, e a correção certa lá é tratar o
+  merge-de-coluna na extração da Fase 2, não continuar corrigindo
+  `matchDescription` linha a linha.
