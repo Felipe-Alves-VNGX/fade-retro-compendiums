@@ -6,7 +6,7 @@ Spec anterior: `docs/superpowers/specs/2026-09-16-fade-retro-compendiums-design.
 (seção 7, item 3 — "armas e masteries")
 Também referencia: `docs/superpowers/specs/2026-09-18-fase3-weapons-design.md`
 (sub-projeto anterior, subtipo `weapon` — este spec depende do
-resultado dele: os 41 documentos de arma já gerados são o que os
+resultado dele: os 40 documentos de arma já gerados são o que os
 documentos deste sub-projeto vão linkar por nome)
 
 ## 1. Objetivo
@@ -16,14 +16,19 @@ cobre as tabelas de progressão de proficiência do cap. 6
 (`extract/raw/weapons.txt`, Tables 6-2 em diante), subtipo `weaponMastery`.
 
 Critério de conclusão: `packsrc/items/Weapon_Masteries/*.json` cobre uma
-entrada por arma (41 documentos, mesma contagem do sub-projeto
-`weapon` — 39 armas distintas + as 2 variantes de Sword, Bastard), e
-`npm run validate` passa sem erros.
+entrada por arma (40 documentos, mesma contagem do sub-projeto
+`weapon` — confirmado por extração real: 80 tabelas "a"/"b" agrupam em
+exatamente 40 pares únicos), e `npm run validate` passa sem erros.
 
 ## 2. Achado que redefine a escala do sub-projeto
 
-O livro tem 83 tabelas nomeadas "Table 6-N*" nessa faixa (confirmado por
-contagem direta), não ~80 documentos de compêndio. Cada arma tem um
+O livro tem 83 tabelas nomeadas "Table 6-N*" nessa faixa: 1 é a Table
+6-1 (Weapon Summary, já processada no sub-projeto anterior) e as outras
+80 são as tabelas de mastery propriamente ditas (confirmado por
+extração real — a numeração salta alguns sufixos de letra sem deixar
+tabela órfã, o que explica a diferença entre "83" e "82"). Essas 80
+tabelas de mastery não viram 80 documentos de compêndio — viram 40.
+Cada arma tem um
 **par** de tabelas — "a" (vs Armed Opponents) e "b" (vs Unarmed
 Opponents) — e o schema real do `weaponMastery`
 (`MasteryDefinitionDataModel`, ver seção 3) já modela isso como um único
@@ -95,10 +100,16 @@ Master), cada valor um token sem espaço interno:
 | Rótulo no livro | Aparece em | Mapeamento |
 |---|---|---|
 | `Attack Bonus` | sempre, "a" e "b" | `pToHit` (de "a") / `sToHit` (de "b") |
-| `Damage` | sempre, "a" e "b" | `pDmgFormula` (de "a") / `sDmgFormula` (de "b") — nunca `"–"`, sempre populado |
+| `Damage` | sempre, "a" e "b" | `pDmgFormula` (de "a") / `sDmgFormula` (de "b") — pode ser `"–"` (ex. Wrestling nos ranks None/Basic, sem dano de dano até Skilled) |
 | `AC Bonus` | só na tabela "b", nem toda arma | ver seção 5 (formato de 4 valores) |
 | `Hurl Range` / `Throw Range` / `Missile Range` | armas com alcance | `range.{short,medium,long}` |
-| `Deflect`, `Disarm`, `Hook`, `Knockout`, `Delay`, `Stun`, `Strangle` | variável por arma, 0-2+ por tabela | combinadas em `special` (seção 5) |
+| `Deflect`, `Disarm`, `Hook`, `Knockout`, `Delay`, `Stun`, `Strangle`, `Entangle`, `Skewer`, `Off-Hand` | variável por arma, 0-2+ por tabela | combinadas em `special` (seção 5) |
+
+**Formato de valor de célula — achado por extração real**: a maioria das
+células é um token sem espaço (`"+2"`, `"1d8+4"`, `"–1/–1/–/–"`), mas
+duas linhas têm células com espaço interno: `Skewer` (`"4 HD"`, `"12
+HD"`) e `Strangle` (`"20 (+0)"`, `"19–20 (–2)"`). O parser precisa
+reconhecer esses dois formatos compostos como um token só, não dois.
 
 ## 5. Regras de mapeamento por nível
 
@@ -106,7 +117,8 @@ Master), cada valor um token sem espaço interno:
   `"–"` → `0`.
 - **`pDmgFormula`/`sDmgFormula`**: string literal da linha `Damage`
   (ex. `"1d8+4"`), sem parsing — mesmo padrão do `damageRoll` dos
-  weapon items.
+  weapon items; `"–"` → `null` (schema aceita nullable aqui, ao
+  contrário de `range`).
 - **`acBonus`/`acBonusType`/`acBonusAT`**: a linha `AC Bonus` vem como 4
   valores separados por `/` (ex. `"–2/–2/–/–"`), sem documentação clara
   de que cada posição significa. Decisão: `acBonus` recebe o **primeiro**
@@ -141,10 +153,18 @@ Lê `extract/raw/weapons.txt`, localiza cada par de tabelas "a"/"b" (ou,
 pra Sword Bastard, os dois pares "a"/"b" e "c"/"d") pelo título (`Table
 6–Na: <Nome> vs Armed Opponents`), extrai as linhas de dado de cada uma
 usando a whitelist de rótulos da seção 4, e produz
-`extract/parsed/weaponMastery.json` com um registro por arma — mesma
-forma de nome que o sub-projeto `weapon` já usa (incluindo o sufixo
-`"(Two-Handed)"` pra Sword Bastard 2H), pra o link por nome funcionar
-sem ambiguidade.
+`extract/parsed/weaponMastery.json` com um registro por arma.
+
+**Achado por extração real — inconsistência de maiúscula/minúscula no
+nome**: o título da Table 6-36 usa `"Sword, Two-Handed"` (H maiúsculo),
+mas o nome do item de arma correspondente (Table 6-1, já gerado no
+sub-projeto anterior) é `"Sword, Two-handed"` (h minúsculo) — mais uma
+inconsistência do próprio livro, do mesmo tipo já visto em
+"Off-hand"/"Off-Hand". Como o link é por nome (seção 2), o parser lê
+`extract/parsed/weapons.json` (já existe, do sub-projeto anterior) como
+lista canônica de nomes, e casa cada tabela extraída contra essa lista
+**sem diferenciar maiúsculas/minúsculas**, usando a grafia canônica do
+item de arma no documento final gerado — não a grafia da tabela.
 
 ## 7. Builder (`scripts/build/weaponMastery.mjs`)
 
