@@ -268,3 +268,87 @@ Corresponde às colunas "Sphere" do livro, podendo ser múltiplas.
 
 Campos obrigatórios usados pelo validador para o subtipo `spell`:
 `spellLevel`, `range`, `duration`.
+
+## `SkillItemDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
+`src/item/dataModel/SkillItemDataModel.ts`. Similar ao `SpellItemDataModel`,
+este subtipo NÃO estende `GearItemDataModel` — é uma especialização
+`TypeDataModel` própria.
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `description` | string | não | `""` |
+| `gm.notes` | string | não | `""` |
+| `ability` | string | **sim** | — |
+| `targetFormula` | string | **sim** | — |
+| `operator` | string | **sim** | — |
+| `rollFormula` | string | **sim** | `"1d20"` |
+| `level` | number | **sim** | `1` |
+| `rollMode` | string | não | `""` |
+| `healFormula` | string, nullable | não | `null` |
+| `showResult` | boolean | não | `true` |
+| `skillBonus` | number | **sim** | `0` |
+| `skillPenalty` | number | **sim** | `0` |
+| `autoSuccess` | boolean, nullable | não | `null` |
+| `autoFail` | boolean, nullable | não | `null` |
+
+**`ability`**: uma das 6 core abilities (`str`, `dex`, `con`, `int`, `wis`, `cha`).
+Default para skills com dupla ability é registrado em `gm.notes` (não há campo
+próprio); para "special skills" (sem ability), é `"str"` com nota em `gm.notes`.
+
+**`rollFormula`/`targetFormula`/`operator`**: conjunto padrão para skills —
+`"1d20"`, `"@rollTarget"`, `"lte"` — descreve um d20-lower-equals-better check.
+
+**`skillBonus`/`skillPenalty`**: modificadores aplicáveis diretos (normalmente
+`0`, deixando o bônus de ability ser fonte primária de modificação).
+
+Campos obrigatórios usados pelo validador para o subtipo `skill`: `ability`,
+`targetFormula`, `operator`, `rollFormula`, `level`, `skillBonus`, `skillPenalty`.
+
+## `SpecialAbilityDataModel`
+
+Fonte: `Forelius/fantastic-depths` @ `4a8f2c8`,
+`src/item/fields/SpecialAbilityField.ts`. Similar a `SpellItemDataModel` e
+`SkillItemDataModel`, este subtipo NÃO estende `GearItemDataModel` — é uma
+especialização `TypeDataModel` própria.
+
+| Campo | Tipo | Obrigatório | Default |
+|---|---|---|---|
+| `tags` | string[] | não | `[]` |
+| `description` | string | não | `""` |
+| `gm.notes` | string | não | `""` |
+| `rollFormula` | string | não | `""` |
+| `operator` | string | não | `""` |
+| `target` | string | não | `""` |
+| `rollMode` | string | não | `"publicroll"` |
+| `autoSuccess` | boolean, nullable | não | `null` |
+| `autoFail` | boolean, nullable | não | `null` |
+| `abilityMod` | string | não | `""` |
+| `savingThrow` | string, nullable | não | `null` |
+| `dmgFormula` | string, nullable | não | `null` |
+| `healFormula` | string, nullable | não | `null` |
+| `damageType` | string | não | `""` |
+| `category` | string | não | `""` |
+| `shortName` | string | não | `""` |
+| `combatManeuver` | string, nullable | não | `null` |
+| `customSaveCode` | string, nullable | não | `null` |
+| `classKey` | string, nullable | não | `null` |
+| `showResult` | boolean | não | `true` |
+| `quantity` | number | não | `1` |
+| `quantityMax` | number, nullable | não | `null` |
+| `conditions` | array | não | `[]` |
+
+**`category`**: para talents (Task 2), sempre `"talent"`. Pode ter outros valores
+em futuros domínios que gerem `specialAbility` items com categorias diferentes.
+
+**`rollFormula`/`operator`/`target`**: campos para ações que exigem rolls
+(podem ser vazios para talentos passivos).
+
+**Campos vazios/nulos para talents**: Na Task 2 (talents), os seguintes campos
+são sempre vazios/null pois talents são habilidades passivas sem teste obrigatório:
+`rollFormula`, `operator`, `target`, `abilityMod`, `savingThrow`, `dmgFormula`,
+`healFormula`, `damageType`, `shortName`, `combatManeuver`, `customSaveCode`, `classKey`.
+
+Campos obrigatórios usados pelo validador para o subtipo `specialAbility`: nenhum
+(lista vazia de campos obrigatórios — só envelopes e referências são checadas).

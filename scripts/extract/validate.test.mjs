@@ -5,6 +5,7 @@ import os from "node:os";
 import path from "node:path";
 import { validateDocument, validatePack } from "./validate.mjs";
 import { buildDocument as buildSpellDocument } from "../build/spells.mjs";
+import { buildSkillDocument, buildTalentDocument } from "../build/skillsAndTalents.mjs";
 
 const validWeapon = {
    name: "Dagger",
@@ -242,4 +243,48 @@ test("validatePack flags duplicate _id across two files", async () => {
    } finally {
       await fs.rm(dir, { recursive: true, force: true });
    }
+});
+
+const validSkillRecord = {
+   name: "Arcane Lore",
+   ability: "int",
+   extraAbility: null,
+   choiceNote: null,
+   description: "<p>Gives a bonus to recognise spells.</p>",
+};
+
+test("validateDocument accepts a real skill document built via buildSkillDocument()", () => {
+   const doc = buildSkillDocument(validSkillRecord);
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.deepEqual(errors, []);
+});
+
+test("validateDocument flags a missing required skill field", () => {
+   const doc = buildSkillDocument(validSkillRecord);
+   delete doc.system.ability;
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.ok(
+      errors.some((e) => e.includes("system.ability")),
+      `expected an error mentioning system.ability, got: ${errors.join(", ")}`
+   );
+});
+
+const validTalentRecord = {
+   name: "Climb Walls",
+   description: "<p>Any character can climb a tree.</p>",
+};
+
+test("validateDocument accepts a real specialAbility document built via buildTalentDocument()", () => {
+   const doc = buildTalentDocument(validTalentRecord);
+   const errors = validateDocument(doc, {
+      packName: "items",
+      knownFolderIds: new Set([doc.folder]),
+   });
+   assert.deepEqual(errors, []);
 });

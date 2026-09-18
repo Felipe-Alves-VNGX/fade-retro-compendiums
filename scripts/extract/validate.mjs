@@ -22,6 +22,8 @@ const SUBTYPE_REQUIRED_FIELDS = {
    armor: [...GEAR_REQUIRED_FIELDS, "ac", "armorWeight", "mod", "modRanged", "totalAC", "totalRangedAC", "totalAAC", "totalRangedAAC"],
    weaponMastery: ["name", "primaryType", "levels"],
    spell: ["spellLevel", "range", "duration"],
+   skill: ["ability", "targetFormula", "operator", "rollFormula", "level", "skillBonus", "skillPenalty"],
+   specialAbility: [],
 };
 
 /**
