@@ -50,6 +50,15 @@ test("buildDocument maps a single-sphere spell", () => {
    assert.equal(doc.system.effect, "");
 });
 
+test("buildDocument writes system.name matching the record name (regression test)", () => {
+   const doc = buildDocument({
+      name: "Magic Missile", sphere: ["Energy"], class: "Wizard", circle: 1,
+      target: "one or more creatures", range: "150'", duration: "instant",
+      description: "<p>Missiles.</p>",
+   });
+   assert.equal(doc.system.name, "Magic Missile");
+});
+
 test("buildDocument maps a no-sphere spell to an empty tags array", () => {
    const doc = buildDocument({
       name: "Anti-Animal Shell", sphere: [], class: "Druid", circle: 6,
