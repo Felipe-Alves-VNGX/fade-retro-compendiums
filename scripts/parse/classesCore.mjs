@@ -26,21 +26,40 @@ function stripPageBoundaries(text) {
       .replace(/\n[ \t]*\n*(?:[ \t]*\d{1,4}[ \t]*\n[ \t]*\n*)?--- page \d+ ---\n/g, "\n");
 }
 
-// Keep only the left column of a two-column line (wide-gap merge,
-// same degradation class documented across this project) — the right
-// column here is the "ABILITIES" section, out of scope for this
-// sub-project.
-function leftColumnOnly(line) {
-   const m = line.match(/^(.*?)\s{5,}\S/);
-   return m ? m[1] : line;
-}
-
 function paragraphsToHtml(text) {
    const paragraphs = text
       .split(/\n\s*\n/)
-      .map((p) => p.split("\n").map(leftColumnOnly).map((l) => l.trim()).filter(Boolean).join(" ").trim())
+      .map((p) => p.split("\n").map((l) => l.trim()).filter(Boolean).join(" ").trim())
       .filter(Boolean);
    return paragraphs.map((p) => `<p>${p}</p>`).join("");
+}
+
+// Split a line into its two side-by-side columns on a wide-gap merge
+// (5+ spaces, same degradation class documented across this project).
+function splitColumns(line) {
+   const m = line.match(/^(.*?)\s{5,}(\S.*)$/);
+   return m ? [m[1], m[2]] : [line, ""];
+}
+
+// The intro-description region (between the end of Table Na and the
+// start of Table Nb) has two real columns of prose in 9 of the 10
+// classes — the right column is a genuine continuation of the same
+// paragraph flow, not the "<CLASS> ABILITIES (...)" section (which only
+// starts after Table Nb). Fighter is the one exception: its right
+// column starts immediately with "ABILITIES (", so stopping the
+// right-column stream at that pattern handles it without a
+// class-specific special case.
+function twoColumnParagraphsToHtml(lines) {
+   const leftLines = [];
+   const rightLines = [];
+   let rightStopped = false;
+   for (const line of lines) {
+      const [left, right] = splitColumns(line);
+      leftLines.push(left);
+      if (!rightStopped && /ABILITIES\s*\(/.test(right)) rightStopped = true;
+      rightLines.push(rightStopped ? "" : right);
+   }
+   return paragraphsToHtml(leftLines.join("\n")) + paragraphsToHtml(rightLines.join("\n"));
 }
 
 function parsePrimeAbilities(rawText) {
@@ -77,7 +96,16 @@ function parseLevelsTable(body, cfg) {
          levels.push({ level, xp, hd, thbonus });
 
          if (cfg.resource === "spells") {
-            const tokens = rest.split(/\s+/).filter(Boolean).slice(0, cfg.circles);
+            // pdftotext sometimes pushes the last "–" of the level-1 spell
+            // row into an unrelated line above (the previous class's
+            // "Abilities" prose), leaving this row one cell short. Only
+            // real table-cell tokens (a dash or a plain integer) count —
+            // filtering out stray prose words like "Skill" avoids grabbing
+            // the wrong token — and any shortfall is always exactly the
+            // pushed-away cell, whose real value is always 0 (no class has
+            // spells above 1st circle at level 1).
+            let tokens = rest.split(/\s+/).filter(Boolean).filter((t) => /^(–|\d+)$/.test(t)).slice(0, cfg.circles);
+            while (tokens.length < cfg.circles) tokens.push("–");
             resourceRows.push(tokens.map((t) => (t === "–" ? 0 : Number(t))));
          } else if (cfg.resource === "powder") {
             const gm = rest.match(/^(–|\d+ grains?)/);
@@ -144,12 +172,20 @@ export function parseClasses(rawText) {
       const savesSection = rawText.slice(savesTitleIdx, sectionEnd);
       const saves = parseSavesTable(savesSection);
 
-      const stripped = stripPageBoundaries(levelsSection).split("\n");
+      // Use the fuller (nameIdx..sectionEnd) range, not levelsSection, so
+      // the "Saves by Level" title line survives intact for the line-index
+      // search below — levelsSection cuts mid-line at savesTitleIdx
+      // (a character offset), which used to truncate the last description
+      // line and leak a "Table N–Xb:" fragment into it.
+      const stripped = stripPageBoundaries(rawText.slice(nameIdx, sectionEnd)).split("\n");
       let lastLevelLineIdx = -1;
       for (let i = 0; i < stripped.length; i++) {
          if (/^\s*36\s+[\d,]+\s+\d+\+\d*c/.test(stripped[i])) lastLevelLineIdx = i;
       }
-      const description = paragraphsToHtml(stripped.slice(lastLevelLineIdx + 1).join("\n"));
+      const savesByLevelTitle = `${cfg.key[0].toUpperCase()}${cfg.key.slice(1)} Saves by Level`;
+      let savesLineIdx = stripped.findIndex((l) => l.includes(savesByLevelTitle));
+      if (savesLineIdx === -1) savesLineIdx = stripped.length;
+      const description = twoColumnParagraphsToHtml(stripped.slice(lastLevelLineIdx + 1, savesLineIdx));
       const resourceTable = buildResourceTableHtml(cfg, resourceRows);
 
       records.push({

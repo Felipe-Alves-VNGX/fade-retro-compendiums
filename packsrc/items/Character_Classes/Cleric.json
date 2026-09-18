@@ -24,14 +24,14 @@
     "basicProficiency": false,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Clerics are people who have devoted themselves to religious service. In exchange for taking vows to uphold their religion's principles and tenets and to never use bladed weapons, clerics gain the ability to drive away or even destroy undead creatures; and to cast clerical spells.</p>",
+    "description": "<p>Clerics are people who have devoted themselves to religious service. In exchange for taking vows to uphold their religion's principles and tenets and to never use bladed weapons, clerics gain the ability to drive away or even destroy undead creatures; and to cast clerical spells.</p><p>Depending on the particular religion the cleric follows, the cleric may worship one or more gods – or even an entire pantheon of gods. Other religions involve the worship of abstract concepts such as \"fire\" or \"good\", or involve the worship of ancestral or other spirits. Yet other religions are based on abstract philosophies.</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "wis",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [

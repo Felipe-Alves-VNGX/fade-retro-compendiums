@@ -24,14 +24,14 @@
     "basicProficiency": false,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Druids nature worshippers. In exchange for their protection of nature, they gain the ability to cast spells and the ability to control animals. Druidic society has no hierarchy or structure and each druid is effectively their own master, doing as they think right, and druids take on individual initiates to whom they pass on the craft.</p>",
+    "description": "<p>Druids nature worshippers. In exchange for their protection of nature, they gain the ability to cast spells and the ability to control animals. Druidic society has no hierarchy or structure and each druid is effectively their own master, doing as they think right, and druids take on individual initiates to whom they pass on the craft.</p><p>The druidic philosophy is primarily concerned with protecting nature from corruption and destruction. As such, druids live apart from civilisation, often in woodland areas but occasionally in mountains or desert regions. Although there are occasional extremists who seek to kill or drive off all those who intrude on their protected areas, most druids are pragmatic in their protection. They will not hinder those who</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "wis",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [
@@ -694,7 +694,7 @@
         0,
         0,
         0,
-        null
+        0
       ],
       [
         1,

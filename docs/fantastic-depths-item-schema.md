@@ -367,7 +367,7 @@ de encumbrance, equipamento ou treasure tracking.
 | `key` | string | **sim** | — |
 | `species` | string | **sim** | `"Human"` |
 | `firstLevel` | number | **sim** | `1` |
-| `maxLevel` | number | **sim** | `36` |
+| `maxLevel` | number | **sim** | `0` (o schema real; `36` é o valor de livro escrito por ESTE builder para todas as 10 classes, não o default do schema) |
 | `firstSpellLevel` | number | **sim** | `1` |
 | `maxSpellLevel` | number | **sim** | `0` |
 | `basicProficiency` | boolean | **sim** | `false` |
@@ -378,19 +378,20 @@ de encumbrance, equipamento ou treasure tracking.
 | `primeReqs` | array de objetos | **sim** | — |
 | `levels` | array de objetos | **sim** | — |
 | `saves` | array de objetos | **sim** | — |
-| `spells` | 2D array | não | `[]` |
+| `spells` | 2D array | não | computado dinamicamente (`Array.from(...)`), não um literal `[]` fixo |
 | `specialAbilities` | array | não | `[]` |
 | `classItems` | array | não | `[]` |
 | `abilities` | object | não | atribuído dinamicamente via `game.fade.registry` em runtime |
 
-Cada elemento de `primeReqs`:
+Cada elemento de `primeReqs` (todos os 4 campos são **obrigatórios** no schema
+real):
 
 | Campo | Tipo | Obrigatório | Default |
 |---|---|---|---|
 | `ability` | string | **sim** | — |
-| `minScore` | number | não | `0` |
-| `percentage` | number | não | `5` |
-| `concatLogic` | string, nullable | não | `null` |
+| `minScore` | number | **sim** | sem `initial` no schema — não colocar um default fictício |
+| `percentage` | number | **sim** | — |
+| `concatLogic` | string (não nullable) | **sim** | — |
 
 Cada elemento de `levels`:
 
@@ -398,23 +399,20 @@ Cada elemento de `levels`:
 |---|---|---|---|
 | `level` | number | **sim** | — |
 | `xp` | number | **sim** | — |
-| `thbonus` | number | não | `0` |
-| `hd` | string | não | `"1d4"` |
-| `hdcon` | boolean | não | `true` |
+| `thac0` | number | **sim** | `CONFIG.FADE.ToHit.baseTHAC0` — este projeto NUNCA sobrescreve esse valor (fica no default do schema; ver spec deste sub-projeto, seção 3) |
+| `thbonus` | number | **sim** | `0` |
+| `hd` | string | **sim** | `""` |
+| `hdcon` | boolean | **sim** | `true` |
 | `title` | string, nullable | não | `null` |
 | `femaleTitle` | string, nullable | não | `null` |
-| `attackRank` | number, nullable | não | `null` |
+| `attackRank` | string | não | `null` |
 
-Cada elemento de `saves`:
-
-| Campo | Tipo | Obrigatório | Default |
-|---|---|---|---|
-| `level` | number | **sim** | — |
-| `doom` | number | não | `15` |
-| `ray` | number | não | `15` |
-| `stasis` | number | não | `15` |
-| `blast` | number | não | `15` |
-| `spell` | number | não | `15` |
+`saves` (a propriedade em si) é `new ArrayField(new ObjectField({}), {...})`
+no schema real — um array de objetos genéricos, **sem sub-schema imposto pelo
+Foundry** (nenhuma coluna, tipo ou default é validado pelo `ObjectField({})`
+vazio). Este sub-projeto usa, por convenção própria (documentada na spec deste
+sub-projeto, seção 5, não porque o schema exige), a forma
+`{ level, doom, ray, stasis, blast, spell }` para cada elemento.
 
 **`key`**: identificador único da classe, único dentro do domínio (ex. `"fighter"`, `"battlemage"`).
 Corresponde ao arquivo `parsedKey` derivado pelo parser (Task 1) do nome na tabela do livro.
@@ -428,8 +426,10 @@ Diferenças de espécie ficam para um sub-projeto futuro (skills variadas por es
 **`firstSpellLevel`**: para todos os lançadores, sempre `1` (primeira magia
 disponível no nível 1 da classe).
 
-**`spells`**: 2D array `[circleCount][9]` descrevendo quantas preparações de
-magia cada círculo tem em cada nível da classe; para não-lançadores, vazio `[]`.
+**`spells`**: 2D array na forma real `spells[levelIndex][circleIndex]` — 36
+linhas (uma por nível da classe) × `circleCount` colunas (uma por círculo de
+magia), confirmado contra os JSONs reais gerados em
+`packsrc/items/Character_Classes/*.json`; para não-lançadores, vazio `[]`.
 
 **`specialAbilities`** e **`classItems`**: inicialmente vazios (já que as
 class abilities pertencem a um sub-projeto separado — "habilidades e talentos").

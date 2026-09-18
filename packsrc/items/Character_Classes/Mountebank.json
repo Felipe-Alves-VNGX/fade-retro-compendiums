@@ -24,14 +24,14 @@
     "basicProficiency": false,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Mountebanks are characters who dabble in many areas rather than concentrating in one. They can fight a bit, and sneak a bit, and cast a bit of magic. They tend to be charismatic social butterflies, who bluff their way through life and who rely on their wits to survive rather than any particular ability. Although many mountebanks are the worst sort of dishonest charlatans claiming abilities they do not have, and making money by</p>",
+    "description": "<p>Mountebanks are characters who dabble in many areas rather than concentrating in one. They can fight a bit, and sneak a bit, and cast a bit of magic. They tend to be charismatic social butterflies, who bluff their way through life and who rely on their wits to survive rather than any particular ability. Although many mountebanks are the worst sort of dishonest charlatans claiming abilities they do not have, and making money by</p><p>petty con tricks and magically enhanced larceny, they are a varied bunch and are just as likely to be using their abilities for simple fun or to take down those who prey on the weak. Because of their nature as dilettantes, mountebanks tend not to be formally trained in the way that wizards are. However, a mountebank will often take an aspiring youngster under</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "cha",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [
@@ -695,7 +695,7 @@
         0,
         0,
         0,
-        null
+        0
       ],
       [
         1,

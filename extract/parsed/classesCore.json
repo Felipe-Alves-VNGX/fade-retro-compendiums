@@ -911,7 +911,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Battlemages learn magic as a tool for warfare rather than as an art or a craft, and they build up their body as well as their mind so that they are able to fight with weapons as well as with magic. The difficulty of maintaining this dual speciality means that battlemages require more experience to increase in level than any other class.</p>",
+    "description": "<p>Battlemages learn magic as a tool for warfare rather than as an art or a craft, and they build up their body as well as their mind so that they are able to fight with weapons as well as with magic. The difficulty of maintaining this dual speciality means that battlemages require more experience to increase in level than any other class.</p><p>Not all battlemages pursue their arts with the intent to use them in war. A minority study magical and martial techniques as a form of self-improvement and actualisation, to become the best in mind and body that they can be.</p><p>Battlemages are popular in adventuring parties for their versatility, although they can find themselves lagging behind other, more specialised, party members and may find that</p>",
     "resourceTable": null
   },
   {
@@ -1754,7 +1754,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Clerics are people who have devoted themselves to religious service. In exchange for taking vows to uphold their religion's principles and tenets and to never use bladed weapons, clerics gain the ability to drive away or even destroy undead creatures; and to cast clerical spells.</p>",
+    "description": "<p>Clerics are people who have devoted themselves to religious service. In exchange for taking vows to uphold their religion's principles and tenets and to never use bladed weapons, clerics gain the ability to drive away or even destroy undead creatures; and to cast clerical spells.</p><p>Depending on the particular religion the cleric follows, the cleric may worship one or more gods – or even an entire pantheon of gods. Other religions involve the worship of abstract concepts such as \"fire\" or \"good\", or involve the worship of ancestral or other spirits. Yet other religions are based on abstract philosophies.</p>",
     "resourceTable": null
   },
   {
@@ -1989,7 +1989,7 @@
         0,
         0,
         0,
-        null
+        0
       ],
       [
         1,
@@ -2597,7 +2597,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Druids nature worshippers. In exchange for their protection of nature, they gain the ability to cast spells and the ability to control animals. Druidic society has no hierarchy or structure and each druid is effectively their own master, doing as they think right, and druids take on individual initiates to whom they pass on the craft.</p>",
+    "description": "<p>Druids nature worshippers. In exchange for their protection of nature, they gain the ability to cast spells and the ability to control animals. Druidic society has no hierarchy or structure and each druid is effectively their own master, doing as they think right, and druids take on individual initiates to whom they pass on the craft.</p><p>The druidic philosophy is primarily concerned with protecting nature from corruption and destruction. As such, druids live apart from civilisation, often in woodland areas but occasionally in mountains or desert regions. Although there are occasional extremists who seek to kill or drive off all those who intrude on their protected areas, most druids are pragmatic in their protection. They will not hinder those who</p>",
     "resourceTable": null
   },
   {
@@ -3115,7 +3115,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Fighters are characters who have been trained in the art of combat from an early age. They range from noble chevaliers and daring swashbucklers to brutal thugs and grizzled mercenaries. In an adventuring party, fighters form the main front line, holding off the enemy and protecting the more vulnerable party members.</p>",
+    "description": "<p>Fighters are characters who have been trained in the art of combat from an early age. They range from noble chevaliers and daring swashbucklers to brutal thugs and grizzled mercenaries.</p><p>In an adventuring party, fighters form the main front line, holding off the enemy and protecting the more vulnerable party members.</p>",
     "resourceTable": null
   },
   {
@@ -3633,7 +3633,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Grenadiers are experts in the use of red powder and its many applications as an explosive or propellant. They are able to refine the powder into a more potent form and use it in the creation of a variety of weapons and tools. The concentration of effort into producing better firearms and explosives naturally goes hand in hand with the ability to use them effectively. This aptitude with firearms and grenades,</p>",
+    "description": "<p>Grenadiers are experts in the use of red powder and its many applications as an explosive or propellant. They are able to refine the powder into a more potent form and use it in the creation of a variety of weapons and tools.</p><p>The concentration of effort into producing better firearms and explosives naturally goes hand in hand with the ability to use them effectively. This aptitude with firearms and grenades,</p><p>combined with the wearing of armour for protection against both mishap and enemy fire, leads to grenadiers being seen as a very martial group, and this is often the case, although some are undoubtedly in it for the theory side of things rather than as a means to an end, their experimentation fuelling their thirst for knowledge or their pyromania – or both.</p>",
     "resourceTable": "<p>Powder Refinement por nível (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th>Powder Refinement</th></tr><tr><td>1</td><td>–</td></tr><tr><td>2</td><td>1 grain</td></tr><tr><td>3</td><td>2 grains</td></tr><tr><td>4</td><td>4 grains</td></tr><tr><td>5</td><td>6 grains</td></tr><tr><td>6</td><td>9 grains</td></tr><tr><td>7</td><td>13 grains</td></tr><tr><td>8</td><td>19 grains</td></tr><tr><td>9</td><td>26 grains</td></tr><tr><td>10</td><td>34 grains</td></tr><tr><td>11</td><td>42 grains</td></tr><tr><td>12</td><td>50 grains</td></tr><tr><td>13</td><td>58 grains</td></tr><tr><td>14</td><td>66 grains</td></tr><tr><td>15</td><td>74 grains</td></tr><tr><td>16</td><td>82 grains</td></tr><tr><td>17</td><td>90 grains</td></tr><tr><td>18</td><td>98 grains</td></tr><tr><td>19</td><td>106 grains</td></tr><tr><td>20</td><td>114 grains</td></tr><tr><td>21</td><td>122 grains</td></tr><tr><td>22</td><td>130 grains</td></tr><tr><td>23</td><td>138 grains</td></tr><tr><td>24</td><td>146 grains</td></tr><tr><td>25</td><td>154 grains</td></tr><tr><td>26</td><td>162 grains</td></tr><tr><td>27</td><td>170 grains</td></tr><tr><td>28</td><td>178 grains</td></tr><tr><td>29</td><td>187 grains</td></tr><tr><td>30</td><td>196 grains</td></tr><tr><td>31</td><td>205 grains</td></tr><tr><td>32</td><td>214 grains</td></tr><tr><td>33</td><td>223 grains</td></tr><tr><td>34</td><td>232 grains</td></tr><tr><td>35</td><td>241 grains</td></tr><tr><td>36</td><td>250 grains</td></tr></table>"
   },
   {
@@ -3869,7 +3869,7 @@
         0,
         0,
         0,
-        null
+        0
       ],
       [
         1,
@@ -4512,7 +4512,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Mountebanks are characters who dabble in many areas rather than concentrating in one. They can fight a bit, and sneak a bit, and cast a bit of magic. They tend to be charismatic social butterflies, who bluff their way through life and who rely on their wits to survive rather than any particular ability. Although many mountebanks are the worst sort of dishonest charlatans claiming abilities they do not have, and making money by</p>",
+    "description": "<p>Mountebanks are characters who dabble in many areas rather than concentrating in one. They can fight a bit, and sneak a bit, and cast a bit of magic. They tend to be charismatic social butterflies, who bluff their way through life and who rely on their wits to survive rather than any particular ability. Although many mountebanks are the worst sort of dishonest charlatans claiming abilities they do not have, and making money by</p><p>petty con tricks and magically enhanced larceny, they are a varied bunch and are just as likely to be using their abilities for simple fun or to take down those who prey on the weak. Because of their nature as dilettantes, mountebanks tend not to be formally trained in the way that wizards are. However, a mountebank will often take an aspiring youngster under</p>",
     "resourceTable": null
   },
   {
@@ -5030,7 +5030,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Mystics use mind over body techniques to affect their own bodies and, with experience, the bodies of others.</p><p>They use martial arts as a focus to achieve the states of mind they need to achieve to do this, and the result is that they are able to fight with superhuman speed and agility when using</p>",
+    "description": "<p>Mystics use mind over body techniques to affect their own bodies and, with experience, the bodies of others.</p><p>They use martial arts as a focus to achieve the states of mind they need to achieve to do this, and the result is that they are able to fight with superhuman speed and agility when using</p><p>martial arts, eventually performing much better unarmed than they would with weapons.</p><p>Within an adventuring party, mystics can prove to be able in melee combat, though not quite as able as fighters until they reach higher levels of experience; and back this talent up with useful scouting skills.</p>",
     "resourceTable": "<p>Enhanced Martial Arts Abilities por nível (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th>Armour Class</th><th>Move</th><th>Unarmed Attacks</th><th>Unarmed Damage</th><th>Unarmed Hit As</th></tr><tr><td>1</td><td>9</td><td>40'</td><td>1</td><td>1d4</td><td>–</td></tr><tr><td>2</td><td>8</td><td>45'</td><td>1</td><td>1d4+1</td><td>Silver</td></tr><tr><td>3</td><td>7</td><td>45'</td><td>1</td><td>1d6</td><td>Silver</td></tr><tr><td>4</td><td>6</td><td>50'</td><td>1</td><td>1d6+1</td><td>Silver</td></tr><tr><td>5</td><td>5</td><td>55'</td><td>2</td><td>1d8</td><td>+1</td></tr><tr><td>6</td><td>4</td><td>55'</td><td>2</td><td>1d8+1</td><td>+1</td></tr><tr><td>7</td><td>3</td><td>60'</td><td>2</td><td>1d10</td><td>+1</td></tr><tr><td>8</td><td>2</td><td>65'</td><td>2</td><td>1d12</td><td>+2</td></tr><tr><td>9</td><td>1</td><td>65'</td><td>3</td><td>2d8</td><td>+2</td></tr><tr><td>10</td><td>0</td><td>70'</td><td>3</td><td>2d10</td><td>+2</td></tr><tr><td>11</td><td>–1</td><td>75'</td><td>3</td><td>2d12</td><td>+3</td></tr><tr><td>12</td><td>–2</td><td>80'</td><td>3</td><td>3d8+1</td><td>+3</td></tr><tr><td>13</td><td>–3</td><td>85'</td><td>4</td><td>4d6+2</td><td>+3</td></tr><tr><td>14</td><td>–4</td><td>90'</td><td>4</td><td>5d6</td><td>+4</td></tr><tr><td>15</td><td>–5</td><td>95'</td><td>4</td><td>4d8</td><td>+4</td></tr><tr><td>16</td><td>–6</td><td>100'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>17</td><td>–6</td><td>100'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>18</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>19</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>20</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>21</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>22</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>23</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>24</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>25</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>26</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>27</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>28</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>29</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>30</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>31</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>32</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>33</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>34</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>35</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>36</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr></table>"
   },
   {
@@ -5548,7 +5548,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Rangers are wilderness and urban trackers and hunters, able to fight, but primarily focused on stealth and ranged attacks. Although they may spend much of their time in the wilderness, rangers do not have any special affinity with nature. While a minority of individual rangers follow druidic teachings, this is not a requirement. Many rangers, particularly those</p>",
+    "description": "<p>Rangers are wilderness and urban trackers and hunters, able to fight, but primarily focused on stealth and ranged attacks. Although they may spend much of their time in the wilderness, rangers do not have any special affinity with nature.</p><p>While a minority of individual rangers follow druidic teachings, this is not a requirement. Many rangers, particularly those</p><p>who primarily act as spies or bounty hunters rather than the hunters of wild beasts, are thoroughly urbanised.</p><p>In adventuring parties, rangers are useful for their skill with ranged weapons and the fact that they combine stealth with the ability to handle themselves in combat.</p>",
     "resourceTable": null
   },
   {
@@ -6066,7 +6066,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Thieves are characters who specialise in subterfuge and trickery. They come from all social classes, from bored nobles seeking excitement to well trained and subtle assassins to former street urchins. Although the class is called \"thief\", thief characters are not always dishonest and do not always steal. Many of them use their talents for good rather than for personal benefit, and work as scouts and adventurers.</p>",
+    "description": "<p>Thieves are characters who specialise in subterfuge and trickery. They come from all social classes, from bored nobles seeking excitement to well trained and subtle assassins to former street urchins. Although the class is called \"thief\", thief characters are not always dishonest and do not always steal. Many of them use their talents for good rather than for personal benefit, and work as scouts and adventurers.</p><p>Even the most noble and honest adventuring parties often need to bypass traps and locks or to have someone who can scout ahead without being seen, and many so-called 'thieves' spend their adventuring careers in this type of activity and never steal a coin in their lives. Adventuring parties find the talents of thieves extremely useful, although thieves do not make the greatest warriors so may need protecting in fights.</p>",
     "resourceTable": null
   },
   {
@@ -6981,7 +6981,7 @@
         "spell": 18
       }
     ],
-    "description": "<p>Wizards are characters who have studied the arcane arts and who are able to learn and cast magical spells.</p><p>Prospective wizards must study for years before they are able to master spell casting. In some larger cities such studying is done in a university, but in more rural areas with fewer resources and fewer people it is more likely to be a master/ apprentice system. Unfortunately either kind of study leaves</p>",
+    "description": "<p>Wizards are characters who have studied the arcane arts and who are able to learn and cast magical spells.</p><p>Prospective wizards must study for years before they are able to master spell casting. In some larger cities such studying is done in a university, but in more rural areas with fewer resources and fewer people it is more likely to be a master/ apprentice system. Unfortunately either kind of study leaves</p><p>little time for other pursuits and this means that wizards tend to be somewhat lacking in more physical traits and skills.</p><p>In an adventuring party, a wizard makes excellent artillery with a wide range of offensive spells; but must be protected by other characters as they are physically weak. At low levels, the small number of spells that a wizard is able to cast can make them almost a liability to their party – but wise parties</p>",
     "resourceTable": null
   }
 ]

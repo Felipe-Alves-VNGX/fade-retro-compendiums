@@ -24,14 +24,14 @@
     "basicProficiency": true,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Fighters are characters who have been trained in the art of combat from an early age. They range from noble chevaliers and daring swashbucklers to brutal thugs and grizzled mercenaries. In an adventuring party, fighters form the main front line, holding off the enemy and protecting the more vulnerable party members.</p>",
+    "description": "<p>Fighters are characters who have been trained in the art of combat from an early age. They range from noble chevaliers and daring swashbucklers to brutal thugs and grizzled mercenaries.</p><p>In an adventuring party, fighters form the main front line, holding off the enemy and protecting the more vulnerable party members.</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "str",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [

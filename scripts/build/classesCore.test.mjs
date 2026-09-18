@@ -35,7 +35,7 @@ test("buildDocument maps the basic class identity fields", () => {
 
 test("buildDocument maps primeReqs from primeAbility", () => {
    const doc = buildDocument(SAMPLE_RECORD);
-   assert.deepEqual(doc.system.primeReqs, [{ ability: "int", minScore: 0, percentage: 5, concatLogic: null }]);
+   assert.deepEqual(doc.system.primeReqs, [{ ability: "int", minScore: 0, percentage: 5, concatLogic: "" }]);
 });
 
 test("buildDocument maps levels without a thac0 override, leaving it at the schema default", () => {

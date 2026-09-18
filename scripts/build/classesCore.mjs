@@ -79,7 +79,7 @@ export function buildDocument(record) {
          alignment: "Any",
          description,
          castAsKey: null,
-         primeReqs: [{ ability: record.primeAbility, minScore: 0, percentage: 5, concatLogic: null }],
+         primeReqs: [{ ability: record.primeAbility, minScore: 0, percentage: 5, concatLogic: "" }],
          levels,
          saves,
          spells: record.spells,

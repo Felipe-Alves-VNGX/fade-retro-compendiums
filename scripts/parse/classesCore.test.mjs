@@ -41,6 +41,24 @@ test("Battlemage level 1 and level 9 match the real book values", () => {
    assert.deepEqual(bm.spells[8], [3, 3, 2, 2, 1, 0, 0, 0, 0]);
 });
 
+test("every spell-table cell for all 5 caster classes is a real integer between 0 and 9", () => {
+   const casters = records.filter((r) => r.circleCount > 0);
+   for (const r of casters) {
+      for (const row of r.spells) {
+         for (const v of row) {
+            assert.ok(Number.isInteger(v) && v >= 0 && v <= 9, `${r.key}: ${JSON.stringify(row)}`);
+         }
+      }
+   }
+});
+
+test("Druid level 1 spells and Mountebank level 1 spells are not NaN/null from the pushed-cell pdftotext bug", () => {
+   const druid = records.find((r) => r.key === "druid");
+   const mountebank = records.find((r) => r.key === "mountebank");
+   assert.deepEqual(druid.spells[0], [0, 0, 0, 0, 0, 0, 0]);
+   assert.deepEqual(mountebank.spells[0], [1, 0, 0, 0, 0, 0, 0, 0]);
+});
+
 test("Grenadier's compound powder resource is parsed with its unit text intact", () => {
    const gr = records.find((r) => r.key === "grenadier");
    assert.equal(gr.spells.length, 0);
@@ -70,6 +88,18 @@ test("basicProficiency matches the Equipment Restrictions rulings", () => {
       grenadier: true, mountebank: false, mystic: false, ranger: true,
       thief: false, wizard: false,
    });
+});
+
+test("Grenadier's description keeps the right-column prose intact, not cut mid-sentence", () => {
+   const gr = records.find((r) => r.key === "grenadier");
+   assert.match(gr.description, /combined with the wearing of armour for protection against\s+both mishap and enemy fire/);
+});
+
+test("Fighter's description excludes the ABILITIES/Equipment Restrictions/Saves section", () => {
+   const fi = records.find((r) => r.key === "fighter");
+   assert.doesNotMatch(fi.description, /ABILITIES/);
+   assert.doesNotMatch(fi.description, /Equipment Restrictions/);
+   assert.doesNotMatch(fi.description, /Saves:/);
 });
 
 test("no description or resource table leaks a page marker or column-merge gap", () => {

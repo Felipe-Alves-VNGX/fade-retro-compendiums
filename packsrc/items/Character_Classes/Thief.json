@@ -24,14 +24,14 @@
     "basicProficiency": false,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Thieves are characters who specialise in subterfuge and trickery. They come from all social classes, from bored nobles seeking excitement to well trained and subtle assassins to former street urchins. Although the class is called \"thief\", thief characters are not always dishonest and do not always steal. Many of them use their talents for good rather than for personal benefit, and work as scouts and adventurers.</p>",
+    "description": "<p>Thieves are characters who specialise in subterfuge and trickery. They come from all social classes, from bored nobles seeking excitement to well trained and subtle assassins to former street urchins. Although the class is called \"thief\", thief characters are not always dishonest and do not always steal. Many of them use their talents for good rather than for personal benefit, and work as scouts and adventurers.</p><p>Even the most noble and honest adventuring parties often need to bypass traps and locks or to have someone who can scout ahead without being seen, and many so-called 'thieves' spend their adventuring careers in this type of activity and never steal a coin in their lives. Adventuring parties find the talents of thieves extremely useful, although thieves do not make the greatest warriors so may need protecting in fights.</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "dex",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [

@@ -24,14 +24,14 @@
     "basicProficiency": true,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Battlemages learn magic as a tool for warfare rather than as an art or a craft, and they build up their body as well as their mind so that they are able to fight with weapons as well as with magic. The difficulty of maintaining this dual speciality means that battlemages require more experience to increase in level than any other class.</p>",
+    "description": "<p>Battlemages learn magic as a tool for warfare rather than as an art or a craft, and they build up their body as well as their mind so that they are able to fight with weapons as well as with magic. The difficulty of maintaining this dual speciality means that battlemages require more experience to increase in level than any other class.</p><p>Not all battlemages pursue their arts with the intent to use them in war. A minority study magical and martial techniques as a form of self-improvement and actualisation, to become the best in mind and body that they can be.</p><p>Battlemages are popular in adventuring parties for their versatility, although they can find themselves lagging behind other, more specialised, party members and may find that</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "int",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [

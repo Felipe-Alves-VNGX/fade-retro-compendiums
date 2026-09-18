@@ -24,14 +24,14 @@
     "basicProficiency": true,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Rangers are wilderness and urban trackers and hunters, able to fight, but primarily focused on stealth and ranged attacks. Although they may spend much of their time in the wilderness, rangers do not have any special affinity with nature. While a minority of individual rangers follow druidic teachings, this is not a requirement. Many rangers, particularly those</p>",
+    "description": "<p>Rangers are wilderness and urban trackers and hunters, able to fight, but primarily focused on stealth and ranged attacks. Although they may spend much of their time in the wilderness, rangers do not have any special affinity with nature.</p><p>While a minority of individual rangers follow druidic teachings, this is not a requirement. Many rangers, particularly those</p><p>who primarily act as spies or bounty hunters rather than the hunters of wild beasts, are thoroughly urbanised.</p><p>In adventuring parties, rangers are useful for their skill with ranged weapons and the fact that they combine stealth with the ability to handle themselves in combat.</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "dex",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [

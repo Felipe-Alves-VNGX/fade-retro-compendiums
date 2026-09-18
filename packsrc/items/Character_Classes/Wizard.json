@@ -24,14 +24,14 @@
     "basicProficiency": false,
     "unskilledToHitMod": -2,
     "alignment": "Any",
-    "description": "<p>Wizards are characters who have studied the arcane arts and who are able to learn and cast magical spells.</p><p>Prospective wizards must study for years before they are able to master spell casting. In some larger cities such studying is done in a university, but in more rural areas with fewer resources and fewer people it is more likely to be a master/ apprentice system. Unfortunately either kind of study leaves</p>",
+    "description": "<p>Wizards are characters who have studied the arcane arts and who are able to learn and cast magical spells.</p><p>Prospective wizards must study for years before they are able to master spell casting. In some larger cities such studying is done in a university, but in more rural areas with fewer resources and fewer people it is more likely to be a master/ apprentice system. Unfortunately either kind of study leaves</p><p>little time for other pursuits and this means that wizards tend to be somewhat lacking in more physical traits and skills.</p><p>In an adventuring party, a wizard makes excellent artillery with a wide range of offensive spells; but must be protected by other characters as they are physically weak. At low levels, the small number of spells that a wizard is able to cast can make them almost a liability to their party – but wise parties</p>",
     "castAsKey": null,
     "primeReqs": [
       {
         "ability": "int",
         "minScore": 0,
         "percentage": 5,
-        "concatLogic": null
+        "concatLogic": ""
       }
     ],
     "levels": [
