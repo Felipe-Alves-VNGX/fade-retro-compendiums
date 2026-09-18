@@ -17,9 +17,10 @@ O segundo sub-projeto (subtipo `weaponMastery`, as ~80 tabelas de
 progressão de proficiência) tem seu próprio spec/plano, depois deste.
 
 Critério de conclusão: `packsrc/items/Equipment/Weapons/*.json` cobre
-todas as armas de Table 6-1 (~41 documentos, contando a duplicata
-deliberada de Sword, Bastard), o `Dagger.json` hand-written da Fase 1 é
-substituído pela versão gerada, e `npm run validate` passa sem erros.
+todas as armas de Table 6-1 (40 documentos — 39 armas distintas + a
+duplicata deliberada de Sword, Bastard, contada como as duas entradas
+que ela é), o `Dagger.json` hand-written da Fase 1 é substituído pela
+versão gerada, e `npm run validate` passa sem erros.
 
 ## 2. Fontes e junção entre capítulos
 
@@ -73,10 +74,12 @@ separado):
 - **Sword, Bastard duplicado**: aparece em DUAS seções (One-Handed e
   Two-Handed) com os mesmos dados de custo/dano, refletindo o trait
   "Versatile" (pode ser usada de uma mão ou duas). Decisão: o parser gera
-  duas entradas com nomes distintos — `"Sword, Bastard (One-Handed)"` e
-  `"Sword, Bastard (Two-Handed)"` — em vez de colapsar numa só, pra evitar
-  colisão de `_id`/nome de arquivo. Mesmo padrão de sufixo parentético já
-  usado no domínio equipment (ex.: `"Boots (plain)"`).
+  duas entradas com nomes distintos — a primeira ocorrência (One-Handed)
+  fica com o nome impresso sem sufixo, `"Sword, Bastard"`, e a segunda
+  (Two-Handed) recebe o sufixo, `"Sword, Bastard (Two-Handed)"` — em vez
+  de colapsar numa só, pra evitar colisão de `_id`/nome de arquivo. Mesmo
+  padrão de sufixo parentético já usado no domínio equipment (ex.:
+  `"Boots (plain)"`), aplicado só à ocorrência repetida.
 - **Dano com bônus fixo**: `"1d6+1"` (Sword Bastard) — o parser trata a
   string inteira como valor opaco, sem separar o `+1`; mesmo padrão do
   `damageRoll` do `Dagger.json` hand-written (`"1d4"` sem parsing).
@@ -101,7 +104,7 @@ no builder (seção 6) sem repetir a lógica no parser.
     "damageRoll": "1d4", "baseTraits": ["Simple", "Off-Hand", "Throw"],
     "advancedTraits": ["Double Damage"], "masteryGroups": ["Short Blades"],
     "weightLb": 1 },
-  { "name": "Sword, Bastard (One-Handed)", "section": "one-handed",
+  { "name": "Sword, Bastard", "section": "one-handed",
     "cost": { "value": 15, "currency": "gp" }, "damageRoll": "1d6+1",
     "baseTraits": ["Versatile"], "advancedTraits": ["Deflect"],
     "masteryGroups": ["Medium Blades"], "weightLb": 8 },
