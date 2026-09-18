@@ -237,13 +237,72 @@ em aberto.
 
 Dado o catálogo de 10 layouts diferentes (seção 2), o parser usa uma
 tabela de configuração hardcoded por classe (nome da classe → número
-de colunas de recurso extra, tipo do recurso: `"spells"` com N
-círculos, `"resource"` com M colunas nomeadas, ou `nenhum`),
-verificada por leitura exaustiva de TODAS as 10 tabelas antes de
-escrever o plano de implementação (não confiar só nesta spec — a spec
-já fez essa leitura uma vez, mas o plano precisa reverificar com código
-real rodando contra o arquivo real antes de ser finalizado, seguindo o
-processo já estabelecido nos domínios anteriores).
+de colunas de recurso extra), **já verificada rodando código real
+contra o arquivo inteiro** (não só nesta spec — o algoritmo abaixo foi
+testado e confirmado, 36/36 níveis e 36/36 saves para as 10 classes,
+antes de escrever esta seção):
+
+**Extração de nível (Table Na)**: cada linha de dado começa com o
+número do nível, seguido de XP (com vírgulas de milhar), HD (padrão
+`\d+\+\d*c`), Attack Bonus (`[+-]?\d+`), e o resto da linha contém as
+colunas de recurso (quando existem) seguidas do texto livre de
+"Abilities" (fora de escopo, descartado por este sub-projeto):
+```
+/^\s*(\d{1,2})\s+([\d,]+)\s+(\d+\+\d*c)\s+([+\-]?\d+)\s*(.*)$/
+```
+**Achado real**: o `\s*` final (não `\s+`) é necessário — várias linhas
+não têm nenhum texto de "Abilities" (nada depois do Attack Bonus), e
+`\s+` exigiria pelo menos um espaço sobrando, o que falha exatamente
+nesses casos (confirmado: Fighter/Ranger/Thief perderiam 35 dos 36
+níveis com `\s+`, já que a maioria dos seus níveis não tem texto de
+habilidade).
+
+O "resto da linha" (grupo 5) é tokenizado por espaço; os primeiros N
+tokens (N = `resourceCols` da classe) são os valores de recurso —
+EXCETO Grenadier, cujo recurso ("Powder Refinement") tem um valor
+composto com espaço interno (`"1 grain"`, `"26 grains"`), então usa um
+regex próprio (`/^(–|\d+ grains?)/`) em vez de tokenização por
+contagem — achado real, confirmado contra as 36 linhas do Grenadier
+(nenhuma exceção ao padrão "– ou N grain(s)").
+
+**Extração de saves (Table Nb)**: sempre 5 colunas fixas (Doom, Ray,
+Stasis, Blast, Spell) em todas as 10 classes:
+```
+/^\s*(\d{1,2})\s+([+\-]?\d+)\s+([+\-]?\d+)\s+([+\-]?\d+)\s+([+\-]?\d+)\s+([+\-]?\d+)\s*$/
+```
+
+**Extração de prime ability (Table 4-1)**: uma linha por classe,
+`"<Nome da Classe><espaços><Ability por extenso>"` — nome da classe
+casado por `startsWith`, resto da linha mapeado pro código de 3 letras.
+
+**Extração da seção "ABILITIES" de cada classe**: o cabeçalho tem DUAS
+grafias reais no livro — `"<CLASSE> ABILITIES (SEE TABLE N–Xa)"` pras
+5 primeiras classes (Battlemage/Cleric/Druid/Fighter/Grenadier) e
+`"<CLASSE> ABILITIES (TABLE N–Xa)"` (sem "SEE") pras outras 5
+(Mountebank/Mystic/Ranger/Thief/Wizard) — achado real, confirmado por
+grep no arquivo inteiro. O parser localiza esse cabeçalho por
+`indexOf("<CLASSE> ABILITIES (")` (sem exigir "SEE", funciona pras
+duas grafias) — busca por substring solta, não por início de linha,
+porque o cabeçalho de Fighter aparece colado no fim de uma linha de
+prosa de outra coluna (mesmo padrão de merge de coluna já visto em
+outros domínios), não isolado na própria linha.
+
+`Equipment Restrictions` — usado só pra derivar `basicProficiency`
+(seção 10, já confirmado pras 10 classes por leitura direta) — não
+precisa de extração automática nem verbatim no `description`: a regra
+booleana já está na tabela da seção 10, hardcoded no builder por
+classe (mesmo padrão de lista fixa pequena já usado em `TALENT_NAMES`
+do domínio skills — 10 classes é um conjunto fechado pequeno o
+suficiente pra não valer o risco de um parser genérico de prosa
+corrompida por merge de coluna).
+
+`description` = os 1-2 parágrafos de prosa introdutória de cada classe
+(entre o fim da Table Na e o início da Table Nb — texto em duas colunas
+mas SEM merge caractere-a-caractere corrompido, cada coluna é lida
+inteira e coerente; as duas viram parágrafos `<p>` separados, ordem de
+leitura entre as colunas não é garantida mas cada parágrafo em si é
+íntegro) + (quando aplicável, Grenadier/Mystic) a tabela HTML de
+recurso específico da seção 6.
 
 `scripts/parse/classesCore.mjs` produz
 `extract/parsed/classesCore.json`, um array de 10 objetos:
