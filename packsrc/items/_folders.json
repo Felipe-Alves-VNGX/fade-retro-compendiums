@@ -508,5 +508,20 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!nAciSdEmUz9C4fUB": {
+    "name": "Character Classes",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "nAciSdEmUz9C4fUB",
+    "description": "",
+    "sort": 600000,
+    "color": "#4a2f3c",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }

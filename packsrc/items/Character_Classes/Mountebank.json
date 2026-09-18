@@ -1,0 +1,1054 @@
+{
+  "folder": "nAciSdEmUz9C4fUB",
+  "name": "Mountebank",
+  "_id": "vxSNZ3QiOFwdVBBf",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vxSNZ3QiOFwdVBBf",
+  "type": "class",
+  "system": {
+    "key": "mountebank",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 36,
+    "firstSpellLevel": 1,
+    "maxSpellLevel": 8,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "alignment": "Any",
+    "description": "<p>Mountebanks are characters who dabble in many areas rather than concentrating in one. They can fight a bit, and sneak a bit, and cast a bit of magic. They tend to be charismatic social butterflies, who bluff their way through life and who rely on their wits to survive rather than any particular ability. Although many mountebanks are the worst sort of dishonest charlatans claiming abilities they do not have, and making money by</p>",
+    "castAsKey": null,
+    "primeReqs": [
+      {
+        "ability": "cha",
+        "minScore": 0,
+        "percentage": 5,
+        "concatLogic": null
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thbonus": 1,
+        "hd": "4+c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 2,
+        "xp": 1200,
+        "thbonus": 1,
+        "hd": "7+2c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 3,
+        "xp": 2400,
+        "thbonus": 1,
+        "hd": "10+3c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 4,
+        "xp": 4800,
+        "thbonus": 2,
+        "hd": "13+4c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 5,
+        "xp": 9600,
+        "thbonus": 2,
+        "hd": "16+5c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 6,
+        "xp": 20000,
+        "thbonus": 3,
+        "hd": "19+6c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 7,
+        "xp": 40000,
+        "thbonus": 3,
+        "hd": "22+7c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 8,
+        "xp": 80000,
+        "thbonus": 4,
+        "hd": "25+8c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 9,
+        "xp": 160000,
+        "thbonus": 4,
+        "hd": "28+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 10,
+        "xp": 280000,
+        "thbonus": 5,
+        "hd": "30+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thbonus": 5,
+        "hd": "32+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 12,
+        "xp": 520000,
+        "thbonus": 6,
+        "hd": "34+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 13,
+        "xp": 640000,
+        "thbonus": 6,
+        "hd": "36+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 14,
+        "xp": 760000,
+        "thbonus": 7,
+        "hd": "38+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 15,
+        "xp": 880000,
+        "thbonus": 7,
+        "hd": "40+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 16,
+        "xp": 1000000,
+        "thbonus": 8,
+        "hd": "42+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 17,
+        "xp": 1120000,
+        "thbonus": 8,
+        "hd": "44+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 18,
+        "xp": 1240000,
+        "thbonus": 9,
+        "hd": "46+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 19,
+        "xp": 1360000,
+        "thbonus": 9,
+        "hd": "48+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 20,
+        "xp": 1480000,
+        "thbonus": 10,
+        "hd": "50+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 21,
+        "xp": 1600000,
+        "thbonus": 10,
+        "hd": "52+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 22,
+        "xp": 1720000,
+        "thbonus": 11,
+        "hd": "54+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 23,
+        "xp": 1840000,
+        "thbonus": 11,
+        "hd": "56+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 24,
+        "xp": 1960000,
+        "thbonus": 12,
+        "hd": "58+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 25,
+        "xp": 2080000,
+        "thbonus": 12,
+        "hd": "60+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 26,
+        "xp": 2200000,
+        "thbonus": 13,
+        "hd": "62+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 27,
+        "xp": 2320000,
+        "thbonus": 13,
+        "hd": "64+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 28,
+        "xp": 2440000,
+        "thbonus": 14,
+        "hd": "66+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 29,
+        "xp": 2560000,
+        "thbonus": 14,
+        "hd": "68+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 30,
+        "xp": 2680000,
+        "thbonus": 15,
+        "hd": "70+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 31,
+        "xp": 2800000,
+        "thbonus": 15,
+        "hd": "72+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 32,
+        "xp": 2920000,
+        "thbonus": 16,
+        "hd": "74+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 33,
+        "xp": 3040000,
+        "thbonus": 16,
+        "hd": "76+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 34,
+        "xp": 3160000,
+        "thbonus": 17,
+        "hd": "78+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 35,
+        "xp": 3280000,
+        "thbonus": 17,
+        "hd": "80+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 36,
+        "xp": 3400000,
+        "thbonus": 18,
+        "hd": "82+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "doom": 7,
+        "ray": 6,
+        "stasis": 7,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 2,
+        "doom": 7,
+        "ray": 6,
+        "stasis": 7,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 3,
+        "doom": 7,
+        "ray": 6,
+        "stasis": 7,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 4,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 8,
+        "blast": 5,
+        "spell": 6
+      },
+      {
+        "level": 5,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 8,
+        "blast": 5,
+        "spell": 6
+      },
+      {
+        "level": 6,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 9,
+        "blast": 6,
+        "spell": 7
+      },
+      {
+        "level": 7,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 9,
+        "blast": 6,
+        "spell": 7
+      },
+      {
+        "level": 8,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 10,
+        "blast": 7,
+        "spell": 8
+      },
+      {
+        "level": 9,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 10,
+        "blast": 7,
+        "spell": 8
+      },
+      {
+        "level": 10,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 11,
+        "blast": 8,
+        "spell": 9
+      },
+      {
+        "level": 11,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 11,
+        "blast": 8,
+        "spell": 9
+      },
+      {
+        "level": 12,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 12,
+        "blast": 9,
+        "spell": 10
+      },
+      {
+        "level": 13,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 12,
+        "blast": 9,
+        "spell": 10
+      },
+      {
+        "level": 14,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 13,
+        "blast": 10,
+        "spell": 11
+      },
+      {
+        "level": 15,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 13,
+        "blast": 10,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 14,
+        "blast": 11,
+        "spell": 12
+      },
+      {
+        "level": 17,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 14,
+        "blast": 11,
+        "spell": 12
+      },
+      {
+        "level": 18,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 15,
+        "blast": 12,
+        "spell": 13
+      },
+      {
+        "level": 19,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 15,
+        "blast": 12,
+        "spell": 13
+      },
+      {
+        "level": 20,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 15,
+        "blast": 13,
+        "spell": 14
+      },
+      {
+        "level": 21,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 16,
+        "blast": 13,
+        "spell": 14
+      },
+      {
+        "level": 22,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 16,
+        "blast": 14,
+        "spell": 15
+      },
+      {
+        "level": 23,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 16,
+        "blast": 14,
+        "spell": 15
+      },
+      {
+        "level": 24,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 16,
+        "blast": 15,
+        "spell": 15
+      },
+      {
+        "level": 25,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 17,
+        "blast": 15,
+        "spell": 16
+      },
+      {
+        "level": 26,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 17,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 27,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 17,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 28,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 17,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 29,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 18,
+        "blast": 17,
+        "spell": 17
+      },
+      {
+        "level": 30,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 18,
+        "blast": 17,
+        "spell": 18
+      },
+      {
+        "level": 31,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 18,
+        "blast": 17,
+        "spell": 18
+      },
+      {
+        "level": 32,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 18,
+        "blast": 17,
+        "spell": 18
+      },
+      {
+        "level": 33,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 34,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 35,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 36,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        3,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        1
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        2,
+        1
+      ]
+    ],
+    "specialAbilities": [],
+    "classItems": []
+  }
+}
