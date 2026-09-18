@@ -43,5 +43,20 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!48tCQXEOwmD69xw2": {
+    "name": "Armour",
+    "sorting": "a",
+    "folder": "luTBWNJHVwpLxh6c",
+    "type": "Item",
+    "_id": "48tCQXEOwmD69xw2",
+    "description": "",
+    "sort": 300000,
+    "color": "#4a4a4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }
