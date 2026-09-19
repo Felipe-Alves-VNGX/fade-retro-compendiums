@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Spell Book",
+  "_id": "ySmEGeYNeR7CRUtN",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ySmEGeYNeR7CRUtN",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>A large book for a wizard, battlemage, or mountebank to write their spells into. A spell book contains 100 pages, and can hold up to 100 levels worth of spells.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 200,
+    "weightEquipped": 200,
+    "cost": 25,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 3800000
+}

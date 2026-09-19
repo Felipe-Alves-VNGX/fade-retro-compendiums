@@ -1,0 +1,44 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Remove Fear Rev",
+  "_id": "n9Ldu14IbJLrFGwu",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!n9Ldu14IbJLrFGwu",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "hope/despair"
+    ],
+    "description": "<p>This spell makes the touched creature resist fear effects. Any fear effect that allows a save will automatically be resisted by the target. The target is also allowed to make a doom save against fear effects that do not normally allow saves, with a bonus on the save equal to the caster's level.</p><p>Remove Fear can be cast on a target who is already afraid, and will either remove or allow an immediate save against the fear as above.</p><p>This spell will also remove the terror effect of an immortal's aura, but only when cast by an immortal.</p><p>Reverse: Cause Fear can be cast on any living creature within 120' and will make it flee in terror for 20 minutes unless it can make a spell save. If the target is cornered, they will cower and fight only to defend themselves.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "touch",
+    "duration": "20 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

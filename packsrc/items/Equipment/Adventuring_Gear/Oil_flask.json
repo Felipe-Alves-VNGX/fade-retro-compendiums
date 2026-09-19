@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Oil (flask)",
+  "_id": "goWzq773RWavUjUk",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!goWzq773RWavUjUk",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>Fine grade lantern oil. If a burning wick is inserted, it can also make an emergency missile weapon, doing 1d8 damage to all within a 5' radius, with a chance to also set them alight (see CHAPTER 10 – DUNGEON DELVING for the dangers of being set alight).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 6,
+    "weightEquipped": 6,
+    "cost": 2,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 2600000
+}

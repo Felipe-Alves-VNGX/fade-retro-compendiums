@@ -1,0 +1,44 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Neutralise Poison Rev",
+  "_id": "OtNV4RF3Gi1d7Uuh",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!OtNV4RF3Gi1d7Uuh",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "purity/corruption"
+    ],
+    "description": "<p>This spell will make the poison in and on one creature, object or container harmless. The spell affects all poisons present at the time of casting, but does not cure damage. However, if a creature has been killed by poison and this spell is cast within 10 rounds of the creature's death then it will revive the creature.</p><p>Reverse: Create Poison will either poison a creature touched by the caster (requiring a melee attack) unless it can make a doom save, or poison the contents of a container so that anyone who drinks or eats those contents will be poisoned unless they can make a doom save.</p><p>In either case, if the victim fails their save they are immediately poisoned and will die after 1d6 x 10 minutes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "touch",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

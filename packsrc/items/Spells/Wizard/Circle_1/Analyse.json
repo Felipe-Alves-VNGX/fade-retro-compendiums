@@ -1,0 +1,44 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Analyse",
+  "_id": "5XAFSyV9Q6hoNvCD",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!5XAFSyV9Q6hoNvCD",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>To use an Analyse spell, the caster must imitate using the item. This includes wearing armour (which won't disrupt this spell), wielding weapons, wetting one's lips with a potion, and so on.</p><p>Any curses or other ill effects of the item may affect the caster. The caster then has a chance equal to 15% plus 5% per level to identify one magical property of the item and how to activate it (or that the item has no more unrevealed magical properties). If an item has more than one magical property, then the one that is revealed will be one that the caster does not already know about.</p><p>The caster does find out command words or other instructions needed to activate the power(s) that are discovered on the item, but does not discover how many charges each power has.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "special (see below)",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

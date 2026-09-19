@@ -1,0 +1,44 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Word of Recall",
+  "_id": "DrtAdHxvswR56Vs9",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DrtAdHxvswR56Vs9",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "hope"
+    ],
+    "description": "<p>This spell instantly teleports the caster and their equipment (but no other creatures) back to the caster's home, provided</p><p>the caster is on the same plane and within the same celestial sphere. The caster must have a permanent home for this spell to work, and must have a private bedroom or meditation chamber within that home.</p><p>The caster automatically wins initiative in the round that they cast this spell, although it cannot be cast in a surprise round.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

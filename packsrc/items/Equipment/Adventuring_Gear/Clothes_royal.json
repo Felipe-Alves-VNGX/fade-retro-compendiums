@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Clothes (royal)",
+  "_id": "YYBiaxwn18eXhOcs",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YYBiaxwn18eXhOcs",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>Extravagant and ostentatious clothing fit for a king or even an emperor.</p>",
+    "gm": {
+      "notes": "Custo listado como mínimo (50+gp) no livro."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 30,
+    "weightEquipped": 30,
+    "cost": 50,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 1600000
+}

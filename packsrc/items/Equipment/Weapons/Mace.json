@@ -1,0 +1,99 @@
+{
+  "folder": "2AKCulCJIGNyAMaN",
+  "name": "Mace",
+  "_id": "mbBd1Y3JqWlV8wlr",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!mbBd1Y3JqWlV8wlr",
+  "type": "weapon",
+  "system": {
+    "tags": [
+      "blunt",
+      "deflect",
+      "hurl"
+    ],
+    "description": "<p>A mace is a one handed melee weapon consisting of a 2'–3' long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 30,
+    "weightEquipped": 30,
+    "cost": 5,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "damageType": "physical",
+    "breath": null,
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "mastery": "Hammers",
+    "weaponType": "handheld",
+    "ammoType": "",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": null,
+    "grip": null,
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "sort": 1200000
+}

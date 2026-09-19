@@ -1,0 +1,44 @@
+{
+  "folder": "LO776LJz0iGTVDGH",
+  "name": "Restore Rev",
+  "_id": "jfcr3SCXrEGOWRzB",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!jfcr3SCXrEGOWRzB",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "purity/corruption"
+    ],
+    "description": "<p>This spell restores the life force of someone that has been drained by an Energy Drain spell or an energy draining creature. The target's maximum hit points are restored to their normal value.</p><p>Restore can also be used to restore a creature that is haunted, restoring them to their normal state. Unless the caster of this spell is an immortal, they temporarily receive the energy drain or haunting that they remove from the spell's target. However, any of the caster's maximum hit points lost by the casting of this spell are regained at 1d8 per day and any penalty from haunting goes away at a rate of 1 point per day.</p><p>If the caster loses all their maximum hit points due to this spell, they will not be killed, but they will be comatose until they have recovered at least one maximum hit point.</p><p>Reverse: Energy Drain drains 2d8 hit points and maximum hit points from the target, who the caster must touch (make a normal attack), but who gets no save. If this damage kills the target, they return from the dead as a zombie as if the Animate Dead spell had been cast on their corpse by the caster of the Energy Drain.</p><p>If an immortal casts Energy Drain at another immortal, the target must make a power save or lose 5pp. Immortals cannot be killed by Energy Drain, even if they are on their home plane and have no power points left.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

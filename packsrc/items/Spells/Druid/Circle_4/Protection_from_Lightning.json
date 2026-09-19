@@ -1,0 +1,42 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Protection from Lightning",
+  "_id": "Sz62GALs92fGJbTF",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Sz62GALs92fGJbTF",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell protects the target from lightning damage. The spell will stop a total of 1 dice of damage (of whatever dice type the attack uses) per level of the caster from attacks. In the case of dragon breath, each hit dice of the dragon counts as a damage dice. Dice that are stopped by this spell are removed before rolling the damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "touch",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

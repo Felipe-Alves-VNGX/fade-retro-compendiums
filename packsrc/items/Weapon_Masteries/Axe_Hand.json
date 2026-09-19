@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Axe, Hand",
+  "_id": "88ZdKZeiWXuC205t",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!88ZdKZeiWXuC205t",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Axe, Hand",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 15,
+          "medium": 25,
+          "long": 35
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 1,
+        "sToHit": 2,
+        "special": null
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 25,
+          "medium": 35,
+          "long": 45
+        },
+        "pDmgFormula": "1d6+3",
+        "sDmgFormula": "1d6+3",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 4,
+        "special": null
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 30,
+          "medium": 40,
+          "long": 50
+        },
+        "pDmgFormula": "1d6+4",
+        "sDmgFormula": "2d4+4",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 6,
+        "special": null
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 40,
+          "medium": 50,
+          "long": 60
+        },
+        "pDmgFormula": "1d6+6",
+        "sDmgFormula": "2d4+7",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 8,
+        "special": null
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –1/–/–/–; Expert: –2/–2/–/–; Master: –3/–3/–3/–; Grand Master: –3/–3/–3/–"
+    }
+  },
+  "sort": 200000
+}

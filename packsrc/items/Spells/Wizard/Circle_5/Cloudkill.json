@@ -1,0 +1,44 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Cloudkill",
+  "_id": "4UsR8Zj9GjnQ4aO2",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4UsR8Zj9GjnQ4aO2",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates a 15' radius and 20' tall cloud of poisonous gas, the closest edge of which must be within 1' of the caster. The gas is dense enough to be visible, but does not block sight. If cast within an enclosed space, the cloud may be smaller than the dimensions above. It will not expand to fill the same volume.</p><p>The cloud moves in a straight line away from the caster at a rate of 20' per round, although it is also affected by winds. It is heavier than air, so it will sink through holes or into pits, and will go around rather than over obstacles. If the cloud moves into thick vegetation it will dissipate.</p><p>The poisonous nature of the cloud means that all living (but not undead or non-living) creatures within it take 1 point of damage per round. Living creatures with fewer than 5 hit dice or levels must also make a doom save each round or be poisoned and die in 1d4 x 10 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "1'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

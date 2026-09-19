@@ -1,0 +1,44 @@
+{
+  "folder": "YzSRuBARh4uUg2M8",
+  "name": "Dispel Evil",
+  "_id": "gbuuRmhUprHMi6xE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!gbuuRmhUprHMi6xE",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "antipathy"
+    ],
+    "description": "<p>When cast, the caster can choose to make this spell affect any enchanted, summoned, controlled, animated, charmed or cursed creatures within range, or target it at a single such creature or object.</p><p>Each targeted creature must make a spell save (if a single creature is targeted it saves at –2) or take the following effect:</p><p>■ Animated: creature is no longer animated. ■ Summoned: creature is banished to where it was summoned from. ■ Cursed: the curse is removed from the creature. ■ Charmed: the charm is removed from the creature. ■ Controlled: the control is removed from the creature.</p><p>Even if the creature makes its save, it must still flee for the duration of the spell. If the caster moves before the duration is up, the spell is ended early.</p><p>In the case of objects, the spell will remove any curse from the object, but only if the object is specifically targeted by the spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

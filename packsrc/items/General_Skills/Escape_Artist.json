@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Escape Artist",
+  "_id": "G2OUQPJX2EUmlJSF",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!G2OUQPJX2EUmlJSF",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the escape artist skill gives a +1 bonus to dexterity checks made to escape from bonds or ties. The effective dexterity used for this check should be modified by the extent to which the character is tied. Escaping from simply having one's hands tied with a scarf should be much easier than escaping from iron manacles.</p><p>Note: Although this skill allows the character to wriggle free from locked manacles or padlocked chains, it does not allow the actual picking of those locks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

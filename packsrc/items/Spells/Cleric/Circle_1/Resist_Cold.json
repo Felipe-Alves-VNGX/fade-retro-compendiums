@@ -1,0 +1,44 @@
+{
+  "folder": "MYhsd7IkAKrOTomk",
+  "name": "Resist Cold",
+  "_id": "RmtIt6Sp1LA9Rcpq",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!RmtIt6Sp1LA9Rcpq",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "vitality"
+    ],
+    "description": "<p>This spell protects all creatures in the area from frostbite in freezing temperatures, gives each creature a +2 bonus to saves made against cold based attacks, and reduces all magical cold damage by one point per dice of damage (to a minimum of 1 damage per dice). In the case of dragon breath, each hit dice of the dragon counts as a damage dice.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

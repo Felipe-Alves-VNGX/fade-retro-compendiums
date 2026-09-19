@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Water-skin (full, 1 Day's)",
+  "_id": "emRYR4nxE1JwcOwB",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!emRYR4nxE1JwcOwB",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>A water-skin is a flexible bladder that can hold up to two pints of water or other liquid, enough for a person for one day.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 30,
+    "weightEquipped": 30,
+    "cost": 1,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 4400000
+}

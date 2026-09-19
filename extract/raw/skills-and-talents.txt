@@ -1,0 +1,1196 @@
+--- page 61 ---
+               Chapter 5 – A
+                    Skills, &
+C    haracters of different classes have different unique
+     abilities, for example, wizards can cast spells and thieves
+can pick pockets. However, there are some things – such as
+trying to walk along a thin ledge or trying to remember which
+type of dragon breathes fire and which type breathes frost
+before venturing into a lair – that any character can attempt.
+
+These situations are handled by ability checks and skills.
+
+ABILITY CHECKS
+In general, adventurers are assumed to be competent
+individuals who can do things like riding horses, starting
+campfires, and swimming in calm water.
+
+If you particularly want to play a character whose competency
+is deficient in some area, for example, if you decide that you
+specifically want to play a character who can't swim, then you
+can do that. However, these rules assume that your character
+can do all these things in calm situations unless you decide
+otherwise.
+
+That being the case, sometimes there are situations where
+your character might fail. Perhaps they are trying to stay on
+a horse that is bolting in fright. Perhaps they are trying to
+light a fire in torrential rain. Perhaps they are trying to swim
+in turbulent water without getting washed downstream.
+
+In these cases, the Gameguide will call for an ability check
+in order for your character to succeed. To make an ability
+check, roll a standard check using the score (not the modifier)
+of the relevant ability of your character as the bonus for the
+check. As with any other check, if the total rolled is at least 20
+then your character has succeeded. If the total rolled is less
+than 20 then your character has failed.
+
+In some cases, what your character is doing will be directly
+opposed by another character or monster, for example, you
+may be making a strength check to force open a door while
+someone else is trying to hold it closed or you may be making
+a dexterity check to sneak past a guard while they are looking
+out for intruders.
+
+In these cases, instead of simply succeeding if you roll a total
+of 20 or higher, you and the other character or monster both
+
+Ability Checks,
+& Talents
+  roll and you succeed if you roll a total equal to or higher than
+  the total that they rolled and fail if you roll a total less than
+  the total that they rolled. Since most people and monsters
+  that characters interact with will not have a full set of ability
+  scores, the Gameguide should assume that they have an
+  ability score of 11 for things unrelated to their main job or
+  role, 13 for things tangential to their role, or 15 for things
+  essential to their role. In the case of monsters, add the number
+  of hit dice the monster has to that total.
+
+  The exact consequences of a success or a failure will depend
+  on the specific situation your character faces, although it
+  should be very rare (but not unheard of) for a failed ability
+  check to result in death, unless the character is attempting
+  something spectacularly risky.
+
+  Example: Black Leaf has a problem. She has been granted
+  an audience with Queen Eloise and wishes to use the
+  opportunity to ask for some royal sponsorship to aid her
+  expedition to find the fabled Eye of Harmaz. Unfortunately
+  she is panicking because she cannot remember the proper
+  etiquette and is afraid that she will cause offence.
+
+  Marcie, her player, asks the Gameguide if she can make an
+  ability check using Black Leaf 's intelligence in order for
+  Black Leaf to remember her etiquette.
+
+  The Gameguide agrees and Marcie rolls 1d20, getting a 4.
+  Adding Black Leaf 's intelligence score of 13 make a total
+  of 17, so the roll fails and Black Leaf fails to remember the
+  correct etiquette for addressing the queen.
+
+  Some time later, Black Leaf can be found getting drunk in
+  an inn, her expedition without royal patronage due in part
+  to the queen's offence at her frightful manners.
+
+  MODIFIERS
+  In some circumstances the Gameguide may decide that an
+  ability check is particularly easy or hard. Maybe the ledge that
+  the character is balancing on is slippery, or maybe the person
+  that the character is trying to scrutinise in order to see if they
+  are lying is wearing a mask, or maybe the piece of information
+  they are trying to remember is reasonably common
+  knowledge.
+
+
+--- page 62 ---
+           Table 5–1: Skills by Ability Score
+              Situations where this
+   Ability                                     Skills
+                 might be checked
+                 Where raw physical           Climbing
+                                            Intimidation
+  Strength strength      is required, such
+                as lifting, pushing, or       Jumping
+                         pulling.            Swimming
+                                            Arcane Lore
+                                            Engineering
+                                             Geography
+                  Where calculation,           History
+Intelligence memory, or reasoning               Laws
+                  ability is required.        Magical
+                                            Engineering
+                                            Nature Lore
+                                           Religious Lore
+                                              Cooking
+                  Where intuition or          First Aid
+                 "common sense" is          Lip Reading
+  Wisdom        required. Also where         Navigating
+              acuity of the senses is         Tracking
+                        required.          Sense Motive
+                                                Spot
+                                              Balance
+                                                Craft
+               Where either agility or     Escape Artist
+ Dexterity    fine manipulative skills
+                     are required,          Performance
+                                               Riding
+                                               Sneak
+               Where     stamina  or raw
+Constitution endurance is required.               –
+                                                Bluff
+                                             Diplomacy
+              Where personality and           Disguise
+ Charisma        smooth talking are           Etiquette
+                        required.            Gambling
+                                            Intimidation
+                                            Performance
+In these cases, the Gameguide may assign a modifier to the
+check. Unless there are exceptional circumstances that would
+be unknown to the character, the Gameguide should always
+tell the player what modifiers are going to apply before the
+player rolls.
+
+Example: Elfstar has come across an underground temple
+where cultists are performing some kind of ritual in front of
+a statue of a man who she assumes to be a god or great
+hero of some kind.
+
+Elfstar's player, Debbie, wishes to roll an intelligence check
+in order to recognise the statue.
+
+The Gameguide knows that although this god is not one
+who has regular dealings with Elfstar's home country (if he
+was, then the Gameguide would simply tell Debbie who he
+is and not require a roll at all) he is commonly worshipped
+in the local area and so it is likely that Elfstar will have heard
+of him. He gives her a +4 bonus to her effective intelligence
+for the roll, modifying it from a 9 to a 13.
+
+Debbie rolls a 7, which when added to her effective
+intelligence is 20; only just enough to succeed – so the
+Gameguide tells her that Elfstar recognises the god and
+tells her who he is.
+
+USING SKILLS
+Every character starts with 4 skill points, plus an extra skill
+point per point of intelligence bonus. If a character has an
+intelligence penalty, then this does not reduce the number
+of skill points the character has.
+
+Characters also gain extra skill points as they increase in
+level. See CHAPTER 4 – CREATING A CHARACTER for details of
+skill points per level.
+
+These skill points are spent immediately on skills listed in
+this chapter.
+
+In most cases, each point spent on a particular skill will give
+your character a +1 to the bonus used for ability checks that
+correspond to the skill. So a character with a strength of 12
+would normally need to roll an 8+ on the dice to reach the
+target of 20 and succeed in an ability check to use his
+strength to swim upstream in a river but if the character's
+player has spent two points in the swimming skill then that
+character's strength is effectively 14 when making the check
+and their player will only need to roll a 6+ to reach the target
+of 20.
+
+Such skill modifiers stack with modifiers applied by the
+Gameguide due to circumstances.
+
+Example: Black Leaf is hot on the trail of the Eye of Harmaz,
+and comes across a narrow rope bridge spanning a chasm.
+Unfortunately the guide rope for the rope bridge is missing,
+so Black Leaf will have to try to balance without its aid if
+she wishes to cross. The Gameguide tells Marcie that she
+will need to make a balance check (an ability check against
+dexterity, using the balance skill) in order to cross the
+bridge – but that the strong winds blowing through the
+chasm will give her a –1 penalty to her check.
+
+
+--- page 63 ---
+Black Leaf has a dexterity of 16, and Marcie has spent two
+points on the balance skill, so her normal skill bonus is +18.
+
+Overall, Marcie is going to have to roll using an effective
+bonus of (18 – 1=17). Marcie reckons that this is well worth
+trying, but tells the Gameguide that Black Leaf is looping a
+rope around the bridge and around her waist so that if she
+falls off she won't plummet to her almost certain death at
+the bottom of the chasm.
+
+She also trails a rope behind her so that after she's crossed
+she and the other companions can tie it off so that the less
+dexterous party members will have a guide rope and not
+need to cross the bridge the hard way.
+
+HELPING
+Often a task will be made easier if someone else helps. When
+one character tries to do something and someone else helps,
+the character who is helping should make the check first.
+There is no failure for the character failing the check, but if
+they succeed then the character who is performing the main
+task gets a +4 bonus to their check.
+
+Usually the check made by the helper will be of the same type
+as the check made by the person performing the main task,
+but occasionally the helper will be performing a different
+action to the main character.
+
+Example: Elfstar has been captured by a group of soldiers
+and is being held in a tent. Black Leaf has located the tent,
+but while she could almost certainly sneak in she's not sure
+if she would be able to sneak out with her.
+
+Instead, Black Leaf imitates the noise of a cuckoo to get
+her wife's attention – it's a prearranged signal they have – and
+then attempts to distract the soldiers who are guarding
+Elfstar's tent by sneaking up to a nearby cooking pit and
+kicking the roasting spit over into the coals.
+
+Marcie makes her stealth roll for Black Leaf, and it is a
+success. The guards are distracted by the sudden noise and
+sparks of the roasting spit collapsing, and this distraction
+means that Elfstar will get a +4 bonus to her own roll to
+sneak out of the tent.
+
+GROUP ROLLS
+Sometimes there will be a situation where the whole party is
+doing something together, ranging from searching a room to
+sneaking past guards. Theoretically, the Gameguide could
+get each player to make a roll for their character independently
+and see which characters pass and which fail. However, rolling
+so many dice can do counter-intuitive things to probability.
+
+For example, if there are five characters and each has a +15
+bonus on a roll, that gives each character a 3–in-4 chance of
+succeeding on that particular roll. It would seem that the
+odds are with them if they all try to perform a task but it's by
+no means a certainty.
+
+However, because so many dice are being rolled there is
+actually over a 999–in-1000 chance that at least someone
+will succeed, and over a 3–in-4 chance that at least one person
+will fail; meaning that if you only needed one person to succeed
+then there was basically no point asking for the roll, it was a
+foregone conclusion; and if you needed everyone to succeed
+then that was actually rather unlikely to happen despite each
+of the individual characters having a good chance to do so.
+
+To avoid these counter-intuitive probabilities, you should use
+the following methods to determine success or failure when
+a group is performing an activity together:
+
+All with Teamwork: For some activities everyone must
+succeed, because even a single individual failing will bring
+failure to the whole group. However, group members are able
+to assist each other. For example, if a group is trying to sneak
+past some guards who are guarding a warehouse, anyone
+failing means the group will be spotted so everyone needs to
+succeed. However, the characters can look out for each other
+and use hand signals to indicate which way to go and when
+one of the guards is looking the other way so it's safe to move
+and so forth. In these situations, have the member of the
+group with the lowest bonus make the roll, but assume that
+the member of the group with the highest bonus is helping
+them.
+
+All Individually: Sometimes everyone must succeed but it
+is not possible for members of the group to meaningfully
+assist each other. For example, maybe the characters are
+putting on a musical performance together and each character
+is playing a different instrument. If anyone plays badly it will
+spoil the music, but it is difficult for any of the musicians to
+meaningfully assist each other to prevent that happening. In
+these situations, have the member of the group with the
+lowest bonus make the roll without help from anyone else.
+
+Anyone with Teamwork: Often not everyone will need to
+succeed in the task that everyone is doing as long as someone
+succeeds, and the members of the group can work together.
+For example, maybe the group are all searching an office for
+the key to a vault. It doesn't matter who finds it, as long as
+someone does, and the characters can all help by comparing
+notes of where they've looked and making suggestions. In
+these situations, have the member of the group with the
+highest bonus make the check and assume that the member
+with the second highest bonus is helping them.
+
+
+--- page 64 ---
+Anyone Individually: Sometimes it only needs one person
+to succeed, but there's not an easy way for members of the
+group to help each other. For example, the group might be
+guarding a manor house in case a pack of werewolves return.
+Each member is on the lookout for them returning, but there's
+not a lot any member can do to help another spot them. In
+these situations, have the member of the group with the
+highest bonus make the check without help from anyone else.
+
+These rules for group checks should be used for both basic
+checks performed by a group and opposed checks performed
+by a group. For example, if the party are sneaking past a group
+of cultists, you can combine the rules for group rolls and
+opposed rolls. In this particular case, sneaking is an All with
+Teamwork activity because anyone being seen will give the
+game away but characters can assist each other, whereas
+spotting them is an Anyone Individually activity because you
+can't help each other spot something but as long as someone
+spots something they can raise the alarm – you don't need
+everyone to see the intruders.
+
+Therefore, the situation would be resolved by an opposed roll
+with the party member worst at sneaking (helped by the party
+member best at sneaking) rolling against the cultist best at
+spotting (without help). If the party roll higher, they have
+successfully snuck past the cultist guards, but if the cultists
+roll higher then the party have been spotted.
+
+SOCIAL SKILLS
+Special care needs to be used when using skills designed for
+social situations (bluff, diplomacy, intimidation and sense
+motive).
+
+Players and Gameguides should discuss the use of these
+skills before the game starts, since they have the potential
+to unbalance games.
+
+Firstly, it is recommended that these skills are never used
+against players. If a player wishes to influence another player
+then this should be role played rather than rolled for using
+skills. Many players don't like the loss of "free will" and the
+loss of control that they feel when their character is forced
+into particular behaviour by dice rolls rather than because
+they wanted their character to behave in that way, especially
+if the forced behaviour is the result of another player's use
+of social skills against them. This can be very disruptive to
+your gaming group.
+
+Secondly, the players and Gameguide should agree what
+proportion of social interaction with NPCs should be governed
+by skill usage and what proportion should be governed by
+role play.
+
+Some people prefer more skill usage since it means that
+people can play silver-tongued characters even if they are
+not good talkers themselves. Others feel that simply rolling
+a diplomacy check in order to find out whether the character
+can talk the king into pardoning their wrongly-imprisoned
+associates is something of a dramatic let-down and prefer
+to role play the issue to its conclusion. There is no single
+"correct" way to play using these skills, only the way that your
+group enjoys.
+
+SPECIAL SKILLS
+While most skills simply add bonuses to ability checks,
+some – notably language skills – work in other ways. If a skill
+works in an unusual way, this will be detailed in the skill's
+individual description.
+
+ADDING NEW SKILLS
+The list of skills in this chapter is not meant to cover all
+possible situations. Gameguides may require (or players may
+ask for) ability checks for a variety of situations other than
+those given here. If a particular situation crops up repeatedly,
+a player may – with the Gameguide's permission – spend a
+skill point in order to buy it as a named skill in order to get
+a bonus to their effective ability score in that situation.
+
+
+--- page 65 ---
+SKILLS & TALENTS
+Some character classes have talents that they can use, such
+as the ability to pick locks or hide in shadows. These talents
+represent the chance to perform feats that push the limits of
+human ability or even exceed them. Anyone can climb a tree,
+but only someone with the Climb Walls talent can climb a wall
+made of limestone blocks by finding the tiniest of handholds
+and footholds.
+
+Each of the talents is described below, as well as how it
+interacts with mundane skills such as climbing and sneaking.
+
+Open Locks: Characters without this talent can't attempt to
+pick locks under normal circumstances.
+
+Locate Traps: Normally, when a character searches an area
+or an item for traps they will roll a Spot roll with a modifier
+based on how difficult the trap is to find. On a success, the
+character will spot the trap, although they will only be told
+what is visible about it (e.g., a trip wire, a pressure plate, or
+a set of suspicious holes in the wall). They will not be told the
+exact nature of the trap, such as what the trip wire or pressure
+plate will trigger, or what will emerge from the holes.
+
+A character with the Locate Traps talent may make this roll
+as normal, but may also make a Locate Traps roll. If the Locate
+Traps roll succeeds, the character will get all the information
+they would have got from a normal Spot roll (whether they
+succeeded that roll or not) and also information about the
+type of trap derived from the context of the visible part and
+minor but recognisable clues unnoticeable to someone without
+the talent (e.g., the tripwire will cause a blade to scythe from
+the wall, the pressure plate will release a falling block from
+the ceiling, the holes will emit a poisonous gas).
+
+Most magical traps cannot be found by simple Spot rolls, but
+a successful Locate Traps roll will allow the character to feel
+the subtle magical boundaries of the triggering area.
+
+Example: Black Leaf and Aloysius are standing some
+distance from a suspicious looking vault door, and they
+suspect that the door might be trapped.
+
+They decide to search the area, and the Gameguide makes
+Spot rolls for them in secret so that the players won't know
+whether or not their characters have succeeded. She also
+rolls for Black Leaf's Locate Traps ability.
+
+Aloysius's Spot roll is a success, but Black Leaf's is a failure.
+However, Black Leaf's Locate Traps roll is a success.
+
+The door is in fact trapped, with a magical trap that will
+shoot a Lightning Bolt down the corridor if the door is
+approached. Since this is a magical trap, Aloysius's Spot
+roll won't find it (although the Gameguide doesn't tell him
+that). However, Black Leaf's Locate Traps ability will.
+
+The Gameguide informs the players that although Aloysius
+can't see anything, Black Leaf can feel the tell-tale signs of
+a magical ward in front of the door and that it will let off
+some kind of spell if they cross into it.
+
+Remove Traps: When faced with knowledge that there is a
+trap, characters without the Remove Traps talent must simply
+describe to the Gameguide what they are doing and the
+Gameguide should adjudicate the results of that, whether it
+triggers the trap or temporarily disables it or permanently
+disables it (or does nothing to it).
+
+Characters who have the Remove Traps talent may make a
+Remove Traps roll, and if this is successful then they will have
+temporarily or permanently (their choice) disarmed the trap
+even if the player does not know how the character would go
+about doing this.
+
+If the Remove Traps roll fails, then the trap will activate.
+However, since the character is already aware of the trap they
+will probably be safe from it, unless it is a trap with such large
+effects that there is no way to remove it without being inside
+the area of that effect.
+
+The Remove Traps talent can be used to disable magical traps
+so that they will not activate.
+
+Climb Walls: Any character can climb a tree or scramble up
+a scree-covered slope without needing to make a roll. For
+steeper and more difficult climbs, such as climbing up a rough
+cliff or a wall with uneven brickwork a character without the
+Climb Walls talent may make a Climbing roll to successfully
+complete the climb (if it is a long climb, a roll per 100' is
+required).
+
+Characters with the Climb Walls talent can climb things that
+a character without the talent would need to make a Climbing
+roll for. Additionally, by making a Climb Walls roll they are
+able to climb things that someone without the talent would
+not even get a roll for, such as walls made from close-fitting
+stone blocks with only the tiniest of handholds.
+
+Even surfaces like smooth glass can be climbed with a
+successful roll using the Climb Walls talent, although such
+extreme climbs should be given a modifier to the roll by the
+Gameguide.
+
+
+--- page 66 ---
+Move Silently: Characters who are attempting to sneak past
+someone must make a Sneak check opposed by the target's
+Spot check. If the result of the Sneak roll equals or beats that
+of the Spot roll then the character has successfully gone
+unnoticed, but if the Spot beats the Sneak then the character
+has been heard.
+
+Characters with the Move Silently talent can roll a Sneak check
+as normal, but may also roll a Move Silently check. If the Move
+Silently check succeeds then they have made no noise at all
+and will have successfully gone unnoticed regardless of the
+result of their target's Spot check. If the Move Silently check
+fails then compare the Sneak check and Spot check as
+normal.
+
+Hide in Shadows: As with Move Silently, characters without
+the Hide in Shadows talent may still attempt to hide from
+targets and to do so they must roll a Sneak roll that equals
+or beats the Spot roll of the character they are hiding from.
+
+Characters with the Hide in Shadows talent may make a Hide
+in Shadows roll as well as a Sneak roll, and if the Hide in
+Shadows roll is a success then the character is not visible
+and will not be seen regardless of the result of the target's
+Spot check. If the Hide in Shadows roll fails then compare
+the Sneak roll and the Spot roll as normal.
+
+Pick Pockets: Characters without this talent can't attempt
+to pick pockets under normal circumstances.
+
+Hear Noise: Any character can make a Spot check to listen
+for quiet noises, and if the check succeeds they will hear any
+quiet noises that it would be reasonable for them to hear,
+such as whispered conversation, gentle snoring, the noise of
+boots walking on a stone floor, or the whirr of machinery.
+Obviously loud noises need no such check and can be heard
+without a roll.
+
+A character with the Hear Noise talent can automatically hear
+noises that a character without the talent would have to roll
+to hear, and with a successful Hear Noise roll they can hear
+extremely quiet noises that would not normally be picked up
+by someone with a Spot check such as the noise of someone
+breathing or the scratching of a quill or the rustle of clothing
+as someone shifts and fidgets in their seat.
+
+Read Languages: Characters without this talent can't
+attempt to read text in languages they don't know, or which
+is encrypted in an unknown manner.
+
+Wizard Scroll Use: Characters without this talent can't use
+wizard scrolls unless they have the ability to cast wizard spells.
+
+ALPHABETIC SKILL LISTING
+ARCANE LORE
+Each point spent on the arcane lore skill gives a +1 bonus to
+intelligence checks made to recognise spells, magical effects,
+and magical creatures.
+
+An "average" spell or effect (at the Gameguide's discretion)
+will give no bonus or penalty to the effective intelligence used
+for the roll, but a particularly common spell might give a
+bonus and a particularly rare spell might give a penalty.
+Relative obscurity is more important in this regard than level
+of power.
+
+Note: Arcane lore checks should not be used to allow the
+players to identify magic items without using the Analyse
+spell.
+
+BALANCE
+Each point spent on the balance skill gives a +1 bonus to
+dexterity checks made to keep one's footing on a small (or
+moving) surface or to cross narrow ledges, beams or even
+tightropes.
+
+Modifiers to the effective dexterity score used for the roll can
+come from a wide variety of factors. Examples include:
+
+■ Strong wind
+■ Slippery surfaces
+■ Heavily encumbered character
+■ Trying to move quicker (or slower) than a normal walk
+■ Particularly narrow (or wide) ledges
+■ Trying to balance while dodging attacks
+■ Using a pole for balance
+
+BLUFF
+Each point spent on the bluff skill gives a +1 bonus to charisma
+checks made to convince NPCs of things without evidence.
+While the skill is most often used to convince NPCs of untruths,
+it can also be used to make a convincing emotional argument
+in favour of something you know is true but cannot prove to
+be true.
+
+Bluff checks should get modifiers for both the plausibility of
+what is being claimed and the potential consequences of the
+bluff to the target of the skill. A guard who may get executed
+if they let a potential assassin into the royal palace will be
+harder to bluff your way past than a merchant who may make
+a bit less profit if you manage to convince him that you should
+get a discount because you're a member of the city watch.
+
+
+--- page 67 ---
+Note: See social skills for a warning about how some uses of
+this skill may disrupt the game.
+
+CLIMBING
+Each point spent on the climbing skill gives a +1 bonus to
+strength checks made to climb cliffs and walls.
+
+Simple things like climbing a tree should not require a roll,
+and modifiers to the effective strength used for this roll should
+be based on how steep and smooth the surface being climbed
+is and how much it has in the way of hand holds and foot
+holds.
+
+Note: See the Skills and Talents section for how this skill
+interacts with the Climb Walls talent.
+
+COOKING
+Each point spent on the cooking skill gives a +1 bonus to
+wisdom checks made to cook.
+
+Modifiers to the effective wisdom used for this roll are likely
+to be only rarely needed, except in the case of not having
+adequate equipment or when using ingredients that the
+character has never cooked before.
+
+In most cases, failing a cooking check won't result in inedible
+food; merely food that is not as nice as that produced by a
+successful cooking check.
+
+CRAFT (CHOOSE MEDIUM)
+The craft skill is not a single skill. It is a group of related skills
+used when making things of different types. When spending
+a skill point on this skill, you must specify what sort of craft
+your character is skilled at.
+
+An exhaustive list of possible craft skills is not possible, but
+examples include:
+
+■ Carpentry
+■ Smithing
+■ Fletching
+■ Skinning
+■ Leather-working
+■ Rope binding
+■ Tailoring
+■ Gem cutting
+■ Forgery
+■ Masonry
+■ Thatching
+■ Drawing/painting
+■ Sculpture
+
+Each skill point spent on a specific craft skill gives a +1 bonus
+to dexterity checks used to make items with that craft.
+
+Modifiers to the effective dexterity used in craft rolls can
+come from high or low quality materials and tools, as well as
+time constraints. Depending on what is being made, success
+may not be an all-or-nothing affair – a failed craft check is
+likely to still result in a finished item. However, the quality of
+the finished product should be subjectively determined by
+the amount that the craft check succeeded by or failed by.
+
+Craft skills can also be used to assess the workmanship of
+items made using that skill. For example, skill at carpentry
+can be used to help find the weak spot in a door, or skill at
+smithing can help judge how good a sword is. The exact
+details of this are left to the Gameguide's discretion. However,
+in no case should a craft skill be able to be used to determine
+magical properties of an item.
+
+DIPLOMACY
+Each point spent on the diplomacy skill gives a +1 bonus to
+charisma checks made to work out compromises and calm
+tensions. Diplomacy checks should get modifiers for both the
+amount of hostility between the parties and the amount that
+either side has to lose if the diplomacy fails.
+
+For example, trying to persuade the leader of a marauding
+band of pirates not to attack a small and lightly armed party
+is going to be much more difficult than trying to persuade an
+offended landlady that you shouldn't be thrown out of her inn
+and you should be allowed to spend your spare cash there
+instead.
+
+Note: See social skills for a warning about how some uses of
+this skill may disrupt the game.
+
+DISGUISE
+Each point spent on the disguise skill gives a +1 bonus to
+charisma checks made to disguise a character as someone
+else. These checks should be made when the disguise is first
+worn; with modifiers based on the answers to the following:
+
+■ Is the disguise meant to look like a specific person, or
+  merely not look like the wearer?
+■ Is the disguise intended to make the character look like a
+  different gender and/or species?
+■ Is the disguise meant to only be seen from a distance or
+  is it intended for close scrutiny?
+■ Is the disguise intended to fool close acquaintances of
+  subject (or wearer) of the disguise?
+■ Does the person applying the disguise have access to make
+  up and prosthetics?
+
+
+--- page 68 ---
+The exact value of these modifiers should be determined by
+the Gameguide on a case by case basis, and the Gameguide
+should roll the dice for the check so that the player doesn't
+know whether or not their character's disguise will successfully
+fool people.
+
+A disguise that fails to achieve its target intentions may still
+work to a lesser extent.
+
+Example: Black Leaf wishes to gain access to the back
+room of the cartographer's guild in order to steal a map
+that she thinks may be there despite the guild members'
+denials. While her allies "accidentally" encounter one of the
+guild members in an inn and get him drunk, Black Leaf
+disguises herself as the guild member.
+
+The Gameguide decides that because Black Leaf is trying
+to impersonate a specific person of the opposite gender,
+she should get a –4 penalty to her effective charisma when
+making the disguise check.
+
+However, since she has deliberately chosen to impersonate
+the guild member who most closely resembles her in terms
+of build and facial features (gender notwithstanding) the
+Gameguide reduces the penalty to a –3.
+
+Unfortunately Black Leaf 's charisma is only a rather
+average 11, and the penalty means it is effectively only an 8
+for this roll. The Gameguide rolls a 10.
+
+Since she only failed by a small amount – and would have
+succeeded if not for the penalties – the Gameguide decides
+that Black Leaf 's disguise is not going to fool people into
+thinking she is the guild member unless seen only from a
+distance, but is enough that people seeing her will not
+recognise her real identity.
+
+ENGINEERING
+Each point spent on the engineering skill gives a +1 bonus
+to intelligence checks made to design machinery or identify
+the function of existing machinery such as siege weaponry
+or orreries.
+
+Modifiers to the effective intelligence used for checks to
+identify machinery should come from the complexity of the
+machinery being examined.
+
+In terms of the design of machinery, the Gameguide should
+also take into account the technological level of the campaign
+and should veto the "invention" of devices that rely on
+principles unknown in the game world.
+
+Similarly, the presence of magic in the game world may mean
+that the laws of nature work differently there than in the real
+world, so at the Gameguide's discretion machinery relying
+on certain physical principles (e.g., Combustion powered guns
+or engines) may not work at all.
+
+Note: although this skill can be used to identify how a large
+mechanical trap works, it should not be used as a replacement
+for either the Locate Traps or Remove Traps talents. At best,
+knowing how the trap functions may give insight into how the
+trap may be bypassed by mundane means.
+
+ESCAPE ARTIST
+Each point spent on the escape artist skill gives a +1 bonus
+to dexterity checks made to escape from bonds or ties. The
+effective dexterity used for this check should be modified by
+the extent to which the character is tied. Escaping from simply
+having one's hands tied with a scarf should be much easier
+than escaping from iron manacles.
+
+Note: Although this skill allows the character to wriggle free
+from locked manacles or padlocked chains, it does not allow
+the actual picking of those locks.
+
+ETIQUETTE (CHOOSE CULTURE)
+The etiquette skill is not a single skill. It is a group of related
+skills used in social situations in a variety of cultures. Each
+point spent in the etiquette skill for a particular culture gives
+a +1 bonus to charisma rolls used to behave properly in formal
+social situations in that culture.
+
+Modifiers to the effective charisma used for these checks
+should come from particularly common or particularly obscure
+social situations within that culture.
+
+FIRST AID
+Each point spent in the first aid skill gives a +1 bonus on
+wisdom rolls used to treat injuries and poison.
+
+The most common use of this skill is to patch people up after
+they have taken damage. After each time a character has
+been injured (a whole combat only counts as a single injury
+for this purpose) they can be healed 1d3 of the hit points lost
+in this particular injury by someone making a successful first
+aid check.
+
+Each character using the skill is only able to make one attempt
+per injury, and if this first attempt fails then further attempts
+will not succeed. If someone succeeds with a first aid check
+against a particular injury then further first aid checks will be
+of no benefit.
+
+
+--- page 69 ---
+All hit points lost in a fight counts as a single injury for the
+purposes of the first aid skill.
+
+The other use of the skill is to prevent people from dying
+when they have been poisoned. See CHAPTER 12 – GETTING
+BETTER for detailed rules on poison.
+
+There are normally no modifiers to the effective wisdom used
+in first aid checks.
+
+Example: Black Leaf is unlucky enough to fall down a pit,
+and is injured, taking 5 points of damage out of her 9 hit
+points, leaving her on 4 hit points.
+
+She uses the first aid skill to treat this injury, and succeeds
+in her roll. Her player rolls 1d3 to see how many hit points
+are recovered and unfortunately only gets a 1. Black Leaf
+now recovers one of the hit points lost in the injury, taking
+her from 4 hit points to 5 hit points.
+
+Since she has now had this injury treated, further first aid
+rolls won't be able to recover any more of the lost hit points.
+
+Shortly afterwards, the party encounters some ruffians
+spoiling for a fight. After a brief combat with the ruffians,
+Black Leaf has lost another 2 hit points, leaving her with 3.
+
+While the party are resting, she tries to use the first aid skill
+on herself in order to recover some of these hit points. The
+skill check is not successful and Black Leaf is unable to heal
+this injury, and cannot try again.
+
+Seeing that her wife is still injured, Elfstar tries to use the
+skill on her. Elfstar's player succeeds her skill check and
+rolls 1d3 to see how much is healed, getting a 3. Although
+Black Leaf has lost a total of 6 hit points, only 2 were lost
+in the injury being treated by the skill roll, so the first aid
+can only result in the recovery of these 2 hit points.
+
+GAMBLING
+Each point spent on the gambling skill gives a +1 bonus to
+charisma checks made to determine who wins in games of
+skill and chance. Modifiers to the effective charisma used for
+gambling checks should be rare, but may be used for games
+that the character is unfamiliar with.
+
+The simple way to use this skill is to simulate a single game
+or round in a game, by each character making a gambling
+check, and the game or round is won by the character who
+gets the highest total on their roll.
+
+At the Gameguide's discretion, individual gambling games
+can be devised for their game world, which may operate on
+a more complex basis.
+
+Note: This skill is designed for games where psychology,
+bluffing, and second-guessing opponents are an essential
+part of the game play. The skill does not represent a
+supernatural "luck" type of ability and should not be used to
+determine the outcome of games of pure chance.
+
+GEOGRAPHY
+Each point spent on the geography skill gives a +1 bonus to
+intelligence checks made to recollect information about
+countries and regions of the game world.
+
+The use of this skill should be modified by the obscurity of
+the facts that the player wishes their character to recollect.
+Knowing the name of a country and the majority ethnic group
+that lives there should be easier than knowing the name of
+the palace in which the king of that country lives or knowing
+the major trade imports and exports of that country.
+
+HISTORY
+Each point spent on the history skill gives a +1 bonus to
+intelligence checks made to recollect information about the
+game world's past. The use of this skill should be modified
+by the obscurity of the facts that the player wishes their
+character to recollect. Knowing the name of countries involved
+in a war a couple of generations ago should be easier than
+knowing the name of the vizier of an empire that hasn't existed
+for thousands of years.
+
+INTIMIDATION
+Each point spent on the intimidation skill gives a +1 bonus
+to both charisma checks and strength checks made to bully
+an NPC into co-operation through threats or shows of physical
+strength. Intimidation checks should get modifiers for both
+the plausibility of the threats being made and the potential
+consequences to the target of the skill for co-operation.
+
+Using a threat of immediate physical violence to get a bandit
+to flee is both a realistic threat and has only minor
+consequences to the bandit if they do flee; so it should be
+easier than using a threat of sending a dragon to kill the
+family of an ogre if they don't betray their tribe's location to
+you, which is both an unrealistic threat and has potentially
+fatal consequences to the ogre and their tribe.
+
+Note: See social skills for a warning about how some uses of
+this skill may disrupt the game.
+
+
+--- page 70 ---
+JUMPING
+Each point spent on the jumping skill gives a +1 bonus to
+strength checks made to jump long distances. Rather than
+giving modifiers to the effective strength based on the
+intended length or height of the jump, the nature of jumping
+means that a jump will always be successfully made but the
+distance of the jump will depend on the result of the check.
+
+With a running start, a character can jump 10' horizontally
+or 4' vertically (remember that if the character is jumping up
+to reach something then the character's height should be
+added to the vertical distance jumped in order to determine
+how high they can reach).
+
+The effects of the roll depend on whether the character is
+jumping for height or length. For each point that the character
+succeeds the jump check by in the case of a long jump, they
+jump an extra foot horizontally. For each two points that the
+character fails the jump check by they jump a foot less
+horizontally. In the case of a high jump, for each two points
+the character succeeds the jump roll by they jump a foot
+higher, and for each four points the character fails by they
+jump a foot less high.
+
+In either case, jumping from a standing start means that only
+half of the total distance (after modification) can be jumped.
+
+Example: Black Leaf has a strength of only 9, but has spent
+two skill points on the jump skill – so she has an effective
+strength of 11 when making jump checks.
+
+After having fallen into a 10' deep pit, she needs to try to
+get out. Her player announces that she will try to jump up
+and grab the edge of the pit.
+
+The pit is 10' deep, and Black Leaf is 5'5 tall; so in order to
+reach the edge of the pit she will have to jump just over four
+and a half feet. Luckily for Black Leaf, the pit is 20' wide, so
+she has chance to get a run up at the jump.
+
+Marcie rolls a 14, for a total check result of 14+11=25, which
+is five points better than the 20 that she needed to roll, so
+Black Leaf jumps two and a half feet more than the default 4',
+for a total of six and a half feet – more than enough to grab
+the edge of the pit and pull herself out.
+
+Had Black Leaf not been able to take a run up, the total
+distance jumped would have been halved from six and a
+half feet down to just over three feet – not high enough to
+get out.
+
+LANGUAGE (CHOOSE LANGUAGE)
+Each skill point spent on the language skill means that the
+character knows another language to an acceptable level that
+they can converse. However, even though the character
+speaks the language, their speech will be accented and they
+will be clearly noticeable as a foreigner.
+
+If a character spends a second skill point on the same
+language, their skill increases to the point where they speak
+it like a native and no longer have a noticeable foreign accent.
+
+The Gameguide will determine which languages exist in their
+game world.
+
+LAWS (CHOOSE CULTURE)
+The law skill is not a single skill. It is a group of related skills
+used in legal situations in a variety of cultures. Each point
+spent in the law skill for a particular culture gives a +1 bonus
+to intelligence checks used to recall/interpret the laws and
+customs of that country.
+
+Modifiers to the effective charisma used for these checks
+should come from particularly common or particularly obscure
+customs within that culture. For example, knowing that a
+country has the death penalty for banditry is much easier
+than knowing that the country requires anyone setting up a
+market stall to buy a trading license from the alderman of the
+town.
+
+LIP READING
+Each point spent on the lip reading skill gives a +1 bonus to
+wisdom checks made to understand what someone is saying
+even when you can't hear them by watching the movement
+of their mouth. Modifiers to the effective wisdom used for
+this skill should be used based on how clearly the person's
+mouth can be seen, whether they are deliberately enunciating
+clearly in order to make it easy for you to lip read, and whether
+you are a native speaker of the language they are speaking
+(i.e., It's a starting language or you spent two skill points on
+it) or whether you are merely fluent in it (i.e., You spent one
+skill point on it).
+
+MAGICAL ENGINEERING
+Each point spent on the magical engineering skill gives a +1
+bonus to intelligence checks made to design large scale
+magical effects or identify the function of existing effects
+such as wormholes, gates, and some large scale magical
+traps.
+
+Modifiers to the effective intelligence used for checks to
+identify such magic should come from the obscurity of the
+effect being examined. Something that uses a standard spell
+
+
+--- page 71 ---
+effect should be easier than something that uses a unique
+effect. When designing such effects, this skill is used for the
+design itself, but the building of large-scale magical
+constructions will involve spell casting and crafting skills.
+
+Note: although this skill can be used to identify how a large
+magical trap works, it should not be used as a replacement
+for either the Locate Traps or remove traps abilities. At best,
+knowing how the trap functions may give insight into how the
+trap may be bypassed by mundane means.
+
+NATURE LORE
+Each point spent on the nature lore skill gives a +1 bonus to
+intelligence checks made to recognise plants, natural terrain
+features, and natural creatures.
+
+Most natural creatures or terrain features will give no bonus
+or penalty to the effective intelligence used for the roll, but a
+particularly common plant or animal might give a bonus and
+a particularly rare one might give a penalty.
+
+NAVIGATING
+Each point spent in the navigating skill gives a +1 bonus on
+wisdom rolls used to avoid getting lost by using landmarks
+and the position of the sun and stars.
+
+The effective wisdom used for navigating checks may be
+modified by factors such as weather conditions, visibility,
+access (or lack of it) to equipment such as maps and/or
+sextants, and familiarity with the area being travelled.
+
+PERFORMANCE (CHOSE MEDIUM)
+The performance skill is not a single skill. It is a group of
+related skills used when putting on different types of artistic
+performance. When spending a skill point on this skill, you
+must specify what sort of artistic performance your character
+is skilled at. An exhaustive list of possible artistic media is
+not possible, but examples include:
+
+■ Singing
+■ Playing a musical instrument
+■ Dancing
+■ Acting
+■ Juggling
+■ Jesting
+■ Storytelling
+■ Poetry
+
+Each skill point spent on a specific performance skill gives
+a +1 bonus to both dexterity checks and charisma checks
+used to make these artistic performances.
+
+Modifiers to the effective dexterity or charisma used in
+performance rolls can come from such things as particularly
+high or low quality costume and how much rehearsal time the
+performance has had.
+
+Success in a performance may not be an all-or-nothing
+affair – a failed performance check is likely to still result in a
+performance of some kind. However, the quality of the finished
+work should be subjectively determined by the amount that
+the performance check succeeded by or failed by.
+
+RELIGIOUS LORE
+Each point spent on the religious lore skill gives a +1 bonus
+to intelligence checks made to recall knowledge about
+religions, their targets of worship, and the creatures
+associated with them.
+
+The effective intelligence score used for the religious lore
+check should be modified by the obscurity of the knowledge
+being sought. Identifying a statue of a well-known god should
+be much easier than identifying the purpose of a particular
+religious rite from a foreign religion.
+
+Note: Characters should be assumed to know all about the
+rites and details of their own religion without needing to make
+religious lore checks.
+
+RIDING (CHOOSE ANIMAL)
+The riding skill is not a single skill. It is a group of related
+skills used when making rolls to control or stay on various
+riding animals in unusual circumstances. When spending a
+skill point on this skill, you must specify what sort of animal
+your character is skilled at riding. An exhaustive list of animals
+is not possible, but examples include:
+
+■ Horse (includes mules and donkeys)
+■ Camel
+■ Elephant
+■ Dire wolf
+■ Griffon
+■ Pegasus
+■ Hippogriff
+■ Giant eagle
+
+Each skill point spent on a specific riding skill gives a +1
+bonus to dexterity checks used to ride that type of animal.
+Generally, simply riding a calm animal as it walks shouldn't
+require a riding check. However, staying on an animal when
+it bolts or stumbles, or when it is damaged by an attack,
+should require a check – with the effective dexterity modified
+by the exact circumstances provoking the check.
+
+
+--- page 72 ---
+SENSE MOTIVE
+Each point spent on the sense motive skill gives a +1 bonus
+to wisdom checks made to read the expressions and body
+language of NPCs in order to tell if they have an ulterior
+motive for their speech or behaviour. The skill is most often
+used to detect when an NPC is lying, although it can also in
+other situations, for example, to try to tell if an NPC who is
+ignoring a character who is hiding is deliberately ignoring
+that character while trying to keep an eye on them or whether
+they simply haven't seen them.
+
+Note: See social skills for a warning about how some uses of
+this skill may disrupt the game.
+
+SNEAK
+Each point spent on the sneak skill gives a +1 bonus to
+dexterity checks made to hide or move quietly without being
+noticed. The skill is normally used in an opposed manner
+against the spot skill of the target that might notice the
+sneaking character.
+
+Note: See Skills and Talents for how this interacts with the
+Hide in Shadows and Move Silently talents.
+
+SPOT
+Each point spend on the spot skill gives a +1 bonus to wisdom
+checks used to notice things such as prepared ambushes,
+hidden creatures, and traps.
+
+Note: See Skills and Talents for how this interacts with the
+Hide in Shadows, Move Silently, and Locate Traps talents.
+
+SWIMMING
+Each point spent on the swimming skill gives a +1 bonus to
+strength checks made to swim while weighed down or in fast
+flowing or turbulent waters. Characters are assumed to be
+able to swim in calm water (provided they are not weighed
+down) without needing to make a swimming check, but heavily
+encumbered characters or characters trying to swim in difficult
+conditions will need to make such checks.
+
+The effective strength used for swimming checks should be
+given modifiers based on the specific conditions that the
+character is trying to swim in, such as those listed above.
+
+TRACKING
+Each point spent on the tracking skill gives a +1 bonus to
+wisdom checks made to follow the tracks left by one or more
+creatures. Following (at a slow walk) a single human sized
+creature who walked through light woodland or farmland less
+than a day ago would require a roll with no modifiers.
+
+The effective wisdom used for the tracking check should be
+modified by many factors such as:
+
+■ Number of creatures being tracked
+■ Size of creatures being tracked
+■ Method of locomotion of creatures being tracked
+■ Age of the tracks
+■ Terrain being tracked through
+■ Weather conditions
+■ Tracking as a speed faster than a slow walk
+

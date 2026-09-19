@@ -1,0 +1,60 @@
+{
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Leather Armour",
+  "_id": "xdkGfiDCe4dPI7Up",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xdkGfiDCe4dPI7Up",
+  "type": "armor",
+  "system": {
+    "tags": [],
+    "description": "",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 200,
+    "weightEquipped": 200,
+    "cost": 20,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "ac": 7,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "light",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 7,
+    "totalRangedAC": 7,
+    "totalAAC": 7,
+    "totalRangedAAC": 7,
+    "natural": false
+  },
+  "sort": 4500000
+}

@@ -43,5 +43,500 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!48tCQXEOwmD69xw2": {
+    "name": "Armour",
+    "sorting": "a",
+    "folder": "luTBWNJHVwpLxh6c",
+    "type": "Item",
+    "_id": "48tCQXEOwmD69xw2",
+    "description": "",
+    "sort": 300000,
+    "color": "#4a4a4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!RcR10M9pJBiQMs2H": {
+    "name": "Weapon Masteries",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "RcR10M9pJBiQMs2H",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!CEMLhcPX9bCIk4Wq": {
+    "name": "Spells",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "CEMLhcPX9bCIk4Wq",
+    "description": "",
+    "sort": 300000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!Nwvfi0XpBmsy7e3H": {
+    "name": "Cleric",
+    "sorting": "a",
+    "folder": "CEMLhcPX9bCIk4Wq",
+    "type": "Item",
+    "_id": "Nwvfi0XpBmsy7e3H",
+    "description": "",
+    "sort": 100000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!ThXqeHbSBViDm1xm": {
+    "name": "Druid",
+    "sorting": "a",
+    "folder": "CEMLhcPX9bCIk4Wq",
+    "type": "Item",
+    "_id": "ThXqeHbSBViDm1xm",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!nDEl0DHX9PnL6blb": {
+    "name": "Wizard",
+    "sorting": "a",
+    "folder": "CEMLhcPX9bCIk4Wq",
+    "type": "Item",
+    "_id": "nDEl0DHX9PnL6blb",
+    "description": "",
+    "sort": 300000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!MYhsd7IkAKrOTomk": {
+    "name": "Circle 1",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "MYhsd7IkAKrOTomk",
+    "description": "",
+    "sort": 100000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!cQb9gynDy7oNtDyw": {
+    "name": "Circle 2",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "cQb9gynDy7oNtDyw",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!w9QatcJFpY0HzXNX": {
+    "name": "Circle 3",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "w9QatcJFpY0HzXNX",
+    "description": "",
+    "sort": 300000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!bVOgupGw3WNCdylz": {
+    "name": "Circle 4",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "bVOgupGw3WNCdylz",
+    "description": "",
+    "sort": 400000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!YzSRuBARh4uUg2M8": {
+    "name": "Circle 5",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "YzSRuBARh4uUg2M8",
+    "description": "",
+    "sort": 500000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!fmfJrRcTOtbi3dYh": {
+    "name": "Circle 6",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "fmfJrRcTOtbi3dYh",
+    "description": "",
+    "sort": 600000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!LO776LJz0iGTVDGH": {
+    "name": "Circle 7",
+    "sorting": "a",
+    "folder": "Nwvfi0XpBmsy7e3H",
+    "type": "Item",
+    "_id": "LO776LJz0iGTVDGH",
+    "description": "",
+    "sort": 700000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!X89F5w0H0F5HTVaI": {
+    "name": "Circle 1",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "X89F5w0H0F5HTVaI",
+    "description": "",
+    "sort": 100000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!VvKqEXWZb6P5oWHq": {
+    "name": "Circle 2",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "VvKqEXWZb6P5oWHq",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!Y4c5tVDaiVYRzy0k": {
+    "name": "Circle 3",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "Y4c5tVDaiVYRzy0k",
+    "description": "",
+    "sort": 300000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!WPzTNLPsDNvTmuvj": {
+    "name": "Circle 4",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "WPzTNLPsDNvTmuvj",
+    "description": "",
+    "sort": 400000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!D7aQIWDefxAKkCVc": {
+    "name": "Circle 5",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "D7aQIWDefxAKkCVc",
+    "description": "",
+    "sort": 500000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!k5mKGrswY2sNRQG2": {
+    "name": "Circle 6",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "k5mKGrswY2sNRQG2",
+    "description": "",
+    "sort": 600000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!axRlQeBxb5AycCyG": {
+    "name": "Circle 7",
+    "sorting": "a",
+    "folder": "ThXqeHbSBViDm1xm",
+    "type": "Item",
+    "_id": "axRlQeBxb5AycCyG",
+    "description": "",
+    "sort": 700000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!A8Qtts4yEzdyg1OA": {
+    "name": "Circle 1",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "A8Qtts4yEzdyg1OA",
+    "description": "",
+    "sort": 100000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!sXbCctD69nKDKg8Y": {
+    "name": "Circle 2",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "sXbCctD69nKDKg8Y",
+    "description": "",
+    "sort": 200000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!1ZcfxnmevV2tz2aX": {
+    "name": "Circle 3",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "1ZcfxnmevV2tz2aX",
+    "description": "",
+    "sort": 300000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!WrnFS76yvhifVwBU": {
+    "name": "Circle 4",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "WrnFS76yvhifVwBU",
+    "description": "",
+    "sort": 400000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!gXAghWAPKoxPFgDN": {
+    "name": "Circle 5",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "gXAghWAPKoxPFgDN",
+    "description": "",
+    "sort": 500000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!3sZ3tR9eT8MG1OE8": {
+    "name": "Circle 6",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "3sZ3tR9eT8MG1OE8",
+    "description": "",
+    "sort": 600000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!5mlBrss3MWAk4AZH": {
+    "name": "Circle 7",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "5mlBrss3MWAk4AZH",
+    "description": "",
+    "sort": 700000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!cTpOLh6GExtmvow9": {
+    "name": "Circle 8",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "cTpOLh6GExtmvow9",
+    "description": "",
+    "sort": 800000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!WDCUzfjcaxWlH7ga": {
+    "name": "Circle 9",
+    "sorting": "a",
+    "folder": "nDEl0DHX9PnL6blb",
+    "type": "Item",
+    "_id": "WDCUzfjcaxWlH7ga",
+    "description": "",
+    "sort": 900000,
+    "color": "#2f3c4a",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!bdZqEE0lrGcMSfrf": {
+    "name": "General Skills",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "bdZqEE0lrGcMSfrf",
+    "description": "",
+    "sort": 400000,
+    "color": "#2f4a3c",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!j9aZ9DmKQ3HTKb1R": {
+    "name": "Talents",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "j9aZ9DmKQ3HTKb1R",
+    "description": "",
+    "sort": 500000,
+    "color": "#4a3c2f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!nAciSdEmUz9C4fUB": {
+    "name": "Character Classes",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "nAciSdEmUz9C4fUB",
+    "description": "",
+    "sort": 600000,
+    "color": "#4a2f3c",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
+  },
+  "!folders!pv3tV6QDZYfc2NYm": {
+    "name": "Class Abilities",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "pv3tV6QDZYfc2NYm",
+    "description": "",
+    "sort": 700000,
+    "color": "#3c4a2f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }

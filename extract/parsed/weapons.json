@@ -1,0 +1,756 @@
+[
+  {
+    "name": "Unarmed Strikes",
+    "lookupName": "Unarmed Strikes",
+    "section": "unarmed",
+    "cost": null,
+    "damageRoll": "1",
+    "traits": [
+      "Blunt",
+      "Natural",
+      "Simple",
+      "Knockout",
+      "Off-hand"
+    ],
+    "masteryGroups": [
+      "Brawling"
+    ],
+    "weightLb": 0
+  },
+  {
+    "name": "Wrestling",
+    "lookupName": "Wrestling",
+    "section": "unarmed",
+    "cost": null,
+    "damageRoll": "0",
+    "traits": [
+      "Blunt",
+      "Natural",
+      "Simple",
+      "Entangle",
+      "Strangle"
+    ],
+    "masteryGroups": [
+      "Grappling"
+    ],
+    "weightLb": 0
+  },
+  {
+    "name": "Axe, Hand",
+    "lookupName": "Axe, Hand",
+    "section": "one-handed",
+    "cost": {
+      "value": 4,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Throw"
+    ],
+    "masteryGroups": [
+      "Short Axes"
+    ],
+    "weightLb": 3
+  },
+  {
+    "name": "Blackjack",
+    "lookupName": "Blackjack",
+    "section": "one-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d2",
+    "traits": [
+      "Blunt",
+      "Natural",
+      "Knockout"
+    ],
+    "masteryGroups": [
+      "Brawling",
+      "Hammers"
+    ],
+    "weightLb": 0.5
+  },
+  {
+    "name": "Cestus",
+    "lookupName": "Cestus",
+    "section": "one-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d3",
+    "traits": [
+      "Off-hand"
+    ],
+    "masteryGroups": [
+      "Brawling"
+    ],
+    "weightLb": 1
+  },
+  {
+    "name": "Club",
+    "lookupName": "Club",
+    "section": "one-handed",
+    "cost": {
+      "value": 3,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Blunt",
+      "Natural",
+      "Deflect",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Hammers"
+    ],
+    "weightLb": 5
+  },
+  {
+    "name": "Dagger",
+    "lookupName": "Dagger",
+    "section": "one-handed",
+    "cost": {
+      "value": 3,
+      "currency": "gp"
+    },
+    "damageRoll": "1d4",
+    "traits": [
+      "Simple",
+      "Off-Hand",
+      "Throw",
+      "Double Damage"
+    ],
+    "masteryGroups": [
+      "Short Blades"
+    ],
+    "weightLb": 1
+  },
+  {
+    "name": "Hammer, Throwing",
+    "lookupName": "Hammer, Throwing",
+    "section": "one-handed",
+    "cost": {
+      "value": 4,
+      "currency": "gp"
+    },
+    "damageRoll": "1d4",
+    "traits": [
+      "Blunt",
+      "Throw",
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Hammers"
+    ],
+    "weightLb": 2.5
+  },
+  {
+    "name": "Hammer, War",
+    "lookupName": "Hammer, War",
+    "section": "one-handed",
+    "cost": {
+      "value": 4,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Blunt",
+      "Stun",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Hammers"
+    ],
+    "weightLb": 5
+  },
+  {
+    "name": "Javelin",
+    "lookupName": "Javelin",
+    "section": "one-handed",
+    "cost": {
+      "value": 1,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Throw"
+    ],
+    "masteryGroups": [
+      "Spears"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Lance",
+    "lookupName": "Lance",
+    "section": "one-handed",
+    "cost": {
+      "value": 10,
+      "currency": "gp"
+    },
+    "damageRoll": "1d10",
+    "traits": [
+      "Charge"
+    ],
+    "masteryGroups": [
+      "Spears"
+    ],
+    "weightLb": 18
+  },
+  {
+    "name": "Mace",
+    "lookupName": "Mace",
+    "section": "one-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Blunt",
+      "Deflect",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Hammers"
+    ],
+    "weightLb": 3
+  },
+  {
+    "name": "Morning Star",
+    "lookupName": "Morning Star",
+    "section": "one-handed",
+    "cost": {
+      "value": 8,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Blunt",
+      "Deflect Penalty",
+      "Disarm"
+    ],
+    "masteryGroups": [
+      "Chains"
+    ],
+    "weightLb": 4
+  },
+  {
+    "name": "Net",
+    "lookupName": "Net",
+    "section": "one-handed",
+    "cost": {
+      "value": 4,
+      "currency": "gp"
+    },
+    "damageRoll": "0",
+    "traits": [
+      "Simple",
+      "Throw",
+      "Entangle"
+    ],
+    "masteryGroups": [
+      "Nets"
+    ],
+    "weightLb": 4
+  },
+  {
+    "name": "Shield, Buckler",
+    "lookupName": "Shield, Buckler",
+    "section": "one-handed",
+    "cost": {
+      "value": 6,
+      "currency": "gp"
+    },
+    "damageRoll": "0",
+    "traits": [
+      "Blunt",
+      "Off-hand",
+      "Deflect"
+    ],
+    "masteryGroups": [
+      "Shields"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Shield, Normal",
+    "lookupName": "Shield, Normal",
+    "section": "one-handed",
+    "cost": {
+      "value": 10,
+      "currency": "gp"
+    },
+    "damageRoll": "0",
+    "traits": [
+      "Bulky",
+      "Blunt",
+      "Natural",
+      "Off-hand",
+      "Deflect",
+      "Delay"
+    ],
+    "masteryGroups": [
+      "Shields"
+    ],
+    "weightLb": 5
+  },
+  {
+    "name": "Shield, Tower",
+    "lookupName": "Shield, Tower",
+    "section": "one-handed",
+    "cost": {
+      "value": 15,
+      "currency": "gp"
+    },
+    "damageRoll": "0",
+    "traits": [
+      "Bulky",
+      "Blunt",
+      "Off-hand",
+      "Deflect",
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Shields"
+    ],
+    "weightLb": 12
+  },
+  {
+    "name": "Spear",
+    "lookupName": "Spear",
+    "section": "one-handed",
+    "cost": {
+      "value": 3,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Throw",
+      "Charge",
+      "Stun",
+      "Set"
+    ],
+    "masteryGroups": [
+      "Spears",
+      "Staves"
+    ],
+    "weightLb": 3
+  },
+  {
+    "name": "Sword, Bastard",
+    "lookupName": "Sword, Bastard",
+    "section": "one-handed",
+    "cost": {
+      "value": 15,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6+1",
+    "traits": [
+      "Versatile",
+      "Deflect"
+    ],
+    "masteryGroups": [
+      "Medium Blades"
+    ],
+    "weightLb": 8
+  },
+  {
+    "name": "Sword, Normal",
+    "lookupName": "Sword, Normal",
+    "section": "one-handed",
+    "cost": {
+      "value": 10,
+      "currency": "gp"
+    },
+    "damageRoll": "1d8",
+    "traits": [
+      "Deflect",
+      "Disarm",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Medium Blades"
+    ],
+    "weightLb": 6
+  },
+  {
+    "name": "Sword, Short",
+    "lookupName": "Sword, Short",
+    "section": "one-handed",
+    "cost": {
+      "value": 7,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Deflect",
+      "Disarm",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Med. Blades",
+      "Short Blades"
+    ],
+    "weightLb": 3
+  },
+  {
+    "name": "Trident",
+    "lookupName": "Trident",
+    "section": "one-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Throw",
+      "Skewer"
+    ],
+    "masteryGroups": [
+      "Spears"
+    ],
+    "weightLb": 2.5
+  },
+  {
+    "name": "Whip",
+    "lookupName": "Whip",
+    "section": "one-handed",
+    "cost": {
+      "value": 10,
+      "currency": "gp"
+    },
+    "damageRoll": "1d2",
+    "traits": [
+      "Simple",
+      "Entangle"
+    ],
+    "masteryGroups": [
+      "Whips"
+    ],
+    "weightLb": 10
+  },
+  {
+    "name": "Axe, Battle",
+    "lookupName": "Axe, Battle",
+    "section": "two-handed",
+    "cost": {
+      "value": 7,
+      "currency": "gp"
+    },
+    "damageRoll": "1d8",
+    "traits": [
+      "Bulky",
+      "Delay",
+      "Stun",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Short Axes",
+      "Long Axes"
+    ],
+    "weightLb": 6
+  },
+  {
+    "name": "Bayonet",
+    "lookupName": "Bayonet",
+    "section": "two-handed",
+    "cost": {
+      "value": 8,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Spears"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Flail",
+    "lookupName": "Flail",
+    "section": "two-handed",
+    "cost": {
+      "value": 12,
+      "currency": "gp"
+    },
+    "damageRoll": "1d8",
+    "traits": [
+      "Bulky",
+      "Blunt",
+      "Deflect Penalty",
+      "Disarm"
+    ],
+    "masteryGroups": [
+      "Chains"
+    ],
+    "weightLb": 6
+  },
+  {
+    "name": "Halberd",
+    "lookupName": "Halberd",
+    "section": "two-handed",
+    "cost": {
+      "value": 7,
+      "currency": "gp"
+    },
+    "damageRoll": "1d10",
+    "traits": [
+      "Bulky",
+      "Hook",
+      "Deflect",
+      "Disarm"
+    ],
+    "masteryGroups": [
+      "Pole Arms"
+    ],
+    "weightLb": 15
+  },
+  {
+    "name": "Pike",
+    "lookupName": "Pike",
+    "section": "two-handed",
+    "cost": {
+      "value": 3,
+      "currency": "gp"
+    },
+    "damageRoll": "1d10",
+    "traits": [
+      "Bulky",
+      "Deflect",
+      "Set"
+    ],
+    "masteryGroups": [
+      "Spears",
+      "Pole Arms"
+    ],
+    "weightLb": 8
+  },
+  {
+    "name": "Poleaxe",
+    "lookupName": "Poleaxe",
+    "section": "two-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d10",
+    "traits": [
+      "Bulky",
+      "Deflect"
+    ],
+    "masteryGroups": [
+      "Long Axes",
+      "Pole Arms"
+    ],
+    "weightLb": 12
+  },
+  {
+    "name": "Staff",
+    "lookupName": "Staff",
+    "section": "two-handed",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Bulky",
+      "Blunt",
+      "Natural",
+      "Simple",
+      "Deflect"
+    ],
+    "masteryGroups": [
+      "Staves"
+    ],
+    "weightLb": 4
+  },
+  {
+    "name": "Sword, Bastard (Two-Handed)",
+    "lookupName": "Sword, Bastard",
+    "section": "two-handed",
+    "cost": {
+      "value": 15,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6+1",
+    "traits": [
+      "Versatile",
+      "Deflect",
+      "Hurl"
+    ],
+    "masteryGroups": [
+      "Med. Blades",
+      "Long Blades"
+    ],
+    "weightLb": 8
+  },
+  {
+    "name": "Sword, Two-handed",
+    "lookupName": "Sword, Two-handed",
+    "section": "two-handed",
+    "cost": {
+      "value": 15,
+      "currency": "gp"
+    },
+    "damageRoll": "1d10",
+    "traits": [
+      "Bulky",
+      "Deflect",
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Long Blades"
+    ],
+    "weightLb": 10
+  },
+  {
+    "name": "Bolas",
+    "lookupName": "Bolas",
+    "section": "ranged",
+    "cost": {
+      "value": 5,
+      "currency": "gp"
+    },
+    "damageRoll": "1d2",
+    "traits": [
+      "Entangle",
+      "Strangle"
+    ],
+    "masteryGroups": [
+      "Line Weapons"
+    ],
+    "weightLb": 0.5
+  },
+  {
+    "name": "Bow, Long",
+    "lookupName": "Bow, Long",
+    "section": "ranged",
+    "cost": {
+      "value": 40,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Delay"
+    ],
+    "masteryGroups": [
+      "Bows"
+    ],
+    "weightLb": 3
+  },
+  {
+    "name": "Bow, Short",
+    "lookupName": "Bow, Short",
+    "section": "ranged",
+    "cost": {
+      "value": 25,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Delay"
+    ],
+    "masteryGroups": [
+      "Bows"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Crossbow, Heavy",
+    "lookupName": "Crossbow, Heavy",
+    "section": "ranged",
+    "cost": {
+      "value": 50,
+      "currency": "gp"
+    },
+    "damageRoll": "2d4",
+    "traits": [
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Crossbows"
+    ],
+    "weightLb": 8
+  },
+  {
+    "name": "Crossbow, Light",
+    "lookupName": "Crossbow, Light",
+    "section": "ranged",
+    "cost": {
+      "value": 30,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Crossbows"
+    ],
+    "weightLb": 5
+  },
+  {
+    "name": "Pistol",
+    "lookupName": "Pistol",
+    "section": "ranged",
+    "cost": {
+      "value": 250,
+      "currency": "gp"
+    },
+    "damageRoll": "1d6",
+    "traits": [
+      "Simple",
+      "Delay"
+    ],
+    "masteryGroups": [
+      "Firearms"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Sling",
+    "lookupName": "Sling",
+    "section": "ranged",
+    "cost": {
+      "value": 2,
+      "currency": "gp"
+    },
+    "damageRoll": "1d4",
+    "traits": [
+      "Blunt",
+      "Natural",
+      "Simple",
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Line Weapons"
+    ],
+    "weightLb": 2
+  },
+  {
+    "name": "Smoothbore",
+    "lookupName": "Smoothbore",
+    "section": "ranged",
+    "cost": {
+      "value": 150,
+      "currency": "gp"
+    },
+    "damageRoll": "2d4",
+    "traits": [
+      "Bulky",
+      "Stun"
+    ],
+    "masteryGroups": [
+      "Firearms"
+    ],
+    "weightLb": 7.5
+  }
+]

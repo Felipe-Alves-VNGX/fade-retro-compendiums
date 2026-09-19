@@ -1,0 +1,42 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Locate",
+  "_id": "reeyUomGyD8RGewc",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!reeyUomGyD8RGewc",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell lets the caster know the direction and distance to all instances of a particular animal or plant (chosen at the time of casting) that fall within range. Animals detected by this spell do not get a save. It will not locate animals or plants that are not on the same plane as the caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

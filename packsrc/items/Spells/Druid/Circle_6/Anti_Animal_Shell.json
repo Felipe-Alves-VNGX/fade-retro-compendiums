@@ -1,0 +1,42 @@
+{
+  "folder": "k5mKGrswY2sNRQG2",
+  "name": "Anti-Animal Shell",
+  "_id": "ACH2IkvJHU52jVBZ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ACH2IkvJHU52jVBZ",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell prevents any animals from coming within 1\" of the caster's body, and therefore prevents them from physically attacking the caster. This protection also prevents the caster from physically attacking animals for the duration.</p><p>Since the protection is only against the animals themselves, it does not prevent such things as animals throwing things at the caster or spitting at the caster. Similarly, it does not prevent the caster from using missile weapons or spells against animals – unless those spells have a touch range.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

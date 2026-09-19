@@ -1,0 +1,44 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Speak with Plants",
+  "_id": "Pmn4YrKYVBaE31Lt",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Pmn4YrKYVBaE31Lt",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell allows the caster to talk to plants, which will respond as if they were intelligent. Normal plants will be friendly to the caster, and are able to move slowly while under the influence of this spell in order to obey simple commands from the caster, such as picking something up or leaning out of the way of a path.</p><p>The spell also allows the caster to talk to plant-like monsters, although it does not influence them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "personal",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "ESP Rev",
+  "_id": "YYV5PJf0VURMYhdh",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YYV5PJf0VURMYhdh",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell allows the caster to hear and understand the thoughts of any living creature within range, regardless of language. The caster must concentrate for six rounds. If there is more than one creature in the same direction, it takes the caster an additional six rounds to filter the thoughts of a single creature out of the cacophony.</p><p>The spell is blocked by two feet of stone or any thickness of lead, and each individual targeted can make a spell save to block out the ESP.</p><p>Reverse: Mindmask makes the caster or a touched creature immune to all forms of mind reading for the duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

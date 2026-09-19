@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Magical Engineering",
+  "_id": "fACzcbv5V1ES96FE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fACzcbv5V1ES96FE",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the magical engineering skill gives a +1 bonus to intelligence checks made to design large scale magical effects or identify the function of existing effects such as wormholes, gates, and some large scale magical traps.</p><p>Modifiers to the effective intelligence used for checks to identify such magic should come from the obscurity of the effect being examined. Something that uses a standard spell effect should be easier than something that uses a unique effect. When designing such effects, this skill is used for the design itself, but the building of large-scale magical constructions will involve spell casting and crafting skills.</p><p>Note: although this skill can be used to identify how a large magical trap works, it should not be used as a replacement for either the Locate Traps or remove traps abilities. At best, knowing how the trap functions may give insight into how the trap may be bypassed by mundane means.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

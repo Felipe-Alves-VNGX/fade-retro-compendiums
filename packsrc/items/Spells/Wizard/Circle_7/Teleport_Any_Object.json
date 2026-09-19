@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Teleport Any Object",
+  "_id": "iESYpKgeug9bCIys",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!iESYpKgeug9bCIys",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell instantly transports one creature or object that weighs up to 50 pounds per level of the caster to another place on the same plane and within the same celestial sphere. The spell can be used to transport a 10' x 10' x 10' section of rock such as from a wall or floor, but cannot be used in this way to transport only part of a creature.</p><p>The caster can use this spell to transport themselves, and if doing so there is no chance of error.</p><p>The destination can be any distance from the target's current location, but it cannot be a place occupied by a solid object and must be a place with a solid ground or floor.</p><p>If the target is unwilling to be teleported, or unwilling to have an object that they are holding or carrying teleported, they may make a spell save with a –2 penalty to avoid the effect.</p><p>Unless the caster is teleporting themselves, there is a chance that a Teleport spell will result in the target appearing too high or too low. A character appearing in solid matter (usually because they appeared to low) is instantly killed. The chance of failure depends on how familiar the caster is with the destination:</p><p>Very Familiar: The caster can see the destination or the caster has spent several weeks there. Roll 1d100:</p><p>01–95 = on target 96–99 = 1d10 x 10' too high 00 = 1d10 x 10' too low</p><p>Familiar: The caster has spent more than a day at the destination, or has spent several weeks scrying on the destination. Roll 1d100:</p><p>01–80 = on target 81–90 = 1d10 x 10' too high 91–00 = 1d10 x 10' too low</p><p>Unfamiliar: The caster has been to the location but spent less than a day there, or the caster is currently scrying the location but has not studied it. Roll 1d100:</p><p>01–50 = on target 51–75 = 1d10 x 10' too high 76–00 = 1d10 x 10' too low</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "touch",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "folder": "Y4c5tVDaiVYRzy0k",
+  "name": "Protection from Poison",
+  "_id": "wAZE5b7TJNNL8sMW",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!wAZE5b7TJNNL8sMW",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell makes the target completely immune to all non-magical poisons and to magical poison spells such as the Cloudkill spell. It also gives the target a +4 bonus to all saves against the poisonous breath weapons that some creatures possess.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "touch",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

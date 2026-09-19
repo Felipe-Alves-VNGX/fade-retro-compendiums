@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Nature Lore",
+  "_id": "ZjMYIVIBjfHl3mIQ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZjMYIVIBjfHl3mIQ",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the nature lore skill gives a +1 bonus to intelligence checks made to recognise plants, natural terrain features, and natural creatures.</p><p>Most natural creatures or terrain features will give no bonus or penalty to the effective intelligence used for the roll, but a particularly common plant or animal might give a bonus and a particularly rare one might give a penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

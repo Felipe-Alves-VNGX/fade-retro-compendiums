@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Craft",
+  "_id": "4gUConJNzPDTLwj6",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4gUConJNzPDTLwj6",
+  "type": "skill",
+  "system": {
+    "description": "<p>The craft skill is not a single skill. It is a group of related skills used when making things of different types. When spending a skill point on this skill, you must specify what sort of craft your character is skilled at.</p><p>An exhaustive list of possible craft skills is not possible, but examples include:</p><p>■ Carpentry ■ Smithing ■ Fletching ■ Skinning ■ Leather-working ■ Rope binding ■ Tailoring ■ Gem cutting ■ Forgery ■ Masonry ■ Thatching ■ Drawing/painting ■ Sculpture</p><p>Each skill point spent on a specific craft skill gives a +1 bonus to dexterity checks used to make items with that craft.</p><p>Modifiers to the effective dexterity used in craft rolls can come from high or low quality materials and tools, as well as time constraints. Depending on what is being made, success may not be an all-or-nothing affair – a failed craft check is likely to still result in a finished item. However, the quality of the finished product should be subjectively determined by the amount that the craft check succeeded by or failed by.</p><p>Craft skills can also be used to assess the workmanship of items made using that skill. For example, skill at carpentry can be used to help find the weak spot in a door, or skill at smithing can help judge how good a sword is. The exact details of this are left to the Gameguide's discretion. However, in no case should a craft skill be able to be used to determine magical properties of an item.</p>",
+    "gm": {
+      "notes": "Skill de escolha de especialização (CHOOSE MEDIUM) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

@@ -1,13 +1,30 @@
 {
   "folder": "2AKCulCJIGNyAMaN",
   "name": "Dagger",
-  "type": "weapon",
-  "_id": "OFQFxbNVm1qvEG9t",
+  "_id": "gQ5RBclaRSTmOdwk",
   "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!gQ5RBclaRSTmOdwk",
+  "type": "weapon",
   "system": {
-    "tags": ["thrown"],
-    "description": "<p>A short light blade 18\" long or less. Daggers are popular because their small size makes them easy to conceal, and they can be either thrown or used in melee.</p>",
-    "gm": { "notes": "" },
+    "tags": [
+      "simple",
+      "off-hand",
+      "throw",
+      "double-damage"
+    ],
+    "description": "<p>A dagger is a short light blade which is 18\" long or less. Daggers are popular because their small size makes them easy to conceal and they can be either thrown or used in melee.</p>",
+    "gm": {
+      "notes": ""
+    },
     "quantity": 1,
     "quantityMax": 0,
     "charges": 0,
@@ -42,19 +59,42 @@
     "isSlow": false,
     "savingThrow": null,
     "saveDmgFormula": null,
-    "mastery": "Dagger",
+    "mastery": "Short Blades",
     "weaponType": "handheld",
     "ammoType": "",
-    "range": { "short": 10, "medium": 20, "long": 30, "min": 0 },
-    "size": "S",
-    "grip": "1H",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": null,
+    "grip": null,
     "natural": false,
-    "mod": { "dmg": 0, "toHit": 0, "dmgRanged": 0, "toHitRanged": 0, "rangeMultiplier": 1, "vsGroup": {} }
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
   },
-  "effects": [],
-  "ownership": { "default": 0 },
-  "flags": {},
-  "_stats": { "coreVersion": "13.347", "systemId": "fantastic-depths" },
-  "sort": 100000,
-  "_originalKey": "!items!OFQFxbNVm1qvEG9t"
+  "sort": 700000
 }

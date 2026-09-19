@@ -1,0 +1,44 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Knock",
+  "_id": "fwGwgkEAUQEtygnS",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fwGwgkEAUQEtygnS",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell will temporarily unlock any lock, or open a door that is closed by a Hold Portal or Wizard Lock spell. If the door was locked by mundane means then it remains unlocked until physically locked again, but if it is held shut by magical means then it will re-fasten once closed.</p><p>This spell will even unbar a door that is barred on the other side, although if the door is both barred and locked then it will take two castings to remove both.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

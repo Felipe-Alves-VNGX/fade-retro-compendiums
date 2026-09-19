@@ -1,0 +1,44 @@
+{
+  "folder": "cQb9gynDy7oNtDyw",
+  "name": "Speak with Animal",
+  "_id": "XQ75AYUtefTRscHJ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XQ75AYUtefTRscHJ",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell lets the caster communicate with a single species of animal for the duration. The species named must be a normal type of animal, not a magical or intelligent type. The communication is limited by the intelligence of the animal being communicated with.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

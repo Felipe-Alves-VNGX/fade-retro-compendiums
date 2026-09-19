@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Sneak",
+  "_id": "5eUwTAa8VXCtzuWy",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!5eUwTAa8VXCtzuWy",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the sneak skill gives a +1 bonus to dexterity checks made to hide or move quietly without being noticed. The skill is normally used in an opposed manner against the spot skill of the target that might notice the sneaking character.</p><p>Note: See Skills and Talents for how this interacts with the Hide in Shadows and Move Silently talents.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

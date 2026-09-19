@@ -1,0 +1,44 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Floating Disc",
+  "_id": "IGYvCoBMYZBZ7AWf",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!IGYvCoBMYZBZ7AWf",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a small flying platform of force, about the size and shape of a round shield. The platform is invisible to all but the caster and hovers at the height of the caster's waist. The platform follows the caster around, never getting more than 6' away from them. The platform can support 1,000lbs of weight.</p><p>The platform has no edges and cannot be used as a weapon in any way, since it has no physical existence other than to support weight.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -11,7 +11,7 @@
     "decomppacks": "npm run packdump && npm run packextract && echo \"Decompiled packs\"",
     "comppacks": "npm run validate && npm run packcompile && npm run packrestore && echo \"Compiled packs\"",
     "validate": "node scripts/extract/validate.mjs",
-    "test": "node --test scripts/extract/*.test.mjs"
+    "test": "node --test scripts/extract/*.test.mjs scripts/parse/*.test.mjs scripts/build/*.test.mjs"
   },
   "repository": {
     "type": "git",

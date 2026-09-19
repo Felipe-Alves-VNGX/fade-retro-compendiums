@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Powder Crafting",
+  "_id": "dyeko9VGVNb1neZr",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!dyeko9VGVNb1neZr",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Starting at 2nd level, grenadiers can craft explosives and other items that use refined powder in inventive ways. The grenadier must have mastered the blueprint for the device, see CHAPTER 12 – GETTING BETTER for details about mastering new blueprints, and the device must be only grade 1 in complexity.</p><p>At higher levels, the grenadier can craft higher grade devices for which they have mastered the blueprints. At 4th level the grenadier can craft grade 2 devices; at 6th level they can craft grade 3 devices; at 8th level they can craft grade 4 devices; at 10th level they can craft grade 5 devices; at 13th level they can craft grade 6 devices, and at 17th level they can craft grade 7 devices.</p><p>See CHAPTER 8 – RED POWDER for more information about the devices that can a grenadier can make that use refined powder in this manner.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "grenadier",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

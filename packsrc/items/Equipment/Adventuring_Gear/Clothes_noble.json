@@ -1,25 +1,37 @@
 {
   "folder": "vItxVSiPb4vq0Mmc",
-  "name": "Backpack",
-  "type": "item",
-  "_id": "76wpz7XNkzVnoDNA",
+  "name": "Clothes (noble)",
+  "_id": "AABXJ281xggrN4C0",
   "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!AABXJ281xggrN4C0",
+  "type": "item",
   "system": {
-    "tags": ["container", "equippable"],
-    "description": "<p>A leather or canvas backpack with shoulder straps for carrying things while leaving the hands free. Holds up to 40 lb.</p>",
-    "gm": { "notes": "" },
+    "tags": [],
+    "description": "<p>Fancy clothing that a minor noble or other rich person would wear.</p>",
+    "gm": {
+      "notes": ""
+    },
     "quantity": 1,
     "quantityMax": 0,
     "charges": 0,
     "chargesMax": 0,
     "weight": 20,
     "weightEquipped": 20,
-    "cost": 5,
+    "cost": 20,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
-    "container": true,
+    "container": false,
     "isOpen": false,
     "equippable": true,
     "fuelType": "",
@@ -33,10 +45,5 @@
     "isIdentified": true,
     "isCursed": false
   },
-  "effects": [],
-  "ownership": { "default": 0 },
-  "flags": {},
-  "_stats": { "coreVersion": "13.347", "systemId": "fantastic-depths" },
-  "sort": 100000,
-  "_originalKey": "!items!76wpz7XNkzVnoDNA"
+  "sort": 1500000
 }

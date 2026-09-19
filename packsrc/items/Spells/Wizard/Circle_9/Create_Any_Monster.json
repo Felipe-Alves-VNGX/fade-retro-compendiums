@@ -1,0 +1,44 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Create Any Monster",
+  "_id": "BdsvOdFAuW0GFZy1",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!BdsvOdFAuW0GFZy1",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell causes monsters to temporarily appear and obey the caster's commands for the duration, before disappearing. Any type of mortal (not exalted) creature can be created except for humans and the setting's other playable ancestries, and the creatures will be typical for their species. Creatures of only one species can be created per casting.</p><p>The total number of hit dice of creatures that can be created at once is equal to the caster's level.</p><p>Monsters created by this spell are considered to be enchanted for purposes of the Protection from Evil, Dispel Evil and Anti-Magic Shell spells, and they can be dispelled by a Dispel Magic with normal chances of success.</p><p>This spell can also be used to create a construct. See CHAPTER 19 – BESTIARY for details of different types of construct and CHAPTER 22 – GAMEGUIDE ADVICE for how they are created. When used to create a construct, the duration of the spell is permanent, and the construct cannot be destroyed by a Dispel Magic, although it is still affected by Protection from Evil, Dispel Evil and Anti-Magic Shell.</p><p>If this spell is cast by an immortal, the caster may choose to let the monsters remain in existence after the spell runs out, although if they do so the monsters will no longer be under their control.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "90'",
+    "duration": "30 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

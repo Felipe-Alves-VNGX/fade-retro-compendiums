@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Chivalric Vows",
+  "_id": "vTiDNbfGk42ggkVD",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vTiDNbfGk42ggkVD",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>After reaching 9th level, a fighter who has received a title of nobility (knight or higher) might decide to take chivalric vows and dedicate themselves to a cause such as a religious order or a noble. Taking chivalric vows puts restrictions on the fighter's behaviour but gives them extra abilities in exchange. A fighter wishing to take chivalric vows must first find a suitable chivalric order with which they share an outlook, and then spend a month living with the order.</p><p>At the end of this time, the fighter undertakes a night long vigil, and then becomes a chevalier. Once the fighter has qualified in this way, the order places them with a particular temple or noble who is a supporter of the order. The fighter may or may not get a choice of liege, but betraying a liege is considered betrayal of the order and doing so strips the chevalier of all chivalric abilities and is also likely to incur the wrath of the order.</p><p>All chevaliers must obey a strict code of conduct, the exact details of which will vary from order to order but will usually involve a requirement to provide hospitality and/or sanctuary to fellow chevaliers of the same order. As a member of a chivalric order, the fighter gains the following benefits:</p><p>Detect Evil: The chevalier can cast a Detect Evil spell (as per the cleric spell of the same name) as often as they like. Casting this spell does take the fighter's action for a round, so cannot be done at the same time as attacking.</p><p>Spells: Chevaliers with a wisdom score of at least 9 can cast cleric spells as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can cast spells as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's casting and preparation of spells also apply to the chevalier.</p><p>Turn Undead: Chevaliers can turn undead as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can turn undead as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's turning undead also apply to the chevalier.</p>",
+    "gm": {
+      "notes": "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas."
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "fighter",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

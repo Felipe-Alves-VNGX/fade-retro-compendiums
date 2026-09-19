@@ -1,0 +1,44 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Polymorph Self",
+  "_id": "9YsxI5FLQzC2OLme",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!9YsxI5FLQzC2OLme",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell allows the caster to change their shape into that of another race or mortal (not exalted) species.</p><p>The caster can only change into a form that has no more hit dice than the caster's normal form. The caster cannot take the form of a specific individual, only a generic individual of the desired ancestry or species.</p><p>The caster's basic statistics (armour class, hit points, attack rolls, and saves) do not change, and the caster does not get special or magical abilities of the new form (such as the breath of a dragon or hellhound, or the regeneration ability of a troll). The caster does get the basic physical characteristics and physical attacks of the new form (such as a dragon's flight and a hellhound's bite). The caster cannot cast spells while polymorphed.</p><p>If the caster is killed while polymorphed, this spell ends and they revert back to their normal shape. It also ends if dispelled.</p><p>An immortal under the effect of this spell retains their aura.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "personal",
+    "duration": "1 hour + 10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Ice Storm / Wall of Ice",
+  "_id": "CItyEEsuhtBA6UV4",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!CItyEEsuhtBA6UV4",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell can be cast in one of two ways, and the caster can decide which way to use it at the time of casting.</p><p>The first way to use the spell is to create a 10' radius Ice Storm. This ice storm does 1d6 cold damage per caster level (maximum of 20d6) to every creature in the area. Each creature can make a spell save to take half damage.</p><p>Fire based creatures have a –4 penalty to their save, but cold based creatures are immune to the spell.</p><p>The second way to use the spell is to create a vertical Wall of Ice of up to 1,200 square feet. The wall is not transparent, and must be created in unoccupied space on ground that will support it.</p><p>The wall will melt in two hours, but can be broken before that time by creatures with 5 or more hit dice. However, such creatures take 1d6 cold damage while doing so (fire based creatures take 2d6, cold based creatures take none).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "instant or 2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

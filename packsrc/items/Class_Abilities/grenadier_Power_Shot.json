@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Power Shot",
+  "_id": "RM6scNS01jIqLrBP",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!RM6scNS01jIqLrBP",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 11th level, a grenadier gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the grenadier's player declares that their character is making a power shot. The grenadier automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the grenadier gets to add their dexterity score to the damage done by the attack as well as their dexterity bonus. See CHAPTER 11 – COMBAT for details of power shots.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "grenadier",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

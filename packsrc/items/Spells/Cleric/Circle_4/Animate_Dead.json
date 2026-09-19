@@ -1,0 +1,45 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Animate Dead",
+  "_id": "fAIzIkQJBNIV7X5R",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fAIzIkQJBNIV7X5R",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy",
+      "inertia"
+    ],
+    "description": "<p>When this spell is cast, a number of dead bodies or skeletons within range will be animated and will become zombies or skeletons respectively.</p><p>A created skeleton will have the same number of hit dice as the race of the original creature had (not including extra hit dice gained from class levels). A created zombie will have one more hit dice than the original creature had (not including extra hit dice gained from class levels). Therefore, a human skeleton will always have 1 hit dice, and a human zombie will always have 2 hit dice.</p><p>Each casting of the spell will create a total number of hit dice of undead equal to the caster's level, starting with those nearest the caster. See CHAPTER 19 – BESTIARY for more details about skeletons and zombies.</p><p>The animated undead will mindlessly obey the commands of the caster, and there is no limit to the total number of undead that the caster can create and control using multiple castings of this spell. The zombies and skeletons created by this spell can be turned or destroyed normally. Unless the caster of this spell is an immortal, they are also vulnerable to the Dispel Magic spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

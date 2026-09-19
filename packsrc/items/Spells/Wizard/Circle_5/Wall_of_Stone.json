@@ -1,0 +1,44 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Wall of Stone",
+  "_id": "oTxDFQUi4F553NNk",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!oTxDFQUi4F553NNk",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a wall of solid stone, up to 500 square feet in area and 2' thick. The entire wall must be within 60' of the caster. The wall cannot be created in the space occupied by creatures or objects, and it must rest on the ground or similar support. The wall is magical and lasts until it is dispelled, disintegrated or physically destroyed.</p><p>If the wall is toppled over, it will cause 5d10 damage to those it lands on, and then it crumbles to sand. Any stone chipped or hacked off the wall also crumbles to sand and disappears.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "60'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

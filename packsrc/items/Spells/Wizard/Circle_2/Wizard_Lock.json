@@ -1,0 +1,44 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Wizard Lock",
+  "_id": "7IBm3luX0IkmAg6u",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7IBm3luX0IkmAg6u",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell magically holds closed any door, gate or other portal; or magically holds locked any lock.</p><p>The caster can open the door at any time, but otherwise the door can only be forced open by creatures with at least three more levels or hit dice than the caster or by a Knock spell. In either case, the door re-locks as soon as it is allowed to close, and this spell resumes until dispelled.</p><p>An immortal can always open a door that is being held closed by a mortal's casting of this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

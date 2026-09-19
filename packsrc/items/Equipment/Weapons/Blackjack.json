@@ -1,0 +1,99 @@
+{
+  "folder": "2AKCulCJIGNyAMaN",
+  "name": "Blackjack",
+  "_id": "dq2LCHC10BvOgnsG",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!dq2LCHC10BvOgnsG",
+  "type": "weapon",
+  "system": {
+    "tags": [
+      "blunt",
+      "natural",
+      "knockout"
+    ],
+    "description": "<p>A blackjack, also known as a cosh, is a small leather club usually filled with sand. Blackjacks are too soft to do significant damage, but are very useful for temporarily knocking people unconscious without doing permanent damage.</p>",
+    "gm": {
+      "notes": "Grupos de proficiência adicionais do livro: Hammers."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 5,
+    "weightEquipped": 5,
+    "cost": 5,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "damageRoll": "1d2",
+    "damageLabel": "1d2",
+    "damageType": "physical",
+    "breath": null,
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "mastery": "Brawling",
+    "weaponType": "handheld",
+    "ammoType": "",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": null,
+    "grip": null,
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "sort": 400000
+}

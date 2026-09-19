@@ -1,0 +1,44 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Sleep",
+  "_id": "YlUvsDFgantJsiXp",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YlUvsDFgantJsiXp",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell puts one or more creatures to sleep. Roll 2d8 to see how many hit dice worth of creatures are slept by the effect. Go through all the living (not undead or non-living) creatures in the area with fewer than 5 hit dice or levels, starting with the closest to the target point of the spell. If there are enough hit dice left from the roll, that creature is slept with no save and their hit dice are taken from the running total. Once there are no more creatures left with fewer (or equal) hit dice to the number of hit dice left over, the spell stops.</p><p>Falling to the ground when slept by this spell will not wake the target up, and neither will noise. Targets will awaken if kicked, shaken or otherwise physically disturbed. Sleeping creatures are considered to be helpless opponents (see CHAPTER 11 – COMBAT for details).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "240'",
+    "duration": "4d4 x 10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

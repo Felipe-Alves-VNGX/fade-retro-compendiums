@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Religious Lore",
+  "_id": "dC4Yl5WNUT72U3kS",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!dC4Yl5WNUT72U3kS",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the religious lore skill gives a +1 bonus to intelligence checks made to recall knowledge about religions, their targets of worship, and the creatures associated with them.</p><p>The effective intelligence score used for the religious lore check should be modified by the obscurity of the knowledge being sought. Identifying a statue of a well-known god should be much easier than identifying the purpose of a particular religious rite from a foreign religion.</p><p>Note: Characters should be assumed to know all about the rites and details of their own religion without needing to make religious lore checks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

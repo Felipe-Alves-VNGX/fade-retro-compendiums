@@ -1,0 +1,60 @@
+{
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Scale Mail",
+  "_id": "zJ15Td8JkJi4sZKC",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!zJ15Td8JkJi4sZKC",
+  "type": "armor",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a suit primarily composed of leather plates that have metal scales or studs sewn onto them for added protection. Scale mail gives a character an armour class of 6.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 300,
+    "weightEquipped": 300,
+    "cost": 30,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "ac": 6,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "light",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 6,
+    "totalRangedAC": 6,
+    "totalAAC": 6,
+    "totalRangedAAC": 6,
+    "natural": false
+  },
+  "sort": 4600000
+}

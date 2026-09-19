@@ -1,0 +1,44 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Wizard Eye",
+  "_id": "OvSbtxd1P4rjzkOp",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!OvSbtxd1P4rjzkOp",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell creates an invisible magical eye the size of a human eye. It can see as well as a human under the effects of the Infravision spell.</p><p>The caster can see through and/or move the eye (40' per round) by concentrating, although it remains in existence for</p><p>the duration even while the caster is not concentrating; returning to the caster's side and following them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

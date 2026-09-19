@@ -1,0 +1,100 @@
+{
+  "folder": "2AKCulCJIGNyAMaN",
+  "name": "Axe, Battle",
+  "_id": "P4jSjgicZAMFJpmj",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!P4jSjgicZAMFJpmj",
+  "type": "weapon",
+  "system": {
+    "tags": [
+      "bulky",
+      "delay",
+      "stun",
+      "hurl"
+    ],
+    "description": "<p>A battle axe is a two handed axe 2'–4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
+    "gm": {
+      "notes": "Grupos de proficiência adicionais do livro: Long Axes."
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 60,
+    "weightEquipped": 60,
+    "cost": 7,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "damageRoll": "1d8",
+    "damageLabel": "1d8",
+    "damageType": "physical",
+    "breath": null,
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "mastery": "Short Axes",
+    "weaponType": "handheld",
+    "ammoType": "",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null,
+      "min": 0
+    },
+    "size": null,
+    "grip": null,
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "rangeMultiplier": 1,
+      "vsGroup": {}
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    },
+    "siege": {
+      "thac0": null,
+      "thbonus": null,
+      "crew": null,
+      "fullCrew": null,
+      "fireRate": null,
+      "ammoCostWk": null,
+      "weightTowed": null,
+      "acplus": null,
+      "artillerist": false
+    }
+  },
+  "sort": 2400000
+}

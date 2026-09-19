@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Statue",
+  "_id": "t7tSAAMkKGekYnEk",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!t7tSAAMkKGekYnEk",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell allows the caster to transform to or from a statue as often as they like during the duration. Each transformation takes a round. The caster can even turn back to normal after having been petrified by a monster's attack or a spell, provided this spell was already active when the petrification happened.</p><p>While in stone form, the caster cannot move or cast spells (but can continue to concentrate on spells already cast). The caster is armour class –4, and cannot be hurt by non-magical weapons or by cold or fire attacks. The caster does not need to breathe while in statue form and is immune to poison, drowning, and gas-based attacks.</p><p>When this spell is active but the caster is in normal form, the caster gets a +5 bonus on initiative rolls if their action for the round is to turn to statue form.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "caster",
+    "duration": "20 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

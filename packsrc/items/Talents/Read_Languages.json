@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Read Languages",
+  "_id": "KCPdy2f4egJpNDJi",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!KCPdy2f4egJpNDJi",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Characters without this talent can't attempt to read text in languages they don't know, or which is encrypted in an unknown manner.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Bluff",
+  "_id": "XOqlFXaDkVtHHfap",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XOqlFXaDkVtHHfap",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the bluff skill gives a +1 bonus to charisma checks made to convince NPCs of things without evidence. While the skill is most often used to convince NPCs of untruths, it can also be used to make a convincing emotional argument in favour of something you know is true but cannot prove to be true.</p><p>Bluff checks should get modifiers for both the plausibility of what is being claimed and the potential consequences of the bluff to the target of the skill. A guard who may get executed if they let a potential assassin into the royal palace will be harder to bluff your way past than a merchant who may make a bit less profit if you manage to convince him that you should get a discount because you're a member of the city watch.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

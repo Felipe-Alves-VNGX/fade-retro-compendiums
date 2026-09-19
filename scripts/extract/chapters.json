@@ -1,0 +1,32 @@
+{
+  "creating-a-character": {
+    "title": "Creating a Character",
+    "startPage": 25,
+    "endPage": 60,
+    "fullWidthPages": [27, 30, 32, 34, 36, 38, 41, 44, 48, 52, 55, 59]
+  },
+  "skills-and-talents": {
+    "title": "Ability Checks, Skills, & Talents",
+    "startPage": 61,
+    "endPage": 72,
+    "fullWidthPages": []
+  },
+  "weapons": {
+    "title": "Weapons & Weapon Proficiency",
+    "startPage": 73,
+    "endPage": 90,
+    "fullWidthPages": [74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89]
+  },
+  "spells": {
+    "title": "Spells & Spell Casting",
+    "startPage": 91,
+    "endPage": 136,
+    "fullWidthPages": [93, 94, 95, 103]
+  },
+  "equipment": {
+    "title": "Equipping for Adventure",
+    "startPage": 147,
+    "endPage": 164,
+    "fullWidthPages": [152, 153, 156, 159, 163]
+  }
+}

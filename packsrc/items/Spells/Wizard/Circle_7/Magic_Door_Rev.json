@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Magic Door Rev",
+  "_id": "YQVIZwYikNBKcI2o",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YQVIZwYikNBKcI2o",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates a magical doorway in a solid non-living surface such as a wall or a floor. Behind the doorway is an invisible passage up to 10' long with a similar door at the other end. The caster can see both door and passage and can pass through the passage 7 times before both disappear.</p><p>The door and passage are completely undetectable by normal means, although they will show up on a Detect Magic spell. The only way to destroy the passage (without destroying the wall that it runs through) is to use a Dispel Magic spell.</p><p>Reverse: Magic Lock seals any one door, chest lid, gate, archway, or other portal up to 10' x 10' in size with an invisible barrier. The barrier doesn't prevent the door (if there is one) from being opened, but it prevents passage through the portal by any but the caster. Once the caster has passed through the portal 7 times, the spell ends and the barrier disappears. The barrier can be removed by either a Dispel Magic, Remove Barrier, or Disintegrate spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "10'",
+    "duration": "7 uses",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

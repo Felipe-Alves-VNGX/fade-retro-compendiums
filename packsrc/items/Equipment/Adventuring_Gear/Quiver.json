@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Quiver",
+  "_id": "VIJWB5oE7guf72Qd",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VIJWB5oE7guf72Qd",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>A leather container that holds 20 arrows or crossbow bolts.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 70,
+    "weightEquipped": 70,
+    "cost": 1,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 3100000
+}

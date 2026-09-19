@@ -1,0 +1,44 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Create Air",
+  "_id": "8Jj0SdssJChNZGDo",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!8Jj0SdssJChNZGDo",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell can be cast in a static area of up to 8,000 cubic feet (20' x 20' x 20' or the equivalent) in order to fill that area with breathable air for the duration.</p><p>It can also be cast on an enclosed object, from a small one such as a helmet to one as large as 20' x 20' x 20' such as the interior of a ship's hold in order to fill that object with constantly refreshing air for the duration even if the object moves around. If the object is not airtight then the air will constantly leak out and be replaced.</p><p>Finally, it can be cast on a creature to surround the creature in a thin skin-like bubble of breathable air for the duration, even if the creature moves.</p><p>In this last case, a creature that flies using wings can use that air around it to fly even if there is no other air, so it can fly through an airless void or even the luminiferous aether. This bubble will maintain its integrity underwater or in such a void.</p><p>In any of these cases, although the spell provides air where there may be none, it doesn't stop poison from mixing with that air – so it provides no protection from Cloudkill spells or the poisonous breath of some monsters.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "touch",
+    "duration": "1 hour/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "YzSRuBARh4uUg2M8",
+  "name": "Quest Rev",
+  "_id": "8Ybs3nIjD9Lj1jqe",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!8Ybs3nIjD9Lj1jqe",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "despair/hope"
+    ],
+    "description": "<p>This spell forces the target to perform a specific action. The target may make a spell save to escape the effect.</p><p>The action must be something that is possible, and can't be something suicidal – for example, you can't Quest someone into jumping off a cliff.</p><p>The target must perform the action, but they are not mind controlled in any way, and they are fully aware that they may only be performing the action in order to avoid the consequences of this spell.</p><p>If the target goes against the quest, they receive a Curse, as if by the reversed form of the Remove Curse spell. Neither this curse nor the Quest itself can be dispelled or removed via a Remove Curse spell, although a Dispel Evil will remove it. The curse will not lift until the quest is fulfilled.</p><p>This spell cannot affect an immortal, even if cast by another immortal.</p><p>Reverse: Remove Quest will remove an unwanted Quest, although for each level the caster of the Quest is above the caster of the Remove Quest there is a 5% chance of failure.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

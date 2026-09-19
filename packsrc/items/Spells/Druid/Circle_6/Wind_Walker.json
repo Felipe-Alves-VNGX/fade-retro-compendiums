@@ -1,0 +1,44 @@
+{
+  "folder": "k5mKGrswY2sNRQG2",
+  "name": "Wind Walker",
+  "_id": "GejPYPAB2yT6x5CA",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!GejPYPAB2yT6x5CA",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell summons a wind walker (a type of monster – see CHAPTER 19 – BESTIARY for details) and gives it a specific task. When the wind walker arrives, the caster must describe a creature or object (and can optionally describe its location to make the walker's task easier and more likely to succeed).</p><p>The wind walker will then search for the object or creature and do its best (fighting to the death if necessary) to return it to the caster. It will not be distracted from this task except to defend itself.</p><p>However, if the duration of the spell runs out before the walker has returned with the item then the walker will drop the item (if it already has it) and return immediately to the caster and attempt to slay them unless the caster was an immortal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "1 day/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Delayed Blast Fireball",
+  "_id": "tc1Vvyn9XrdFXxnh",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!tc1Vvyn9XrdFXxnh",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>When this spell is cast, the caster chooses a length of delay, from 0 to 60 rounds. After this delay, a small ruby-like gem then shoots out to the target location, waits for the specified number of rounds, and explodes into a ball of fire.</p><p>The explosion does 1d6 points of damage per caster level (to a maximum of 20d6 unless the caster is an immortal) to all within a 20' radius. Creatures within that radius can make a spell save to take half damage.</p><p>During the time between the casting of this spell and the explosion, the gem can be moved by normal means (carried, thrown, dropped, etc.) but it is immune to all magical attempts to move it (Teleport, Telekinesis, etc.)</p><p>Nothing can delay the gem's explosion at the appointed time or make it explode before its time is up except a Wish spell. However, a Dispel Magic has normal chances to destroy the gem and thus prevent the explosion.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "0–60 rounds",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

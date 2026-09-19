@@ -1,0 +1,44 @@
+{
+  "folder": "MYhsd7IkAKrOTomk",
+  "name": "Purify Food and Water",
+  "_id": "m49HChOK9JEF20Hg",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!m49HChOK9JEF20Hg",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "purity"
+    ],
+    "description": "<p>This spell will purify spoiled or poisoned food and drink. It will affect enough fresh food to feed a dozen people, or enough preserved food (making it fresh again) for one person, or enough water for six people. The spell will purify muddy or otherwise dirty water by settling out the sediment, but will have no effect on water-based creatures.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

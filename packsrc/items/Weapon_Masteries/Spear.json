@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Spear",
+  "_id": "3xz2aOc8E2ZykKS1",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!3xz2aOc8E2ZykKS1",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Spear",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": "Set"
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 20,
+          "medium": 40,
+          "long": 60
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 2,
+        "special": "Set"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 40,
+          "medium": 60,
+          "long": 75
+        },
+        "pDmgFormula": "2d4+2",
+        "sDmgFormula": "2d4+2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 4,
+        "special": "Stun, Set"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 40,
+          "medium": 60,
+          "long": 75
+        },
+        "pDmgFormula": "2d4+4",
+        "sDmgFormula": "2d4+4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 6,
+        "special": "Stun, Set"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 60,
+          "medium": 75,
+          "long": 80
+        },
+        "pDmgFormula": "2d4+6",
+        "sDmgFormula": "2d4+6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 8,
+        "special": "Stun, Set"
+      }
+    ],
+    "gm": {
+      "notes": ""
+    }
+  },
+  "sort": 3000000
+}

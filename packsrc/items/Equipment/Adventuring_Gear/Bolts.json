@@ -1,0 +1,49 @@
+{
+  "folder": "vItxVSiPb4vq0Mmc",
+  "name": "Bolts",
+  "_id": "WgHN7F1vCYlHXk6U",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!WgHN7F1vCYlHXk6U",
+  "type": "item",
+  "system": {
+    "tags": [],
+    "description": "<p>Bolts are the ammunition used by crossbows. The same bolts are usable in either heavy or light crossbows. Bolts are often broken in use. At the end of a combat, a character will only be able to recover half (round down) of the bolts fired during that combat. The rest are either lost or unusable.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 30,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 10,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false
+  },
+  "sort": 500000
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Summon Object",
+  "_id": "MYbST1l1cMHutDcn",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!MYbST1l1cMHutDcn",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell summons a non-living object weighing 50 pounds or less from the caster's home to their hand, no matter how great the distance even if the caster is on another plane, but provided the caster is in the same celestial sphere as their home. The object must be no bigger than a staff or small chest. The caster must know the exact location of the item, and must be familiar with it.</p><p>The item must also have been prepared beforehand by sprinkling it with a special powder that costs 1,000 gold pieces per item. The powder evaporates as part of the preparation process, and does not affect the item in any way once the preparation is complete. If the item is a container of some sort, it will appear without its contents – even if those contents have been independently prepared.</p><p>If another creature has taken the object from where the caster placed it, the object will not be summoned – but the caster will know roughly where the object is and who has it.</p><p>If an immortal casts this spell while in a mortal form, it will not summon objects from the home of the immortal's essential form.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "infinite",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

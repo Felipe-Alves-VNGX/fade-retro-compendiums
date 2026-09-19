@@ -1,0 +1,44 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Stoneform",
+  "_id": "VyTmvxpV16EPJZL9",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VyTmvxpV16EPJZL9",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a mass of stone up to 1,000 cubic feet in area. The mass can be arranged in any manner the caster desires.</p><p>The stone does not appear instantly, but takes time to form, ranging from a single round for a simple stone wall to two hours to create something with a precise specification, such as a statue.</p><p>The stone created by this spell can be as soft as chalk or as hard as granite, but cannot be a precious or semi-precious stone. The exception to this is that the spell can create clear (or tinted) crystal of a fine enough quality to be used for windows. Whatever the complexity of the shape, the stone must form a single piece with no moving parts. However, the caster can create the stone in a \"rough\" form, which can then have the Stoneform spell cast on it again in order to either add to the object or reshape it.</p><p>If the caster does create the stone in rough form, then this spell is cast once again to \"set\" the stone in its final form so that other casters can't cast this spell on it in order to modify it.</p><p>Note that whatever shape the stone takes, it cannot be created in the space where another object exists and must be created on a surface that can support its weight.</p><p>Once created, the stone is real and cannot be dispelled, and it will last until it is physically or magically destroyed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

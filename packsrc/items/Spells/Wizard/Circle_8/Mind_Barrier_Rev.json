@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Mind Barrier Rev",
+  "_id": "94PnHuBbUuqBegzd",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!94PnHuBbUuqBegzd",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell makes the target immune to the ESP and Clairvoyance spells, and any type of magical scrying or information gathering spell. This includes protecting the target from being the subject of Lore and Locate spells and protects the target from having their location discovered via the use of a Summon Object spell.</p><p>The target also gets a +8 bonus to all saves against mind affecting attacks such as Charm and Feeblemind spells and abilities, illusions and phantasms that require saves, etc.</p><p>However, it does not grant a save against abilities that do not normally grant one. Neither does it protect the target from spells that indirectly reveal information about them, such as Holy Word.</p><p>Reverse: Open Mind causes the victim to get a –8 penalty to all saves against mind-affecting attacks such as Charm and Feeblemind spells and abilities, illusions and phantasms that require saves, etc. The target gets no save against Open Mind, but the caster must make a melee attack to touch the target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "1 hour/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "VvKqEXWZb6P5oWHq",
+  "name": "Find Traps",
+  "_id": "8SxnMgx2jTU7GBLU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!8SxnMgx2jTU7GBLU",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "truth"
+    ],
+    "description": "<p>This spell causes the caster to see a glow around any mechanical or magical traps that are within 30' of them. It does not give any indication about the type of trap or the triggering mechanism, and cannot find natural hazards or ambushes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "20 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

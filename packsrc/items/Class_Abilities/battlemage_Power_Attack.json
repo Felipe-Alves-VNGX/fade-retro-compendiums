@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Power Attack",
+  "_id": "xUPggyEHAr8hk4Io",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xUPggyEHAr8hk4Io",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 11th level, a battlemage gains the ability to make power attacks in melee. At the beginning of the round, the battlemage's player declares that their character is making a power attack. The battlemage automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the battlemage gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "battlemage",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

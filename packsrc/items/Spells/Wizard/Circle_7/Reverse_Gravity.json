@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Reverse Gravity",
+  "_id": "sDkhDij8FTcFC0lQ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!sDkhDij8FTcFC0lQ",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell reverses the pull of gravity on all creatures within a 15' radius of the target point. The creatures will fall upwards for the duration of the spell, falling a maximum of 65'. Then, at the end of the spell's duration, they will fall back to the floor again. There is no save against this spell.</p><p>Creatures who hit obstacles on either the upwards or downwards fall take 1d6 damage per 10' fallen.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "90'",
+    "duration": "2 seconds",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

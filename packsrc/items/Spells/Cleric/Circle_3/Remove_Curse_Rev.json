@@ -1,0 +1,45 @@
+{
+  "folder": "w9QatcJFpY0HzXNX",
+  "name": "Remove Curse Rev",
+  "_id": "uBvLunXH4IWsIB2V",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!uBvLunXH4IWsIB2V",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit",
+      "hope/despair"
+    ],
+    "description": "<p>This spell removes a curse from a creature or item. Some very powerful curses may not be removable with this spell.</p><p>Reverse: Curse gives the target a curse unless they can make a spell save. The exact nature of the curse is up to the caster, although the following are typical effects.</p><p>■ Something that produces up to a –4 penalty to attacks (e.g., Blindness) ■ Something that produces up to a –2 penalty on one type of saves (such as a susceptibility to poison) ■ Something that produces up to a –4 penalty to social interactions (such as smelling like a corpse) ■ Something that causes a halving of a single ability score (such as withering of a limb).</p><p>Using the Curse spell to inflict effects other than things on this list requires the Gameguide's permission.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

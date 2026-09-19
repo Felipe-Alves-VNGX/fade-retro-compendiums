@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Bow, Short",
+  "_id": "lwOIZMt0VgU9p83x",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!lwOIZMt0VgU9p83x",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Bow, Short",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d3",
+        "sDmgFormula": "1d3",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": -1,
+        "sToHit": -1,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 60,
+          "medium": 110,
+          "long": 160
+        },
+        "pDmgFormula": "1d6+2",
+        "sDmgFormula": "1d6+2",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 1,
+        "sToHit": 2,
+        "special": "Delay Short"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 80,
+          "medium": 130,
+          "long": 170
+        },
+        "pDmgFormula": "1d6+4",
+        "sDmgFormula": "1d6+4",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 4,
+        "special": "Delay Short"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 90,
+          "medium": 130,
+          "long": 180
+        },
+        "pDmgFormula": "1d4+6",
+        "sDmgFormula": "1d8+6",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 6,
+        "special": "Delay Short"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 110,
+          "medium": 140,
+          "long": 190
+        },
+        "pDmgFormula": "1d6+7",
+        "sDmgFormula": "1d10+8",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 8,
+        "special": "Delay Short"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –1/–/–/–; Expert: –1/–1/–/–; Master: –2/–2/–/–; Grand Master: –2/–2/–/– | Missile Range (vs Unarmed) diverge do impresso acima: 70/140/210 / 70/140/210 / 90/150/230 / 110/170/230 / 130/180/240 / 150/200/250"
+    }
+  },
+  "sort": 700000
+}

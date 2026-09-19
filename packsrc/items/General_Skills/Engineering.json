@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Engineering",
+  "_id": "nLqhROKkiKolqCX6",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!nLqhROKkiKolqCX6",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the engineering skill gives a +1 bonus to intelligence checks made to design machinery or identify the function of existing machinery such as siege weaponry or orreries.</p><p>Modifiers to the effective intelligence used for checks to identify machinery should come from the complexity of the machinery being examined.</p><p>In terms of the design of machinery, the Gameguide should also take into account the technological level of the campaign and should veto the \"invention\" of devices that rely on principles unknown in the game world.</p><p>Similarly, the presence of magic in the game world may mean that the laws of nature work differently there than in the real world, so at the Gameguide's discretion machinery relying on certain physical principles (e.g., Combustion powered guns or engines) may not work at all.</p><p>Note: although this skill can be used to identify how a large mechanical trap works, it should not be used as a replacement for either the Locate Traps or Remove Traps talents. At best, knowing how the trap functions may give insight into how the trap may be bypassed by mundane means.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

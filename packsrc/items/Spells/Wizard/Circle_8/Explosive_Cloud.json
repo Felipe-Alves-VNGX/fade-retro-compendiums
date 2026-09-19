@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Explosive Cloud",
+  "_id": "GB6TxGcekTmjsxI5",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!GB6TxGcekTmjsxI5",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates a 15' radius and 20' tall cloud of poisonous gas, the closest edge of which must be within 1' of the caster. The gas is dense enough to be visible, but does not block sight. If cast within an enclosed space, the cloud may be smaller than the dimensions above. It will not expand to fill the same volume.</p><p>From the outside, the cloud is indistinguishable from that created by a Cloudkill spell.</p><p>The cloud is poisonous, and each round all within it must make a spell save or be paralysed for that round. Additionally, the cloud contains sparkling lights visible only to those within it. These lights are small explosions that do 1 point of damage per two caster levels to each creature within the cloud. This damage will affect any creature, even those immune to fire, gas and poison, and there is no save throw against it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "1'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

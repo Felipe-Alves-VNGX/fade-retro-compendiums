@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Lore",
+  "_id": "xypKhpV4SV4i1Y5a",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xypKhpV4SV4i1Y5a",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell allows the caster to meditate on an item, place, or person and gain knowledge about them. The meditation can take a long time, so it can be split between multiple castings of this spell.</p><p>If the spell is cast with respect to an item that the caster has to hand, it will take 1d4 x 10 minutes of meditation to receive the information. At the end of that time, the caster learns the name of the item if it has one, the details of one of the item's magical powers and how to activate that power (and how many charges it has, if applicable). The caster does not learn whether or not the item has any additional powers, and must cast this spell again to find out.</p><p>If the spell is cast with respect to a place, an object that is not present, or a person; then the spell takes 1d100 days of meditation for the caster to learn about the subject, and the exact information learned is up to the Gameguide's discretion.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "personal",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

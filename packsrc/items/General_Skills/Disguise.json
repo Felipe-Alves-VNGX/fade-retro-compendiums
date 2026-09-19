@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Disguise",
+  "_id": "RJWvnvIbyDtDQ1gV",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!RJWvnvIbyDtDQ1gV",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the disguise skill gives a +1 bonus to charisma checks made to disguise a character as someone else. These checks should be made when the disguise is first worn; with modifiers based on the answers to the following:</p><p>■ Is the disguise meant to look like a specific person, or merely not look like the wearer? ■ Is the disguise intended to make the character look like a different gender and/or species? ■ Is the disguise meant to only be seen from a distance or is it intended for close scrutiny? ■ Is the disguise intended to fool close acquaintances of subject (or wearer) of the disguise? ■ Does the person applying the disguise have access to make up and prosthetics?</p><p>The exact value of these modifiers should be determined by the Gameguide on a case by case basis, and the Gameguide should roll the dice for the check so that the player doesn't know whether or not their character's disguise will successfully fool people.</p><p>A disguise that fails to achieve its target intentions may still work to a lesser extent.</p><p>Example: Black Leaf wishes to gain access to the back room of the cartographer's guild in order to steal a map that she thinks may be there despite the guild members' denials. While her allies \"accidentally\" encounter one of the guild members in an inn and get him drunk, Black Leaf disguises herself as the guild member.</p><p>The Gameguide decides that because Black Leaf is trying to impersonate a specific person of the opposite gender, she should get a –4 penalty to her effective charisma when making the disguise check.</p><p>However, since she has deliberately chosen to impersonate the guild member who most closely resembles her in terms of build and facial features (gender notwithstanding) the Gameguide reduces the penalty to a –3.</p><p>Unfortunately Black Leaf 's charisma is only a rather average 11, and the penalty means it is effectively only an 8 for this roll. The Gameguide rolls a 10.</p><p>Since she only failed by a small amount – and would have succeeded if not for the penalties – the Gameguide decides that Black Leaf 's disguise is not going to fool people into thinking she is the guild member unless seen only from a distance, but is enough that people seeing her will not recognise her real identity.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

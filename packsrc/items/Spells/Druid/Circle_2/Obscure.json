@@ -1,0 +1,42 @@
+{
+  "folder": "VvKqEXWZb6P5oWHq",
+  "name": "Obscure",
+  "_id": "nMAlX3tDfVQlLpoU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!nMAlX3tDfVQlLpoU",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell creates a cold, dense cloud of mist around the caster, 1' high per level of the caster and 10' radius per level of the caster. The mist has no effect other than to completely obscure vision within it. Only the caster and creatures able to see invisible things can see through the mist.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

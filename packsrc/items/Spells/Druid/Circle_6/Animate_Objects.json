@@ -1,0 +1,44 @@
+{
+  "folder": "k5mKGrswY2sNRQG2",
+  "name": "Animate Objects",
+  "_id": "wAyTsr7sECXV0cDd",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!wAyTsr7sECXV0cDd",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "vitality"
+    ],
+    "description": "<p>This spell will animate a number of non-magical objects, giving them the capability of movement and causing them to mindlessly obey the caster's commands, including being made to attack opponents. Each casting of the spell will animate one large object (such as a bed or tree), two medium objects (such as a table or chest), four small objects (such as chairs), or eight tiny objects (such as candlesticks). Two objects of a size smaller can be substitutes for one object of any given size – for example, a single casting can animate a medium table, two small chairs, and four tiny candlesticks.</p><p>This spell can be used to animate normally static plants, even if they are alive; but cannot be used to animate or control the movement of normally mobile creatures unless they are dead. A dead body animated by this spell is not undead and uses the statistics of an animated object of the appropriate size and not those of a zombie.</p><p>See CHAPTER 19 – BESTIARY for details and abilities of animated objects of different sizes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

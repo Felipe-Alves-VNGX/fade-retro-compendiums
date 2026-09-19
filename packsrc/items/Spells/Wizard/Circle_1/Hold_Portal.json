@@ -1,0 +1,44 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Hold Portal",
+  "_id": "xWCfwfWaDso8VHgZ",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xWCfwfWaDso8VHgZ",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell will hold a single portal or door closed by magical means. The portal can only be forced open by creatures who have at least three hit dice more than the caster or opened with a Knock spell, although in either case if the portal is allowed to close it will continue to be held for the duration of the spell.</p><p>Immortals can always open doors held by a mortal's casting of this spell, even if they have fewer hit dice.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "10'",
+    "duration": "2d6 x 10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

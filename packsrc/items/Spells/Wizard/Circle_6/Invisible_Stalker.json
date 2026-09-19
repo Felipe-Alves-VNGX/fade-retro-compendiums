@@ -1,0 +1,44 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Invisible Stalker",
+  "_id": "vuyKU6zQz5Qadrr7",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vuyKU6zQz5Qadrr7",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell summons an invisible stalker (see CHAPTER 19 – BESTIARY for details). The caster must specify one task for the stalker to perform, and the stalker will attempt to perform that task even at the cost of its own life until either the task becomes impossible or a year and a day have passed. In either case, the spell then ends.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

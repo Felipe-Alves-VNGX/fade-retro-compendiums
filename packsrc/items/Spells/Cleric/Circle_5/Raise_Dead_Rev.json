@@ -1,0 +1,44 @@
+{
+  "folder": "YzSRuBARh4uUg2M8",
+  "name": "Raise Dead Rev",
+  "_id": "sBxoam3oCJJ2t63i",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!sBxoam3oCJJ2t63i",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "vitality/inertia"
+    ],
+    "description": "<p>This spell raises the body of a dead creature from the dead, provided the target is willing to return to life. The target is aware of who is casting the Raise Dead spell and the circumstances in which it is being cast, and may refuse to return to life if they do not trust the caster.</p><p>If the body has been dead for more than four days per level of the caster above 7th then this spell will not work.</p><p>The body must be reasonably whole for this spell to work, and severed or missing body parts will still be missing afterwards, possibly leading to disability.</p><p>The target returns to life in a weakened state that lasts until they have had two weeks of bed rest, being unable to move faster than a walk and unable to attack or cast spells or use class abilities. Additionally, the target has only 1 hit point and cannot be cured further until they have rested for the two weeks.</p><p>A Cureall spell can be used to remove the two week rest period, but will not do this and also cure the target at the same time.</p><p>If a Raise Dead spell is cast on an undead creature with 9 or fewer hit dice, the creature must make a spell save or be destroyed. Vampires are not destroyed by this spell, but forced into gaseous form and forced to retreat to their coffins until the following night.</p><p>If Raise Dead is cast on an undead creature with more than 9 hit dice, the creature takes 3d10 damage, although it can make a spell save to take only half damage.</p><p>When a character becomes an immortal, this spell will not bring their former mortal body back to life.</p><p>Reverse: Finger of Death will kill any one living creature within 60' unless it can make a spell save. Undead targeted by a Finger of Death spell are cured of 3d10 damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "120'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

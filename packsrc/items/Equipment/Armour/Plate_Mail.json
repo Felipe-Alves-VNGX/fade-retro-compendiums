@@ -1,0 +1,60 @@
+{
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Plate Mail",
+  "_id": "1JMbAMvL74bDEOij",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!1JMbAMvL74bDEOij",
+  "type": "armor",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a suit primarily composed of large metal plates – the largest being the breastplate – linked together with chain mail. Plate mail gives a character an armour class of 3. It is the best armour that can be bought second hand or looted, since suit armour must be custom made.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 500,
+    "weightEquipped": 500,
+    "cost": 60,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "ac": 3,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "heavy",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 3,
+    "totalRangedAC": 3,
+    "totalAAC": 3,
+    "totalRangedAAC": 3,
+    "natural": false
+  },
+  "sort": 4900000
+}

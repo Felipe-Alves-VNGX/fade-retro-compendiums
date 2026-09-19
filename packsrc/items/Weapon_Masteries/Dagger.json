@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Dagger",
+  "_id": "1JFtbjCLwxWJHvMZ",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!1JFtbjCLwxWJHvMZ",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Dagger",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d2",
+        "sDmgFormula": "1d2",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 10,
+          "medium": 20,
+          "long": 30
+        },
+        "pDmgFormula": "1d4",
+        "sDmgFormula": "1d4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 15,
+          "medium": 25,
+          "long": 35
+        },
+        "pDmgFormula": "1d6",
+        "sDmgFormula": "1d6",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Double Damage 20"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 20,
+          "medium": 30,
+          "long": 45
+        },
+        "pDmgFormula": "2d4",
+        "sDmgFormula": "2d4",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Double Damage 19–20"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 25,
+          "medium": 35,
+          "long": 50
+        },
+        "pDmgFormula": "3d4",
+        "sDmgFormula": "2d4+2",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Double Damage 18–20"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 30,
+          "medium": 50,
+          "long": 60
+        },
+        "pDmgFormula": "4d4",
+        "sDmgFormula": "3d4+1",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Double Damage 17–20"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –1/–/–/–; Expert: –2/–2/–/–; Master: –2/–2/–/–; Grand Master: –3/–3/–3/–"
+    }
+  },
+  "sort": 1200000
+}

@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Balance",
+  "_id": "fGkKG6TCC1bIXGeU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fGkKG6TCC1bIXGeU",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the balance skill gives a +1 bonus to dexterity checks made to keep one's footing on a small (or moving) surface or to cross narrow ledges, beams or even tightropes.</p><p>Modifiers to the effective dexterity score used for the roll can come from a wide variety of factors. Examples include:</p><p>■ Strong wind ■ Slippery surfaces ■ Heavily encumbered character ■ Trying to move quicker (or slower) than a normal walk ■ Particularly narrow (or wide) ledges ■ Trying to balance while dodging attacks ■ Using a pole for balance</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

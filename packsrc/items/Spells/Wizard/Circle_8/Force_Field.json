@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Force Field",
+  "_id": "qXDChcDRSqucaoPY",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!qXDChcDRSqucaoPY",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates an impossibly hard field of force that cannot be dispelled and can only be broken by a Disintegrate or Wish spell. The Force Field must be a simple smooth shape – either a flat plane of up to 5,000 square feet, a sphere or hemisphere of up to 20' radius, or a rectangular box with a surface area of up to 5,000 square feet.</p><p>Regardless of shape, it must always be created in an empty area. It cannot be created inside any object or creature to cut them in half. However, the edges of the Force Field will conform to the shape of surrounding material such as walls.</p><p>The Force Field does not need to be supported, its edges are not sharp, and it is completely immobile – only a Wish spell can move a Force Field.</p><p>No physical or magical force except those noted above can destroy or pass through a Force Field, although a Teleport or Dimension Door spell will bypass it. Creatures enclosed within a Force Field are magically preserved, and will not starve or suffocate. This spell can be made permanent with a Permanence spell, and if this happens then the Permanence can still be dispelled even though the Force Field cannot be. If the Permanence is dispelled after the normal duration of the Force Field has expired then the Force Field will immediately disappear. A Force Field cast by a mortal can be destroyed by an immortal's attacks (treat it as having an armour class of –10 and 50 hit points). A Force Field cast by an immortal cannot be broken by Disintegrate or Wish spells cast by mortals, and cannot be penetrated by mortal Teleport, Gate, or Dimension Door spells.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "120'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

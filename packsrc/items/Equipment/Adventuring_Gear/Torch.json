@@ -1,13 +1,27 @@
 {
   "folder": "vItxVSiPb4vq0Mmc",
   "name": "Torch",
-  "type": "light",
-  "_id": "SXOmd7QGXpp5LgsB",
+  "_id": "HV2CfgIBvdEcD9kB",
   "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!HV2CfgIBvdEcD9kB",
+  "type": "light",
   "system": {
-    "tags": ["light-source"],
-    "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. Gives off light in a 30' radius and burns for one hour.</p>",
-    "gm": { "notes": "" },
+    "tags": [
+      "light-source"
+    ],
+    "description": "<p>A 1' to 2' length of wood dipped in pitch or tallow. A torch gives off light in a 30' radius and burns for one hour. If used in combat, a torch has the same statistics (and uses the same weapon feats) as a club.</p>",
+    "gm": {
+      "notes": ""
+    },
     "quantity": 1,
     "quantityMax": 0,
     "charges": 0,
@@ -45,13 +59,12 @@
       "attenuation": 0.7,
       "luminosity": 0.5,
       "angle": 360,
-      "animation": { "type": "torch", "speed": 2, "intensity": 3 }
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 3
+      }
     }
   },
-  "effects": [],
-  "ownership": { "default": 0 },
-  "flags": {},
-  "_stats": { "coreVersion": "13.347", "systemId": "fantastic-depths" },
-  "sort": 200000,
-  "_originalKey": "!items!SXOmd7QGXpp5LgsB"
+  "sort": 4200000
 }

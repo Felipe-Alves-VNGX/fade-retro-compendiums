@@ -1,0 +1,45 @@
+{
+  "folder": "A8Qtts4yEzdyg1OA",
+  "name": "Detect Magic",
+  "_id": "aiDsPxPWlnMRqJ8O",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!aiDsPxPWlnMRqJ8O",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy",
+      "truth"
+    ],
+    "description": "<p>This spell allows the caster to see a glow around any magical creature, object and place within range. Magical creatures do not get a save against this effect.</p><p>The glow only extends a couple of inches around the magical object, so if it is in a container or behind another object then some or all of the glow may not be visible.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "20 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

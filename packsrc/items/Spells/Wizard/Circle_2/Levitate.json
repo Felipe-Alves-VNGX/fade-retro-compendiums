@@ -1,0 +1,44 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Levitate",
+  "_id": "jMCfCT4HP8osvfiL",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!jMCfCT4HP8osvfiL",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell allows the caster to rise into the air supported by magic. The caster can rise or lower themselves at a rate of 20' per round, but the spell does not let the caster move horizontally.</p><p>The caster can move horizontally via other means while under the influence of this spell, such as by pulling themselves along a rope or crawling on the underside of a ceiling.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "1 hour + 10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

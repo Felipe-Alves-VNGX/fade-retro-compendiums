@@ -1,0 +1,44 @@
+{
+  "folder": "sXbCctD69nKDKg8Y",
+  "name": "Invisibility",
+  "_id": "p88MAmXLbNhKCasE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!p88MAmXLbNhKCasE",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell makes a single creature or object invisible. If cast on a creature, the creature's clothing and equipment also become invisible.</p><p>Any item the creature drops will become visible, but items the creature picks up will not become invisible. The creature will become visible again if it attacks another creature or if it casts a spell. Otherwise the invisibility is permanent.</p><p>If the spell is cast on an object, the object remains invisible until touched by an intelligent creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "240'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

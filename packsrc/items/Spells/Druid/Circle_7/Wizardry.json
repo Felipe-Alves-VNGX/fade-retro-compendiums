@@ -1,0 +1,44 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Wizardry",
+  "_id": "dplQNDyoyGwGJWvC",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!dplQNDyoyGwGJWvC",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell allows the caster to use one magic item that is normally usable only by wizards (e.g., a wand or staff), or read one scroll containing a wizard spell of up to 3rd circle.</p><p>If used to read a scroll, the scroll (but not others with the same spell) is considered \"known\" to the caster, who can use it at a later time after this spell has run out. The caster is treated as if they are a wizard of the minimum level needed to cast the spell on the scroll.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "personal",
+    "duration": "10 minutes",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

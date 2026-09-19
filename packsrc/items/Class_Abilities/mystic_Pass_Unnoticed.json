@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Pass Unnoticed",
+  "_id": "bdPejC6qPd4pxuCJ",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!bdPejC6qPd4pxuCJ",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 14th level and higher, a mystic can make themselves fade from view once per day. This is a mental effect rather than a physical invisibility effect, so spells and abilities that can detect the presence of invisible creatures do not detect the character. The fade lasts for up to one round per level of the mystic, and stops instantly if the character does something to attract attention to themselves such as attacking or speaking.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "mystic",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

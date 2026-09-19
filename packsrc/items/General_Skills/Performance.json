@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Performance",
+  "_id": "uoKZ4F1GOk3N75TM",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!uoKZ4F1GOk3N75TM",
+  "type": "skill",
+  "system": {
+    "description": "<p>The performance skill is not a single skill. It is a group of related skills used when putting on different types of artistic performance. When spending a skill point on this skill, you must specify what sort of artistic performance your character is skilled at. An exhaustive list of possible artistic media is not possible, but examples include:</p><p>■ Singing ■ Playing a musical instrument ■ Dancing ■ Acting ■ Juggling ■ Jesting ■ Storytelling ■ Poetry</p><p>Each skill point spent on a specific performance skill gives a +1 bonus to both dexterity checks and charisma checks used to make these artistic performances.</p><p>Modifiers to the effective dexterity or charisma used in performance rolls can come from such things as particularly high or low quality costume and how much rehearsal time the performance has had.</p><p>Success in a performance may not be an all-or-nothing affair – a failed performance check is likely to still result in a performance of some kind. However, the quality of the finished work should be subjectively determined by the amount that the performance check succeeded by or failed by.</p>",
+    "gm": {
+      "notes": "Bônus também se aplica a checks de cha (dupla ability no livro). Skill de escolha de especialização (CHOSE MEDIUM) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "dex",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

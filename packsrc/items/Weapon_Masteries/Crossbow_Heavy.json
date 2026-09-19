@@ -1,0 +1,124 @@
+{
+  "folder": "RcR10M9pJBiQMs2H",
+  "name": "Crossbow, Heavy",
+  "_id": "ZUySpCgm3jbYcSEi",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZUySpCgm3jbYcSEi",
+  "type": "weaponMastery",
+  "system": {
+    "name": "Crossbow, Heavy",
+    "weaponType": "handheld",
+    "primaryType": "all",
+    "levels": [
+      {
+        "name": "None",
+        "range": {
+          "short": 80,
+          "medium": 160,
+          "long": 240
+        },
+        "pDmgFormula": "1d4",
+        "sDmgFormula": "1d4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": -1,
+        "sToHit": -1,
+        "special": null
+      },
+      {
+        "name": "Basic",
+        "range": {
+          "short": 80,
+          "medium": 160,
+          "long": 240
+        },
+        "pDmgFormula": "2d4",
+        "sDmgFormula": "2d4",
+        "acBonusType": null,
+        "acBonus": null,
+        "acBonusAT": null,
+        "pToHit": 0,
+        "sToHit": 0,
+        "special": null
+      },
+      {
+        "name": "Skilled",
+        "range": {
+          "short": 90,
+          "medium": 160,
+          "long": 240
+        },
+        "pDmgFormula": "2d6",
+        "sDmgFormula": "2d6",
+        "acBonusType": null,
+        "acBonus": -1,
+        "acBonusAT": null,
+        "pToHit": 2,
+        "sToHit": 1,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Expert",
+        "range": {
+          "short": 100,
+          "medium": 170,
+          "long": 240
+        },
+        "pDmgFormula": "2d6+2",
+        "sDmgFormula": "2d6+2",
+        "acBonusType": null,
+        "acBonus": -2,
+        "acBonusAT": null,
+        "pToHit": 4,
+        "sToHit": 2,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Master",
+        "range": {
+          "short": 110,
+          "medium": 170,
+          "long": 240
+        },
+        "pDmgFormula": "3d6+2",
+        "sDmgFormula": "3d6+2",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 6,
+        "sToHit": 4,
+        "special": "Stun Short/Medium"
+      },
+      {
+        "name": "Grand Master",
+        "range": {
+          "short": 120,
+          "medium": 180,
+          "long": 240
+        },
+        "pDmgFormula": "4d4+4",
+        "sDmgFormula": "4d4+4",
+        "acBonusType": null,
+        "acBonus": -3,
+        "acBonusAT": null,
+        "pToHit": 8,
+        "sToHit": 6,
+        "special": "Stun Short/Medium"
+      }
+    ],
+    "gm": {
+      "notes": "AC Bonus completo do livro: None: –; Basic: –; Skilled: –1/–/–/–; Expert: –2/–2/–/–; Master: –3/–3/–/–; Grand Master: –3/–3/–3/–"
+    }
+  },
+  "sort": 1000000
+}

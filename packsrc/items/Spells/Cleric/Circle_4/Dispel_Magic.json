@@ -1,0 +1,44 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Dispel Magic",
+  "_id": "AiFAy0DTlO7zPLY7",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!AiFAy0DTlO7zPLY7",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "inertia"
+    ],
+    "description": "<p>When this spell is cast, it has a chance of cancelling all ongoing spell effects that are wholly or partly within a 10' radius of the target point of the spell.</p><p>Spells cast by casters of equal or lower level to the caster of the dispel are automatically cancelled. Spells cast by higher level casters have a 5% chance per level of difference of resisting the dispel.</p><p>This spell will not destroy magic items unless cast by an immortal, although it will cancel spell effects that were created by magic items.</p><p>Even if cast by an immortal, this spell will not destroy an artefact. For purposes of this spell, immortals are considered to be casters of twice their hit dice, rather than casters of their level. For example, a 1st level immortal with 15 hit dice dispels other spells as if they were a 30th level caster, and has their spells dispelled as if they were a 30th level caster.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

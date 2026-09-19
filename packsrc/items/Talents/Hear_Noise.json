@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Hear Noise",
+  "_id": "XLOF9NbSueEiAWoy",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!XLOF9NbSueEiAWoy",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Any character can make a Spot check to listen for quiet noises, and if the check succeeds they will hear any quiet noises that it would be reasonable for them to hear, such as whispered conversation, gentle snoring, the noise of boots walking on a stone floor, or the whirr of machinery. Obviously loud noises need no such check and can be heard without a roll.</p><p>A character with the Hear Noise talent can automatically hear noises that a character without the talent would have to roll to hear, and with a successful Hear Noise roll they can hear extremely quiet noises that would not normally be picked up by someone with a Spot check such as the noise of someone breathing or the scratching of a quill or the rustle of clothing as someone shifts and fidgets in their seat.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

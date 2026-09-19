@@ -1,0 +1,44 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Infravision",
+  "_id": "TRLdJoPOtmabg1ue",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!TRLdJoPOtmabg1ue",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell gives a living (not undead or non-living) creature the ability to see in darkness. When the creature is in the dark (and only then – normal light overloads the creature's infravision and prevents it from working) they can use their infravision to navigate and even to fight. However, infravision doesn't allow the creature to see pictures and writing unless they are carved into the surface that the creature is looking at.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "touch",
+    "duration": "1 day",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

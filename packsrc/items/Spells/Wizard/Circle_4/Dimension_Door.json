@@ -1,0 +1,44 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Dimension Door",
+  "_id": "8MlA9AbrrqXyx8CL",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!8MlA9AbrrqXyx8CL",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell creates a temporary gateway joining two locations. The first must be within 10' of the caster, and the second can be at a distance of up to 360' from the first and both must be on solid ground. If the caster cannot see the destination then it must be described in terms of direction and distance.</p><p>If the destination is occupied by solid matter, the spell fails and the gateway does not open.</p><p>The gateway lasts just long enough for the caster or a single target to step through and then it closes behind them. A willing target may step through when the spell is cast even if it is not their turn in combat. An unwilling target may make a spell save to avoid accidentally stumbling through a dimension door that is opened in front of them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "10'",
+    "duration": "instant",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

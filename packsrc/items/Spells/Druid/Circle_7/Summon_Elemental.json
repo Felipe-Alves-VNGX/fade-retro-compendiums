@@ -1,0 +1,42 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Summon Elemental",
+  "_id": "NnlEljbD7sjmAW0Z",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!NnlEljbD7sjmAW0Z",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>When this spell is cast, a 16 hit dice elemental (see CHAPTER 19 – BESTIARY for statistics) will appear within 240' of the caster. If this spell is cast more than once during the same day, a different type of elemental must be summoned each time.</p><p>While the caster controls the elemental, they can make it do anything it is capable of doing, including fighting to the death on the caster's behalf. The caster can also send the controlled elemental home.</p><p>The caster does not need to concentrate to keep controlling the elemental.</p><p>A summoned elemental is blocked by a Protection from Evil, and can be sent home by a Dispel Magic or a Dispel Evil.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

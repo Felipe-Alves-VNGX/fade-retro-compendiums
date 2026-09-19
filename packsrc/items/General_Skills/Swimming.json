@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Swimming",
+  "_id": "VG5NlCuB0AJt1G9K",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VG5NlCuB0AJt1G9K",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the swimming skill gives a +1 bonus to strength checks made to swim while weighed down or in fast flowing or turbulent waters. Characters are assumed to be able to swim in calm water (provided they are not weighed down) without needing to make a swimming check, but heavily encumbered characters or characters trying to swim in difficult conditions will need to make such checks.</p><p>The effective strength used for swimming checks should be given modifiers based on the specific conditions that the character is trying to swim in, such as those listed above.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

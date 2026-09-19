@@ -1,0 +1,44 @@
+{
+  "folder": "cQb9gynDy7oNtDyw",
+  "name": "Snake Charm",
+  "_id": "oyPzkUmW28GAugOU",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!oyPzkUmW28GAugOU",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy"
+    ],
+    "description": "<p>This spell charms 1 hit dice of snakes per level of the caster, with no save allowed. The affected snakes will rise up and sway, and will not attack any creature unless they are attacked themselves. If this spell is cast on snakes that are attacking the caster, it lasts for 1d4+1 rounds. If cast on snakes that are not attacking the caster, it lasts for 10 minutes + 1d4 x 10 minutes. After the spell duration has ended, the snakes return to their normal behaviour.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

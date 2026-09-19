@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Dance",
+  "_id": "UAAADJO1DS3pQaS5",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!UAAADJO1DS3pQaS5",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>When this spell is cast, the caster must touch a single target by making a successful attack roll. The target gets no save, and is forced to dance wildly for three or more rounds.</p><p>While dancing, the target is unable to attack, move quicker than a walk, or use spells or spell like abilities. The target also has a –4 penalty to all saves and a +4 penalty to armour class until they stop dancing.</p><p>The duration of the spell is based on the caster's level:</p><p>18th-20th = 3 rounds 21st-24th = 4 rounds 25th-28th = 5 rounds 29th-32nd = 6 rounds 33rd-36th = 7 rounds</p><p>An immortal target of this spell may make a save each round to stop dancing.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "touch",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

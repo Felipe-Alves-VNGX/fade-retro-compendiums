@@ -1,0 +1,44 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Dissolve Rev",
+  "_id": "Dy7D8tXWyF6UMpWi",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Dy7D8tXWyF6UMpWi",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell turns an area of up to 3,000 square feet of soil or natural rock (not constructions or worked rock) into a slurry of mud. The area can be shaped how the caster desires, but all of it must be within the range of the spell.</p><p>The mud is too thin to walk on properly and too thick to swim through. Creatures attempting to wade through it can only move at 10% of their normal speed.</p><p>The mud will dry out naturally in 3d6 days.</p><p>Reverse: Harden will change 3,000 square feet of mud, up to 10' deep, into solid rock permanently. Any creature standing in the mud must make a spell save to avoid being trapped by the solidifying mud.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "3d6 days",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

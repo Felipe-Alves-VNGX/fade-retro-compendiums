@@ -1,0 +1,854 @@
+{
+  "folder": "nAciSdEmUz9C4fUB",
+  "name": "Mystic",
+  "_id": "7z8II7T4NfZirqcV",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7z8II7T4NfZirqcV",
+  "type": "class",
+  "system": {
+    "key": "mystic",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 36,
+    "firstSpellLevel": 1,
+    "maxSpellLevel": 0,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "alignment": "Any",
+    "description": "<p>Mystics use mind over body techniques to affect their own bodies and, with experience, the bodies of others.</p><p>They use martial arts as a focus to achieve the states of mind they need to achieve to do this, and the result is that they are able to fight with superhuman speed and agility when using</p><p>martial arts, eventually performing much better unarmed than they would with weapons.</p><p>Within an adventuring party, mystics can prove to be able in melee combat, though not quite as able as fighters until they reach higher levels of experience; and back this talent up with useful scouting skills.</p><p>Enhanced Martial Arts Abilities por nível (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th>Armour Class</th><th>Move</th><th>Unarmed Attacks</th><th>Unarmed Damage</th><th>Unarmed Hit As</th></tr><tr><td>1</td><td>9</td><td>40'</td><td>1</td><td>1d4</td><td>–</td></tr><tr><td>2</td><td>8</td><td>45'</td><td>1</td><td>1d4+1</td><td>Silver</td></tr><tr><td>3</td><td>7</td><td>45'</td><td>1</td><td>1d6</td><td>Silver</td></tr><tr><td>4</td><td>6</td><td>50'</td><td>1</td><td>1d6+1</td><td>Silver</td></tr><tr><td>5</td><td>5</td><td>55'</td><td>2</td><td>1d8</td><td>+1</td></tr><tr><td>6</td><td>4</td><td>55'</td><td>2</td><td>1d8+1</td><td>+1</td></tr><tr><td>7</td><td>3</td><td>60'</td><td>2</td><td>1d10</td><td>+1</td></tr><tr><td>8</td><td>2</td><td>65'</td><td>2</td><td>1d12</td><td>+2</td></tr><tr><td>9</td><td>1</td><td>65'</td><td>3</td><td>2d8</td><td>+2</td></tr><tr><td>10</td><td>0</td><td>70'</td><td>3</td><td>2d10</td><td>+2</td></tr><tr><td>11</td><td>–1</td><td>75'</td><td>3</td><td>2d12</td><td>+3</td></tr><tr><td>12</td><td>–2</td><td>80'</td><td>3</td><td>3d8+1</td><td>+3</td></tr><tr><td>13</td><td>–3</td><td>85'</td><td>4</td><td>4d6+2</td><td>+3</td></tr><tr><td>14</td><td>–4</td><td>90'</td><td>4</td><td>5d6</td><td>+4</td></tr><tr><td>15</td><td>–5</td><td>95'</td><td>4</td><td>4d8</td><td>+4</td></tr><tr><td>16</td><td>–6</td><td>100'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>17</td><td>–6</td><td>100'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>18</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>19</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>20</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>21</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>22</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>23</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>24</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>25</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>26</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>27</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>28</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>29</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>30</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>31</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>32</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>33</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>34</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>35</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr><tr><td>36</td><td>–6</td><td>105'</td><td>4</td><td>3d12</td><td>+5</td></tr></table>",
+    "castAsKey": null,
+    "primeReqs": [
+      {
+        "ability": "str",
+        "minScore": 0,
+        "percentage": 5,
+        "concatLogic": ""
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thbonus": 1,
+        "hd": "6+c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 2,
+        "xp": 2000,
+        "thbonus": 1,
+        "hd": "10+2c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 3,
+        "xp": 4000,
+        "thbonus": 1,
+        "hd": "14+3c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 4,
+        "xp": 8000,
+        "thbonus": 2,
+        "hd": "18+4c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 5,
+        "xp": 16000,
+        "thbonus": 2,
+        "hd": "22+5c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 6,
+        "xp": 32000,
+        "thbonus": 3,
+        "hd": "26+6c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 7,
+        "xp": 64000,
+        "thbonus": 3,
+        "hd": "30+7c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 8,
+        "xp": 120000,
+        "thbonus": 4,
+        "hd": "34+8c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 9,
+        "xp": 240000,
+        "thbonus": 4,
+        "hd": "38+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 10,
+        "xp": 360000,
+        "thbonus": 5,
+        "hd": "40+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 11,
+        "xp": 480000,
+        "thbonus": 5,
+        "hd": "42+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 12,
+        "xp": 600000,
+        "thbonus": 6,
+        "hd": "44+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 13,
+        "xp": 720000,
+        "thbonus": 6,
+        "hd": "46+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 14,
+        "xp": 840000,
+        "thbonus": 7,
+        "hd": "48+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 15,
+        "xp": 960000,
+        "thbonus": 7,
+        "hd": "50+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 16,
+        "xp": 1080000,
+        "thbonus": 8,
+        "hd": "52+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 17,
+        "xp": 1200000,
+        "thbonus": 8,
+        "hd": "54+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 18,
+        "xp": 1320000,
+        "thbonus": 9,
+        "hd": "56+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 19,
+        "xp": 1440000,
+        "thbonus": 9,
+        "hd": "58+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 20,
+        "xp": 1560000,
+        "thbonus": 10,
+        "hd": "60+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 21,
+        "xp": 1680000,
+        "thbonus": 10,
+        "hd": "62+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 22,
+        "xp": 1800000,
+        "thbonus": 11,
+        "hd": "64+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 23,
+        "xp": 1920000,
+        "thbonus": 11,
+        "hd": "66+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 24,
+        "xp": 2040000,
+        "thbonus": 12,
+        "hd": "68+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 25,
+        "xp": 2160000,
+        "thbonus": 12,
+        "hd": "70+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 26,
+        "xp": 2280000,
+        "thbonus": 13,
+        "hd": "72+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 27,
+        "xp": 2400000,
+        "thbonus": 13,
+        "hd": "74+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 28,
+        "xp": 2520000,
+        "thbonus": 14,
+        "hd": "76+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 29,
+        "xp": 2640000,
+        "thbonus": 14,
+        "hd": "78+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 30,
+        "xp": 2760000,
+        "thbonus": 15,
+        "hd": "80+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 31,
+        "xp": 2880000,
+        "thbonus": 15,
+        "hd": "82+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 32,
+        "xp": 3000000,
+        "thbonus": 16,
+        "hd": "84+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 33,
+        "xp": 3120000,
+        "thbonus": 16,
+        "hd": "86+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 34,
+        "xp": 3240000,
+        "thbonus": 17,
+        "hd": "88+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 35,
+        "xp": 3360000,
+        "thbonus": 17,
+        "hd": "90+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 36,
+        "xp": 3480000,
+        "thbonus": 18,
+        "hd": "92+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 6,
+        "blast": 5,
+        "spell": 4
+      },
+      {
+        "level": 2,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 6,
+        "blast": 5,
+        "spell": 4
+      },
+      {
+        "level": 3,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 7,
+        "blast": 6,
+        "spell": 5
+      },
+      {
+        "level": 4,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 7,
+        "blast": 6,
+        "spell": 5
+      },
+      {
+        "level": 5,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 8,
+        "blast": 7,
+        "spell": 6
+      },
+      {
+        "level": 6,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 9,
+        "blast": 8,
+        "spell": 7
+      },
+      {
+        "level": 7,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 9,
+        "blast": 8,
+        "spell": 7
+      },
+      {
+        "level": 8,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 10,
+        "blast": 9,
+        "spell": 8
+      },
+      {
+        "level": 9,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 11,
+        "blast": 10,
+        "spell": 9
+      },
+      {
+        "level": 10,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 11,
+        "blast": 10,
+        "spell": 9
+      },
+      {
+        "level": 11,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 11,
+        "spell": 10
+      },
+      {
+        "level": 12,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 11,
+        "spell": 10
+      },
+      {
+        "level": 13,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 14,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 15,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 17,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 18,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 19,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 20,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 21,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 22,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 23,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 24,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 25,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 26,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 27,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 28,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 29,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 30,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 31,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 32,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 33,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 34,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 35,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 36,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      }
+    ],
+    "spells": [],
+    "specialAbilities": [
+      {
+        "name": "Climb Walls",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Locate Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Move Silently",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Remove Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Alertness",
+        "uuid": "",
+        "level": 2,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Self Healing",
+        "uuid": "",
+        "level": 4,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Speak with Animals",
+        "uuid": "",
+        "level": 6,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Parry",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Spell Resistance",
+        "uuid": "",
+        "level": 8,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Speak with Anyone",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Power Attack",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Still Mind",
+        "uuid": "",
+        "level": 12,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Pass Unnoticed",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Breath Evasion",
+        "uuid": "",
+        "level": 16,
+        "target": null,
+        "classKey": null,
+        "changes": ""
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 18,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Cureall"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 19,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Charm Monster"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 20,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Hold Monster"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 22,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Quest"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 24,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "morte instantânea"
+      }
+    ],
+    "classItems": []
+  }
+}

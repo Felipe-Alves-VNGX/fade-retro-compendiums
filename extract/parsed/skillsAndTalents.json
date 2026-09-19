@@ -1,0 +1,263 @@
+{
+  "talents": [
+    {
+      "name": "Open Locks",
+      "description": "<p>Characters without this talent can't attempt to pick locks under normal circumstances.</p>"
+    },
+    {
+      "name": "Locate Traps",
+      "description": "<p>Normally, when a character searches an area or an item for traps they will roll a Spot roll with a modifier based on how difficult the trap is to find. On a success, the character will spot the trap, although they will only be told what is visible about it (e.g., a trip wire, a pressure plate, or a set of suspicious holes in the wall). They will not be told the exact nature of the trap, such as what the trip wire or pressure plate will trigger, or what will emerge from the holes.</p><p>A character with the Locate Traps talent may make this roll as normal, but may also make a Locate Traps roll. If the Locate Traps roll succeeds, the character will get all the information they would have got from a normal Spot roll (whether they succeeded that roll or not) and also information about the type of trap derived from the context of the visible part and minor but recognisable clues unnoticeable to someone without the talent (e.g., the tripwire will cause a blade to scythe from the wall, the pressure plate will release a falling block from the ceiling, the holes will emit a poisonous gas).</p><p>Most magical traps cannot be found by simple Spot rolls, but a successful Locate Traps roll will allow the character to feel the subtle magical boundaries of the triggering area.</p><p>Example: Black Leaf and Aloysius are standing some distance from a suspicious looking vault door, and they suspect that the door might be trapped.</p><p>They decide to search the area, and the Gameguide makes Spot rolls for them in secret so that the players won't know whether or not their characters have succeeded. She also rolls for Black Leaf's Locate Traps ability.</p><p>Aloysius's Spot roll is a success, but Black Leaf's is a failure. However, Black Leaf's Locate Traps roll is a success.</p><p>The door is in fact trapped, with a magical trap that will shoot a Lightning Bolt down the corridor if the door is approached. Since this is a magical trap, Aloysius's Spot roll won't find it (although the Gameguide doesn't tell him that). However, Black Leaf's Locate Traps ability will.</p><p>The Gameguide informs the players that although Aloysius can't see anything, Black Leaf can feel the tell-tale signs of a magical ward in front of the door and that it will let off some kind of spell if they cross into it.</p>"
+    },
+    {
+      "name": "Remove Traps",
+      "description": "<p>When faced with knowledge that there is a trap, characters without the Remove Traps talent must simply describe to the Gameguide what they are doing and the Gameguide should adjudicate the results of that, whether it triggers the trap or temporarily disables it or permanently disables it (or does nothing to it).</p><p>Characters who have the Remove Traps talent may make a Remove Traps roll, and if this is successful then they will have temporarily or permanently (their choice) disarmed the trap even if the player does not know how the character would go about doing this.</p><p>If the Remove Traps roll fails, then the trap will activate. However, since the character is already aware of the trap they will probably be safe from it, unless it is a trap with such large effects that there is no way to remove it without being inside the area of that effect.</p><p>The Remove Traps talent can be used to disable magical traps so that they will not activate.</p>"
+    },
+    {
+      "name": "Climb Walls",
+      "description": "<p>Any character can climb a tree or scramble up a scree-covered slope without needing to make a roll. For steeper and more difficult climbs, such as climbing up a rough cliff or a wall with uneven brickwork a character without the Climb Walls talent may make a Climbing roll to successfully complete the climb (if it is a long climb, a roll per 100' is required).</p><p>Characters with the Climb Walls talent can climb things that a character without the talent would need to make a Climbing roll for. Additionally, by making a Climb Walls roll they are able to climb things that someone without the talent would not even get a roll for, such as walls made from close-fitting stone blocks with only the tiniest of handholds.</p><p>Even surfaces like smooth glass can be climbed with a successful roll using the Climb Walls talent, although such extreme climbs should be given a modifier to the roll by the Gameguide.</p>"
+    },
+    {
+      "name": "Move Silently",
+      "description": "<p>Characters who are attempting to sneak past someone must make a Sneak check opposed by the target's Spot check. If the result of the Sneak roll equals or beats that of the Spot roll then the character has successfully gone unnoticed, but if the Spot beats the Sneak then the character has been heard.</p><p>Characters with the Move Silently talent can roll a Sneak check as normal, but may also roll a Move Silently check. If the Move Silently check succeeds then they have made no noise at all and will have successfully gone unnoticed regardless of the result of their target's Spot check. If the Move Silently check fails then compare the Sneak check and Spot check as normal.</p>"
+    },
+    {
+      "name": "Hide in Shadows",
+      "description": "<p>As with Move Silently, characters without the Hide in Shadows talent may still attempt to hide from targets and to do so they must roll a Sneak roll that equals or beats the Spot roll of the character they are hiding from.</p><p>Characters with the Hide in Shadows talent may make a Hide in Shadows roll as well as a Sneak roll, and if the Hide in Shadows roll is a success then the character is not visible and will not be seen regardless of the result of the target's Spot check. If the Hide in Shadows roll fails then compare the Sneak roll and the Spot roll as normal.</p>"
+    },
+    {
+      "name": "Pick Pockets",
+      "description": "<p>Characters without this talent can't attempt to pick pockets under normal circumstances.</p>"
+    },
+    {
+      "name": "Hear Noise",
+      "description": "<p>Any character can make a Spot check to listen for quiet noises, and if the check succeeds they will hear any quiet noises that it would be reasonable for them to hear, such as whispered conversation, gentle snoring, the noise of boots walking on a stone floor, or the whirr of machinery. Obviously loud noises need no such check and can be heard without a roll.</p><p>A character with the Hear Noise talent can automatically hear noises that a character without the talent would have to roll to hear, and with a successful Hear Noise roll they can hear extremely quiet noises that would not normally be picked up by someone with a Spot check such as the noise of someone breathing or the scratching of a quill or the rustle of clothing as someone shifts and fidgets in their seat.</p>"
+    },
+    {
+      "name": "Read Languages",
+      "description": "<p>Characters without this talent can't attempt to read text in languages they don't know, or which is encrypted in an unknown manner.</p>"
+    },
+    {
+      "name": "Wizard Scroll Use",
+      "description": "<p>Characters without this talent can't use wizard scrolls unless they have the ability to cast wizard spells.</p>"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Arcane Lore",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the arcane lore skill gives a +1 bonus to intelligence checks made to recognise spells, magical effects, and magical creatures.</p><p>An \"average\" spell or effect (at the Gameguide's discretion) will give no bonus or penalty to the effective intelligence used for the roll, but a particularly common spell might give a bonus and a particularly rare spell might give a penalty. Relative obscurity is more important in this regard than level of power.</p><p>Note: Arcane lore checks should not be used to allow the players to identify magic items without using the Analyse spell.</p>"
+    },
+    {
+      "name": "Balance",
+      "ability": "dex",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the balance skill gives a +1 bonus to dexterity checks made to keep one's footing on a small (or moving) surface or to cross narrow ledges, beams or even tightropes.</p><p>Modifiers to the effective dexterity score used for the roll can come from a wide variety of factors. Examples include:</p><p>■ Strong wind ■ Slippery surfaces ■ Heavily encumbered character ■ Trying to move quicker (or slower) than a normal walk ■ Particularly narrow (or wide) ledges ■ Trying to balance while dodging attacks ■ Using a pole for balance</p>"
+    },
+    {
+      "name": "Bluff",
+      "ability": "cha",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the bluff skill gives a +1 bonus to charisma checks made to convince NPCs of things without evidence. While the skill is most often used to convince NPCs of untruths, it can also be used to make a convincing emotional argument in favour of something you know is true but cannot prove to be true.</p><p>Bluff checks should get modifiers for both the plausibility of what is being claimed and the potential consequences of the bluff to the target of the skill. A guard who may get executed if they let a potential assassin into the royal palace will be harder to bluff your way past than a merchant who may make a bit less profit if you manage to convince him that you should get a discount because you're a member of the city watch.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>"
+    },
+    {
+      "name": "Climbing",
+      "ability": "str",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the climbing skill gives a +1 bonus to strength checks made to climb cliffs and walls.</p><p>Simple things like climbing a tree should not require a roll, and modifiers to the effective strength used for this roll should be based on how steep and smooth the surface being climbed is and how much it has in the way of hand holds and foot holds.</p><p>Note: See the Skills and Talents section for how this skill interacts with the Climb Walls talent.</p>"
+    },
+    {
+      "name": "Cooking",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the cooking skill gives a +1 bonus to wisdom checks made to cook.</p><p>Modifiers to the effective wisdom used for this roll are likely to be only rarely needed, except in the case of not having adequate equipment or when using ingredients that the character has never cooked before.</p><p>In most cases, failing a cooking check won't result in inedible food; merely food that is not as nice as that produced by a successful cooking check.</p>"
+    },
+    {
+      "name": "Craft",
+      "ability": "dex",
+      "extraAbility": null,
+      "choiceNote": "CHOOSE MEDIUM",
+      "description": "<p>The craft skill is not a single skill. It is a group of related skills used when making things of different types. When spending a skill point on this skill, you must specify what sort of craft your character is skilled at.</p><p>An exhaustive list of possible craft skills is not possible, but examples include:</p><p>■ Carpentry ■ Smithing ■ Fletching ■ Skinning ■ Leather-working ■ Rope binding ■ Tailoring ■ Gem cutting ■ Forgery ■ Masonry ■ Thatching ■ Drawing/painting ■ Sculpture</p><p>Each skill point spent on a specific craft skill gives a +1 bonus to dexterity checks used to make items with that craft.</p><p>Modifiers to the effective dexterity used in craft rolls can come from high or low quality materials and tools, as well as time constraints. Depending on what is being made, success may not be an all-or-nothing affair – a failed craft check is likely to still result in a finished item. However, the quality of the finished product should be subjectively determined by the amount that the craft check succeeded by or failed by.</p><p>Craft skills can also be used to assess the workmanship of items made using that skill. For example, skill at carpentry can be used to help find the weak spot in a door, or skill at smithing can help judge how good a sword is. The exact details of this are left to the Gameguide's discretion. However, in no case should a craft skill be able to be used to determine magical properties of an item.</p>"
+    },
+    {
+      "name": "Diplomacy",
+      "ability": "cha",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the diplomacy skill gives a +1 bonus to charisma checks made to work out compromises and calm tensions. Diplomacy checks should get modifiers for both the amount of hostility between the parties and the amount that either side has to lose if the diplomacy fails.</p><p>For example, trying to persuade the leader of a marauding band of pirates not to attack a small and lightly armed party is going to be much more difficult than trying to persuade an offended landlady that you shouldn't be thrown out of her inn and you should be allowed to spend your spare cash there instead.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>"
+    },
+    {
+      "name": "Disguise",
+      "ability": "cha",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the disguise skill gives a +1 bonus to charisma checks made to disguise a character as someone else. These checks should be made when the disguise is first worn; with modifiers based on the answers to the following:</p><p>■ Is the disguise meant to look like a specific person, or merely not look like the wearer? ■ Is the disguise intended to make the character look like a different gender and/or species? ■ Is the disguise meant to only be seen from a distance or is it intended for close scrutiny? ■ Is the disguise intended to fool close acquaintances of subject (or wearer) of the disguise? ■ Does the person applying the disguise have access to make up and prosthetics?</p><p>The exact value of these modifiers should be determined by the Gameguide on a case by case basis, and the Gameguide should roll the dice for the check so that the player doesn't know whether or not their character's disguise will successfully fool people.</p><p>A disguise that fails to achieve its target intentions may still work to a lesser extent.</p><p>Example: Black Leaf wishes to gain access to the back room of the cartographer's guild in order to steal a map that she thinks may be there despite the guild members' denials. While her allies \"accidentally\" encounter one of the guild members in an inn and get him drunk, Black Leaf disguises herself as the guild member.</p><p>The Gameguide decides that because Black Leaf is trying to impersonate a specific person of the opposite gender, she should get a –4 penalty to her effective charisma when making the disguise check.</p><p>However, since she has deliberately chosen to impersonate the guild member who most closely resembles her in terms of build and facial features (gender notwithstanding) the Gameguide reduces the penalty to a –3.</p><p>Unfortunately Black Leaf 's charisma is only a rather average 11, and the penalty means it is effectively only an 8 for this roll. The Gameguide rolls a 10.</p><p>Since she only failed by a small amount – and would have succeeded if not for the penalties – the Gameguide decides that Black Leaf 's disguise is not going to fool people into thinking she is the guild member unless seen only from a distance, but is enough that people seeing her will not recognise her real identity.</p>"
+    },
+    {
+      "name": "Engineering",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the engineering skill gives a +1 bonus to intelligence checks made to design machinery or identify the function of existing machinery such as siege weaponry or orreries.</p><p>Modifiers to the effective intelligence used for checks to identify machinery should come from the complexity of the machinery being examined.</p><p>In terms of the design of machinery, the Gameguide should also take into account the technological level of the campaign and should veto the \"invention\" of devices that rely on principles unknown in the game world.</p><p>Similarly, the presence of magic in the game world may mean that the laws of nature work differently there than in the real world, so at the Gameguide's discretion machinery relying on certain physical principles (e.g., Combustion powered guns or engines) may not work at all.</p><p>Note: although this skill can be used to identify how a large mechanical trap works, it should not be used as a replacement for either the Locate Traps or Remove Traps talents. At best, knowing how the trap functions may give insight into how the trap may be bypassed by mundane means.</p>"
+    },
+    {
+      "name": "Escape Artist",
+      "ability": "dex",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the escape artist skill gives a +1 bonus to dexterity checks made to escape from bonds or ties. The effective dexterity used for this check should be modified by the extent to which the character is tied. Escaping from simply having one's hands tied with a scarf should be much easier than escaping from iron manacles.</p><p>Note: Although this skill allows the character to wriggle free from locked manacles or padlocked chains, it does not allow the actual picking of those locks.</p>"
+    },
+    {
+      "name": "Etiquette",
+      "ability": "cha",
+      "extraAbility": null,
+      "choiceNote": "CHOOSE CULTURE",
+      "description": "<p>The etiquette skill is not a single skill. It is a group of related skills used in social situations in a variety of cultures. Each point spent in the etiquette skill for a particular culture gives a +1 bonus to charisma rolls used to behave properly in formal social situations in that culture.</p><p>Modifiers to the effective charisma used for these checks should come from particularly common or particularly obscure social situations within that culture.</p>"
+    },
+    {
+      "name": "First Aid",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent in the first aid skill gives a +1 bonus on wisdom rolls used to treat injuries and poison.</p><p>The most common use of this skill is to patch people up after they have taken damage. After each time a character has been injured (a whole combat only counts as a single injury for this purpose) they can be healed 1d3 of the hit points lost in this particular injury by someone making a successful first aid check.</p><p>Each character using the skill is only able to make one attempt per injury, and if this first attempt fails then further attempts will not succeed. If someone succeeds with a first aid check against a particular injury then further first aid checks will be of no benefit.</p><p>All hit points lost in a fight counts as a single injury for the purposes of the first aid skill.</p><p>The other use of the skill is to prevent people from dying when they have been poisoned. See CHAPTER 12 – GETTING BETTER for detailed rules on poison.</p><p>There are normally no modifiers to the effective wisdom used in first aid checks.</p><p>Example: Black Leaf is unlucky enough to fall down a pit, and is injured, taking 5 points of damage out of her 9 hit points, leaving her on 4 hit points.</p><p>She uses the first aid skill to treat this injury, and succeeds in her roll. Her player rolls 1d3 to see how many hit points are recovered and unfortunately only gets a 1. Black Leaf now recovers one of the hit points lost in the injury, taking her from 4 hit points to 5 hit points.</p><p>Since she has now had this injury treated, further first aid rolls won't be able to recover any more of the lost hit points.</p><p>Shortly afterwards, the party encounters some ruffians spoiling for a fight. After a brief combat with the ruffians, Black Leaf has lost another 2 hit points, leaving her with 3.</p><p>While the party are resting, she tries to use the first aid skill on herself in order to recover some of these hit points. The skill check is not successful and Black Leaf is unable to heal this injury, and cannot try again.</p><p>Seeing that her wife is still injured, Elfstar tries to use the skill on her. Elfstar's player succeeds her skill check and rolls 1d3 to see how much is healed, getting a 3. Although Black Leaf has lost a total of 6 hit points, only 2 were lost in the injury being treated by the skill roll, so the first aid can only result in the recovery of these 2 hit points.</p>"
+    },
+    {
+      "name": "Gambling",
+      "ability": "cha",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the gambling skill gives a +1 bonus to charisma checks made to determine who wins in games of skill and chance. Modifiers to the effective charisma used for gambling checks should be rare, but may be used for games that the character is unfamiliar with.</p><p>The simple way to use this skill is to simulate a single game or round in a game, by each character making a gambling check, and the game or round is won by the character who gets the highest total on their roll.</p><p>At the Gameguide's discretion, individual gambling games can be devised for their game world, which may operate on a more complex basis.</p><p>Note: This skill is designed for games where psychology, bluffing, and second-guessing opponents are an essential part of the game play. The skill does not represent a supernatural \"luck\" type of ability and should not be used to determine the outcome of games of pure chance.</p>"
+    },
+    {
+      "name": "Geography",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the geography skill gives a +1 bonus to intelligence checks made to recollect information about countries and regions of the game world.</p><p>The use of this skill should be modified by the obscurity of the facts that the player wishes their character to recollect. Knowing the name of a country and the majority ethnic group that lives there should be easier than knowing the name of the palace in which the king of that country lives or knowing the major trade imports and exports of that country.</p>"
+    },
+    {
+      "name": "History",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the history skill gives a +1 bonus to intelligence checks made to recollect information about the game world's past. The use of this skill should be modified by the obscurity of the facts that the player wishes their character to recollect. Knowing the name of countries involved in a war a couple of generations ago should be easier than knowing the name of the vizier of an empire that hasn't existed for thousands of years.</p>"
+    },
+    {
+      "name": "Intimidation",
+      "ability": "cha",
+      "extraAbility": "str",
+      "choiceNote": null,
+      "description": "<p>Each point spent on the intimidation skill gives a +1 bonus to both charisma checks and strength checks made to bully an NPC into co-operation through threats or shows of physical strength. Intimidation checks should get modifiers for both the plausibility of the threats being made and the potential consequences to the target of the skill for co-operation.</p><p>Using a threat of immediate physical violence to get a bandit to flee is both a realistic threat and has only minor consequences to the bandit if they do flee; so it should be easier than using a threat of sending a dragon to kill the family of an ogre if they don't betray their tribe's location to you, which is both an unrealistic threat and has potentially fatal consequences to the ogre and their tribe.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>"
+    },
+    {
+      "name": "Jumping",
+      "ability": "str",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the jumping skill gives a +1 bonus to strength checks made to jump long distances. Rather than giving modifiers to the effective strength based on the intended length or height of the jump, the nature of jumping means that a jump will always be successfully made but the distance of the jump will depend on the result of the check.</p><p>With a running start, a character can jump 10' horizontally or 4' vertically (remember that if the character is jumping up to reach something then the character's height should be added to the vertical distance jumped in order to determine how high they can reach).</p><p>The effects of the roll depend on whether the character is jumping for height or length. For each point that the character succeeds the jump check by in the case of a long jump, they jump an extra foot horizontally. For each two points that the character fails the jump check by they jump a foot less horizontally. In the case of a high jump, for each two points the character succeeds the jump roll by they jump a foot higher, and for each four points the character fails by they jump a foot less high.</p><p>In either case, jumping from a standing start means that only half of the total distance (after modification) can be jumped.</p><p>Example: Black Leaf has a strength of only 9, but has spent two skill points on the jump skill – so she has an effective strength of 11 when making jump checks.</p><p>After having fallen into a 10' deep pit, she needs to try to get out. Her player announces that she will try to jump up and grab the edge of the pit.</p><p>The pit is 10' deep, and Black Leaf is 5'5 tall; so in order to reach the edge of the pit she will have to jump just over four and a half feet. Luckily for Black Leaf, the pit is 20' wide, so she has chance to get a run up at the jump.</p><p>Marcie rolls a 14, for a total check result of 14+11=25, which is five points better than the 20 that she needed to roll, so Black Leaf jumps two and a half feet more than the default 4', for a total of six and a half feet – more than enough to grab the edge of the pit and pull herself out.</p><p>Had Black Leaf not been able to take a run up, the total distance jumped would have been halved from six and a half feet down to just over three feet – not high enough to get out.</p>"
+    },
+    {
+      "name": "Language",
+      "ability": null,
+      "extraAbility": null,
+      "choiceNote": "CHOOSE LANGUAGE",
+      "description": "<p>Each skill point spent on the language skill means that the character knows another language to an acceptable level that they can converse. However, even though the character speaks the language, their speech will be accented and they will be clearly noticeable as a foreigner.</p><p>If a character spends a second skill point on the same language, their skill increases to the point where they speak it like a native and no longer have a noticeable foreign accent.</p><p>The Gameguide will determine which languages exist in their game world.</p>"
+    },
+    {
+      "name": "Laws",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": "CHOOSE CULTURE",
+      "description": "<p>The law skill is not a single skill. It is a group of related skills used in legal situations in a variety of cultures. Each point spent in the law skill for a particular culture gives a +1 bonus to intelligence checks used to recall/interpret the laws and customs of that country.</p><p>Modifiers to the effective charisma used for these checks should come from particularly common or particularly obscure customs within that culture. For example, knowing that a country has the death penalty for banditry is much easier than knowing that the country requires anyone setting up a market stall to buy a trading license from the alderman of the town.</p>"
+    },
+    {
+      "name": "Lip Reading",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the lip reading skill gives a +1 bonus to wisdom checks made to understand what someone is saying even when you can't hear them by watching the movement of their mouth. Modifiers to the effective wisdom used for this skill should be used based on how clearly the person's mouth can be seen, whether they are deliberately enunciating clearly in order to make it easy for you to lip read, and whether you are a native speaker of the language they are speaking (i.e., It's a starting language or you spent two skill points on it) or whether you are merely fluent in it (i.e., You spent one skill point on it).</p>"
+    },
+    {
+      "name": "Magical Engineering",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the magical engineering skill gives a +1 bonus to intelligence checks made to design large scale magical effects or identify the function of existing effects such as wormholes, gates, and some large scale magical traps.</p><p>Modifiers to the effective intelligence used for checks to identify such magic should come from the obscurity of the effect being examined. Something that uses a standard spell effect should be easier than something that uses a unique effect. When designing such effects, this skill is used for the design itself, but the building of large-scale magical constructions will involve spell casting and crafting skills.</p><p>Note: although this skill can be used to identify how a large magical trap works, it should not be used as a replacement for either the Locate Traps or remove traps abilities. At best, knowing how the trap functions may give insight into how the trap may be bypassed by mundane means.</p>"
+    },
+    {
+      "name": "Nature Lore",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the nature lore skill gives a +1 bonus to intelligence checks made to recognise plants, natural terrain features, and natural creatures.</p><p>Most natural creatures or terrain features will give no bonus or penalty to the effective intelligence used for the roll, but a particularly common plant or animal might give a bonus and a particularly rare one might give a penalty.</p>"
+    },
+    {
+      "name": "Navigating",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent in the navigating skill gives a +1 bonus on wisdom rolls used to avoid getting lost by using landmarks and the position of the sun and stars.</p><p>The effective wisdom used for navigating checks may be modified by factors such as weather conditions, visibility, access (or lack of it) to equipment such as maps and/or sextants, and familiarity with the area being travelled.</p>"
+    },
+    {
+      "name": "Performance",
+      "ability": "dex",
+      "extraAbility": "cha",
+      "choiceNote": "CHOSE MEDIUM",
+      "description": "<p>The performance skill is not a single skill. It is a group of related skills used when putting on different types of artistic performance. When spending a skill point on this skill, you must specify what sort of artistic performance your character is skilled at. An exhaustive list of possible artistic media is not possible, but examples include:</p><p>■ Singing ■ Playing a musical instrument ■ Dancing ■ Acting ■ Juggling ■ Jesting ■ Storytelling ■ Poetry</p><p>Each skill point spent on a specific performance skill gives a +1 bonus to both dexterity checks and charisma checks used to make these artistic performances.</p><p>Modifiers to the effective dexterity or charisma used in performance rolls can come from such things as particularly high or low quality costume and how much rehearsal time the performance has had.</p><p>Success in a performance may not be an all-or-nothing affair – a failed performance check is likely to still result in a performance of some kind. However, the quality of the finished work should be subjectively determined by the amount that the performance check succeeded by or failed by.</p>"
+    },
+    {
+      "name": "Religious Lore",
+      "ability": "int",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the religious lore skill gives a +1 bonus to intelligence checks made to recall knowledge about religions, their targets of worship, and the creatures associated with them.</p><p>The effective intelligence score used for the religious lore check should be modified by the obscurity of the knowledge being sought. Identifying a statue of a well-known god should be much easier than identifying the purpose of a particular religious rite from a foreign religion.</p><p>Note: Characters should be assumed to know all about the rites and details of their own religion without needing to make religious lore checks.</p>"
+    },
+    {
+      "name": "Riding",
+      "ability": "dex",
+      "extraAbility": null,
+      "choiceNote": "CHOOSE ANIMAL",
+      "description": "<p>The riding skill is not a single skill. It is a group of related skills used when making rolls to control or stay on various riding animals in unusual circumstances. When spending a skill point on this skill, you must specify what sort of animal your character is skilled at riding. An exhaustive list of animals is not possible, but examples include:</p><p>■ Horse (includes mules and donkeys) ■ Camel ■ Elephant ■ Dire wolf ■ Griffon ■ Pegasus ■ Hippogriff ■ Giant eagle</p><p>Each skill point spent on a specific riding skill gives a +1 bonus to dexterity checks used to ride that type of animal. Generally, simply riding a calm animal as it walks shouldn't require a riding check. However, staying on an animal when it bolts or stumbles, or when it is damaged by an attack, should require a check – with the effective dexterity modified by the exact circumstances provoking the check.</p>"
+    },
+    {
+      "name": "Sense Motive",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the sense motive skill gives a +1 bonus to wisdom checks made to read the expressions and body language of NPCs in order to tell if they have an ulterior motive for their speech or behaviour. The skill is most often used to detect when an NPC is lying, although it can also in other situations, for example, to try to tell if an NPC who is ignoring a character who is hiding is deliberately ignoring that character while trying to keep an eye on them or whether they simply haven't seen them.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>"
+    },
+    {
+      "name": "Sneak",
+      "ability": "dex",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the sneak skill gives a +1 bonus to dexterity checks made to hide or move quietly without being noticed. The skill is normally used in an opposed manner against the spot skill of the target that might notice the sneaking character.</p><p>Note: See Skills and Talents for how this interacts with the Hide in Shadows and Move Silently talents.</p>"
+    },
+    {
+      "name": "Spot",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spend on the spot skill gives a +1 bonus to wisdom checks used to notice things such as prepared ambushes, hidden creatures, and traps.</p><p>Note: See Skills and Talents for how this interacts with the Hide in Shadows, Move Silently, and Locate Traps talents.</p>"
+    },
+    {
+      "name": "Swimming",
+      "ability": "str",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the swimming skill gives a +1 bonus to strength checks made to swim while weighed down or in fast flowing or turbulent waters. Characters are assumed to be able to swim in calm water (provided they are not weighed down) without needing to make a swimming check, but heavily encumbered characters or characters trying to swim in difficult conditions will need to make such checks.</p><p>The effective strength used for swimming checks should be given modifiers based on the specific conditions that the character is trying to swim in, such as those listed above.</p>"
+    },
+    {
+      "name": "Tracking",
+      "ability": "wis",
+      "extraAbility": null,
+      "choiceNote": null,
+      "description": "<p>Each point spent on the tracking skill gives a +1 bonus to wisdom checks made to follow the tracks left by one or more creatures. Following (at a slow walk) a single human sized creature who walked through light woodland or farmland less than a day ago would require a roll with no modifiers.</p><p>The effective wisdom used for the tracking check should be modified by many factors such as:</p><p>■ Number of creatures being tracked ■ Size of creatures being tracked ■ Method of locomotion of creatures being tracked ■ Age of the tracks ■ Terrain being tracked through ■ Weather conditions ■ Tracking as a speed faster than a slow walk</p>"
+    }
+  ]
+}

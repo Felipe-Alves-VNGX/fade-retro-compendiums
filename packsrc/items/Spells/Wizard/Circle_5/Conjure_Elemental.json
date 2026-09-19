@@ -1,0 +1,44 @@
+{
+  "folder": "gXAghWAPKoxPFgDN",
+  "name": "Conjure Elemental",
+  "_id": "Eovdb3U78604aIKY",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Eovdb3U78604aIKY",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>When this spell is cast, a 16 hit dice elemental (see CHAPTER 19 – BESTIARY for statistics) will appear within 240' of the caster. If this spell is cast more than once during the same day, a different type of elemental must be summoned each time.</p><p>While the caster controls the elemental, they can make it do anything it is capable of doing, including fighting to the death on the caster's behalf. The caster can also send the controlled elemental home.</p><p>The caster must concentrate to keep controlling the elemental, and cannot fight or cast other spells or move at more than half normal speed. If the caster's concentration is broken, either because they did one of those things or they took damage, then the control is broken.</p><p>Once the control is broken, it cannot be re-established. The elemental will try to kill the caster who summoned it, but will not commit suicide doing so. If it looks to be a hopeless fight the elemental will flee instead.</p><p>A summoned elemental is blocked by a Protection from Evil, and can be sent home by a Dispel Magic or a Dispel Evil.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "concentration",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

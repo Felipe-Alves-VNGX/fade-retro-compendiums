@@ -1,0 +1,42 @@
+{
+  "folder": "WPzTNLPsDNvTmuvj",
+  "name": "Control Temperature 10' Radius",
+  "_id": "ZAlnLMhMMl2CA114",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ZAlnLMhMMl2CA114",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to alter the air temperature within 10' of themselves.</p><p>The spell will protect the caster and all around them from hot or cold environments, but will not protect them from fire sources or hot or cold items. The caster can change the ambient temperature by concentrating for a round, and can vary that temperature from –5 to 40 degrees Celsius (23 to 104 Fahrenheit).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

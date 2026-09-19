@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Jumping",
+  "_id": "Mnj0epF39fufcUGB",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!Mnj0epF39fufcUGB",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the jumping skill gives a +1 bonus to strength checks made to jump long distances. Rather than giving modifiers to the effective strength based on the intended length or height of the jump, the nature of jumping means that a jump will always be successfully made but the distance of the jump will depend on the result of the check.</p><p>With a running start, a character can jump 10' horizontally or 4' vertically (remember that if the character is jumping up to reach something then the character's height should be added to the vertical distance jumped in order to determine how high they can reach).</p><p>The effects of the roll depend on whether the character is jumping for height or length. For each point that the character succeeds the jump check by in the case of a long jump, they jump an extra foot horizontally. For each two points that the character fails the jump check by they jump a foot less horizontally. In the case of a high jump, for each two points the character succeeds the jump roll by they jump a foot higher, and for each four points the character fails by they jump a foot less high.</p><p>In either case, jumping from a standing start means that only half of the total distance (after modification) can be jumped.</p><p>Example: Black Leaf has a strength of only 9, but has spent two skill points on the jump skill – so she has an effective strength of 11 when making jump checks.</p><p>After having fallen into a 10' deep pit, she needs to try to get out. Her player announces that she will try to jump up and grab the edge of the pit.</p><p>The pit is 10' deep, and Black Leaf is 5'5 tall; so in order to reach the edge of the pit she will have to jump just over four and a half feet. Luckily for Black Leaf, the pit is 20' wide, so she has chance to get a run up at the jump.</p><p>Marcie rolls a 14, for a total check result of 14+11=25, which is five points better than the 20 that she needed to roll, so Black Leaf jumps two and a half feet more than the default 4', for a total of six and a half feet – more than enough to grab the edge of the pit and pull herself out.</p><p>Had Black Leaf not been able to take a run up, the total distance jumped would have been halved from six and a half feet down to just over three feet – not high enough to get out.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

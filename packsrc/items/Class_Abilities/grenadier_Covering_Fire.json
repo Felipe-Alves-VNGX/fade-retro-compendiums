@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Covering Fire",
+  "_id": "6WOyeduNtXla9U9u",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!6WOyeduNtXla9U9u",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 7th level, the grenadier gains the ability to lay down covering fire with a firearm to help defend an ally. The grenadier's player declares that their character is covering the ally at the beginning of the round before initiative is rolled. The grenadier makes no attacks during the round (and therefore needs no initiative score), but all attacks made against the character being covered are made at a –4 penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "grenadier",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Travel",
+  "_id": "9ogDZvwvtyd5JhUn",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!9ogDZvwvtyd5JhUn",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy",
+      "vitality"
+    ],
+    "description": "<p>This spell allows the caster, to travel quickly, even from plane to plane. The caster can fly at a rate of 120' per round, and can enter another plane that is adjacent to the caster's current plane by concentrating for a round. The caster can only enter one plane per 10 minutes.</p><p>The caster can also use this spell to open up a hole in a celestial shell in order to travel from a celestial sphere to the luminiferous aether or vice versa. The hole is 100' in diameter, and lasts for 10 minutes before closing. Not even a Wish spell can hold such a hole open for longer.</p><p>The caster can also turn to smoke, and fly at double the normal rate (240' per round). While in smoke form the caster cannot use items or cast spells, but cannot be hurt by non-magical means. Also, while in smoke form, the caster cannot pass through a Protection from Evil spell or an Anti-Magic Shell. The caster can bring up to one other creature with them for each five levels. All passengers must be touching the caster at all times, and the caster controls the direction and form of travel. Unwilling passengers may make a spell save to avoid the effect. The caster must travel with all passengers, they cannot send passengers on while remaining behind.</p><p>When an immortal is travelling under the effect of this spell, it costs them 5pp to cross a planar boundary, or 10pp if the planes either side of the boundary are both outer planes. Opening a hole in a celestial sphere costs an immortal 100pp.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "personal",
+    "duration": "10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

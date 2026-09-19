@@ -1,0 +1,558 @@
+[
+  {
+    "table": "mundane-items",
+    "name": "Arrows",
+    "bundleQty": 20,
+    "weightLb": 1,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Arrows (silver)",
+    "bundleQty": 2,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 10,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Backpack (holds 40lb)",
+    "bundleQty": 1,
+    "weightLb": 2,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Belt",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 2,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Bolts",
+    "bundleQty": 30,
+    "weightLb": 1,
+    "cost": {
+      "value": 10,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Bolts (silver)",
+    "bundleQty": 3,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 15,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Boots (plain)",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 2,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Boots (fancy)",
+    "bundleQty": 1,
+    "weightLb": 1.5,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Bullets",
+    "bundleQty": 20,
+    "weightLb": 0.4,
+    "cost": {
+      "value": 2,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Bullets (silver)",
+    "bundleQty": 5,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Cloak (short)",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 5,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Cloak (long)",
+    "bundleQty": 1,
+    "weightLb": 1.5,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Clothes (peasant)",
+    "bundleQty": 1,
+    "weightLb": 2,
+    "cost": {
+      "value": 5,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Clothes (merchant)",
+    "bundleQty": 1,
+    "weightLb": 2,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Clothes (noble)",
+    "bundleQty": 1,
+    "weightLb": 2,
+    "cost": {
+      "value": 20,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Clothes (royal)",
+    "bundleQty": 1,
+    "weightLb": 3,
+    "cost": {
+      "value": 50,
+      "currency": "gp",
+      "isMinimum": true
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Darts",
+    "bundleQty": 5,
+    "weightLb": 8,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Grappling Hook",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Hammer (small)",
+    "bundleQty": 1,
+    "weightLb": 0.3,
+    "cost": {
+      "value": 2,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Hat",
+    "bundleQty": 1,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 2,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Holy Symbol",
+    "bundleQty": 1,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Holy Water (small Vial)",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Iron Spike",
+    "bundleQty": 1,
+    "weightLb": 3,
+    "cost": {
+      "value": 1,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Lantern",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Mirror (steel)",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Oil (flask)",
+    "bundleQty": 1,
+    "weightLb": 0.6,
+    "cost": {
+      "value": 2,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Pellets",
+    "bundleQty": 30,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Pellets (silver)",
+    "bundleQty": 5,
+    "weightLb": 10,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Pole (10')",
+    "bundleQty": 1,
+    "weightLb": 0.2,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Purse (holds 5lb)",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 5,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Quiver",
+    "bundleQty": 1,
+    "weightLb": 7,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Rations (1 Week's, Dried)",
+    "bundleQty": 1,
+    "weightLb": 20,
+    "cost": {
+      "value": 15,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Rations (1 Week's, Fresh)",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Red Powder (flask)",
+    "bundleQty": 1,
+    "weightLb": 5,
+    "cost": {
+      "value": 5,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Rope (50')",
+    "bundleQty": 1,
+    "weightLb": 0.1,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Sack (holds 20lb)",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Sack (holds 60lb)",
+    "bundleQty": 1,
+    "weightLb": 2.5,
+    "cost": {
+      "value": 2,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Spell Book",
+    "bundleQty": 1,
+    "weightLb": 20,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Tent",
+    "bundleQty": 1,
+    "weightLb": 1,
+    "cost": {
+      "value": 20,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Thieves' Tools",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 25,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Tinder Box",
+    "bundleQty": 1,
+    "weightLb": 2,
+    "cost": {
+      "value": 3,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Torch",
+    "bundleQty": 1,
+    "weightLb": 0.5,
+    "cost": {
+      "value": 2,
+      "currency": "sp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Water-skin (empty)",
+    "bundleQty": 1,
+    "weightLb": 3,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "mundane-items",
+    "name": "Water-skin (full, 1 Day's)",
+    "bundleQty": 1,
+    "weightLb": 3,
+    "cost": {
+      "value": 1,
+      "currency": "gp",
+      "isMinimum": false
+    }
+  },
+  {
+    "table": "armour",
+    "name": "Leather Armour",
+    "armourClass": 7,
+    "weightLb": 20,
+    "cost": {
+      "value": 20,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "30'"
+  },
+  {
+    "table": "armour",
+    "name": "Scale Mail",
+    "armourClass": 6,
+    "weightLb": 30,
+    "cost": {
+      "value": 30,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "30'"
+  },
+  {
+    "table": "armour",
+    "name": "Chain Mail",
+    "armourClass": 5,
+    "weightLb": 40,
+    "cost": {
+      "value": 40,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "30'"
+  },
+  {
+    "table": "armour",
+    "name": "Banded Mail",
+    "armourClass": 4,
+    "weightLb": 45,
+    "cost": {
+      "value": 50,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "20'"
+  },
+  {
+    "table": "armour",
+    "name": "Plate Mail",
+    "armourClass": 3,
+    "weightLb": 50,
+    "cost": {
+      "value": 60,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "20'"
+  },
+  {
+    "table": "armour",
+    "name": "Suit Armour",
+    "armourClass": 0,
+    "weightLb": 75,
+    "cost": {
+      "value": 250,
+      "currency": "gp",
+      "isMinimum": false
+    },
+    "movementRate": "20'"
+  }
+]

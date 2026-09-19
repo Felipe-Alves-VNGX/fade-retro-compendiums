@@ -1,0 +1,44 @@
+{
+  "folder": "WrnFS76yvhifVwBU",
+  "name": "Polymorph Other",
+  "_id": "DFxGLDfBd1BbHlKE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DFxGLDfBd1BbHlKE",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell changes a living (not undead or non-living) creature into a different type of living mortal (not exalted) creature. The target creature type must have no more than twice the number of hit dice that the original creature has, and the creature's hit points do not change. The target of this spell can make a spell save to avoid the effect.</p><p>The change can be dispelled by a Dispel Magic spell.</p><p>The target is given all special abilities of the new form, including thinking and behaving as the new form. It cannot create a duplicate of a specific individual, only a generic individual of the desired race or monster species; and if something is polymorphed into an intelligent creature then it will not have class levels.</p><p>If an immortal is polymorphed by this spell, they change in outward form only. They retain their mind (and their aura), and do not get the special abilities of the new form. However, they can return to their normal form at any time.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

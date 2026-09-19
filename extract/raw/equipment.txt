@@ -1,0 +1,1514 @@
+--- page 147 ---
+                          Chapter 9 –
+                             for Ad
+T    hey say that money makes the world go around, and that
+     applies to the DARK DUNGEONS world just as much as it
+applies to the real world. Trade and commerce are the
+backbone of civilisation, and even brave adventurers will need
+to buy things – from food to armour to ships or even siege
+artillery.
+
+MONEY
+The actual type of money that people use, in terms of the
+names and denominations of coins, will vary from campaign
+setting to campaign setting and probably from country to
+country within an individual campaign setting. However, for
+simplicity's sake and consistency's sake, the DARK DUNGEONS
+rules assume a simple gold standard. The standard coin that
+most prices are measured in is the gold piece (usually
+abbreviated to simply gp). The value of a gold piece is – quite
+literally – its weight in gold, rather than any artificial economic
+value. Complex economic factors such as exchange rates are
+assumed not to exist.
+
+A gold piece is a large (by real-world standards) gold coin
+approximately 3cm in diameter and 1/3cm in thickness. This
+amount of gold weighs 1.6 ounces, or 1/10 of a pound.
+Therefore a pound of gold is worth 10gp, and 10gp weighs a
+pound in weight.
+
+Other coins are made from a similar weight of different
+metals – namely copper, silver, electrum (a natural alloy of
+gold and silver) and platinum. The relative rarity of these
+metals gives the different coins their different values relative
+to gold.
+
+        1 cp (copper piece) = 1/100gp
+          1 sp (silver piece) = 1/10gp
+      1 ep (electrum piece) = 1/2gp
+      1 pp (platinum piece) = 5gp
+
+STARTING MONEY
+Newly created first level characters start with a set of peasant
+clothes, and with 3d6 x 10gp to spend on other items. A newly
+created battlemage, mountebank, or wizard character will
+also start with a spell book containing Read Magic and one
+other first level spell.
+
+– Equipping
+venture
+ If a character is introduced in the middle of a campaign (for
+ example, to replace a dead character) then the Gameguide
+ should give the character money and equipment – including
+ magic items – in line with the amount that the rest of the
+ party have. If you're creating a whole party from scratch at
+ higher level so you have no "rest of the party" with which to
+ compare, you will need to assign an arbitrary amount of wealth
+ based on the experience total that at which the characters
+ will be starting.
+
+ With the assumption that in the average campaign around 50%
+ of a character's accumulated experience will come from
+ treasure and the assumption that a character will lose/spend
+ around 20% of their treasure over time keeping the rest in
+ the form of accumulated wealth, this would mean that a
+ reasonable amount of starting wealth for characters starting
+ above first level would be 40% of their starting experience
+ (i.e., 400gp per 1,000xp).
+
+ ENCUMBRANCE
+ Obviously, characters can only carry so much while moving
+ around and fighting. However, trying to account for every last
+ item that is picked up or dropped during an adventure and
+ adjusting movement rates accordingly would be far too fiddly
+ and time-consuming to be fun. Therefore, DARK DUNGEONS
+ assumes that the bulky armour someone is wearing will
+ generally count more towards slowing them down than
+ whatever equipment they are using, and simply bases the
+ movement rate of all characters on the armour they are wearing.
+
+ Unarmoured characters can move at a speed of 40' per round;
+ see TABLE 9–3 for the movement rates of armoured characters.
+ If it really matters how much a person can carry (for example,
+ to determine how much gold they can carry out of a dragon's
+ lair and how much they have to leave behind) a good rule of
+ thumb is that a person can carry approximately their own
+ weight in items and treasure without being unduly weighed
+ down, and can stagger slowly while carrying twice that.
+
+ MUNDANE ITEMS
+ Arrows: Arrows are the ammunition used by bows. The same
+ type of arrows are used in both long and short bows. Arrows
+ are often broken in use. At the end of a combat, a character
+
+
+--- page 148 ---
+                   Table 9–1: Mundane Items
+              Item                 Weight           Cost
+           20 Arrows                 1lb             5gp
+        2 Arrows (silver)           0.1lb           10gp
+    Backpack (holds 40lb)            2lb             5gp
+               Belt                 0.5lb            2sp
+            30 Bolts                 1lb            10gp
+         3 Bolts (silver)           0.1lb           15gp
+          Boots (plain)              1lb             2gp
+          Boots (fancy)             1.5lb            5gp
+           20 Bullets               0.4lb            2gp
+        5 Bullets (silver)          0.1lb           25gp
+          Cloak (short)              1lb             5sp
+          Cloak (long)              1.5lb            1gp
+      Clothes (peasant)              2lb             5sp
+     Clothes (merchant)              2lb             5gp
+        Clothes (noble)              2lb            20gp
+         Clothes (royal)             3lb           50+gp
+             5 Darts                 8lb             1gp
+        Grappling Hook               1lb            25gp
+        Hammer (small)              0.3lb            2gp
+               Hat                  0.1lb            2sp
+          Holy Symbol               0.1lb           25gp
+    Holy Water (small Vial)         0.5lb           25gp
+           Iron Spike                3lb             1sp
+             Lantern                0.5lb            1gp
+          Mirror (steel)             1lb             5gp
+            Oil (flask)             0.6lb            2gp
+           30 Pellets               0.1lb            1gp
+        5 Pellets (silver)          10lb            25gp
+            Pole (10')              0.2lb            1gp
+       Purse (holds 5lb)            0.5lb            5sp
+             Quiver                  7lb             1gp
+   Rations (1 Week's, Dried)        20lb            15gp
+   Rations (1 Week's, Fresh)         1lb             5gp
+      Red Powder (flask)             5lb             5gp
+           Rope (50')               0.1lb            1gp
+       Sack (holds 20lb)            0.5lb            1gp
+      Sack (holds 60lb)             2.5lb            2gp
+           Spell Book               20lb            25gp
+               Tent                  1lb            20gp
+         Thieves' Tools             0.5lb           25gp
+           Tinder Box                2lb             3gp
+              Torch                 0.5lb            2sp
+     Water-skin (empty)              3lb             1gp
+   Water-skin (full, 1 Day's)        3lb             1gp
+
+will only be able to recover half (round down) of the arrows
+fired during that combat. The rest are either lost or unusable.
+
+Backpack: A leather or canvas backpack with shoulder straps
+for carrying things while leaving the hands free.
+
+Belt: A sturdy leather belt.
+
+Bolts: Bolts are the ammunition used by crossbows. The
+same bolts are usable in either heavy or light crossbows. Bolts
+are often broken in use. At the end of a combat, a character
+will only be able to recover half (round down) of the bolts fired
+during that combat. The rest are either lost or unusable.
+
+Boots (plain): Simple yet sturdy hard leather boots for
+walking or riding in.
+
+Boots (fancy): Ornate boots, possibly with fold-down tops or
+designs and patterns on the leather.
+
+Bullets: Bullets are the ammunition used by guns. The same
+bullets are usable in either pistols or smoothbores. Bullets
+are not recoverable after they have been fired. Those that
+have not been lost will have been deformed beyond use.
+
+Cloak (short): A waist length weatherproof outer garment.
+
+Cloak (long): A knee or ankle length weatherproof outer
+garment.
+
+Clothes (peasant): Simple clothes that a peasant or manual
+labourer would wear.
+
+Clothes (merchant): High quality clothes that a middle-class
+artisan or merchant would wear.
+
+Clothes (noble): Fancy clothing that a minor noble or other
+rich person would wear.
+
+Clothes (royal): Extravagant and ostentatious clothing fit for
+a king or even an emperor.
+
+Grappling Hook: A large iron hook that is tied to the end of
+a rope and then swung over a target such as a wall or tree
+branch. The hooks catch on the target and support the weight
+of someone climbing the rope.
+
+Hammer (small): A working hammer, for hammering nails,
+spikes, or tent pegs.
+
+Hat: A weatherproof hat made out of waxed linen.
+
+Holy Symbol: This is a small symbol, usually metal, that
+represents an icon of the character's religion. Most clerics
+carry holy symbols, although they can operate without one.
+
+
+--- page 149 ---
+Holy Water (small vial): Water that has been especially
+prepared by a cleric or other priest. It is used in some religious
+ceremonies and can damage some undead monsters.
+
+Iron Spike: A 9" long iron nail. These find a multitude of
+uses, from wedging doors open (or shut) or to use as tent
+pegs. They are most useful if accompanied by a hammer for
+driving them into hard surfaces.
+
+Lantern: An oil fired lamp that gives of light within a 30'
+radius. A single flask of oil will last 4 hours.
+
+Mirror (steel): Useful for personal grooming, and also for
+seeing around corners or fighting creatures without looking
+at them directly. Fighting in such a manner gives a –2 penalty
+to attack rolls.
+
+Oil (flask): Fine grade lantern oil. If a burning wick is
+inserted, it can also make an emergency missile weapon,
+doing 1d8 damage to all within a 5' radius, with a chance to
+also set them alight (see CHAPTER 10 – DUNGEON DELVING for
+the dangers of being set alight).
+
+Pellets: Pellets are the ammunition used by slings. Pellets
+are easy to lose in use. At the end of a combat, a character
+will only be able to recover half (round down) of the pellets
+fired during that combat. The rest are lost.
+
+Pole (10'): A stout wooden pole often used to probe ahead
+or to prod suspicious looking piles of refuse.
+
+Purse: A small leather or cloth purse or pouch that ties to a
+belt.
+
+Quiver: A leather container that holds 20 arrows or crossbow
+bolts.
+
+Rations (1 week's, dried): Enough dried, smoked, or
+otherwise preserved food to feed a person for a week. The
+preservation means that this food will last for two months
+before going bad.
+
+Rations (1 week's, fresh): Enough fresh food to feed a person
+for a week. The food will go bad after a week.
+
+Red Powder (flask): Red powder is a naturally occurring
+magical substance with unusual properties. See
+CHAPTER 8 – RED POWDER for more details of red powder and
+how it is used.
+
+Rope (50'): A strong hemp or silk rope that can support
+approximately three people and their equipment.
+
+Sack (small): A canvas sack for either carrying in one hand
+or loading onto a horse or other beast of burden. Small enough
+to be tied around a belt.
+
+Sack (large): A canvas sack for either carrying in two hands
+or loading onto a horse or other beast of burden.
+
+Spell Book: A large book for a wizard, battlemage, or
+mountebank to write their spells into. A spell book contains 100
+pages, and can hold up to 100 levels worth of spells.
+
+Tent: A waxed canvas tent with wooden poles. Although heavy,
+such tents are invaluable when travelling through inclement
+weather and cold nights.
+
+Thieves' Tools: A variety of lock picks, needles, wire, pliers,
+etc. A thief cannot pick locks or disarm traps without a set of
+these tools.
+
+Tinder Box: A set of fire making equipment in a water
+resistant box. Starting a fire with a tinder box takes 1d3
+rounds.
+
+Torch: A 1' to 2' length of wood dipped in pitch or tallow. A
+torch gives off light in a 30' radius and burns for one hour. If
+used in combat, a torch has the same statistics (and uses the
+same weapon feats) as a club.
+
+Water-skin: A water-skin is a flexible bladder that can hold
+up to two pints of water or other liquid, enough for a person
+for one day.
+
+WEAPONS
+In all cases, refer to CHAPTER 6 – WEAPONS & WEAPON
+PROFICIENCY for full details of the weapon. Note that shields
+are listed along with weapons, since they are used along with
+weapons and proficiency with them is increased by the use
+of weapon feats.
+
+Axe, Battle: A battle axe is a two handed axe 2'–4' in length,
+usually with a double blade or a spike on the reverse of the
+blade.
+
+Axe, Hand: A hand axe is a one handed axe 1'–2' in length,
+usually with a single blade. A hand axe is often thrown while
+its owner rushes towards melee range.
+
+Bayonet: A stabbing blade 12"–18" in length that can be
+affixed to the end of a smoothbore to turn it into a makeshift
+melee weapon. A bayonet can't be used when not attached
+to a firearm, as it has no place to grip it other than the blade
+itself.
+
+
+--- page 150 ---
+                   Table 9–2: Weapons
+            Item                Weight              Cost
+         Axe, Battle              6lb                7gp
+         Axe, Hand                3lb                4gp
+          Bayonet                  2lb              10gp
+         Blackjack               0.5lb               5gp
+            Bolas                0.5lb               5gp
+         Bow, Long                3lb              40gp
+         Bow, Short                2lb              25gp
+           Cestus                  1lb               5gp
+            Club                  5lb                3gp
+      Crossbow, Heavy             8lb               50gp
+      Crossbow, Light             5lb               30gp
+           Dagger                  1lb               3gp
+             Flail                6lb               12gp
+          Halberd                15lb                7gp
+     Hammer, Throwing            2½lb                4gp
+        Hammer, War               5lb                5gp
+           Javelin                 2lb               1gp
+           Lance                 18lb               10gp
+            Mace                  3lb                5gp
+        Morning Star              4lb                8gp
+             Net                  4lb                4gp
+             Pike                 8lb                3gp
+            Pistol                 2lb             250gp
+          Poleaxe                 12lb               5gp
+       Shield, Buckler             2lb               6gp
+       Shield, Normal             5lb               10gp
+        Shield, Tower             12lb              15gp
+            Sling                  2lb               2gp
+        Smoothbore               7½lb              150gp
+            Spear                 3lb                3gp
+            Staff                 4lb                5gp
+       Sword, Bastard             8lb               15gp
+       Sword, Normal              6lb               10gp
+        Sword, Short              3lb                7gp
+     Sword, Two-handed           10lb               15gp
+           Trident               2½lb                5gp
+            Whip                 10lb               10gp
+
+Blackjack: A blackjack, also known as a cosh, is a small
+leather club usually filled with sand. Blackjacks are too soft
+to do significant damage, but are very useful for temporarily
+knocking people unconscious without doing permanent
+damage.
+
+Bolas: A bolas is a set of weights (usually three) on the ends
+of connected ropes 3'–4' in length. The bolas is whirled around
+and then thrown at the opponent in order to entangle or even
+strangle them.
+
+Bow, Long: A long bow is a 4'–6' bow, either made from a
+single piece of wood or a composite of different woods. A
+long bow requires both hands to fire. Bows require the use
+of arrows as ammunition.
+
+Bow, Short: A short bow is a 3'–4' bow, either made from a
+single piece of wood or a composite of different woods. A
+short bow requires both hands to fire. Bows require the use
+of arrows as ammunition.
+
+Cestus: A cestus is a spiked or bladed metal band that may
+either be worn around the hand or built into a gauntlet.
+Although only a small weapon, it can be used without incurring
+off-hand penalties.
+
+Club: A club is a blunt weapon, often crudely made and little
+more than a roughly shaped piece of wood, that can be used
+in one hand. Some war clubs are more carefully crafted and
+weighted or are decorated to distinguish them from their
+more crude counterparts. The in-game statistics are the same
+for both types of club.
+
+Crossbow, Heavy: A heavy crossbow is a large two-handed
+missile weapon. It has powerful metal arms and a string that
+is pulled back using a crank. Crossbows require the use of
+bolts as ammunition.
+
+Crossbow, Light: A light crossbow is a medium sized missile
+weapon, although it still needs two hands to wield. It has
+powerful metal arms and a string that is pulled back using a
+lever. Crossbows require the use of bolts as ammunition.
+
+Dagger: A dagger is a short light blade which is 18" long or
+less. Daggers are popular because their small size makes
+them easy to conceal and they can be either thrown or used
+in melee.
+
+Flail: A flail is a large two-handed melee weapon consisting
+of a 2' to 3' wooden shaft with two or three 2' chains attached
+to the end. Each chain is tipped with a spiked weight.
+
+Halberd: A halberd is a large pole-arm 6' to 8' in length, the
+head of which has a long spike with an axe blade on one side
+and a hook on the reverse side.
+
+Hammer, Throwing: A throwing hammer is a one handed
+hammer from 18" to 2' in length that is weighted for throwing.
+Despite the name, it can also be used in melee.
+
+Hammer, War: A war hammer is a large one handed hammer,
+usually 2' to 3' in length. The head of a war hammer is often
+symmetrical to aid in balance.
+
+
+--- page 151 ---
+Javelin: A javelin is a light one-handed throwing spear.
+Although primarily used as a thrown weapon, it can also be
+used in melee.
+
+Lance: A lance is an extremely long spear, 9' to 12' long. It
+is too unwieldy to use on foot, and can only be used when
+mounted – in which case it can be used in one hand despite
+its length.
+
+Mace: A mace is a one handed melee weapon consisting of
+a 2'–3' long shaft with a heavy metal head. The head can be
+smooth (round or pear shaped), can contain flanges or studs,
+or can even be sculpted into the shape of a fist or skull or
+other roundish object.
+
+Morning Star: A morning star is a one handed melee weapon
+consisting of a 1' to 2' shaft with an 18" to 2' chain attached
+to the end. The other end of the chain holds a spiked weight.
+
+Net: Nets designed for use in combat are generally 6' to 9'
+in diameter, and usually have small weights around their edge
+to hold them open when they are flung. This arrangement lets
+them be thrown one-handed if held in their centre. Nets do
+no damage to opponents in combat, but are excellent
+defensive weapons.
+
+Pike: A pike is an extremely long spear, 7' to 15' long. It can
+only be wielded using two hands.
+
+Pistol: A pistol is a short gun, 9" to 12" long. It can be fired
+using only one hand, but needs both hands to reload. Pistols
+require both bullets as ammunition and red powder to fire
+them.
+
+Poleaxe: A poleaxe consists of an axe blade (usually single
+sided, but occasionally double sided) with a 6' to 8' long shaft.
+It is wielded in both hands like a large two-handed axe.
+
+
+--- page 152 ---
+                                                      Table 9–3: Armour
+                 Item                       Armour Class      Weight                             Cost                 Movement Rate
+            Leather Armour                       7              20lb                             20gp                      30'
+              Scale Mail                         6              30lb                             30gp                      30'
+              Chain Mail                         5              40lb                            40gp                       30'
+             Banded Mail                         4              45lb                             50gp                      20'
+              Plate Mail                         3              50lb                            60gp                       20'
+             Suit Armour                         0              75lb                            250gp                      20'
+Shield, Buckler: A buckler is a small, light shield around 12"             Sword, Bastard: A bastard sword, also known as a longsword,
+to 18" in diameter that is held in the fist and actively used              is a sword with a long (3' to 4') narrow blade that is used
+for parrying blows. Although it can be used to attack at high              either one-handed or two-handed. The same weapon
+levels of skill, at lower proficiency levels it is merely used for         proficiency covers both forms of usage.
+its defensive properties.
+                                                                           Sword, Normal: A normal sword is a one-handed sword with
+Shield, Normal: A normal shield is a medium sized shield                   a straight or curved blade 2' to 3' long. This category of sword
+around 2' to 3' in diameter, although it can come in a variety             encompasses a variety of different styles of sword, ranging
+of shapes. It is held in the fist and used for deflecting blows.           from scimitars to broadswords and even rapiers.
+Although it can be used to attack at high levels of skill, at
+lower proficiency levels it is merely used for its defensive               Sword, Short: A short sword is a sword with a straight 18"
+properties.                                                                to 2' blade. Primarily used as a stabbing rather than slashing
+                                                                           weapon, this small blade can be used in one hand.
+Shield, Tower: A tower shield is a large oblong or rectangular
+shield around 2' wide and up to 5' tall. Too big to be held in             Sword, Two-handed: A two-handed sword, sometimes known
+the fist, it is worn strapped to the arm and is used to passively          as a greatsword, is a large and heavy sword with a 4' to 5'
+block blows. Although it can be used to attack at high levels              blade. It is always used with two hands.
+of skill, at lower proficiency levels it is merely used for its
+defensive properties.                                                      Trident: A trident is a short (4' to 6') spear that is split at the
+                                                                           end into three tines, like a fork. Each tine is usually barbed.
+Sling: A sling is a long (4' to 6') leather cord with a pouch              A trident is used in one hand either in melee or as a thrown
+half way along. The wielder straps one end of the cord around              weapon, and is often used as a fishing spear, since the barbs
+their wrist and holds the other end in the same hand. They                 on the points can lift the fish out of the water when the trident
+then place a lead pellet in the pouch and swing the cord over              is withdrawn.
+their head. At the mid-point of the swing, they let go of the
+loose end, which releases the pellet. Slings normally require              Whip: A whip is a woven leather cord from 5' to 15' in length
+pellets as ammunition, although they can be used with stones               that is used in one hand. Whips do little damage, and are
+taken from the ground, albeit with a –1 penalty on to-hit and              more often used for corporal punishment than for serious
+damage rolls.                                                              combat.
+
+Smoothbore: A smoothbore is a long gun, 3' to 5' long. It                  ARMOUR
+requires two hands to both fire and reload. Smoothbores                    Armour is toughened clothing made out of leather or metal
+require both bullets as ammunition and red powder to fire                  that protects its wearer. In game terms, this reduces the
+them.                                                                      armour class of the character wearing it from the default value
+                                                                           of 9 to a better (i.e., Lower) value. This value may be further
+Spear: A spear is a 5' to 7' long shaft with a stabbing blade              adjusted by dexterity or magical factors.
+on the end. Despite its length, a spear is a well-balanced
+weapon and can either be used in melee one-handed or                       Although armour is made from a variety of pieces – from
+thrown.                                                                    vambraces and greaves through to helmets and
+                                                                           gauntlets – armour in DARK DUNGEONS is assumed to come in
+Staff: A staff is one of the simplest of weapons. It consists              sets. Two sets of chain mail are considered to be the same,
+of just a length of wood 5' to 7' in length, which is wielded in           even if one consists of a chain shirt, chain trews and a coif
+two hands.                                                                 whereas the other consists of a chain hauberk with leather
+                                                                           vambraces and a steel helmet.
+
+
+
+
+                                                                     152
+
+
+--- page 153 ---
+                                         Table 9–4: Pack and Riding Animals
+                     Item                       Carrying Capacity           Speed                      Cost
+                    Camel                             300lb               50'/round                   100gp
+                    Donkey                            200lb               30'/round                    20gp
+                   Elephant                          1,200lb              40'/round                   500gp
+                    Griffon                           350lb          40'/round (fly 120')               –†
+                  Hippogriff                          300lb          60'/round (fly 120')               –†
+                 Horse (draft)                        450lb               30'/round                    40gp
+                Horse (riding)                        300lb               80'/round                    75gp
+                 Horse (war)                          400lb               40'/round                   250gp
+                  Manticore                           350lb           40'/round (fly 60')               –†
+                     Mule                             300lb               40'/round                    30gp
+                   Pegasus                            300lb          80'/round (fly 160')               –†
+                     Pony                             200lb               70'/round                    35gp
+                   Unicorn                            200lb               80'/round                     –†
+   †
+    These creatures cannot normally be bought as mounts, but may have been individually befriended and/or trained by a
+                                                       character.
+                                                  Table 9–5: Land Transport
+                      Item                         Carrying Capacity        Weight                                Cost
+                 Saddle and Tack                           20lb              30lb                                 25gp
+                   Saddle Bags                             80lb              10lb                                  5gp
+          Trap (1 donkey/mule/pony)                       200lb               –                                   50gp
+        Cart (1 horse or 2 mules/ponies)                  400lb               –                                  100gp
+       Cart (2 horses or 4 mules/ponies)                  800lb               –                                  100gp
+                Wagon (2 Horses)                         1,500lb              –                                  200gp
+                Wagon (4 Horses)                        2,500lb               –                                  200gp
+
+
+                                                      Table 9–6: Barding
+                     Item                             Armour Class                   Weight                       Cost
+                Leather Barding                             7                         25lb                        40gp
+                 Scale Barding                              6                         40lb                        75gp
+                 Chain Barding                              5                         60lb                       150gp
+                Banded Barding                              4                        150lb                       400gp
+                 Plate Barding                              3                        300lb                       500gp
+                 Field Barding                              2                        400lb                       600gp
+                 Joust Barding                              0                        500lb                       700gp
+Since most people making armour – and especially those                 Chain Mail: This is a suit primarily composed of small metal
+making magical armour – will be doing so for customers of              rings that are linked together to form a flexible protective
+different races, most armour is made with straps and so forth          material. Chain mail gives a character an armour class of 5.
+that can adjust it to fit wearers of differing size. Therefore
+most humanoids of approximately the same human size range              Leather Armour: This is a suit primarily composed of leather
+can wear the same armour.                                              plates and strips. The leather is often boiled in wax to harden
+                                                                       it. Leather armour gives an armour class of 7, and because it
+Banded Mail: This is a suit primarily composed of chain mail           is made from natural materials it can be worn by druids. It is
+with horizontal metal strips fastened into the mail. Banded            also light and quiet enough to be worn by thieves and
+mail gives a character an armour class of 4. It doesn't quite          mountebanks.
+have the protection of plate mail, but is cheaper and lighter.
+                                                                       Plate Mail: This is a suit primarily composed of large metal
+                                                                       plates – the largest being the breastplate – linked together
+                                                                       with chain mail. Plate mail gives a character an armour class
+
+
+
+
+                                                                 153
+
+
+--- page 154 ---
+of 3. It is the best armour that can be bought second hand
+or looted, since suit armour must be custom made.
+
+Scale Mail: This is a suit primarily composed of leather plates
+that have metal scales or studs sewn onto them for added
+protection. Scale mail gives a character an armour class of 6.
+
+Suit Armour: This is a suit primarily composed of overlapping
+metal plates, with chain mail underneath. Also known as
+jousting plate, suit armour must be specially made to fit its
+owner – and is often worn by nobility as a status symbol as
+much as for protection. However, it does provide more
+protection than any other (non-magical) armour.
+
+Suit armour gives a character an armour class of 0, and also
+reduces all damage done to the character by area effect
+attacks (such as Fireball spells and dragon's breath) by one
+point per dice of damage. If the suit armour is magical, it
+reduces such damage by an additional point per two points
+of enhancement bonus.
+
+Unfortunately, since suit armour is designed for tourney use
+and parades where the wearer spends their time on horseback,
+it is very bulky and noisy when worn on foot. When on foot,
+someone wearing suit armour can be heard moving up to 120'
+away, negating any chance of surprise; and only has a 1 in 6
+chance per round of being able to stand unaided if knocked
+prone.
+
+LAND TRANSPORT
+Whether trekking across a desert, riding from city to city,
+or driving a caravan of wagons filled with a dragon's hoard,
+adventurers often need land transport other than walking.
+Pretty much all land transport is powered by animals, and the
+vast majority of these animals are horses and mules, ranging
+from the smallest pony to the largest draft horse.
+
+The speeds listed in Table 9–4 – pack and riding animals
+are for the animals when carrying a load up to their listed
+carrying capacity. Animals can carry twice the listed load, but
+can only move at half the listed speed while doing so. Flying
+creatures cannot fly when overloaded in this manner.
+
+Animals pulling vehicles use the carrying capacity of the cart
+or wagon rather than their own capacity, and cannot be loaded
+whilst hitched to a vehicle in this manner. When pulling a
+vehicle, an animal moves at its normal speed when the vehicle
+is carrying up to its capacity and at half speed when the
+vehicle is carrying up to twice its capacity.
+
+Banded Barding: This is a suit primarily composed of chain
+mail with horizontal metal strips fastened into the mail. Banded
+
+barding gives an animal an armour class of 4, unless the
+animal's armour class is already better than 4.
+
+Camel: Camels are normally only found in desert or semi-desert environments where horses don't fare well.
+
+Cart: A medium sized two-wheeled vehicle pulled by one or
+more horses. A cart is designed for carrying cargo, and may
+optionally have a seat for a driver. If there is no seat, the
+horse must be led.
+
+Chain Barding: This is a suit primarily composed of small
+metal rings that are linked together to form a flexible protective
+material. Chain barding gives an animal an armour class of 5,
+unless the animal's armour class is already better than 5.
+
+Donkey: Donkeys are rarely ridden, but they make a cheap – if
+somewhat stubborn and wilful – pack animal.
+
+Elephant: Elephants are normally only found in hotter
+climates, although they can be found in any terrain from jungle
+to desert. Although popular as beasts of burden because of
+their immense strength, elephants are not popular as simple
+mounts because they consume so much more food than
+something smaller like a horse.
+
+Field Barding: This is a suit primarily composed of large
+metal plates linked together with chain mail. The plates are
+heavier and more numerous than normal plate barding. Field
+barding gives an animal an armour class of 2, unless the
+animal's armour class is already better than 2.
+
+Griffon: Griffons are not normally tamable, nor can they be
+bred reliably in captivity. Because of this, they are unavailable
+to purchase. However, statistics are included here in case a
+character (player or non-player) has somehow managed to
+befriend one and acquire it as a mount.
+
+Hippogriff: Hippogriffs are not normally tamable, nor can
+they be bred reliably in captivity. Because of this, they are
+unavailable to purchase. However, statistics are included here
+in case a character (player or non-player) has somehow
+managed to befriend one and acquire it as a mount.
+
+Horse (draft): A large and powerful horse that sacrifices
+speed for strength and can carry heavy loads over long
+distances.
+
+Horse (riding): A typical horse, fast and light but easily
+spooked and not suitable for combat situations.
+
+Horse (war): A large horse specially trained to not panic in
+combat situations.
+
+
+--- page 155 ---
+Joust Barding: This is a suit primarily composed of
+overlapping metal plates that completely protect the front of
+the animal, to protect it from injury in jousting competitions.
+The plates are even heavier than field barding. Joust barding
+gives an animal an armour class of 0, unless the animal's
+armour class is already better than 0.
+
+Leather Barding: This is a suit primarily composed of leather
+plates and strips. The leather is often boiled in wax to harden
+it. Leather armour gives an animal an armour class of 7,
+unless the animal's armour class is already better than 7.
+
+Manticore: Manticores are not normally tamable, nor can
+they be bred reliably in captivity. Because of this, they are
+unavailable to purchase. However, statistics are included here
+in case a character (player or non-player) has somehow
+managed to befriend one and acquire it as a mount.
+
+Mule: A cross between a donkey and a horse, combining the
+best features of both. It is larger and stronger than a donkey,
+but smarter than a horse.
+
+Pegasus: Pegasi are not normally tamable, nor can they be
+bred reliably in captivity. Because of this, they are unavailable
+to purchase. However, statistics are included here in case a
+character (player or non-player) has somehow managed to
+befriend one and acquire it as a mount.
+
+Plate Barding: This is a suit primarily composed of large
+metal plates linked together with chain mail. Plate barding
+gives an animal an armour class of 3, unless the animal's
+armour class is already better than 3.
+
+Pony: A small light horse that is cheaper to feed and easier
+to care for than other breeds of horse, but lacks their strength.
+
+Saddle and Tack: A saddle, blanket, bridle, and associated
+reins – everything needed to ride a horse safely. It is possible
+to ride a horse bareback without these items, but any Dex
+checks made to control the horse will be made at a –3 to
+effective dexterity. The 20lb carrying capacity of a saddle and
+tack does not refer to the weight of the rider, but to the weight
+that can be carried in the bags and pouches that come with
+it.
+
+Saddle Bags: Saddle bags are long pairs of sacks sewn
+together at the top with a length of material. They are slung
+over a horse's saddle so that one bag hangs down either side
+of the horse distributing the weight evenly.
+
+Scale Barding: This is a suit primarily composed of leather
+plates that have metal scales or studs sewn onto them for
+added protection. Scale barding gives an animal an armour
+
+class of 6, unless the animal's armour class is already better
+than 6.
+
+Trap: A small two-wheeled vehicle with two seats, that is
+pulled by a single pony, mule or donkey. Although a trap can
+be used for transporting cargo, it is primarily designed as a
+means of personal transport.
+
+Unicorn: Unicorns are not normally tamable, nor can they be
+bred reliably in captivity. Because of this, they are unavailable
+to purchase. However, statistics are included here in case a
+character (player or non-player) has somehow managed to
+befriend one and acquire it as a mount.
+
+Wagon: A large four-wheeled vehicle, pulled by a team of
+horses. Wagons are mostly used for cargo transport, although
+some travelling people live in them as an alternative to tents.
+
+SEA TRANSPORT
+For long distance travel, it is much more efficient to travel by
+boat than by land – and depending on the destination, land
+travel may not be possible. If characters are travelling along
+an established route, they can book passage on an existing
+ship. If not, they may need to buy a ship and hire crew to sail
+it.
+
+All ships and boats need skilled crew to sail them, and some
+also need unskilled rowers. If more than 5 crew are needed
+one of them must be a captain, and if more than 15 crew are
+needed one of them must be a captain and one of them must
+be a first mate. Crew (and troops, if mentioned in the
+description) do not count towards a ship's carrying capacity.
+
+Barque: A barque is a three masted ocean going ship 100'–
+150' long and 25'–30' wide, with a draft of 10'–12'. There are
+raised decks at the fore and aft, and the ship can be fitted
+with up to two light catapults or cannons. In addition to its
+crew, a barque may house 50 troops.
+
+Canoe, River: A canoe is a small boat 15' long and 3' wide
+with a 1' draft. A canoe is normally made of waxed canvas or
+hides stretched over a wooden frame, and has one or two
+seats. Canoes are designed for use in rivers and swamps, and
+can easily be carried across land. A canoe weighs 100lb if
+carried – but two people can share the weight.
+
+Canoe, Sea: A sea canoe is a small boat 15' long and 3' wide
+with a 1' draft, with one or two floats held out either side for
+stability. A sea canoe is normally made of waxed canvas or
+hides stretched over a wooden frame, and has one or two
+seats. Sea canoes are designed for use in coastal waters, and
+can be carried across land. A sea canoe weighs 300lb when
+carried – but two to four people can share the weight.
+
+
+--- page 156 ---
+                                                 Table 9–7: Ships and Boats
+        Item                Weight‡             Capacity           Minimum Crew         Move per Day                          Cost
+       Barque               400 tons             2,000lb                20 crew            90 miles                        20,000gp
+   Canoe, River               100lb               600lb                  1 crew            18 miles                           50gp
+    Canoe, Sea                300lb               600lb                  1 crew            18 miles                          100gp
+       Galley†               50 tons             1,000lb          10 crew, 60 rowers       90 miles                        10,000gp
+     Longship†               30 tons             1,500lb                75 crew            90 miles                        15,000gp
+ Passage, Average                –                600lb                     –                 –                           1sp/5 miles
+  Passage, Basic                 –                150lb                     –                 –                          1sp/20 miles
+  Passage, Luxury                –               1,500lb                    –                 –                             1sp/mile
+Passage, Skysailing              –               1,500lb                    –                 –                             1gp/mile
+   Quinquireme              120 tons             6,000lb         30 crew, 300 rowers       72 miles                        60,000gp
+ Raft, Professional           500lb              1,000lb                    –              12 miles                          100gp
+  Raft, Scavenged             500lb               500lb                     –              12 miles                             –
+   River Barge†              10 tons             4,000lb           2 crew, 8 rowers        36 miles                         4,000gp
+   Rowing Boat†              5,00lb               100lb                     –              18 miles                         1,000gp
+ Sail of Skysailing            50lb             100 tons             1 spell caster         Varies                        200,000gp
+        Skiff†                5 tons             2,000lb                 1 crew            72 miles                         3,000gp
+       Sloop†                70 tons              500lb                 10 crew            72 miles                         5,000gp
+      Trireme†               80 tons             3,000lb         20 crew, 180 rowers       72 miles                        30,000gp
+     Troopship              400 tons             3,000lb                20 crew            54 miles                        30,000gp
+                                     †
+                                      These ships may be equipped with a sail of skysailing
+                                                       ‡
+                                                         1 ton = 2,000lb
+
+Galley: A galley is an ocean-going ship 60'–100' long                    Passage, Luxury: Luxury passage includes a spacious private
+and 10'–15' wide with a 2'–3' draft. Because of its small draft,         cabin that can store up to 500lb of luggage plus the character,
+it can travel along rivers as long as they are wide enough for           excellent meals, and an additional 1,000lb of hold space.
+it. The listed speed is for the galley under sail. If becalmed,
+it can be rowed at 18mi/day. A galley has a single line of               Passage, Skysailing: Skysailing passage is passage on a
+rowers.                                                                  ship equipped with a sail of skysailing which enables it to fly
+                                                                         at great speed. This price is for atmospheric travel only.
+A galley can be fitted with a light ship's ram (at a cost                Voidspeed travel is charged at 100gp/day in addition to the
+of 3,000gp) and up to two light catapults or cannons. In                 mileage to the edge of the atmosphere.
+addition to its crew, and rowers it will normally house 20
+troops.                                                                  Quinquireme: A quinquireme is an ocean-going ship 120'–
+                                                                         150' long and 20'–30' wide with a 4'–6' draft. Because of its
+Longship: A longship is a single masted boat 60'–80' long                width, it cannot usually travel along rivers. The listed speed
+and 10'–15' wide, with a 2'–3' draft. It is designed for troop           is for the quinquireme under sail. If becalmed, it can be rowed
+transport along rivers and coasts. The 75 crew normally act              at 12mi/day by five tiers of rowers. A quinquireme includes a
+as both rowers and troops when necessary. The listed speed               heavy ship's ram and fore and aft towers. It can be fitted with
+is for the longship under sail. If becalmed, it can be rowed             up to three light catapults or cannons. In addition to its crew,
+at 18mi/day.                                                             it will normally house 75 troops.
+
+Passage, Average: Average passage includes a small shared                Raft: A raft is a flat platform 10' long and 10' wide, with
+cabin that can hold up to 100lb of luggage plus the character,           a 3"–6" draft. A raft is the most basic of vessels, and is normally
+basic meals, and an additional 500lb of hold space.                      limited to swamps, lakes and slow moving rivers. Up to 12
+                                                                         rafts can be lashed together to make a single larger raft with
+Passage, Basic: Basic passage includes a bunk in a shared                proportionally higher carrying capacity.
+hold with space for 50lb of luggage plus the character, no
+meals unless the character brings their own food or pays for             River Barge: A river barge is a flat-bottomed sail-less
+ship's food separately, and 100lb of hold space.                         boat 20'–30' long and 10' wide with a 2'–3' draft. It is normally
+                                                                         used for carrying cargo up and down slow moving rivers.
+
+
+
+
+                                                                   156
+
+
+--- page 157 ---
+Rowing Boat: A rowing boat is a small sail-less boat 20' long
+and 4'–5' wide, with a 1'–2' draft. Rowing boats are often
+stored on larger ships and used to transport people to and
+from shore or, in an emergency, used as lifeboats. Each
+rowing boat stored in this manner takes up 500lb of its parent
+ship's capacity.
+
+Sail of Skysailing: A sail of skysailing is a magical sail made
+chiefly from the silk of phase spiders. Sails of skysailing can
+be attached to most boats and ships that weigh 100 tons or
+less, although some very small boats such as rafts and canoes
+are unsuitable as they have nowhere to fasten it.
+
+When fitted to a new ship for the first time, the sail must be
+left in place for a week in order to attune to that ship. During
+that time, the sail of skysailing slowly changes shape to fit
+the rigging of the ship. Once the attunement has taken place,
+the sails can be hoist (on that individual ship) or stowed
+repeatedly without losing the attunement.
+
+However, a sail of skysailing can only be attuned to one ship
+at a time, and cannot be used on a different ship – not even
+one of the same design – without being re-attuned. See
+CHAPTER 14 – INTO THE WIDER WORLD for detailed rules on
+using sails of skysailing to fly a ship.
+
+Skiff: A skiff is a single masted boat 15'–45' long and 5'–15'
+wide with a 3'–8' draft. It is designed for lakes and coastal
+waters, and can sometimes be too deep keeled for river use.
+Skiffs are commonly used as fishing boats.
+
+Sloop: A sloop is a one or two masted ocean going ship 60'–
+80' long and 20'–30' wide, with a draft of 5'–8'. There may
+be a raised deck at the aft. In addition to its crew, a sloop
+may house 25 troops.
+
+Trireme: A trireme is an ocean-going ship 120'–150' long
+and 15'–20' wide with a 3' draft. Because of its small draft, it
+can travel along rivers as long as they are wide enough for it.
+The listed speed is for the trireme under sail. If becalmed, it
+can be rowed at 18mi/day by three tiers of rowers.
+
+A trireme can be fitted with a heavy ship's ram (at a cost
+of 10,000gp) and up to two light catapults or cannons. In
+addition to its crew, it will normally house 50 troops.
+
+Troopship: A troopship is a three masted ocean going
+ship 100'–150' long and 25'–30' wide, with a draft of 10'–12'.
+The hull is the same as that of a large sailing ship, but the
+ship has been converted to carry the maximum number of
+troops. A troopship often has large fold-down doors on its
+sides so that troops – often including cavalry – can rapidly
+
+exit. In addition to its crew, a troopship will normally house 100
+troops.
+
+BUILDINGS & DUNGEONS
+When characters get to higher levels, they may wish to settle
+down. Whether taking over and repairing an existing structure,
+or starting from scratch; building work is expensive. The prices
+for buildings all include the cost of the unskilled and semi-skilled labour that does the building, but do not include the
+cost of skilled architects and engineers.
+
+Buildings take one day per 500gp (or part of 500gp) total
+cost, and need one engineer on site to oversee the building
+process per 100,000gp (or part of 100,000gp) total cost.
+The listed costs assume that the building is being built as a
+stronghold in a quiet but accessible part of a country. If the
+building is being built in an inaccessible region, double the
+costs – and if the building is being built in a heavily populated
+region halve the costs.
+
+Often a building – particularly one with an unusual purpose
+such as a temple – will require features of custom size, for
+example, larger doors than normal. The prices of these
+features should be based on the standard prices for similar
+features and increased or decreased proportionally.
+
+Arrow Slit: A narrow window designed to let defenders shoot
+out whilst not exposing them to returning fire.
+
+Barbican: A pair of 30' tall x 20' wide towers flanking a 20'
+square gatehouse built as a single unit. Price includes iron
+portcullis.
+
+Battlement (100'): 100' of crenellated wall with a parapet
+behind it. The price only includes the crenellations and
+parapet, not the wall that the battlement is on.
+
+Building, Stone: A two story stone building, such as a large
+stone house, stables, or an inn.
+
+Building, Wood: A two story wooden building, such as a large
+wooden house, stables, or an inn.
+
+Door (secret): A door that is disguised and hidden so that
+it will not be noticed unless searched for.
+
+Door, Exterior (iron/stone): A heavy exterior double-door, 7'
+tall by 6' wide.
+
+Door, Interior (iron/stone): A heavy internal door, 7' tall
+and 3' wide.
+
+
+--- page 158 ---
+                    Table 9–8: Buildings
+                   Item                             Cost
+                 Arrow Slit                         10gp
+                 Barbican                        37,000gp
+           Battlement (100')                       500gp
+             Building, Stone                      3,000gp
+             Building, Wood                       1,500gp
+               Door (secret)                      Cost x 5
+        Door, Exterior (iron/stone)                100gp
+        Door, Interior (iron/stone)                 50gp
+        Door, Interior (reinforced)                 20gp
+          Door, Interior (wood)                     10gp
+                Drawbridge                         250gp
+           Dungeon Corridor                        500gp
+            Floor, Flagstone                       100gp
+                 Floor, Tile                       100gp
+                Floor, Wood                         40gp
+              Gate, Wooden                        1,000gp
+                Gatehouse                         6,500gp
+               Keep, Square                      75,000gp
+                Laboratory                      100,000gp
+                Moat, Filled                       800gp
+              Moat, Unfilled                       400gp
+               Shifting Wall                      1,000gp
+           Shutters (window)                         5gp
+            Staircase, Stone                        60gp
+            Staircase, Wood                         20gp
+              Tower, Bastion                      9,000gp
+          Tower, Round Large                     30,000gp
+          Tower, Round Small                     15,000gp
+                 Trap Door                        Cost x 2
+                Wall, Castle                      5,000gp
+                Wall, Wood                        1,000gp
+             Window, Barred                         20gp
+              Window, Open                          10gp
+
+Door, Interior (reinforced): A wooden internal door
+reinforced with iron bands, 7' tall and 3' wide.
+
+Door, Interior (wood): A standard wooden internal door, 7'
+tall and 3' wide.
+
+Drawbridge: A 10' wide, 20' long reinforced wooden bridge
+that can be raised or lowered.
+
+Dungeon Corridor: A 10' x 10' x 10' section dug out from
+rock. The cost is multiplied by the depth of the dungeon (in
+multiples of 50'), for example, digging a 10' x 10' x 10' section
+at a depth of 150' will cost triple the listed price: 1,500gp.
+
+Floor, Flagstone: A 10' x 10' section of floor covered in
+flagstones.
+
+Floor, Tile: A 10' x 10' section of floor covered in tiles.
+
+Floor, Wood: A 10' x 10' floor covered in polished fitted wood.
+
+Gate, Wooden: A 20' tall by 10' wide wooden gate, reinforced
+and barred, suitable for putting in a stockade wall.
+
+Gatehouse: A 30' high building 20' x 20' in area. Price
+includes iron portcullis.
+
+Keep, Square: A heavily reinforced stone building 80' tall
+and 60' x 60' in area.
+
+Laboratory: A room full of magical equipment that allows its
+owner (provided that owner is a spell caster) to create magic
+items. Laboratories are very personal things, and a spell
+caster can only use a laboratory that they created and stocked
+themselves.
+
+Moat, Filled: 100' length of 10' deep, 20' wide canal.
+
+Moat, Unfilled: 100' length of 10' deep, 20' wide ditch.
+
+Shifting Wall: A 10' x 10' wall which has a counterbalance
+and mechanism for moving it.
+
+Shutters (window): Window shutters that provide little
+military defence, but protect against bad weather.
+
+Staircase, Stone: A stone staircase 3' wide with a 10' ascent.
+
+Staircase, Wood: A wooden staircase 3' wide with a 10'
+ascent.
+
+Tower, Bastion: A half-circle tower, 30' tall and 30' diameter.
+
+Tower, Round Large: A 30' tall, 30' diameter round tower.
+
+Tower, Round Small: A 30' tall, 20' diameter round tower.
+
+Trap Door: A 5' x 5' section of false floor with an opening
+mechanism that allows it to drop anyone standing on it through
+a hole in the floor.
+
+Wall, Castle: 100' length of 20' tall and 5' thick reinforced
+stone wall, with a walkway and battlements on the top.
+
+Wall, Wood: 100' length of 20' tall and 5' thick reinforced
+wooden wall, with a walkway on the top.
+
+
+--- page 159 ---
+                                                       Table 9–9: Hirelings
+                              Cost per                                    Cost per                                          Cost per
+    Class and Level                              Class and Level                           Class and Level
+                              Mission†                                    Mission†                                          Mission†
+      Commoner                  50gp            Fighter (2nd Level)        400gp          Mystic (4th Level)                1,600gp
+Battlemage (1st Level)         400gp            Fighter (3rd Level)        800gp          Mystic (5th Level)                3,200gp
+Battlemage (2nd Level)         800gp            Fighter (4th Level)       1,600gp         Ranger (1st Level)                 200gp
+Battlemage (3rd Level)        1,600gp           Fighter (5th Level)       3,200gp         Ranger (2nd Level)                 400gp
+Battlemage (4th Level)        3,200gp          Grenadier (1st Level)       220gp          Ranger (3rd Level)                 800gp
+Battlemage (5th Level)        6,400gp          Grenadier (2nd Level)       440gp          Ranger (4th Level)                1,600gp
+   Cleric (1st Level)          150gp           Grenadier (3rd Level)       880gp          Ranger (5th Level)                3,200gp
+  Cleric (2nd Level)           300gp           Grenadier (4th Level)      1,700gp          Thief (1st Level)                 120gp
+   Cleric (3rd Level)          600gp           Grenadier (5th Level)      3,500gp          Thief (2nd Level)                 240gp
+   Cleric (4th Level)         1,200gp         Mountebank (1st Level)       120gp           Thief (3rd Level)                 480gp
+   Cleric (5th Level)         2,500gp        Mountebank (2nd Level)        240gp           Thief (4th Level)                 960gp
+   Druid (1st Level)           150gp         Mountebank (3rd Level)        480gp           Thief (5th Level)                2,000gp
+   Druid (2nd Level)           300gp         Mountebank (4th Level)        960gp          Wizard (1st Level)                 250gp
+   Druid (3rd Level)           600gp         Mountebank (5th Level)       2,000gp         Wizard (2nd Level)                 500gp
+   Druid (4th Level)          1,200gp            Mystic (1st Level)        200gp          Wizard (3rd Level)                1,000gp
+   Druid (5th Level)          2,500gp           Mystic (2nd Level)         400gp          Wizard (4th Level)                2,000gp
+  Fighter (1st Level)          200gp            Mystic (3rd Level)         800gp          Wizard (5th Level)                4,000gp
+                                          †
+                                            Or per month of wilderness travel/exploration
+
+Window, Barred: A 3' x 1' window with bars to prevent ingress            Hirelings will not normally obey suicidal orders or allow
+and egress.                                                              themselves to be used as "trap detectors" or "cannon fodder".
+                                                                         They are there to help out in fights and to help in transporting
+Window, Open: A 3' x 1' open window.                                     supplies and loot, not to act as monster fodder.
+
+SERVICES                                                                 Getting the right hirelings can be a tricky business. On the
+Whether looking for hired help to take out a nest of zombies,            one hand a party will want to hire competent help who are
+or looking for crew to accompany you on a sea voyage, or                 likely to survive the adventure and prove useful. On the other
+looking for people to manage your estates, or even looking               hand there is both a cost consideration and also the
+for a cleric to raise your friend; adventurers need the services         consideration that particularly competent adventurers are
+of others. Employees of the characters come in three                     likely to be interested in adventuring on their own rather than
+types – hirelings, mercenaries and specialists.                          seeking employment with an existing group, since that is
+                                                                         much more lucrative.
+HIRELINGS
+Hirelings are adventurers (or would-be adventurers) willing              Although exact details may vary depending on the campaign
+to temporarily join a party for a mission. Although hirelings            world, a useful rule of thumb is that hirelings that are available
+travel with and adventure with a party, they are not equal party         will range from commoners to adventurers of half the level of
+members. They view the party as employers rather than                    the party leader (rounded down, but with a minimum of first
+companions, and may desert or even rebel against their                   level and a maximum of fifth level).
+employers if maltreated or exposed to excessive danger. See
+CHAPTER 11 – COMBAT for details of morale.                               They can be hired for a single adventure for a cost in gold of
+                                                                         a tenth of the experience that a character of their class would
+Since parties are prone to argument and internal                         need for the level above theirs (or 50gp for a commoner), or
+disagreements, hirelings are normally employed by – and                  for an extended expedition into the wilderness for that cost
+follow the orders of – a single designated "party leader". This          per month. The party are expected to provide whatever
+will normally be the party member with the highest charisma.             equipment or mounts are needed by the hirelings, and they
+That character can retain a number of loyal hirelings equal              will expect half payment in advance.
+to four plus their charisma modifier.
+
+
+
+
+                                                                   159
+
+
+--- page 160 ---
+Example: A party whose leader is fifth level wishes to
+employ some hirelings to accompany them on a mission to
+drive out a bandit encampment that has been raiding in the
+local area.
+
+Since the party leader is fifth level, hirelings of up to 2nd
+level will be available. A 2nd level thief needs a total
+of 2,400xp to reach 3rd level, that 2nd level thief would
+demand payment of a tenth of that in gold – i.e., 240gp.
+A 2nd level wizard, on the other hand, would need 5,000xp
+to reach 3rd level, that 2nd level wizard would demand
+payment of a tenth of that in gold – i.e., 500gp.
+
+Hirelings do not normally expect a share of treasure or magic
+items over and above their pay, although if given (or
+promised) such a share then their morale will be higher.
+Hirelings who are given magic items to test will expect to be
+allowed to keep those magic items as payment for the dangers
+involved in testing them.
+
+MERCENARIES
+If characters need an entire army, rather than just a few
+helpers, they can hire mercenaries. Mercenaries are trained
+troops that will work and fight for pay. The cost for
+mercenaries of different types are listed in TABLE 9–10. The
+listed costs are for peacetime guarding and patrolling duties.
+For active war-time duties, double all costs.
+
+When hiring mercenaries, they are assumed to come with
+captains and other leaders as part of the cost. Mercenaries
+provide their own equipment when first hired, but if garrisoned
+for an extended period their employer is expected to provide
+armourers and blacksmiths to repair and maintain their
+equipment.
+
+Archer: First level fighters or rangers armed with short bows
+and swords and wearing leather armour.
+
+Cavalry, Heavy: First level fighters armed with swords and
+lances and wearing plate armour, riding war horses in plate
+barding.
+
+Cavalry, Light: First level fighters armed with lances and
+wearing leather armour, riding war horses in leather barding.
+
+Cavalry, Medium: First level fighters armed with lances and
+wearing chain mail armour, riding war horses in chain barding.
+
+Gunner: First level fighters or grenadiers armed with
+smoothbores and bayonets and wearing chain mail armour.
+
+Infantry, Heavy: First level fighters armed with swords and
+shields and wearing chain mail armour.
+
+                  Table 9–10: Mercenaries
+            Troop                  Cost per Season
+            Archer                 15gp per person
+        Cavalry, Heavy             60gp per person
+         Cavalry, Light            30gp per person
+       Cavalry, Medium             45gp per person
+            Gunner                 25gp per person
+        Infantry, Heavy             9gp per person
+        Infantry, Light             6gp per person
+         Horse Archer              45gp per person
+       Longbow Archer              25gp per person
+            Militia                 3gp per person
+Infantry, Light: First level fighters armed with swords and
+shields and wearing leather armour.
+
+Horse Archer: First level fighters armed with short bows,
+riding normal horses.
+
+Longbow Archer: First level fighters armed with longbows
+and swords and wearing chain mail armour.
+
+Militia: Commoners armed with spears.
+
+SPECIALISTS
+Sometimes a character will need the help of a different kind
+of specialist. Maybe they need an engineer to oversee the
+building of a large castle, maybe they need a scribe to write
+their memoirs, or maybe they just need a cleric to raise a
+dead party member. All of these situations require the
+character to employ a skilled specialist of some kind or
+another.
+
+Specialists will not expose themselves to danger, and will not
+accompany characters on adventures.
+
+The costs for different types of specialists are listed in TABLE 9–
+11. Any specialist not on this table (for example, a leather
+worker or a scribe) should be assumed to have a cost of 5gp/
+month if skilled or 2gp/month if unskilled.
+
+Animal Trainer: An animal trainer domesticates and trains
+unusual animals. An animal trainer is not required for horses,
+mules, donkeys or dogs, but other animals can only be taught
+"tricks" by an animal trainer, who can handle up to six
+creatures of the same species at a time. The length of time
+needed to train an animal will depend on the animal type, but
+a month is average.
+
+Armourer: An armourer makes and repairs armour. One
+armourer is needed per 50 troops, whether the troops are
+conscripted or mercenaries.
+
+
+--- page 161 ---
+Artillerist: An artillerist is usually a fighter or grenadier of 3rd
+to 5th level, who is in charge of the placement, maintenance
+and operation of siege weapons.
+
+Bailiff: A bailiff is an official who looks after part or all of a
+castle, and makes sure that that part of the stronghold is in
+good repair.
+
+Blacksmith: A blacksmith extracts pure iron from iron ore
+and makes steel. Sometimes a blacksmith will also make
+simple metal goods; other times the blacksmith will simply
+make ingots of metal that other craftsmen will use.
+
+Castellan: A castellan is usually a fighter of 5th to 9th level,
+and is in overall charge of the military aspects of a stronghold.
+
+Chamberlain: A chamberlain is in charge of cleaning and
+cooking staff in a stronghold.
+
+Chaplain: A chaplain is a cleric who works full-time at a
+stronghold looking after the chapel and performing religious
+services. Unlike clerics who work in independent temples
+around a dominion, the chaplain is salaried rather than living
+on donations and tithes.
+
+Chemist: A chemist is a non-spell-caster who studies
+alchemy, and may make potions like a wizard, but takes twice
+the time and cost to do so.
+
+Chief Magistrate: A chief magistrate is in charge of justice
+within the dominion of a stronghold, and oversees the common
+magistrates and sheriffs.
+
+Engineer: An engineer oversees the design and construction
+of buildings, roads, bridges, and other large scale structures.
+One engineer is needed per 100,000gp cost of a building
+project.
+
+Equerry: An equerry is in charge of the stables, and is a
+specialised form of bailiff.
+
+Guard Captain: A guard captain is usually a fighter of 8th
+level or higher, and is in charge of both the rulers personal
+guard and the guarding of the stronghold.
+
+Herald: A herald is in charge of making announcements, and
+also in charge of maintaining up to date news about (and
+coats of arms of) the rulers of nearby dominions. A herald
+also acts as an adviser on matters of etiquette.
+
+Magist: A magist is a wizard or battlemage of 9th level or
+higher who acts as an adviser on magical affairs.
+
+                    Table 9–11: Specialists
+          Specialist                 Cost per Season
+        Animal Trainer                    1,500gp
+           Armourer                        300gp
+           Artillerist                    2,250gp
+             Bailiff                        15gp
+          Blacksmith                        75gp
+           Castellan                      6,000gp
+         Chamberlain                        15gp
+           Chaplain                       1,500gp
+           Chemist                        3,000gp
+       Chief Magistrate                   6,000gp
+           Engineer                       2,250gp
+            Equerry                         15gp
+        Guard Captain                    12,000gp
+            Herald                        1,200gp
+            Magist                        9,000gp
+            Marshal                         15gp
+            Provost                         15gp
+             Reeve                        1,500gp
+             Rower                           6gp
+             Sage                         6,000gp
+             Sailor                         30gp
+          Seneschal                      12,000gp
+            Sheriff                         15gp
+        Ship's Captain                     750gp
+       Ship's Navigator                    450gp
+ Spell Caster for Single Spell             Special
+           Steward                        3,000gp
+             Ward                           15gp
+Marshal: A marshal is a fighter who is in charge of recruiting
+and training troops.
+
+Provost: A provost collects taxes.
+
+Reeve: A reeve is in charge of book-keeping and accounts
+within a stronghold.
+
+Rower: A rower is an unskilled seaman who rows in a galley.
+
+Sage: A sage is an advisor who specialises in history and
+lore.
+
+Sailor: A sailor is skilled at operating and maintaining ships
+and boats.
+
+Seneschal: A seneschal, sometimes called a vizier, is a ruler
+by proxy who speaks for the actual ruler of the dominion when
+the ruler is absent or when the ruler does not wish to bother
+with a particular matter.
+
+
+--- page 162 ---
+Sheriff: A sheriff is responsible for law enforcement in an
+area of dominion.
+
+Ship's Captain: A ship's captain is in charge of the well-being
+of a ship and its crew.
+
+Ship's Navigator: A ship's navigator is in charge of ensuring
+a ship follows the correct course and getting it back on course
+if there have been problems.
+
+Spell caster for Single Spell: Sometimes a character doesn't
+need to employ a spell caster over a long term. They simply
+need a single spell cast, whether it is to identify a magic item
+or to raise a dead companion back to life. The issues involved
+in this vary depending on the type of caster.
+
+Clerics vary from religion to religion. While some secretive
+cults will simply refuse to cast spells for outsiders (or will only
+do so if paid in a similar manner to wizards), the clerics of
+most mainstream religions are dedicated to good works and
+spreading the popularity of their religion. As such, they will
+generally cast spells for free, especially if it is for something
+they consider to be a good cause.
+
+However, the problem is availability rather than
+cost – particularly for healing (and raising) clerical spells or
+others that would compete for the same spell slots. There
+may be a waiting list for such spells, as locals also need them.
+A few clerics may accept a bribe to push adventurers to the
+front of the queue, but most will not since their own lay
+members and followers come first.
+
+When trying to get a spell cast by a mainstream cleric, roll 1d8
+and consult the list below:
+
+■ 0 or Less: there is no cleric who can (or is willing to) cast
+  the spell at this time.
+■ 1–2: there is a long queue of people wanting the spell. It
+  will be available after 3d6 days.
+■ 3–4: there is a queue of people wanting the spell. It will
+  be available after 1d6 days.
+■ 5–6: spell is used up or not learned, but will be available
+  the following day.
+■ 7 or More: spell is available immediately.
+
+Most of the time, the size of the temple or chapel will not
+affect the roll, since larger temples have more (and higher
+level) clerics but also serve greater numbers of lay
+worshippers. However, if there is a particular reason for a
+high level cleric to be in a small temple, the roll should get
+a +1 bonus; and if there is a particular reason for a large
+temple to have a shortage of high level clerics then the roll
+should get a –1 penalty.
+
+Similarly, if the desired spell is 2nd level or lower the roll
+should get a +1 bonus and if the desired spell is 5th level or
+higher the roll should get a –1 penalty with an additional –1
+penalty if the spell is 7th level.
+
+Wizards, mountebanks, and battlemages, on the other hand,
+tend to set artificially high prices in order to not be constantly
+disturbed with petty requests. Generally, this will be a cost
+of 10gp/caster level for each consultation (whether that results
+in a spell being cast or not). Remember that mountebanks
+have a caster level equal to half of their actual level due to
+their Weak Magic ability.
+
+Druids set similar prices, but will generally be interested in
+an equivalent value of goods, since they have little use for
+money.
+
+Steward: A steward is in charge of household affairs at a
+stronghold, including housekeeping, maintaining food
+supplies, and so forth.
+
+Ward: A ward is a military advisor subordinate to the castellan
+and is responsible for the defences of a particular area within
+the dominion or stronghold.
+
+SIEGE WEAPONRY
+Siege weaponry is, naturally enough, used when besieging a
+stronghold. However, it can also be used defensively firing
+from the stronghold itself or even used in naval warfare. Full
+rules for siege combat are found in CHAPTER 15 – WAR!
+
+Ballista: A ballista is a large crossbow mounted on a sturdy
+platform. It fires bolts that are the size of spears. It is most
+commonly used to shoot into formations of troops, as the
+spears are of little use against fortifications. A ballista on
+wheels can be pulled by a single horse, mule or pony.
+
+Battering Ram: A large heavy post or log that is usually used
+to break down wooden walls or doors. If it is mounted inside
+a belfry or gallery sled, it only needs half the normal crew.
+
+Belfry: A portable tower 30' tall with a drawbridge at the top
+and a door at the bottom, connected by an internal staircase.
+The belfry is pushed up to the walls of a fortification and then
+the drawbridge is lowered so that it rests on top of those
+walls. Troops climb the stairs and cross the drawbridge onto
+the fortification walls. A belfry needs to be pulled by a team
+of four horses or pushed by 20 humans. A belfry provides
+troops inside it with a –8 bonus to armour class.
+
+Bore: A bore is a large drill hung from chains like a battering
+ram. It is pushed against the side of a fortification and used
+to drill into the side of it, weakening it.
+
+
+--- page 163 ---
+                                              Table 9–12: Siege Equipment
+                                  Crew                                   Fire Armour Hit               Cost
+      Item        Weight                           Range      Damage Rate
+                          Artillerists Other                                     Class Points    Item       Ammo
+     Ballista      600lb        –         4    100/200/300 1d10+6 1/2 rnds          4     9      75gp   2,9000gp/wk
+ Battering Ram     300lb        –        10          –         1d6+8 1/2 rnds      –4   50      100gp         –
+      Belfry     25,000lb       –         –          –           –         –       0     75     750gp         –
+       Bore        300lb        –        10          –        1d6+14 1/2 rnds      –4   50      150gp         –
+     Cannon       1,000lb       2         3    250/350/450 1d10+10 1/3 rnds        –4    75    1,000gp 12,000gp/wk
+ Catapult, Heavy 1,800lb        1         7 250/325/400† 1d10+10 1/6 rnds          0     27     250gp    6,000gp/wk
+ Catapult, Light 1,200lb        1         5 200/250/300† 1d8+8 1/5 rnds             4    18     150gp   4,000gp/wk
+  Gallery Shed     800lb        –         8                      –         –        4   40      300gp         –
+      Hoist       1,200lb       –         6                      –         –        4    15     150gp         –
+     Ladder         90lb        –         2                      –         –        4     3       3gp         –
+     Mantlet       480lb        –         –                      –         –       0     16      16gp         –
+Light Ship's Ram     –          –         –                     3d8‡       –        –     –    3,000gp        –
+Heavy Ship's Ram     –          –         –          –          6d6‡       –        –     –   10,000gp        –
+   Timber Fort     720lb        –         –          –           –         –       0     32      32gp         –
+    Trebuchet     2,400lb       1         11 250/400/500† 1d12+13 1/6 rnds         0    50      400gp   8,000gp/wk
+                               †
+                                 Catapults and trebuchets have a minimum range of 150'
+                                     ‡
+                                      Ship's rams do full damage against other ships
+
+Cannon: A cannon is basically an oversized gun on wheels                 used for either stealth attacks or secondary attacks while
+that shoots large iron balls rather than bullets. Although               most defenders are busy trying to fight off belfries and hoists.
+lighter than catapults and trebuchets and requiring fewer
+untrained crew; cannons are expensive to make, require more              Mantlet: A mantlet is an 8' long 4' high wooden palisade on
+trained crew, and require a steady supply of red powder to               wheels that up to five troops can use to shield themselves
+work.                                                                    from missile fire as they advance towards a fortification. A
+                                                                         mantlet provides troops behind it with a –4 bonus to armour
+Catapult: A catapult consists of a frame containing a wooden             class.
+pole with a basket or bowl on the end that is pulled back
+under tension and then quickly released so that it springs               Ship's Ram: A ship's ram is like a battering ram, except
+forward within the frame hurling whatever was put in the bowl            fastened to the front of a ship below the water line, offset to
+towards the enemy. A light catapult can be towed by a single             either side. The ship attacks by ramming its target with a
+horse, and a heavy catapult can be towed by a pair of horses.            glancing blow, so that the ship's itself doesn't get significantly
+                                                                         damaged by impacting the enemy vessel with force, but the
+Gallery Shed: A gallery shed is a wooden frame with side                 ram scrapes along the enemy's hull as the two ships pass.
+walls and a roof but no end walls. It is used to either give             Ship's rams do full damage to other ships.
+cover to troops, allowing them to get close to a fortification,
+or to house a battering ram or bore. A gallery shed provides             Timber Fort: A timber fort is a number of 8' long and 5' high
+troops inside it with a –12 bonus to armour class.                       sections of wooden palisade that can be carried on a wagon
+                                                                         and quickly deployed in the field on order to provide cover
+Hoist: A hoist is a small platform fastened to a 30' tall pole           from missiles. Once deployed, it cannot be moved with any
+which rests on a mobile base. It is pushed towards the wall              great speed. A timber fort provides troops inside or behind
+of a fortification, and then elite troops stand on the platform          it with a –8 bonus to armour class.
+while the crew pull it to the top of the pole by means of a rope
+and pulley system. Although it does not offer the protection             Trebuchet: A trebuchet is a long pole with a sling on one end
+that a belfry does, it is both cheaper and far more portable.            and a heavy weight on the other. The whole thing is mounted
+                                                                         on a wheeled frame. The pole is pulled down so that the sling
+Ladder: This is simply a 30' long normal ladder that is put              is down to the ground and can be loaded, then it is
+up against the wall of a fortification and climbed. Since it is          released – at which time the weight forces the pole to swing
+vulnerable to being dislodged or broken, it is normally only             and the sling to fire the ammunition in the direction of the
+                                                                         enemy.
+
+
+
+
+                                                                   163
+
+
+--- page 164 ---
+
+

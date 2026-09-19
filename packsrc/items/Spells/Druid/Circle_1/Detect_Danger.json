@@ -1,0 +1,42 @@
+{
+  "folder": "X89F5w0H0F5HTVaI",
+  "name": "Detect Danger",
+  "_id": "A6ggKN0YQvHPLo1F",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!A6ggKN0YQvHPLo1F",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to detect the presence of danger. If cast outdoors, it lasts for an hour, but if cast indoors then it only lasts for half an hour. During that time, the caster can concentrate on a square foot of ground or wall, human-sized creature, or a chest sized object for a full round and know whether it is immediately dangerous, potentially dangerous, or benign (from the caster's point of view).</p><p>Objects larger than those mentioned above can be examined, but will take correspondingly more time.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "1 hour or 1/2 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

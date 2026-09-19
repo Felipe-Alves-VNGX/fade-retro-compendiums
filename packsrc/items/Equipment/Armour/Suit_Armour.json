@@ -1,0 +1,60 @@
+{
+  "folder": "48tCQXEOwmD69xw2",
+  "name": "Suit Armour",
+  "_id": "OCIsF0izGRRY4wCC",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!OCIsF0izGRRY4wCC",
+  "type": "armor",
+  "system": {
+    "tags": [],
+    "description": "<p>This is a suit primarily composed of overlapping metal plates, with chain mail underneath. Also known as jousting plate, suit armour must be specially made to fit its owner – and is often worn by nobility as a status symbol as much as for protection. However, it does provide more protection than any other (non-magical) armour.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 750,
+    "weightEquipped": 750,
+    "cost": 250,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "ac": 0,
+    "isShield": false,
+    "av": null,
+    "armorWeight": "heavy",
+    "mod": 0,
+    "modRanged": 0,
+    "totalAC": 0,
+    "totalRangedAC": 0,
+    "totalAAC": 0,
+    "totalRangedAAC": 0,
+    "natural": false
+  },
+  "sort": 5000000
+}

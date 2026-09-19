@@ -1,0 +1,44 @@
+{
+  "folder": "axRlQeBxb5AycCyG",
+  "name": "Weather Control",
+  "_id": "3TFDROfnkOB41tJn",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!3TFDROfnkOB41tJn",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell allows the caster to control the weather in the surrounding area. The spell only works outdoors, and lasts as long as the caster concentrates.</p><p>The caster may make any of the following conditions, and can change the conditions by one minute of concentration:</p><p>■ Clear: this nullifies any existing weather conditions, and has no special effect of its own. ■ Fog: reduces visibility to 20' and halves the movement rate of all creatures. ■ Gales: halves the movement rate of all creatures, and makes missile fire and flying impossible. Gales also speed up the movement of sailing ships by 50%. In a desert, sandstorms reduce visibility to 20'. ■ Heatwave: halves the movement rate of all creatures and after 30 minutes dries up rain, mud and snow. ■ Rain: gives a –2 penalty to attack rolls with missile weapons. After 30 minutes, the ground turns muddy and non-flying movement is halved. ■ Snow: visibility is reduced to 20' and all non-flying creatures have their movement halved. After 30 minutes, standing water and slow rivers and streams freeze. When the snow thaws, the ground turns muddy and non-flying movement is halved. ■ Tornado: treat as a 12 hit dice air elemental (see CHAPTER 19 – BESTIARY for statistics) under the caster's control.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "personal",
+    "duration": "concentration",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

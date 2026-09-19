@@ -1,0 +1,798 @@
+{
+  "folder": "nAciSdEmUz9C4fUB",
+  "name": "Grenadier",
+  "_id": "dVocVfNeYrgOJ6oB",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!dVocVfNeYrgOJ6oB",
+  "type": "class",
+  "system": {
+    "key": "grenadier",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 36,
+    "firstSpellLevel": 1,
+    "maxSpellLevel": 0,
+    "basicProficiency": true,
+    "unskilledToHitMod": -2,
+    "alignment": "Any",
+    "description": "<p>Grenadiers are experts in the use of red powder and its many applications as an explosive or propellant. They are able to refine the powder into a more potent form and use it in the creation of a variety of weapons and tools.</p><p>The concentration of effort into producing better firearms and explosives naturally goes hand in hand with the ability to use them effectively. This aptitude with firearms and grenades,</p><p>combined with the wearing of armour for protection against both mishap and enemy fire, leads to grenadiers being seen as a very martial group, and this is often the case, although some are undoubtedly in it for the theory side of things rather than as a means to an end, their experimentation fuelling their thirst for knowledge or their pyromania – or both.</p><p>Powder Refinement por nível (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th>Powder Refinement</th></tr><tr><td>1</td><td>–</td></tr><tr><td>2</td><td>1 grain</td></tr><tr><td>3</td><td>2 grains</td></tr><tr><td>4</td><td>4 grains</td></tr><tr><td>5</td><td>6 grains</td></tr><tr><td>6</td><td>9 grains</td></tr><tr><td>7</td><td>13 grains</td></tr><tr><td>8</td><td>19 grains</td></tr><tr><td>9</td><td>26 grains</td></tr><tr><td>10</td><td>34 grains</td></tr><tr><td>11</td><td>42 grains</td></tr><tr><td>12</td><td>50 grains</td></tr><tr><td>13</td><td>58 grains</td></tr><tr><td>14</td><td>66 grains</td></tr><tr><td>15</td><td>74 grains</td></tr><tr><td>16</td><td>82 grains</td></tr><tr><td>17</td><td>90 grains</td></tr><tr><td>18</td><td>98 grains</td></tr><tr><td>19</td><td>106 grains</td></tr><tr><td>20</td><td>114 grains</td></tr><tr><td>21</td><td>122 grains</td></tr><tr><td>22</td><td>130 grains</td></tr><tr><td>23</td><td>138 grains</td></tr><tr><td>24</td><td>146 grains</td></tr><tr><td>25</td><td>154 grains</td></tr><tr><td>26</td><td>162 grains</td></tr><tr><td>27</td><td>170 grains</td></tr><tr><td>28</td><td>178 grains</td></tr><tr><td>29</td><td>187 grains</td></tr><tr><td>30</td><td>196 grains</td></tr><tr><td>31</td><td>205 grains</td></tr><tr><td>32</td><td>214 grains</td></tr><tr><td>33</td><td>223 grains</td></tr><tr><td>34</td><td>232 grains</td></tr><tr><td>35</td><td>241 grains</td></tr><tr><td>36</td><td>250 grains</td></tr></table>",
+    "castAsKey": null,
+    "primeReqs": [
+      {
+        "ability": "dex",
+        "minScore": 0,
+        "percentage": 5,
+        "concatLogic": ""
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thbonus": 1,
+        "hd": "6+c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 2,
+        "xp": 2200,
+        "thbonus": 1,
+        "hd": "10+2c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 3,
+        "xp": 4400,
+        "thbonus": 2,
+        "hd": "14+3c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 4,
+        "xp": 8800,
+        "thbonus": 2,
+        "hd": "18+4c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 5,
+        "xp": 17000,
+        "thbonus": 3,
+        "hd": "22+5c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 6,
+        "xp": 35000,
+        "thbonus": 4,
+        "hd": "26+6c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 7,
+        "xp": 70000,
+        "thbonus": 4,
+        "hd": "30+7c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 8,
+        "xp": 140000,
+        "thbonus": 5,
+        "hd": "34+8c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 9,
+        "xp": 270000,
+        "thbonus": 6,
+        "hd": "38+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 10,
+        "xp": 400000,
+        "thbonus": 6,
+        "hd": "40+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 11,
+        "xp": 530000,
+        "thbonus": 7,
+        "hd": "42+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 12,
+        "xp": 660000,
+        "thbonus": 8,
+        "hd": "44+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 13,
+        "xp": 800000,
+        "thbonus": 8,
+        "hd": "46+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 14,
+        "xp": 950000,
+        "thbonus": 9,
+        "hd": "48+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 15,
+        "xp": 1100000,
+        "thbonus": 10,
+        "hd": "50+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 16,
+        "xp": 1250000,
+        "thbonus": 10,
+        "hd": "52+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 17,
+        "xp": 1400000,
+        "thbonus": 11,
+        "hd": "54+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 18,
+        "xp": 1550000,
+        "thbonus": 12,
+        "hd": "56+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 19,
+        "xp": 1700000,
+        "thbonus": 12,
+        "hd": "58+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 20,
+        "xp": 1850000,
+        "thbonus": 13,
+        "hd": "60+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 21,
+        "xp": 2000000,
+        "thbonus": 14,
+        "hd": "62+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 22,
+        "xp": 2150000,
+        "thbonus": 14,
+        "hd": "64+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 23,
+        "xp": 2300000,
+        "thbonus": 15,
+        "hd": "66+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 24,
+        "xp": 2450000,
+        "thbonus": 16,
+        "hd": "68+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 25,
+        "xp": 2600000,
+        "thbonus": 16,
+        "hd": "70+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 26,
+        "xp": 2750000,
+        "thbonus": 17,
+        "hd": "72+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 27,
+        "xp": 2900000,
+        "thbonus": 18,
+        "hd": "74+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 28,
+        "xp": 3050000,
+        "thbonus": 18,
+        "hd": "76+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 29,
+        "xp": 3200000,
+        "thbonus": 19,
+        "hd": "78+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 30,
+        "xp": 3350000,
+        "thbonus": 20,
+        "hd": "80+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 31,
+        "xp": 3500000,
+        "thbonus": 20,
+        "hd": "82+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 32,
+        "xp": 3650000,
+        "thbonus": 21,
+        "hd": "84+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 33,
+        "xp": 3800000,
+        "thbonus": 22,
+        "hd": "86+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 34,
+        "xp": 3950000,
+        "thbonus": 22,
+        "hd": "88+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 35,
+        "xp": 4100000,
+        "thbonus": 23,
+        "hd": "90+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 36,
+        "xp": 4250000,
+        "thbonus": 23,
+        "hd": "92+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 6,
+        "blast": 5,
+        "spell": 4
+      },
+      {
+        "level": 2,
+        "doom": 8,
+        "ray": 7,
+        "stasis": 6,
+        "blast": 5,
+        "spell": 4
+      },
+      {
+        "level": 3,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 7,
+        "blast": 6,
+        "spell": 5
+      },
+      {
+        "level": 4,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 7,
+        "blast": 6,
+        "spell": 5
+      },
+      {
+        "level": 5,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 8,
+        "blast": 7,
+        "spell": 6
+      },
+      {
+        "level": 6,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 9,
+        "blast": 8,
+        "spell": 7
+      },
+      {
+        "level": 7,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 9,
+        "blast": 8,
+        "spell": 7
+      },
+      {
+        "level": 8,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 10,
+        "blast": 9,
+        "spell": 8
+      },
+      {
+        "level": 9,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 11,
+        "blast": 10,
+        "spell": 9
+      },
+      {
+        "level": 10,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 11,
+        "blast": 10,
+        "spell": 9
+      },
+      {
+        "level": 11,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 11,
+        "spell": 10
+      },
+      {
+        "level": 12,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 11,
+        "spell": 10
+      },
+      {
+        "level": 13,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 14,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 15,
+        "doom": 14,
+        "ray": 14,
+        "stasis": 13,
+        "blast": 12,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 17,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 18,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 12
+      },
+      {
+        "level": 19,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 20,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 21,
+        "doom": 15,
+        "ray": 15,
+        "stasis": 14,
+        "blast": 14,
+        "spell": 13
+      },
+      {
+        "level": 22,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 23,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 24,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 14
+      },
+      {
+        "level": 25,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 26,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 27,
+        "doom": 16,
+        "ray": 16,
+        "stasis": 15,
+        "blast": 16,
+        "spell": 15
+      },
+      {
+        "level": 28,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 29,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 30,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 17,
+        "spell": 16
+      },
+      {
+        "level": 31,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 32,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 33,
+        "doom": 17,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 18,
+        "spell": 17
+      },
+      {
+        "level": 34,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 35,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 36,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      }
+    ],
+    "spells": [],
+    "specialAbilities": [
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 2,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 1"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 4,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 2"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 6,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 3"
+      },
+      {
+        "name": "Covering Fire",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 8,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 4"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "2 ataques por rodada"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 5"
+      },
+      {
+        "name": "Power Shot",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 13,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 6"
+      },
+      {
+        "name": "Powder Distillation",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 17,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 7"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 20,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "3 ataques por rodada"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 30,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "4 ataques por rodada"
+      }
+    ],
+    "classItems": []
+  }
+}

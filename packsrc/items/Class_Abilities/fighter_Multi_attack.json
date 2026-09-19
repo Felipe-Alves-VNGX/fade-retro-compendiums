@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Multi-attack",
+  "_id": "q3wHiuiKG8oT0TNJ",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!q3wHiuiKG8oT0TNJ",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 10th level, a fighter is able to make two attacks per round against any creature that they are able to hit by rolling a 2+ on the attack roll (after modifiers). At 20th level, this rises to three attacks and at 30th level it rises to</p><p>four attacks. See CHAPTER 11 – COMBAT for details of multiple attacks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "fighter",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

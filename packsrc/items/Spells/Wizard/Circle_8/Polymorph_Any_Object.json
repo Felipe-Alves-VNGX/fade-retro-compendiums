@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Polymorph Any Object",
+  "_id": "jyc0fmXCg13DyEAt",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!jyc0fmXCg13DyEAt",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell will change any object or creature into another type of object or mortal (not exalted) creature. If cast at a large object, it will only change a 10' x 10' x 10' section of the object. If the spell is cast at a creature, the creature may make a spell save at a –4 penalty to avoid the effect.</p><p>The duration of the spell depends on the degree of change between the old and new forms.</p><p>Animal to Animal = Permanent Animal to Plant = 1 hour/level Animal to Non-living = 10 minutes/level Plant to Animal = 1 hour/level Plant to Plant = Permanent Plant to Non-living = 1 hour/level Non-living to Animal = 10 minutes/level Non-living to Plant = 1 hour/level Non-living to Non-living = Permanent</p><p>Regardless of the duration, the change can be dispelled with a Dispel Magic spell.</p><p>This spell cannot affect a creature's hit points, and only works on creatures with no more than 2 hit dice per level of the caster. The target is given all special abilities of the new form, including thinking and behaving as the new form. It cannot create a duplicate of a specific individual, only a generic individual of the desired ancestry or monster species; and if something is polymorphed into an intelligent creature then it will not have class levels.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "240'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

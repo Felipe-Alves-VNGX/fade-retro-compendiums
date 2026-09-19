@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Ironform",
+  "_id": "SKSxlCFhEKIJgjxT",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!SKSxlCFhEKIJgjxT",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell creates a sheet of iron up to 2\" thick and up to 500 square feet in area. The sheet can be created fl at or can be created pre-shaped. The iron does not appear instantly, but takes time to form, ranging from a single round for a simple sheet of iron to two hours to create something with a precise specification.</p><p>Whatever the complexity of the shape, the iron must form a single piece with no moving parts. However, the caster can create the iron in a \"rough\" form, which can then have the Ironform spell cast on it again in order to either add to the object or reshape it. If the caster does create the iron in rough form, then this spell is cast once again to \"set\" the iron in its final form so that other casters can't cast this spell on it in order to modify it.</p><p>Note that whatever shape the sheet takes, it is always a maximum of 2\" thick – so that if it is formed into a statue, for example, the statue would be hollow. Once created, the iron is real and cannot be dispelled, and it will last until it is physically or magically destroyed.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Move Earth",
+  "_id": "tivjy9alQsNouv9T",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!tivjy9alQsNouv9T",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "matter"
+    ],
+    "description": "<p>This spell allows the caster to cause soil, clay or sand – but not rock – to move horizontally or vertically in order to build a rampart or hill or to dig a hole or trench.</p><p>The caster can move soil at a rate of 60' per turn, and will usually be able to dig to a depth of 240' before reaching solid rock. Soil can only be dug and pushed around with this spell. It cannot be made into structures that won't support themselves.</p><p>When the duration expires, the soil stays where it is, although wind and rain may make it settle over the course of time.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "240'",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

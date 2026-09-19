@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Gambling",
+  "_id": "GraD2UfHIBRwBtRj",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!GraD2UfHIBRwBtRj",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the gambling skill gives a +1 bonus to charisma checks made to determine who wins in games of skill and chance. Modifiers to the effective charisma used for gambling checks should be rare, but may be used for games that the character is unfamiliar with.</p><p>The simple way to use this skill is to simulate a single game or round in a game, by each character making a gambling check, and the game or round is won by the character who gets the highest total on their roll.</p><p>At the Gameguide's discretion, individual gambling games can be devised for their game world, which may operate on a more complex basis.</p><p>Note: This skill is designed for games where psychology, bluffing, and second-guessing opponents are an essential part of the game play. The skill does not represent a supernatural \"luck\" type of ability and should not be used to determine the outcome of games of pure chance.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "cha",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

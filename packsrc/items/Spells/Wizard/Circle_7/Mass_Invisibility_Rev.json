@@ -1,0 +1,44 @@
+{
+  "folder": "5mlBrss3MWAk4AZH",
+  "name": "Mass Invisibility Rev",
+  "_id": "QnOraoDdAsokmF2b",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!QnOraoDdAsokmF2b",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell makes all creatures in a 30' radius around the target point of the spell invisible. The creatures' clothing and equipment also become invisible. Any item any creature drops will become visible, but items that one of the creatures picks up will not become invisible. Any creature will become visible again if it attacks another creature or if it casts a spell. Otherwise the invisibility is permanent.</p><p>Reverse: Appear causes all invisible creatures and objects within a 10' radius of the target point of the spell to become visible and be unable to become invisible again for 10 minutes. Ethereal creatures are unaffected by this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 7,
+    "range": "240'",
+    "duration": "special",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

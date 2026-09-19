@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Permanence",
+  "_id": "2Y52jEGbZbLaeTzE",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!2Y52jEGbZbLaeTzE",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "energy"
+    ],
+    "description": "<p>This spell causes another spell to become permanent in duration. The two spells must be cast together (the Permanence spell cannot be cast on a spell that has already been cast and is currently still active).</p><p>Casting the two spells together only takes a single action, but expends both the prepared spells at once.</p><p>The following spells can be made permanent using this spell:</p><p>■ Anti-Magic Shell ■ Cloudkill ■ Confusion ■ Create Air ■ Create Normal Monsters ■ Detect Evil ■ Detect Invisible ■ Detect Magic ■ ESP ■ Floating Disc ■ Fly ■ Force Field ■ Hold Person ■ Hold Portal ■ Infravision ■ Levitate ■ Light ■ Lower Water ■ Mirror Image ■ Move Earth ■ Phantasmal Force ■ Polymorph Self ■ Projected Image ■ Protection from Normal Missiles ■ Protection from Evil ■ Protection from Evil 10' Radius ■ Read Languages ■ Read Magic ■ Shield ■ Statue ■ Sword ■ Telekinesis ■ Wall of Fire ■ Wall of Ice ■ Water Breathing ■ Web If cast by an immortal, this spell can also make the following spells permanent:</p><p>■ Explosive Cloud ■ Gate ■ Polymorph Any Object ■ Power Word Blind ■ Prismatic Wall ■ Shapechange ■ Survival ■ Timestop ■ Travel</p><p>The Permanence spell only makes the natural duration of the above spells permanent. Spells that can be partially or fully cancelled before their duration has expired by particular situations (e.g., Mirror Image ending because all the images have been struck, Phantasmal Force or Project Image ending because the illusion has been touched, or Protection from Evil partially ending because the caster has attacked a target of the spell) will be still partially or fully cancelled if that situation occurs.</p><p>This spell can be dispelled by a Dispel Magic spell, and this will cause the spell that it is sustaining to immediately end – even if that spell cannot normally be dispelled.</p><p>Any area or non-living object can only have one Permanence spell active at a time. If a second one is cast on the same area or object then both immediately fail.</p><p>A living creature can have up to two Permanence spells active at on it one time. If a third one is cast on the same creature than all three immediately fail.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

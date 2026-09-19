@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Sense Motive",
+  "_id": "xrtOr2vbrAMWjLCK",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!xrtOr2vbrAMWjLCK",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the sense motive skill gives a +1 bonus to wisdom checks made to read the expressions and body language of NPCs in order to tell if they have an ulterior motive for their speech or behaviour. The skill is most often used to detect when an NPC is lying, although it can also in other situations, for example, to try to tell if an NPC who is ignoring a character who is hiding is deliberately ignoring that character while trying to keep an eye on them or whether they simply haven't seen them.</p><p>Note: See social skills for a warning about how some uses of this skill may disrupt the game.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Lip Reading",
+  "_id": "DYqNfEELHMQLWR1w",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DYqNfEELHMQLWR1w",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the lip reading skill gives a +1 bonus to wisdom checks made to understand what someone is saying even when you can't hear them by watching the movement of their mouth. Modifiers to the effective wisdom used for this skill should be used based on how clearly the person's mouth can be seen, whether they are deliberately enunciating clearly in order to make it easy for you to lip read, and whether you are a native speaker of the language they are speaking (i.e., It's a starting language or you spent two skill points on it) or whether you are merely fluent in it (i.e., You spent one skill point on it).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

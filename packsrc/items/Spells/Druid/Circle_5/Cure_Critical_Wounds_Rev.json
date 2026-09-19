@@ -1,0 +1,44 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Cure Critical Wounds Rev",
+  "_id": "zC1KwBy7wW5IpUGA",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!zC1KwBy7wW5IpUGA",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "comfort/pain"
+    ],
+    "description": "<p>This spell cures one living (not undead or non-living) creature of 3d6+3 points of damage. The caster can cure themselves with this spell.</p><p>Reverse: Cause Critical Wounds inflicts 3d6+3 damage to a touched living (not undead or non-living) target. The target</p><p>gets no save against the damage, but the caster must make a normal attack roll to touch an unwilling target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

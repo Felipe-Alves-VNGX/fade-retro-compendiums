@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Symbol",
+  "_id": "jnExlZYoUmwB1jte",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!jnExlZYoUmwB1jte",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates a glowing magical rune that can be traced either on an object or surface or even traced in the air. The rune can have one of six different effects, chosen at the time of casting.</p><p>Any creature that passes through a rune in the air, or touches the object on which the rune is placed, is affected by the rune immediately with no save allowed.</p><p>Merely seeing the rune is not enough to make it work, but reading the rune aloud will also trigger it with no save.</p><p>A character using the Read Magic spell can read a rune safely in order to identify which type of rune it is without triggering it.</p><p>A Symbol can be triggered any number of times, and will remain active until dispelled.</p><p>If placed on an object, the Symbol must be exposed for it to work. A Symbol will not work if it is covered over and hidden.</p><p>■ Symbol Of Death: Kills any creature with 75 hit points or fewer. Creatures with more than 75 hit points are unaffected. ■ Symbol Of Discord: Confuses the creature permanently, as if the Confusion spell had been cast upon them. The confusion can be cured by a Cureall spell or a Wish spell. ■ Symbol Of Fear: Causes the target to flee for 30 rounds. ■ Symbol Of Sleep: Sends the creature into a magical sleep for 1d10+10 hours, which they cannot be woken from unless the sleep is dispelled. ■ Symbol Of Stunning: Stuns any creature with 150 or fewer hit points for 2d6 x 10 minutes.</p><p>Immortals are immune to the effects of Symbol spells, even if cast by other immortals.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

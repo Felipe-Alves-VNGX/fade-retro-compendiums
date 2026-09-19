@@ -1,0 +1,44 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Speak with Monsters Rev",
+  "_id": "DP6jkWgrrIT83sU4",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DP6jkWgrrIT83sU4",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "sympathy/antipathy"
+    ],
+    "description": "<p>This spell lets the caster communicate with any creature for the duration. The depth of communication is limited by the intelligence of the creature being communicated with, although even unintelligent creatures which do not normally communicate can do so in a rudimentary fashion if this spell is used.</p><p>Reverse: Babble causes one target within 60' of the caster to be completely unable to communicate with other creatures for 10 minutes per caster level, unless they can make a spell save with a –2 penalty. Any attempt to communicate with others – including hand signals, telepathy and writing will be garbled. The target can still cast spells, but is unable to use magic items that require command words to activate them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

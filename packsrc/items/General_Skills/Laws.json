@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Laws",
+  "_id": "2NowIPV2YpwDN4b4",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!2NowIPV2YpwDN4b4",
+  "type": "skill",
+  "system": {
+    "description": "<p>The law skill is not a single skill. It is a group of related skills used in legal situations in a variety of cultures. Each point spent in the law skill for a particular culture gives a +1 bonus to intelligence checks used to recall/interpret the laws and customs of that country.</p><p>Modifiers to the effective charisma used for these checks should come from particularly common or particularly obscure customs within that culture. For example, knowing that a country has the death penalty for banditry is much easier than knowing that the country requires anyone setting up a market stall to buy a trading license from the alderman of the town.</p>",
+    "gm": {
+      "notes": "Skill de escolha de especialização (CHOOSE CULTURE) — este item é genérico, ver descrição para exemplos."
+    },
+    "ability": "int",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

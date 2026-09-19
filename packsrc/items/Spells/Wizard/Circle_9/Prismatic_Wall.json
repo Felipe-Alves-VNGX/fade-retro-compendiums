@@ -1,0 +1,44 @@
+{
+  "folder": "WDCUzfjcaxWlH7ga",
+  "name": "Prismatic Wall",
+  "_id": "fl0hozUhbiEyhk7c",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!fl0hozUhbiEyhk7c",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell creates seven magical barriers, each a quarter of an inch apart, that between them form a two-inch thick magical wall. The wall can either be created as a 10' radius sphere around the caster or as a vertical wall of up to 500 square feet within 60' of the caster. Once the wall is in place, only the caster may move through it without effect, and the wall may not be moved by any force – not even a Wish spell.</p><p>The wall must be created where there is room for it. If there are creatures or objects blocking the wall then it will form around them without affecting them.</p><p>Each magical barrier is a different colour, starting with violet – the barrier closest to the caster – and ending with red. Any creature trying to pass through the barrier will be affected by each layer in turn as they move through. A creature with an Anti-Magic Shell spell active (including the caster) cannot pass through the barriers but cannot be affected by them either.</p><p>Each barrier has a different effect, and can only be destroyed in a specific way or by a Wish spell, which will destroy the nearest three barriers to the caster. In either case, only the barrier closest to the creature trying to destroy it can be destroyed. A barrier in the middle of the wall cannot be destroyed even in the listed manner while there is another barrier between it and the creature trying to destroy it.</p><p>The barriers extend into the ethereal plane and have their full effect there as well as on the material plane.</p><p>Red: This barrier inflicts 12 points of damage (no save allowed) to any creature that crosses it. It blocks all magical missiles, and can only be destroyed by taking (any amount of) magical cold damage.</p><p>Orange: This barrier inflicts 24 points of damage (no save allowed) to any creature that crosses it. It blocks all non-magical missiles, and can only be destroyed by taking (any amount of) magical lightning damage.</p><p>Yellow: This barrier inflicts 48 points of damage (no save allowed) to any creature that crosses it. It blocks all breath weapons, and can only be destroyed by a Magic Missile spell.</p><p>Green: This barrier kills any creature that crosses it unless they can make a spell save. It blocks all forms of magical detection, and can only be destroyed by a Passwall spell.</p><p>Blue: This barrier turns any creature that crosses it to stone unless they can make a stasis save. It blocks all poisons, gasses and gaze attacks, and can only be destroyed by a Disintegrate spell.</p><p>Indigo: This barrier transports any creature that touches it to a random outer plane unless they can make a spell save.</p><p>It blocks all matter, and can only be destroyed by a Dispel Magic spell.</p><p>Violet: This barrier knocks any creature that crosses it unconscious and puts them under the effect of a Feeblemind spell, unless they make a spell save (only one save is needed to avoid both effects at once). It blocks all magic, and can only be destroyed by a Continual Light spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 9,
+    "range": "special",
+    "duration": "1 hour",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

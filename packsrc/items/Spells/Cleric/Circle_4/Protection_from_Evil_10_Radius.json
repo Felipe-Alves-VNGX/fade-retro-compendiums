@@ -1,0 +1,45 @@
+{
+  "folder": "bVOgupGw3WNCdylz",
+  "name": "Protection from Evil 10' Radius",
+  "_id": "AzjEnvkOEIjKVpr6",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!AzjEnvkOEIjKVpr6",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit",
+      "antipathy"
+    ],
+    "description": "<p>This spell creates a 10' radius barrier around the caster's body that protects all within it from various creatures.</p><p>No creature that is magically summoned, controlled, charmed or possessed can touch those within the barrier. Neither can any creature that can only be hit by magical weapons. Such creatures can still throw or shoot things at those within or cast spells at them (provided those spells don't require them to touch their target).</p><p>Additionally, all attacks against creatures within the barrier are at a –1 penalty to hit and those creatures get a +1 bonus to all saves while inside.</p><p>If anyone within the barrier attacks a creature that is being blocked by this spell from touching them, that individual creature is no longer blocked from touching anyone inside the barrier. The to-hit penalty still applies to the creature, however.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "personal",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

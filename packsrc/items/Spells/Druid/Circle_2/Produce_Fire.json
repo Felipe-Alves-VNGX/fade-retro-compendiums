@@ -1,0 +1,42 @@
+{
+  "folder": "VvKqEXWZb6P5oWHq",
+  "name": "Produce Fire",
+  "_id": "YH1PKG4XG6guuHe4",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YH1PKG4XG6guuHe4",
+  "type": "spell",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell causes a small ball of flame to appear in the caster's hand. The flame sheds light as a torch, and does not burn the caster. The caster can cause the flame to disappear or reappear by concentrating for a round at any time during the duration of the spell.</p><p>The fire can be thrown up to 30' by the caster and will set fire to particularly flammable objects that it hits or do 1d4 damage to a creature.</p><p>In either case, the flame will then disappear, although the caster can make it reappear again (back in their hand) as normal.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "personal",
+    "duration": "20 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

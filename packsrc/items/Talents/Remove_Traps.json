@@ -1,0 +1,44 @@
+{
+  "folder": "j9aZ9DmKQ3HTKb1R",
+  "name": "Remove Traps",
+  "_id": "0q3jEOG65S2iOUca",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!0q3jEOG65S2iOUca",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>When faced with knowledge that there is a trap, characters without the Remove Traps talent must simply describe to the Gameguide what they are doing and the Gameguide should adjudicate the results of that, whether it triggers the trap or temporarily disables it or permanently disables it (or does nothing to it).</p><p>Characters who have the Remove Traps talent may make a Remove Traps roll, and if this is successful then they will have temporarily or permanently (their choice) disarmed the trap even if the player does not know how the character would go about doing this.</p><p>If the Remove Traps roll fails, then the trap will activate. However, since the character is already aware of the trap they will probably be safe from it, unless it is a trap with such large effects that there is no way to remove it without being inside the area of that effect.</p><p>The Remove Traps talent can be used to disable magical traps so that they will not activate.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "talent",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

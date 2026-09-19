@@ -1,0 +1,44 @@
+{
+  "folder": "cTpOLh6GExtmvow9",
+  "name": "Clone",
+  "_id": "o0ZjW9IYTQtOuEGi",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!o0ZjW9IYTQtOuEGi",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell is cast on a piece of flesh that has been taken from a single living or dead creature (but not a non-living or undead one). The caster must place the flesh in a vat of alchemical reagents and let it slowly grow into a copy of the original creature.</p><p>The difficulty (and effect) of making a clone depends on the type of creature cloned. Intelligent Creature: The process takes a week per level of the target, and each such week costs 5,000gp in reagents and components. The piece of flesh used must be at least one pound in weight.</p><p>When the clone is fully grown, it wakes up and has the memories, personality and abilities (including level) that the original had at the time the flesh was taken. Note that if the target is alive then they will have gained more memories – and possibly more experience – since that time. The clone will not have these.</p><p>If the original is still alive when the clone wakes up (or if the original is raised from the dead after this time) and is on the same plane (and within the same celestial sphere, if on the prime material plane) as the clone, a mind link is immediately established between the two of them. They are both aware of each other's existence and emotions. Further, any damage taken by one of them is also taken by the other, although the other can make a spell save to only take half damage.</p><p>The clone will also immediately become obsessed with destroying their original, even at the cost of their own life.</p><p>This mind link remains even if the original and clone are separated onto different planes or celestial spheres, but if either one dies then it will be cancelled. The clone cannot be raised or reincarnated, but if the original was the one that died then raising or resurrecting them will cause the mind-link to re-establish itself.</p><p>After the pair have been mind-linked for a number of days equal to the level of the caster of the clone spell, and both are still alive, the clone will become confused and enraged as if affected by the Confusion spell. The original will lose a point of intelligence and a point of wisdom when this happens, and has a 5% chance (not cumulative) per day of also becoming confused. The only way to cure the confusion (and intelligence/wisdom loss) is for the other to die. Once both are confused in this manner, they will both die a week later. If this happens, the clone cannot be raised or reincarnated, and the original can only be raised by a Wish spell.</p><p>An intelligent creature can only have one clone at a time. Any attempt to make a second clone will fail. However, if the original is dead, the clone is effectively an independent being, and can be cloned (or raised) itself. Should the original be raised, all clones will be mind-linked as above.</p><p>If a clone is made of the preserved flesh of a person who has become an immortal, it will retain the personality that the immortal had during their mortal life, but not their abilities or memories. Instead it will be a 1st level character of the</p><p>immortal's old class with no memories (and no knowledge that they are connected with the immortal in any way).</p><p>Other Creatures: If the clone is made from non-intelligent living creature, the process takes a week per hit dice of the target, and each such week costs 500gp in reagents and components. The piece of flesh used must be at least one percent of the weight of the original creature.</p><p>Once the clone wakes up, it will unfailingly obey the commands of its creator, and the caster can mentally command the clone when within 10' of it.</p><p>The clone will begin with only 50% of the physical abilities (hit points, damage caused by attacks, strength, size) of the original creature, and will have a 50% chance to possess each special ability (except spell like abilities) that the original creature possessed. Each week after waking, the clone continues to grow. The physical abilities of the clone increase by a further 5%, and it can re-roll for any special abilities (including spell like abilities) that it has not yet acquired, until 8 weeks have passed (at which time it will have 90% of the physical attributes of the original and will have had 8 chances to re-roll for special abilities). At this point it stops growing.</p><p>The clone does not have any special connection to the original creature, although it does count as an enchanted creature for purposes of Protection from Evil and Dispel Evil spells, and can be destroyed by a Dispel Magic spell (with normal chances of failure against the Clone spell).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 8,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

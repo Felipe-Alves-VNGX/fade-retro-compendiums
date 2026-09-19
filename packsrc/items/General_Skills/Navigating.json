@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Navigating",
+  "_id": "GN7cMcMxd8SbesvK",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!GN7cMcMxd8SbesvK",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent in the navigating skill gives a +1 bonus on wisdom rolls used to avoid getting lost by using landmarks and the position of the sun and stars.</p><p>The effective wisdom used for navigating checks may be modified by factors such as weather conditions, visibility, access (or lack of it) to equipment such as maps and/or sextants, and familiarity with the area being travelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "wis",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

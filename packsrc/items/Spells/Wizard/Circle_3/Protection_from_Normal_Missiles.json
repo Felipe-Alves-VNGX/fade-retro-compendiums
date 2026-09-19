@@ -1,0 +1,44 @@
+{
+  "folder": "1ZcfxnmevV2tz2aX",
+  "name": "Protection from Normal Missiles",
+  "_id": "5rpbc7kfqCP8h6ju",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!5rpbc7kfqCP8h6ju",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell stops all small non-magical missiles (arrows, bolts, sling stones, bullets, thrown weapons, etc.) from striking the target creature. Large missiles such as those from siege weaponry and magical missiles are not blocked by this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

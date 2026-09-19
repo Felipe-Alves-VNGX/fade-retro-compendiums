@@ -1,0 +1,44 @@
+{
+  "folder": "D7aQIWDefxAKkCVc",
+  "name": "Truesight",
+  "_id": "YaaVPFKuYrxxk9Bx",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!YaaVPFKuYrxxk9Bx",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "truth"
+    ],
+    "description": "<p>This spell allows the caster to see all ethereal, hidden and invisible things within 120'. The caster also sees the true form of any disguised, polymorphed and shapechanged creatures.</p><p>Finally, the caster can tell the level or hit dice of any creature by looking at them.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "personal",
+    "duration": "10 minutes + 1 round/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

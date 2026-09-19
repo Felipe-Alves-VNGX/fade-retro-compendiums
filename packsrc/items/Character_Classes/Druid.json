@@ -1,0 +1,1027 @@
+{
+  "folder": "nAciSdEmUz9C4fUB",
+  "name": "Druid",
+  "_id": "473ckPu8m1ezwhGA",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!473ckPu8m1ezwhGA",
+  "type": "class",
+  "system": {
+    "key": "druid",
+    "species": "Human",
+    "firstLevel": 1,
+    "maxLevel": 36,
+    "firstSpellLevel": 1,
+    "maxSpellLevel": 7,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "alignment": "Any",
+    "description": "<p>Druids nature worshippers. In exchange for their protection of nature, they gain the ability to cast spells and the ability to control animals. Druidic society has no hierarchy or structure and each druid is effectively their own master, doing as they think right, and druids take on individual initiates to whom they pass on the craft.</p><p>The druidic philosophy is primarily concerned with protecting nature from corruption and destruction. As such, druids live apart from civilisation, often in woodland areas but occasionally in mountains or desert regions. Although there are occasional extremists who seek to kill or drive off all those who intrude on their protected areas, most druids are pragmatic in their protection. They will not hinder those who</p>",
+    "castAsKey": null,
+    "primeReqs": [
+      {
+        "ability": "wis",
+        "minScore": 0,
+        "percentage": 5,
+        "concatLogic": ""
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thbonus": 1,
+        "hd": "6+c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 2,
+        "xp": 1500,
+        "thbonus": 1,
+        "hd": "10+2c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 3,
+        "xp": 3000,
+        "thbonus": 1,
+        "hd": "14+3c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 4,
+        "xp": 6000,
+        "thbonus": 2,
+        "hd": "18+4c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 5,
+        "xp": 12000,
+        "thbonus": 2,
+        "hd": "22+5c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 6,
+        "xp": 25000,
+        "thbonus": 3,
+        "hd": "26+6c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 7,
+        "xp": 50000,
+        "thbonus": 3,
+        "hd": "30+7c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 8,
+        "xp": 100000,
+        "thbonus": 4,
+        "hd": "34+8c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 9,
+        "xp": 200000,
+        "thbonus": 4,
+        "hd": "38+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 10,
+        "xp": 300000,
+        "thbonus": 5,
+        "hd": "39+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 11,
+        "xp": 400000,
+        "thbonus": 5,
+        "hd": "40+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 12,
+        "xp": 500000,
+        "thbonus": 6,
+        "hd": "41+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 13,
+        "xp": 600000,
+        "thbonus": 6,
+        "hd": "42+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 14,
+        "xp": 700000,
+        "thbonus": 7,
+        "hd": "43+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 15,
+        "xp": 800000,
+        "thbonus": 7,
+        "hd": "44+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 16,
+        "xp": 900000,
+        "thbonus": 8,
+        "hd": "45+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 17,
+        "xp": 1000000,
+        "thbonus": 8,
+        "hd": "46+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 18,
+        "xp": 1100000,
+        "thbonus": 9,
+        "hd": "47+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 19,
+        "xp": 1200000,
+        "thbonus": 9,
+        "hd": "48+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 20,
+        "xp": 1300000,
+        "thbonus": 10,
+        "hd": "49+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 21,
+        "xp": 1400000,
+        "thbonus": 10,
+        "hd": "50+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 22,
+        "xp": 1500000,
+        "thbonus": 11,
+        "hd": "51+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 23,
+        "xp": 1600000,
+        "thbonus": 11,
+        "hd": "52+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 24,
+        "xp": 1700000,
+        "thbonus": 12,
+        "hd": "53+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 25,
+        "xp": 1800000,
+        "thbonus": 12,
+        "hd": "54+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 26,
+        "xp": 1900000,
+        "thbonus": 13,
+        "hd": "55+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 27,
+        "xp": 2000000,
+        "thbonus": 13,
+        "hd": "56+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 28,
+        "xp": 2100000,
+        "thbonus": 14,
+        "hd": "57+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 29,
+        "xp": 2200000,
+        "thbonus": 14,
+        "hd": "58+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 30,
+        "xp": 2300000,
+        "thbonus": 15,
+        "hd": "59+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 31,
+        "xp": 2400000,
+        "thbonus": 15,
+        "hd": "60+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 32,
+        "xp": 2500000,
+        "thbonus": 16,
+        "hd": "61+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 33,
+        "xp": 2600000,
+        "thbonus": 16,
+        "hd": "62+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 34,
+        "xp": 2700000,
+        "thbonus": 17,
+        "hd": "63+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 35,
+        "xp": 2800000,
+        "thbonus": 17,
+        "hd": "64+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      },
+      {
+        "level": 36,
+        "xp": 2900000,
+        "thbonus": 18,
+        "hd": "65+9c",
+        "hdcon": true,
+        "title": null,
+        "femaleTitle": null,
+        "attackRank": null
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 6,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 2,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 6,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 3,
+        "doom": 9,
+        "ray": 8,
+        "stasis": 6,
+        "blast": 4,
+        "spell": 5
+      },
+      {
+        "level": 4,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 7,
+        "blast": 5,
+        "spell": 6
+      },
+      {
+        "level": 5,
+        "doom": 10,
+        "ray": 9,
+        "stasis": 7,
+        "blast": 5,
+        "spell": 6
+      },
+      {
+        "level": 6,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 8,
+        "blast": 6,
+        "spell": 7
+      },
+      {
+        "level": 7,
+        "doom": 11,
+        "ray": 10,
+        "stasis": 8,
+        "blast": 6,
+        "spell": 7
+      },
+      {
+        "level": 8,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 9,
+        "blast": 7,
+        "spell": 8
+      },
+      {
+        "level": 9,
+        "doom": 12,
+        "ray": 11,
+        "stasis": 9,
+        "blast": 7,
+        "spell": 8
+      },
+      {
+        "level": 10,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 10,
+        "blast": 8,
+        "spell": 9
+      },
+      {
+        "level": 11,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 10,
+        "blast": 8,
+        "spell": 9
+      },
+      {
+        "level": 12,
+        "doom": 13,
+        "ray": 12,
+        "stasis": 11,
+        "blast": 9,
+        "spell": 10
+      },
+      {
+        "level": 13,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 11,
+        "blast": 9,
+        "spell": 10
+      },
+      {
+        "level": 14,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 10,
+        "spell": 11
+      },
+      {
+        "level": 15,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 12,
+        "blast": 10,
+        "spell": 11
+      },
+      {
+        "level": 16,
+        "doom": 14,
+        "ray": 13,
+        "stasis": 13,
+        "blast": 11,
+        "spell": 12
+      },
+      {
+        "level": 17,
+        "doom": 15,
+        "ray": 13,
+        "stasis": 13,
+        "blast": 11,
+        "spell": 12
+      },
+      {
+        "level": 18,
+        "doom": 15,
+        "ray": 13,
+        "stasis": 14,
+        "blast": 12,
+        "spell": 13
+      },
+      {
+        "level": 19,
+        "doom": 15,
+        "ray": 13,
+        "stasis": 14,
+        "blast": 12,
+        "spell": 13
+      },
+      {
+        "level": 20,
+        "doom": 15,
+        "ray": 14,
+        "stasis": 14,
+        "blast": 13,
+        "spell": 14
+      },
+      {
+        "level": 21,
+        "doom": 16,
+        "ray": 14,
+        "stasis": 15,
+        "blast": 13,
+        "spell": 14
+      },
+      {
+        "level": 22,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 14,
+        "spell": 15
+      },
+      {
+        "level": 23,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 14,
+        "spell": 15
+      },
+      {
+        "level": 24,
+        "doom": 16,
+        "ray": 15,
+        "stasis": 15,
+        "blast": 15,
+        "spell": 15
+      },
+      {
+        "level": 25,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 15,
+        "spell": 16
+      },
+      {
+        "level": 26,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 27,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 28,
+        "doom": 17,
+        "ray": 16,
+        "stasis": 16,
+        "blast": 16,
+        "spell": 16
+      },
+      {
+        "level": 29,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 17,
+        "spell": 17
+      },
+      {
+        "level": 30,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 17,
+        "spell": 17
+      },
+      {
+        "level": 31,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 17,
+        "spell": 17
+      },
+      {
+        "level": 32,
+        "doom": 18,
+        "ray": 17,
+        "stasis": 17,
+        "blast": 17,
+        "spell": 17
+      },
+      {
+        "level": 33,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 34,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 35,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      },
+      {
+        "level": 36,
+        "doom": 18,
+        "ray": 18,
+        "stasis": 18,
+        "blast": 18,
+        "spell": 18
+      }
+    ],
+    "spells": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        5,
+        5,
+        5,
+        3,
+        3,
+        2,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        0
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        1
+      ],
+      [
+        6,
+        6,
+        5,
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        2
+      ],
+      [
+        7,
+        6,
+        5,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        3
+      ],
+      [
+        7,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4
+      ],
+      [
+        7,
+        7,
+        6,
+        6,
+        5,
+        4,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4
+      ],
+      [
+        8,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5
+      ],
+      [
+        8,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        6,
+        6,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        5
+      ],
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        6,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7,
+        6
+      ],
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        6
+      ],
+      [
+        9,
+        8,
+        8,
+        8,
+        8,
+        7,
+        7
+      ],
+      [
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      [
+        9,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ]
+    ],
+    "specialAbilities": [
+      {
+        "name": "Command Animal",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "druid",
+        "changes": ""
+      }
+    ],
+    "classItems": []
+  }
+}

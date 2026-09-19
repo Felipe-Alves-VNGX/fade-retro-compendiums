@@ -1,0 +1,44 @@
+{
+  "folder": "cQb9gynDy7oNtDyw",
+  "name": "Silence 15' Radius",
+  "_id": "0SPDbPRzP2Dz9ylv",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!0SPDbPRzP2Dz9ylv",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "destruction"
+    ],
+    "description": "<p>This spell makes it impossible for any noise to be produced in the targeted area. However, noises from outside the area can still be heard from within it. The spell can be cast at an area, in which case the effect is static until the duration ends or it is dispelled, or it can be cast at a creature, in which case the creature must make a spell save. If the save fails, the spell moves with the creature. If the save succeeds, the spell still works centred on the creature's current position; but does not move with the creature.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "180'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

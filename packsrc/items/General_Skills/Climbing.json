@@ -1,0 +1,35 @@
+{
+  "folder": "bdZqEE0lrGcMSfrf",
+  "name": "Climbing",
+  "_id": "opbSbKGr3otmow7n",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!opbSbKGr3otmow7n",
+  "type": "skill",
+  "system": {
+    "description": "<p>Each point spent on the climbing skill gives a +1 bonus to strength checks made to climb cliffs and walls.</p><p>Simple things like climbing a tree should not require a roll, and modifiers to the effective strength used for this roll should be based on how steep and smooth the surface being climbed is and how much it has in the way of hand holds and foot holds.</p><p>Note: See the Skills and Talents section for how this skill interacts with the Climb Walls talent.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "ability": "str",
+    "targetFormula": "@rollTarget",
+    "operator": "lte",
+    "rollFormula": "1d20",
+    "level": 1,
+    "rollMode": "",
+    "healFormula": null,
+    "showResult": true,
+    "skillBonus": 0,
+    "skillPenalty": 0,
+    "autoSuccess": null,
+    "autoFail": null
+  }
+}

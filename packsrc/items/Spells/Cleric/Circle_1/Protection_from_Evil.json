@@ -1,0 +1,45 @@
+{
+  "folder": "MYhsd7IkAKrOTomk",
+  "name": "Protection from Evil",
+  "_id": "GiX0ut6Pfu2Zei4E",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!GiX0ut6Pfu2Zei4E",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit",
+      "antipathy"
+    ],
+    "description": "<p>This spell creates a barrier an inch away from the caster's body that protects the caster from various creatures.</p><p>No creature that is magically summoned, controlled, charmed or possessed can touch the caster. Neither can any creature that can only be hit by magical weapons. Such creatures can still throw or shoot things at the caster or cast spells at the caster (provided those spells don't require them to touch the caster). Additionally, all attacks against the caster are at a –1 penalty to hit and the caster gets a +1 bonus to all saves for the duration of this spell.</p><p>If the caster attacks a creature that is being blocked by this spell from touching them, that individual creature is no longer blocked. The to-hit penalty still applies to the creature, however.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "personal",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

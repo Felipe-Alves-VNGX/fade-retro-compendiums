@@ -1,0 +1,44 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Reincarnation",
+  "_id": "IvVokRA9Y8qwZSHG",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!IvVokRA9Y8qwZSHG",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit"
+    ],
+    "description": "<p>This spell creates a new body – not necessarily of the same species – to house the life-force of a dead creature. There is no limit on how long the creature can have been dead for, but the caster must have part of the creature's body to cast this spell. If the body has been dismembered, eaten or otherwise damaged, then only a small piece of it – a lock of hair or a sliver of bone – is needed to cast this spell, and the new body will re-form around that piece. The piece must have been recovered from the body after death.</p><p>A creature with class levels who comes back will keep those class levels even if they come back as a different ancestry.</p><p>When a creature is reincarnated, roll 1d10, and consult the list below:</p><p>■ 1 to 4: original ancestry or species ■ 5 to 7: a close ancestry or species ■ 8 to 9: a distant ancestry or species ■ 10: an animal, the type of which matches the deceased's personality</p><p>The exact ancestry or species must be determined by the Gameguide based on what ancestries exist in their setting.</p><p>When a character becomes an immortal, this spell will not bring their former mortal body back to life.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "10'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

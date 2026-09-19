@@ -1,0 +1,44 @@
+{
+  "folder": "3sZ3tR9eT8MG1OE8",
+  "name": "Stone to Flesh Rev",
+  "_id": "yXQLD7RepOi3FNk6",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!yXQLD7RepOi3FNk6",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "entropy"
+    ],
+    "description": "<p>This spell turns any one stone object (or a 10' x 10' x 10' section of stone wall) to flesh. If the stone object is a petrified creature or part of one, then the creature will be restored by this spell (although they may immediately die if there are parts missing).</p><p>If the stone object is not a petrified creature or part of one, then it turns into a gelatinous mass of shapeless skin, fat and dead flesh with tufts of coarse hair and the occasional eye. The lump of flesh has no proper internal structure or bones, and cannot support its own weight. It cannot be raised or reincarnated, since it has never had a life-force.</p><p>The meat is edible, although it smells and tastes foul.</p><p>Reverse: Flesh to Stone will permanently turn one living creature (including all equipment carried) into stone unless the target makes a stasis save.</p><p>If an immortal is petrified by this spell, it only lasts for one round per hit dice the immortal has, and the target remains fully aware of their surroundings while petrified. An immortal whose essential form is petrified can still switch to spirit form.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "120'",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

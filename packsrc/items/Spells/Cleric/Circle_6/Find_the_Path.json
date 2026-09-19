@@ -1,0 +1,44 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Find the Path",
+  "_id": "VfwBTuGWXcP2vuz2",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!VfwBTuGWXcP2vuz2",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "truth"
+    ],
+    "description": "<p>This spell mentally guides the caster to a specific place. The caster is subconsciously able to take the correct route, and even know the location of secret doors and know passwords. The caster is not conscious of any of this knowledge, however, and is therefore unable to remember it after the spell's duration runs out or communicate it to others.</p><p>Once the spell runs out, the caster will remember the vague direction to the goal, but that is all.</p><p>The spell must be used to direct the caster to a fixed location that the caster has either visited before or had described in detail. It cannot be used to simply find the current location of an object.</p><p>It will only find a path that does not involve crossing planar boundaries. If there is no such path, then the caster will know this after casting the spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "personal",
+    "duration": "1 hour + 10 minutes/level",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

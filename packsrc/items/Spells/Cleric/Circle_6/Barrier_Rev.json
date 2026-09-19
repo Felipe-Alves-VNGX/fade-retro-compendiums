@@ -1,0 +1,44 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Barrier Rev",
+  "_id": "4fGDsmmwkenXCGtV",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!4fGDsmmwkenXCGtV",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "creation/destruction"
+    ],
+    "description": "<p>When this spell is cast, a ring shaped wall of spinning and whirling hammers appears up to 15' in radius and up to 30' tall. The barrier must be created where there is room for it – it cannot be created on top of creatures or objects. Once it is in place, any creature passing through it takes 7d10 damage from the hammers.</p><p>Reverse: Remove Barrier will destroy the effect created by any one of the following spells: Barrier, Clothform, Wall of Ice, Wall of Fire, Wall of Stone, Woodform.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "2 hours",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}

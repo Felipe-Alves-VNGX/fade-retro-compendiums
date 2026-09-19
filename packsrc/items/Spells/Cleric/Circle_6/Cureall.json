@@ -1,0 +1,45 @@
+{
+  "folder": "fmfJrRcTOtbi3dYh",
+  "name": "Cureall",
+  "_id": "nOPl4QxQEEQn89Ol",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!nOPl4QxQEEQn89Ol",
+  "type": "spell",
+  "system": {
+    "tags": [
+      "spirit",
+      "comfort"
+    ],
+    "description": "<p>This spell will cure nearly all damage from a living (not undead or non-living) target, leaving them with only 1d6 damage – although if the target is already healthier than that it won't damage them.</p><p>Alternatively, the spell can be used as a Remove Curse, Cure Disease or Cure Blindness spell, or it can be used to cure a Feeblemind spell. However, it will only cure one thing per casting.</p><p>If cast on someone who has recently been brought back to life by a Raise Dead spell, it will eliminate the rest period and bring the target back to full strength immediately.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "touch",
+    "duration": "permanent",
+    "effect": "",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "maxTargetFormula": null,
+    "durationFormula": null,
+    "savingThrow": null,
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [],
+    "classes": []
+  }
+}
