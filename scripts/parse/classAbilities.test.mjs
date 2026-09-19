@@ -67,6 +67,21 @@ test("Command Animal's description includes a 36-row, 14-column reference table 
    assert.match(commandAnimal.description, /you are not powerful enough to command/);
 });
 
+test("Turn Undead and Command Animal legends read as coherent prose, not an interleaved two-column blob", () => {
+   const turnUndead = abilities.find((a) => a.classKey === "cleric" && a.name === "Turn Undead");
+   const commandAnimal = abilities.find((a) => a.classKey === "druid" && a.name === "Command Animal");
+   // These full sentences only appear intact if the two book columns were
+   // read as separate coherent streams instead of merged word-by-word.
+   assert.match(
+      commandAnimal.description,
+      /you are not powerful enough to command or control this type of animal\./
+   );
+   assert.match(
+      turnUndead.description,
+      /'–': you are not powerful enough to turn this type of undead\./
+   );
+});
+
 test("Thief's talent links include the 4th-level Read Languages and 10th-level Wizard Scroll Use exceptions", () => {
    const thiefLinks = talentLinks.filter(([classKey]) => classKey === "thief");
    assert.equal(thiefLinks.length, 10);
