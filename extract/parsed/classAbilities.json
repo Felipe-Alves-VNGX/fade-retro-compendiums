@@ -167,7 +167,7 @@
         1
       ],
       "changes": null,
-      "description": "<p>Although a mountebank can cast wizard spells, they have not had the rigorous training regime that wizards have had. Because of this, the spells of a mountebank are weak. For all purposes (range, duration, damage, etc.) a</p>",
+      "description": "<p>Although a mountebank can cast wizard spells, they have not had the rigorous training regime that wizards have had. Because of this, the spells of a mountebank are weak. For all purposes (range, duration, damage, etc.) a</p><p>mountebank counts as a wizard of only half their level (rounded up) when casting spells.</p>",
       "shared": false
     },
     {
@@ -187,7 +187,7 @@
         2
       ],
       "changes": null,
-      "description": "<p>When a fight suddenly breaks out, or when two groups come face to face abruptly, a 2nd level or higher mystic</p>",
+      "description": "<p>When a fight suddenly breaks out, or when two groups come face to face abruptly, a 2nd level or higher mystic is only surprised if their player rolls a 1 on a d6, rather than the normal 1–2 on a d6. See CHAPTER 11 – COMBAT for more details on surprise.</p>",
       "shared": false
     },
     {
@@ -287,7 +287,7 @@
         "Quest",
         "morte instantânea"
       ],
-      "description": "<p>At 18th level and higher, a mystic is able to spend a round focusing their mental energy and transferring that energy into a target by touch.</p><p>At 18th level, the touch has the effect of a Cureall spell. At 19th level, the touch may instead have the effect of a Charm Monster spell. At 20th level it may have the effect of a Hold Monster spell. At 22nd level it may have the effect of a Quest spell. At 24th level it may cause the creature touched to die instantly. The mystic may always choose a lesser effect over a greater one.</p><p>The target does not get a save against the effect (although in the case of Charm Monster they will get subsequent saves as normal), but they must have fewer levels or hit dice than the mystic's level for the gentle touch to work.</p><p>Gentle touch may only be used once per day in total. If the target is not willing to be touched, the mystic must make an attack roll to touch them, although if the attack fails the ability is not expended and the mystic can try again in a later round.</p><p>MYSTIC TALENTS (TABLE 4–8C) Mystics are able to uses the following talents, with chances of success listed on TABLE 4–8C. See CHAPTER 5 – ABILITY CHECKS, SKILLS, & TALENTS for more information about how talents work and how they interact with skills.</p>",
+      "description": "<p>At 18th level and higher, a mystic is able to spend a round focusing their mental energy and transferring that energy into a target by touch.</p><p>At 18th level, the touch has the effect of a Cureall spell. At 19th level, the touch may instead have the effect of a Charm Monster spell. At 20th level it may have the effect of a Hold Monster spell. At 22nd level it may have the effect of a Quest spell. At 24th level it may cause the creature touched to die instantly. The mystic may always choose a lesser effect over a greater one.</p><p>The target does not get a save against the effect (although in the case of Charm Monster they will get subsequent saves as normal), but they must have fewer levels or hit dice than the mystic's level for the gentle touch to work.</p><p>Gentle touch may only be used once per day in total. If the target is not willing to be touched, the mystic must make an attack roll to touch them, although if the attack fails the ability is not expended and the mystic can try again in a later round.</p>",
       "shared": false
     },
     {
@@ -327,7 +327,7 @@
         11
       ],
       "changes": null,
-      "description": "<p>At 11th level, a ranger gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the ranger's player declares that their character is making a power shot. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their dexterity score to the damage done by the attack as well</p>",
+      "description": "<p>At 11th level, a ranger gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the ranger's player declares that their character is making a power shot. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their dexterity score to the damage done by the attack as well</p><p>as their dexterity bonus. See CHAPTER 11 – COMBAT for details of power shots.</p>",
       "shared": false
     },
     {
@@ -351,7 +351,7 @@
         1
       ],
       "changes": null,
-      "description": "<p>If a thief is able to strike an opponent who is not aware of the thief's location, the thief can add +4 to their attack roll and if the attack hits it does twice the normal damage that the attack would normally do. Should a thief</p><p>make two simultaneous attacks (because they are wielding two weapons) then both attacks get the +4 bonus and do double damage if they hit.</p><p>Simply being behind an enemy is not enough to get a sneak attack. Although the target may be aware that the thief is there somewhere, the thief must actually be hidden from sight, invisible, or otherwise concealed, and their exact location must not be known to their target.</p><p>The sneak attack may be made with a melee attack or with a missile, thrown or hurled weapon at short range.</p><p>THIEF TALENTS (TABLE 4–10C) Thieves are able to uses the following talents, with chances of success listed on TABLE 4–10C. See CHAPTER 5 – ABILITY CHECKS, SKILLS, & TALENTS for more information about how talents work and how they interact with skills.</p>",
+      "description": "<p>If a thief is able to strike an opponent who is not aware of the thief's location, the thief can add +4 to their attack roll and if the attack hits it does twice the normal damage that the attack would normally do. Should a thief</p><p>make two simultaneous attacks (because they are wielding two weapons) then both attacks get the +4 bonus and do double damage if they hit.</p><p>Simply being behind an enemy is not enough to get a sneak attack. Although the target may be aware that the thief is there somewhere, the thief must actually be hidden from sight, invisible, or otherwise concealed, and their exact location must not be known to their target.</p><p>The sneak attack may be made with a melee attack or with a missile, thrown or hurled weapon at short range.</p>",
       "shared": false
     },
     {
@@ -361,7 +361,7 @@
         16
       ],
       "changes": null,
-      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "description": "<p>At 16th level and higher, the character only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the character only takes a quarter of normal damage if they save successfully.</p>",
       "shared": true
     },
     {
@@ -371,7 +371,7 @@
         16
       ],
       "changes": null,
-      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "description": "<p>At 16th level and higher, the character only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the character only takes a quarter of normal damage if they save successfully.</p>",
       "shared": true
     },
     {
@@ -381,7 +381,7 @@
         16
       ],
       "changes": null,
-      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "description": "<p>At 16th level and higher, the character only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the character only takes a quarter of normal damage if they save successfully.</p>",
       "shared": true
     },
     {
@@ -391,7 +391,7 @@
         16
       ],
       "changes": null,
-      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "description": "<p>At 16th level and higher, the character only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the character only takes a quarter of normal damage if they save successfully.</p>",
       "shared": true
     },
     {
@@ -402,7 +402,8 @@
       ],
       "changes": null,
       "description": "<p>After reaching 9th level, a fighter who has received a title of nobility (knight or higher) might decide to take chivalric vows and dedicate themselves to a cause such as a religious order or a noble. Taking chivalric vows puts restrictions on the fighter's behaviour but gives them extra abilities in exchange. A fighter wishing to take chivalric vows must first find a suitable chivalric order with which they share an outlook, and then spend a month living with the order.</p><p>At the end of this time, the fighter undertakes a night long vigil, and then becomes a chevalier. Once the fighter has qualified in this way, the order places them with a particular temple or noble who is a supporter of the order. The fighter may or may not get a choice of liege, but betraying a liege is considered betrayal of the order and doing so strips the chevalier of all chivalric abilities and is also likely to incur the wrath of the order.</p><p>All chevaliers must obey a strict code of conduct, the exact details of which will vary from order to order but will usually involve a requirement to provide hospitality and/or sanctuary to fellow chevaliers of the same order. As a member of a chivalric order, the fighter gains the following benefits:</p><p>Detect Evil: The chevalier can cast a Detect Evil spell (as per the cleric spell of the same name) as often as they like. Casting this spell does take the fighter's action for a round, so cannot be done at the same time as attacking.</p><p>Spells: Chevaliers with a wisdom score of at least 9 can cast cleric spells as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can cast spells as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's casting and preparation of spells also apply to the chevalier.</p><p>Turn Undead: Chevaliers can turn undead as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can turn undead as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's turning undead also apply to the chevalier.</p>",
-      "shared": false
+      "shared": false,
+      "notes": "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas."
     },
     {
       "classKey": "fighter",
@@ -412,7 +413,8 @@
       ],
       "changes": null,
       "description": "<p>Certain chivalric orders pledge their allegiance to an area of land rather than to a particular religion or noble. To these orders, it doesn't matter who rules the land as long as the land itself is healthy and free from monsters. Fighters who join these orders must relinquish their title of nobility as part of their investiture, and are known as wardens rather than chevaliers.</p><p>Wardens have exactly the same benefits and strictures as chevaliers, except that they cast druid spells rather than cleric spells, and get the command animals ability (as if a druid of one third their level) rather than turn undead.</p>",
-      "shared": false
+      "shared": false,
+      "notes": "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas."
     },
     {
       "classKey": "fighter",
@@ -422,7 +424,8 @@
       ],
       "changes": null,
       "description": "<p>Fighters who choose to become neither chevaliers nor wardens at 9th level become warlords instead. Unlike chevaliers or</p><p>wardens, a warlord need not pledge allegiance to any particular cause. Instead they rely on their great experience and expertise in strategy and tactics to become leaders of others.</p><p>Warlords are often found as the heads of mercenary companies or armies. A warlord retains all of their existing abilities and continues to rise in experience as normal, but also receives the following additional benefits:</p><p>Encouragement: Once per round, during the statement of intent phase, a warlord can exhort and encourage a single ally within earshot, helping them to put aside pain and exhaustion and keep fighting. The ally is immediately cured of 1d6+1 damage. The ally must be able to understand the warlord's words so it doesn't work on unconscious allies, on allies who can't hear the warlord, or on allies who don't share a common language with them.</p><p>A warlord can't encourage themselves, but two warlords can encourage each other. Giving encouragement does not count as an action for the warlord or the target. Each day, the warlord can give encouragement a total number of times equal to their level divided by three.</p><p>Tactics: At the beginning of each round, a warlord can assign some or all of the benefits that they receive from weapon feats with their current weapons (including their shield) to one or more allies who are within earshot and who can understand the warlord's words by a combination of advice, warnings and orders. See CHAPTER 6 – WEAPONS & WEAPON PROFICIENCY for more details about how the transferring of weapon feat bonuses works.</p><p>Strategy: During mass battles, a warlord adds half their level to the battle score of any army they command. See CHAPTER 15 – WAR! for details.</p>",
-      "shared": false
+      "shared": false,
+      "notes": "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas."
     }
   ],
   "talentLinks": [

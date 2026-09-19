@@ -16,7 +16,7 @@
   "type": "specialAbility",
   "system": {
     "tags": [],
-    "description": "<p>At 11th level, a ranger gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the ranger's player declares that their character is making a power shot. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their dexterity score to the damage done by the attack as well</p>",
+    "description": "<p>At 11th level, a ranger gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the ranger's player declares that their character is making a power shot. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their dexterity score to the damage done by the attack as well</p><p>as their dexterity bonus. See CHAPTER 11 – COMBAT for details of power shots.</p>",
     "gm": {
       "notes": ""
     },

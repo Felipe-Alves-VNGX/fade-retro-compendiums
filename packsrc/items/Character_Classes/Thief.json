@@ -693,7 +693,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -701,7 +701,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -709,7 +709,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -717,7 +717,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -725,7 +725,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -733,7 +733,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -741,7 +741,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -749,7 +749,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -765,7 +765,7 @@
         "uuid": "",
         "level": 4,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -773,7 +773,7 @@
         "uuid": "",
         "level": 10,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -781,7 +781,7 @@
         "uuid": "",
         "level": 16,
         "target": null,
-        "classKey": "thief",
+        "classKey": null,
         "changes": ""
       }
     ],

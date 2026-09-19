@@ -16,7 +16,7 @@
   "type": "specialAbility",
   "system": {
     "tags": [],
-    "description": "<p>When a fight suddenly breaks out, or when two groups come face to face abruptly, a 2nd level or higher mystic</p>",
+    "description": "<p>When a fight suddenly breaks out, or when two groups come face to face abruptly, a 2nd level or higher mystic is only surprised if their player rolls a 1 on a d6, rather than the normal 1–2 on a d6. See CHAPTER 11 – COMBAT for more details on surprise.</p>",
     "gm": {
       "notes": ""
     },

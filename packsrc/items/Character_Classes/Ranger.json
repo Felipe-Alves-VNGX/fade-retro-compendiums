@@ -693,7 +693,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "ranger",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -701,7 +701,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "ranger",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -709,7 +709,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "ranger",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -757,7 +757,7 @@
         "uuid": "",
         "level": 16,
         "target": null,
-        "classKey": "ranger",
+        "classKey": null,
         "changes": ""
       },
       {

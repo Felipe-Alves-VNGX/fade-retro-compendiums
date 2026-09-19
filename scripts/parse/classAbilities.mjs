@@ -36,21 +36,58 @@ function getAbilitiesSection(rawText, className) {
    return stripPageBoundaries(rawText.slice(headerIdx, end));
 }
 
+/** Skip an embedded numeric table of unknown width: after a "Table N"
+ * title line, skip consecutive lines whose leading token is a small
+ * sequential level number (1..36), returning the index of the last
+ * such row. Handles tables embedded MID-description (Mystic Alertness,
+ * Mountebank Weak Magic, Ranger Power Shot all have their class's
+ * talent-progression table printed in the middle of the ability text,
+ * not just at the end like Turn Undead/Command Animal). */
+function skipEmbeddedTable(lines, titleLineIdx) {
+   let i = titleLineIdx + 1;
+   let expectedLevel = 1;
+   let lastRowIdx = titleLineIdx;
+   while (i < lines.length && expectedLevel <= 36) {
+      const m = lines[i].match(/^\s*(\d{1,2})\s+\S/);
+      if (m && Number(m[1]) === expectedLevel) {
+         lastRowIdx = i;
+         expectedLevel++;
+      } else if (expectedLevel > 1) {
+         break;
+      }
+      i++;
+   }
+   return lastRowIdx;
+}
+
 /**
- * Extract a "Name: description" prose block, stopping at the next
- * "Table N" title line or the next named/ALL-CAPS header. Turn
- * Undead/Command Animal (whose own wide table IS part of their
- * content) are handled separately by extractWideTableAbility.
+ * Extract a "Name: description" prose block. Stops at the next known
+ * ability-name label or ALL-CAPS section header — but SKIPS PAST (does
+ * not stop at) a numeric table embedded mid-description, since 3 real
+ * abilities (Alertness/Weak Magic/Power Shot) have their class's own
+ * talent-progression table printed in the middle of their own text.
  */
-function extractNamedBlock(section, name) {
+function extractNamedBlock(section, name, { stopAtTable = true } = {}) {
    const idx = section.indexOf(`${name}:`);
    if (idx === -1) return null;
    const afterStart = idx + name.length + 1;
-   const rest = section.slice(afterStart);
-   const pattern = /\n[ \t]*(Table \d|[A-Z][A-Za-z '\-]{2,40}:|[A-Z][A-Z ]{3,40}\n)/;
-   const stopMatch = rest.match(pattern);
-   const end = stopMatch ? stopMatch.index : rest.length;
-   return paragraphsToHtml(rest.slice(0, end));
+   const lines = section.slice(afterStart).split("\n");
+
+   const otherStopRe = /^[ \t]*([A-Z][A-Za-z '\-]{2,40}:|[A-Z][A-Z0-9 &'()–\-]{2,50}$)/;
+   const tableRe = /^[ \t]*Table \d/;
+   const collected = [];
+   let i = 0;
+   while (i < lines.length) {
+      if (otherStopRe.test(lines[i])) break;
+      if (stopAtTable && tableRe.test(lines[i])) {
+         const lastRowIdx = skipEmbeddedTable(lines, i);
+         i = lastRowIdx + 1;
+         continue;
+      }
+      collected.push(lines[i]);
+      i++;
+   }
+   return paragraphsToHtml(collected.join("\n"));
 }
 
 /** Extract an ALL-CAPS-headed block (e.g. "CHIVALRIC VOWS") up to the next known ALL-CAPS header. */
@@ -187,7 +224,13 @@ export function parseClassAbilities(rawText) {
    );
 
    const mysticSection = getAbilitiesSection(rawText, "MYSTIC");
-   const breathText = extractNamedBlock(mysticSection, "Breath Evasion");
+   // This item is shared by 4 classes (Mountebank/Mystic/Ranger/Thief),
+   // but the book's prose only exists in the Mystic section and refers
+   // to "a/the mystic" literally — neutralize so the shared text reads
+   // correctly for all 4 owning classes.
+   const breathText = extractNamedBlock(mysticSection, "Breath Evasion")
+      .replace(/\ba mystic\b/gi, "the character")
+      .replace(/\bthe mystic\b/gi, "the character");
    for (const classKey of SHARED_ABILITY.classes) {
       abilities.push({ classKey, name: SHARED_ABILITY.name, levels: [SHARED_ABILITY.level], changes: null, description: breathText, shared: true });
    }
@@ -201,9 +244,10 @@ export function parseClassAbilities(rawText) {
    // the book itself; per the ruling in the Phase 3 design spec ("Riscos e
    // decisões pendentes"), the structured `levels` field uses the prose
    // value (9), since that's the text that actually describes the mechanic.
-   abilities.push({ classKey: "fighter", name: "Chivalric Vows", levels: [9], changes: null, description: chivalricVows, shared: false });
-   abilities.push({ classKey: "fighter", name: "Warden", levels: [9], changes: null, description: warden, shared: false });
-   abilities.push({ classKey: "fighter", name: "Warlord", levels: [9], changes: null, description: warlord, shared: false });
+   const subpathNote = "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas.";
+   abilities.push({ classKey: "fighter", name: "Chivalric Vows", levels: [9], changes: null, description: chivalricVows, shared: false, notes: subpathNote });
+   abilities.push({ classKey: "fighter", name: "Warden", levels: [9], changes: null, description: warden, shared: false, notes: subpathNote });
+   abilities.push({ classKey: "fighter", name: "Warlord", levels: [9], changes: null, description: warlord, shared: false, notes: subpathNote });
 
    return { abilities, talentLinks: TALENT_LINKS };
 }

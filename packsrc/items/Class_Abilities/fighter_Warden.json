@@ -18,7 +18,7 @@
     "tags": [],
     "description": "<p>Certain chivalric orders pledge their allegiance to an area of land rather than to a particular religion or noble. To these orders, it doesn't matter who rules the land as long as the land itself is healthy and free from monsters. Fighters who join these orders must relinquish their title of nobility as part of their investiture, and are known as wardens rather than chevaliers.</p><p>Wardens have exactly the same benefits and strictures as chevaliers, except that they cast druid spells rather than cleric spells, and get the command animals ability (as if a druid of one third their level) rather than turn undead.</p>",
     "gm": {
-      "notes": ""
+      "notes": "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas."
     },
     "rollFormula": "",
     "operator": "",

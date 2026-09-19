@@ -341,9 +341,20 @@ diretamente `foundry.abstract.DataModel` (não `TypeDataModel`).
 | `quantityMax` | number, nullable | não | `null` |
 | `conditions` | array | não | `[]` |
 
-**`category`**: valores em uso neste projeto: `"talent"` (Task 2, skills/talents)
-e `"class"` (Task 2, class abilities). Pode ter outros valores em futuros domínios
-que gerem `specialAbility` items com categorias diferentes.
+**`category`**: valores em uso neste projeto: `"talent"` (sub-projeto anterior,
+domínio `skills`) e `"class"` (este sub-projeto, "habilidades e talentos de
+classes"). Pode ter outros valores em futuros domínios que gerem
+`specialAbility` items com categorias diferentes.
+
+**Regra real de lookup (`classKey` do link)**: o `classKey` de uma entrada em
+`specialAbilities[]` deve bater com o `classKey` do item `specialAbility`
+referenciado (ou ambos `null`) — o mecanismo real de concessão de habilidade
+do fantastic-depths (`finder.ts::_getSpecialAbility`) exige essa
+correspondência; não é usado só por `name`. Na prática: itens de Talento
+(domínio `skills`) e o item compartilhado "Breath Evasion" têm
+`classKey: null`, então todo link que os referencia também precisa de
+`classKey: null`, mesmo quando a classe concedente tem seu próprio `key` não
+nulo.
 
 **`rollFormula`/`operator`/`target`**: campos para ações que exigem rolls
 (podem ser vazios para talentos passivos).

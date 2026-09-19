@@ -1054,7 +1054,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "mountebank",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -1062,7 +1062,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "mountebank",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -1078,7 +1078,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "mountebank",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -1086,7 +1086,7 @@
         "uuid": "",
         "level": 1,
         "target": null,
-        "classKey": "mountebank",
+        "classKey": null,
         "changes": ""
       },
       {
@@ -1102,7 +1102,7 @@
         "uuid": "",
         "level": 16,
         "target": null,
-        "classKey": "mountebank",
+        "classKey": null,
         "changes": ""
       }
     ],

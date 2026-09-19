@@ -16,7 +16,7 @@
   "type": "specialAbility",
   "system": {
     "tags": [],
-    "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+    "description": "<p>At 16th level and higher, the character only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the character only takes a quarter of normal damage if they save successfully.</p>",
     "gm": {
       "notes": ""
     },

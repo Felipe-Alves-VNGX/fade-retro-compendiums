@@ -34,7 +34,7 @@ function splitFileName(name) {
  * Build a specialAbility Item document for a class-granted ability.
  * `classKey: null` marks a shared ability (Breath Evasion) owned by
  * no single class.
- * @param {{name: string, description: string, classKey: string|null}} ability
+ * @param {{name: string, description: string, classKey: string|null, notes?: string|null}} ability
  * @returns {object}
  */
 export function buildAbilityDocument(ability) {
@@ -54,7 +54,7 @@ export function buildAbilityDocument(ability) {
       system: {
          tags: [],
          description: ability.description,
-         gm: { notes: "" },
+         gm: { notes: ability.notes ?? "" },
          rollFormula: "",
          operator: "",
          target: "",
@@ -82,8 +82,16 @@ export function buildAbilityDocument(ability) {
 /**
  * Expand one parsed ability record into classDefinition.specialAbilities[]
  * entries for the granting class — one per level/tier.
+ *
+ * `classKey` here is the LINK's classKey, which fantastic-depths'
+ * `finder.ts::_getSpecialAbility` requires to MATCH the classKey of the
+ * referenced `specialAbility` item (or both `null`) — it is NOT
+ * necessarily the granting class's own key. Pass `null` for shared
+ * items (e.g. Breath Evasion) and for talent items, since those items
+ * always have `classKey: null`; pass the class's own key only when the
+ * referenced item is itself owned by that class.
  * @param {{name: string, levels: number[], changes: string[]|null}} record
- * @param {string} classKey
+ * @param {string|null} classKey
  * @returns {object[]}
  */
 export function buildSpecialAbilityLinks(record, classKey) {
@@ -95,6 +103,19 @@ export function buildSpecialAbilityLinks(record, classKey) {
       classKey,
       changes: record.changes ? record.changes[i] : "",
    }));
+}
+
+/**
+ * Build a classDefinition.specialAbilities[] link to a Talent item
+ * (domain `skills`). Talent items always have `classKey: null`, so per
+ * `finder.ts::_getSpecialAbility`'s lookup rule the link must too —
+ * regardless of which class is granting it (Finding C1).
+ * @param {string} talentName
+ * @param {number} level
+ * @returns {object}
+ */
+export function buildTalentLink(talentName, level) {
+   return { name: talentName, uuid: "", level, target: null, classKey: null, changes: "" };
 }
 
 async function ensureClassAbilitiesFolder(foldersPath) {
@@ -128,7 +149,7 @@ async function main() {
       const dedupeKey = ownerKey ? `${ownerKey}:${record.name}` : `shared:${record.name}`;
       if (seen.has(dedupeKey)) continue;
       seen.add(dedupeKey);
-      const doc = buildAbilityDocument({ name: record.name, description: record.description, classKey: ownerKey });
+      const doc = buildAbilityDocument({ name: record.name, description: record.description, classKey: ownerKey, notes: record.notes });
       await fs.writeFile(path.join(abilityDocsDir, splitFileName(`${ownerKey ?? "shared"}_${record.name}`)), JSON.stringify(doc, null, 2) + "\n", "utf8");
       abilityDocsWritten++;
    }
@@ -159,12 +180,12 @@ async function main() {
    }
    for (const record of abilities) {
       const { doc } = classDocsByKey[record.classKey];
-      doc.system.specialAbilities.push(...buildSpecialAbilityLinks(record, record.classKey));
+      doc.system.specialAbilities.push(...buildSpecialAbilityLinks(record, record.shared ? null : record.classKey));
    }
    for (const [classKey, talentName, level] of talentLinks) {
       if (!talentNames.has(talentName)) throw new Error(`talent not found in packsrc/items/Talents: ${talentName}`);
       const { doc } = classDocsByKey[classKey];
-      doc.system.specialAbilities.push({ name: talentName, uuid: "", level, target: null, classKey, changes: "" });
+      doc.system.specialAbilities.push(buildTalentLink(talentName, level));
    }
 
    let classDocsUpdated = 0;

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { deterministicId, buildAbilityDocument, buildSpecialAbilityLinks } from "./classAbilities.mjs";
+import { deterministicId, buildAbilityDocument, buildSpecialAbilityLinks, buildTalentLink } from "./classAbilities.mjs";
 
 test("deterministicId matches the 16-char alphanumeric ID pattern", () => {
    assert.match(deterministicId("classAbilities:fighter:Parry"), /^[a-zA-Z0-9]{16}$/);
@@ -45,4 +45,26 @@ test("buildSpecialAbilityLinks expands a progressive ability into one entry per 
 test("buildAbilityDocument is idempotent: same input produces byte-identical output twice", () => {
    const input = { name: "Parry", description: "<p>...</p>", classKey: "fighter" };
    assert.deepEqual(buildAbilityDocument(input), buildAbilityDocument(input));
+});
+
+test("buildAbilityDocument defaults gm.notes to empty string when no notes given", () => {
+   const doc = buildAbilityDocument({ name: "Parry", description: "<p>...</p>", classKey: "fighter" });
+   assert.equal(doc.system.gm.notes, "");
+});
+
+test("buildAbilityDocument writes a custom gm.notes when given (Finding I4 — Chivalric Vows/Warden/Warlord mutually-exclusive-subpath note)", () => {
+   const doc = buildAbilityDocument({ name: "Chivalric Vows", description: "<p>...</p>", classKey: "fighter", notes: "Escolha opcional entre Chevalier/Warden/Warlord — mutuamente exclusivas." });
+   assert.match(doc.system.gm.notes, /mutuamente exclusiv/i);
+});
+
+test("buildTalentLink for Thief/Open Locks produces classKey: null, matching the referenced Talent item's classKey (Finding C1 — finder.ts::_getSpecialAbility requires classKey to match the referenced item, not the granting class)", () => {
+   const link = buildTalentLink("Open Locks", 1);
+   assert.equal(link.classKey, null);
+   assert.equal(link.name, "Open Locks");
+   assert.equal(link.level, 1);
+});
+
+test("buildSpecialAbilityLinks called with classKey: null (as main() does for shared/talent-referencing links) produces links with classKey: null", () => {
+   const links = buildSpecialAbilityLinks({ name: "Breath Evasion", levels: [16], changes: null }, null);
+   assert.equal(links[0].classKey, null);
 });

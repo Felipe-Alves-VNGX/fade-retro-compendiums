@@ -88,3 +88,30 @@ test("Thief's talent links include the 4th-level Read Languages and 10th-level W
    assert.deepEqual(thiefLinks.find(([, name]) => name === "Read Languages"), ["thief", "Read Languages", 4]);
    assert.deepEqual(thiefLinks.find(([, name]) => name === "Wizard Scroll Use"), ["thief", "Wizard Scroll Use", 10]);
 });
+
+test("Mystic Alertness/Mountebank Weak Magic/Ranger Power Shot descriptions keep the mechanic that follows their class's talent table printed mid-description (Finding C2)", () => {
+   const alertness = abilities.find((a) => a.classKey === "mystic" && a.name === "Alertness");
+   assert.match(alertness.description, /rolls a 1 on a d6/);
+   const weakMagic = abilities.find((a) => a.classKey === "mountebank" && a.name === "Weak Magic");
+   assert.match(weakMagic.description, /half their level/);
+   const powerShot = abilities.find((a) => a.classKey === "ranger" && a.name === "Power Shot");
+   assert.match(powerShot.description, /details of power shots/);
+});
+
+test("no description leaks a '<CLASS> TALENTS (TABLE ...)' section header into its prose (Finding I2)", () => {
+   for (const a of abilities) {
+      assert.doesNotMatch(a.description, /TALENTS \(TABLE/, `${a.classKey}/${a.name}`);
+   }
+});
+
+test("Breath Evasion's shared text is neutralized and does not mention 'mystic' (Finding I3)", () => {
+   const breathEvasion = abilities.find((a) => a.name === "Breath Evasion");
+   assert.doesNotMatch(breathEvasion.description, /mystic/i);
+});
+
+test("Chivalric Vows/Warden/Warlord carry a mutually-exclusive-subpath note (Finding I4)", () => {
+   for (const name of ["Chivalric Vows", "Warden", "Warlord"]) {
+      const a = abilities.find((r) => r.classKey === "fighter" && r.name === name);
+      assert.match(a.notes, /mutuamente exclusiv/i, name);
+   }
+});

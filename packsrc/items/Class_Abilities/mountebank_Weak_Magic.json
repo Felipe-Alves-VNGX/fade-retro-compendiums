@@ -16,7 +16,7 @@
   "type": "specialAbility",
   "system": {
     "tags": [],
-    "description": "<p>Although a mountebank can cast wizard spells, they have not had the rigorous training regime that wizards have had. Because of this, the spells of a mountebank are weak. For all purposes (range, duration, damage, etc.) a</p>",
+    "description": "<p>Although a mountebank can cast wizard spells, they have not had the rigorous training regime that wizards have had. Because of this, the spells of a mountebank are weak. For all purposes (range, duration, damage, etc.) a</p><p>mountebank counts as a wizard of only half their level (rounded up) when casting spells.</p>",
     "gm": {
       "notes": ""
     },
