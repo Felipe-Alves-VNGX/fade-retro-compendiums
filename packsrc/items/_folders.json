@@ -538,5 +538,20 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!fLMwb4AVEEB5ZPcj": {
+    "name": "Saving Throws",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "fLMwb4AVEEB5ZPcj",
+    "description": "",
+    "sort": 800000,
+    "color": "#4a3f2f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }

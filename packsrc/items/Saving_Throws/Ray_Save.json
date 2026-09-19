@@ -1,0 +1,44 @@
+{
+  "folder": "fLMwb4AVEEB5ZPcj",
+  "name": "Ray Save",
+  "_id": "FPl4fPDOUx6cj5BE",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!FPl4fPDOUx6cj5BE",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>A jogada de resistência de Raio protege contra ataques disparados de varinhas e cajados mágicos — como raios paralisantes ou feixes de dano. Uma jogada bem-sucedida evita ou reduz o efeito do disparo.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d20",
+    "operator": "gte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "save",
+    "shortName": "Ray",
+    "combatManeuver": null,
+    "customSaveCode": "wand",
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

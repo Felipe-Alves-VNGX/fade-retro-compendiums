@@ -1,0 +1,44 @@
+{
+  "folder": "fLMwb4AVEEB5ZPcj",
+  "name": "Spell Save",
+  "_id": "vXjHQjS6PLpNJdKR",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vXjHQjS6PLpNJdKR",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>A jogada de resistência de Magia protege contra os efeitos de feitiços, cajados e varinhas mágicas em geral. Uma jogada bem-sucedida costuma reduzir ou anular o efeito mágico.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d20",
+    "operator": "gte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "save",
+    "shortName": "Spell",
+    "combatManeuver": null,
+    "customSaveCode": "spell",
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

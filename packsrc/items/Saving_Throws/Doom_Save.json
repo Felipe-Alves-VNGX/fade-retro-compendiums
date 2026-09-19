@@ -1,0 +1,44 @@
+{
+  "folder": "fLMwb4AVEEB5ZPcj",
+  "name": "Doom Save",
+  "_id": "vqzfAxO0efTW7vO5",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vqzfAxO0efTW7vO5",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>A jogada de resistência de Perdição protege o personagem contra ameaças que trazem morte instantânea ou debilitação severa — como raios de morte, venenos letais e efeitos similares. Uma jogada bem-sucedida evita ou reduz o efeito; uma falha costuma significar a morte do personagem.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d20",
+    "operator": "gte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "save",
+    "shortName": "Doom",
+    "combatManeuver": null,
+    "customSaveCode": "death",
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

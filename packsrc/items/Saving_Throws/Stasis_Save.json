@@ -1,0 +1,44 @@
+{
+  "folder": "fLMwb4AVEEB5ZPcj",
+  "name": "Stasis Save",
+  "_id": "qfArjGvuIX0EHpLh",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!qfArjGvuIX0EHpLh",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>A jogada de resistência de Estase protege contra efeitos que imobilizam o personagem — paralisia ou petrificação. Falhar nessa jogada deixa o personagem paralisado ou transformado em pedra, dependendo do efeito.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d20",
+    "operator": "gte",
+    "target": "15",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "save",
+    "shortName": "Stasis",
+    "combatManeuver": null,
+    "customSaveCode": "paralysis",
+    "classKey": null,
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}
