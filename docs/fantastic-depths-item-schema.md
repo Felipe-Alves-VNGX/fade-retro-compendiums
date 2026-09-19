@@ -341,8 +341,9 @@ diretamente `foundry.abstract.DataModel` (não `TypeDataModel`).
 | `quantityMax` | number, nullable | não | `null` |
 | `conditions` | array | não | `[]` |
 
-**`category`**: para talents (Task 2), sempre `"talent"`. Pode ter outros valores
-em futuros domínios que gerem `specialAbility` items com categorias diferentes.
+**`category`**: valores em uso neste projeto: `"talent"` (Task 2, skills/talents)
+e `"class"` (Task 2, class abilities). Pode ter outros valores em futuros domínios
+que gerem `specialAbility` items com categorias diferentes.
 
 **`rollFormula`/`operator`/`target`**: campos para ações que exigem rolls
 (podem ser vazios para talentos passivos).
