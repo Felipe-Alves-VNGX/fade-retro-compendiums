@@ -1,0 +1,540 @@
+{
+  "abilities": [
+    {
+      "classKey": "fighter",
+      "name": "Parry",
+      "levels": [
+        7
+      ],
+      "changes": null,
+      "description": "<p>At 7th level, a fighter can choose to use the parry action. The fighter's player declares that their character is parrying at the beginning of the round before initiative is rolled. The fighter makes no attacks during the round (and therefore needs no initiative score), but all incoming attacks are made at a –4 penalty.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "fighter",
+      "name": "Power Attack",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a fighter gains the ability to make power attacks in melee. At the beginning of the round, the fighter's player declares that their character is making a power attack. The fighter automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the fighter gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "fighter",
+      "name": "Multi-attack",
+      "levels": [
+        10,
+        20,
+        30
+      ],
+      "changes": [
+        "2 ataques por rodada",
+        "3 ataques por rodada",
+        "4 ataques por rodada"
+      ],
+      "description": "<p>At 10th level, a fighter is able to make two attacks per round against any creature that they are able to hit by rolling a 2+ on the attack roll (after modifiers). At 20th level, this rises to three attacks and at 30th level it rises to</p><p>four attacks. See CHAPTER 11 – COMBAT for details of multiple attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "battlemage",
+      "name": "Parry",
+      "levels": [
+        7
+      ],
+      "changes": null,
+      "description": "<p>At 7th level, a battlemage can choose to use the parry action. The battlemage's player declares that their character is parrying at the beginning of the round before initiative is rolled. The battlemage makes no attacks during the round (and therefore needs no initiative score), but all incoming attacks are made at a –4 penalty.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "battlemage",
+      "name": "Power Attack",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a battlemage gains the ability to make power attacks in melee. At the beginning of the round, the battlemage's player declares that their character is making a power attack. The battlemage automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the battlemage gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "battlemage",
+      "name": "Multi-attack",
+      "levels": [
+        14,
+        26
+      ],
+      "changes": [
+        "2 ataques por rodada",
+        "3 ataques por rodada"
+      ],
+      "description": "<p>At 14th level, a battlemage is able to make two attacks per round against any creature that they are able to hit by rolling a 2+ on the attack roll (after modifiers). At 26th level, this rises to three attacks. See CHAPTER 11 – COMBAT for details of multi-attack.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "cleric",
+      "name": "Turn Undead",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>clerics have the ability to channel divine power in order to drive away or even destroy undead creatures such as zombies or vampires.</p><p>When your cleric tries to turn undead, you must first decide which undead you are targeting. If you are facing a mixed group of undead you can only turn one type of undead each round. Once you have decided which undead you wish to attempt to turn, consult TABLE 4–3C and compare your cleric's level with the type of undead that you are trying to turn. The entry in the table will indicate the level of success, as follows:</p><p>'–': you are not powerful enough to turn this type of undead.</p><p>'+2': make a check with a bonus of +2. Your attempt at turning the undead will be successful if the check succeeds. If the check fails, you will not be able to try to turn these same undead again during this fight. If the check succeeds then roll 2d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will</p><p>Table 4-3c: Turning Undead by Cleric Level (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th>Skeleton</th><th>Zombie</th><th>Ghoul</th><th>Wight</th><th>Wraith</th><th>Mummy</th><th>Spectre</th><th>Vampire</th><th>Phantom</th><th>Haunt</th><th>Spirit</th><th>Pestilent</th><th>Lich</th><th>Special</th></tr><tr><td>1</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>2</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>3</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>4</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>5</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>6</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>7</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>8</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>9</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td></tr><tr><td>10</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td></tr><tr><td>11</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td></tr><tr><td>12</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td></tr><tr><td>13</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td></tr><tr><td>14</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td><td>–</td></tr><tr><td>15</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td></tr><tr><td>16</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td><td>+2</td></tr><tr><td>17</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td></tr><tr><td>18</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td></tr><tr><td>19</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td></tr><tr><td>20</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td><td>+5</td></tr><tr><td>21</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td></tr><tr><td>22</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td></tr><tr><td>23</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td></tr><tr><td>24</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td><td>+11</td></tr><tr><td>25</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>26</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>27</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>28</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>29</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>30</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>31</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>32</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>33</td><td>X</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>34</td><td>X</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>35</td><td>X</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr><tr><td>36</td><td>X</td><td>X</td><td>X</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>d</td><td>d</td><td>d</td><td>d</td><td>t</td><td>t</td></tr></table><p>be turned, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>'+5': make a check with a bonus of +5. Your attempt at turning the undead will be successful if the check succeeds. If the check fails, you will not be able to try to turn these same undead again during this fight. If the check succeeds then roll 2d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will be turned, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>roll will be turned, with the exception that at least one will always be affected even if it has more hit dice than the roll.</p><p>'d': your attempt at turning the undead is automatically successful, and will destroy the undead rather than simply turning them. Roll 2d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will be destroyed, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>'D': your attempt at turning the undead is automatically successful, and will destroy the undead rather than simply turning them. Roll 3d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will be destroyed, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>'X': your attempt at turning the undead is automatically successful, and will destroy the undead rather than simply</p><p>turning them. Roll 4d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will be destroyed, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>Undead that have been turned will be compelled to flee from the cleric as fast as they are able for at least five minutes. If cornered during this time, they will cower and be unable to make any kind of attack, although intelligent undead may use whatever defensive powers they possess in order to protect themselves.</p><p>The bodies of undead that have been destroyed will crumble to a fine ash, and incorporeal undead will fade away to nothing.</p><p>Some particularly powerful undead might have ways of resisting being turned, and a powerful master may be able to protect their minions making them harder to turn.</p><p>Example: Elfstar, the 2nd level cleric, is facing a pack of zombies. On her action she decides to use her turn undead ability rather than attacking with her mace. Elfstar's player announces that she is targeting the zombies with her turn attempt, and looks on her character sheet (onto which she has copied the relevant information from TABLE 4–3C).</p><p>This shows a '+11', so she needs to roll a d20, add eleven, and get a total of 20 or higher to successfully turn the zombies. She rolls the dice and gets a 10, for a total of 21 – success!</p><p>Debbie, Elfstar's player, rolls 2d6 to see how many zombies Elfstar has just turned. She rolls a 9. Since zombies have two hit dice each, Elfstar has successfully turned four of the zombies (a total of 8 hit dice). She cannot turn a fifth one, since that would be a total of 10 hit dice which is higher than her roll of 9.</p><p>'+11': make a check with a bonus of +11. Your attempt at turning the undead will be successful if the check succeeds. If the check fails, you will not be able to try to turn these same undead again during this fight. If the check succeeds then roll 2d6 to see how many of the undead are affected. Targeted undead with a total number of hit dice equal to this roll will be turned, with the exception that at least one undead will always be affected even if it has more hit dice than the roll.</p><p>'t': your attempt at turning the undead automatically succeeds. Roll 2d6 to see how many undead are affected. Targeted undead with a total number of hit dice equal to this</p>",
+      "shared": false
+    },
+    {
+      "classKey": "druid",
+      "name": "Command Animal",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>Druids have the ability to command or even control animals. This ability only works on natural animals, not monsters, and only on animals with at least the size and intelligence of a mouse. Lesser creatures such as individual insects or slugs are too simple for the ability to work on them – although it does work on giant versions of these creatures.</p><p>When your druid tries to command animals, you must first decide which animal species you are targeting. If you are facing a mixed group of animals you can only control one type of animal each round. Once you have decided which</p><p>Table 4-4c: Commanding Animals by Druid Level (referência, não usado por automação do sistema):</p><table><tr><th>Level</th><th><1</th><th>1 to 1+</th><th>2 to 2+</th><th>3 to 3+</th><th>4 to 4+</th><th>5 to 6+</th><th>7 to 8+</th><th>9 to 11+</th><th>12 to 13+</th><th>14 to 16+</th><th>17 to 20+</th><th>21 to 25+</th><th>26 to 30+</th><th>31 or more</th></tr><tr><td>1</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>2</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>3</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>4</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>5</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>6</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>7</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>8</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td><td>–</td></tr><tr><td>9</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td></tr><tr><td>10</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td><td>–</td></tr><tr><td>11</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td></tr><tr><td>12</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td><td>–</td></tr><tr><td>13</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td></tr><tr><td>14</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td><td>–</td></tr><tr><td>15</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td></tr><tr><td>16</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td><td>+2</td></tr><tr><td>17</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td></tr><tr><td>18</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td></tr><tr><td>19</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td></tr><tr><td>20</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td><td>+5</td></tr><tr><td>21</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td></tr><tr><td>22</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td></tr><tr><td>23</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td></tr><tr><td>24</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td><td>+11</td></tr><tr><td>25</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>26</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>27</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>28</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>29</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>30</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>31</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>32</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>33</td><td>X</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>34</td><td>X</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>35</td><td>X</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr><tr><td>36</td><td>X</td><td>X</td><td>X</td><td>M</td><td>M</td><td>M</td><td>M</td><td>M</td><td>m</td><td>m</td><td>m</td><td>m</td><td>c</td><td>c</td></tr></table><p>animal species you wish to attempt to control, consult TABLE 4– 4C and compare your druid's level with the hit dice of the type of animal that you are trying to affect. The entry in the table will indicate the level of success, as follows:</p><p>'–': you are not powerful enough to command or control this type of animal.</p><p>'+2': make a check with a bonus of +2. Your attempt at controlling the animals will be successful if the check succeeds. If the check fails, you will not be able to try to control these same animals again until the following day. If of hit dice equal to this roll will be commanded, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'+11': make a check with a bonus of +11. Your attempt at controlling the animals will be successful if the check succeeds. If the check fails, you will not be able to try to control these same animals again until the following day. If the check succeeds then roll 2d6 to see how many of the animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'c': your attempt at controlling the animals automatically succeeds. Roll 2d6 to see how many animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'m': your attempt at controlling the animals automatically succeeds, and you may choose to master them rather than just commanding them. Roll 2d6 to see how many animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded or mastered, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'M': your attempt at controlling the animals automatically succeeds, and you may choose to master them rather than just commanding them. Roll 3d6 to see how many animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded or mastered, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'X': your attempt at controlling the animals automatically succeeds, and you may choose to master them rather than just commanding them. Roll 4d6 to see how many animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded or mastered, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>Commanded animals will obey a single mental command from the druid. This command may be to flee, or to attack a particular target, or to pick up an item and bring it to the</p><p>druid or any other command of a similar nature. All animals included in a single command attempt must be given the same command. The duration of the command lasts for 10 minutes or until the animals have finished the task that they have been given, whichever happens first.</p><p>Mastered animals will become docile and friendly to the druid, and if they are normally social or pack animals they will be friendly to the druid's friends as well. They will fight to protect the druid without being ordered to and willingly lay down their lives on the druid's behalf.</p><p>At any time, the druid may (as a standard action) make mental contact with any one of their mastered animals regardless of distance (provided they are on the same plane of existence and within the same celestial sphere). While in mental contact, the druid experiences the animal's senses rather than their own – so they see through the animal's eyes, hear through its ears, and so forth – and can give the animal mental commands at any time, or even physically take control of the animal's movement.</p><p>The druid may not cast spells or use magical items through the animal, and the druid's control of the animal's movement is not fine enough for them to make the animal reproduce human words.</p><p>Mastery of an animal is normally permanent, although a druid can only have a total number of hit dice of animals mastered at any given time equal to twice as many hit dice as the druid has levels. A druid may relinquish mastery of an animal at any time, and can do so at the same time as mastering a new animal in order to make room for the new one.</p><p>the check succeeds then roll 2d6 to see how many of the animals are affected. Targeted animals with a total number of hit dice equal to this roll will be commanded, with the exception that at least one animal will always be affected even if it has more hit dice than the roll.</p><p>'+5': make a check with a bonus of +5. Your attempt at controlling the animals will be successful if the check succeeds. If the check fails, you will not be able to try to control these same animals again until the following day. If the check succeeds then roll 2d6 to see how many of the animals are affected. Targeted animals with a total number</p>",
+      "shared": false
+    },
+    {
+      "classKey": "grenadier",
+      "name": "Powder Crafting",
+      "levels": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        13,
+        17
+      ],
+      "changes": [
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7"
+      ],
+      "description": "<p>Starting at 2nd level, grenadiers can craft explosives and other items that use refined powder in inventive ways. The grenadier must have mastered the blueprint for the device, see CHAPTER 12 – GETTING BETTER for details about mastering new blueprints, and the device must be only grade 1 in complexity.</p><p>At higher levels, the grenadier can craft higher grade devices for which they have mastered the blueprints. At 4th level the grenadier can craft grade 2 devices; at 6th level they can craft grade 3 devices; at 8th level they can craft grade 4 devices; at 10th level they can craft grade 5 devices; at 13th level they can craft grade 6 devices, and at 17th level they can craft grade 7 devices.</p><p>See CHAPTER 8 – RED POWDER for more information about the devices that can a grenadier can make that use refined powder in this manner.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "grenadier",
+      "name": "Covering Fire",
+      "levels": [
+        7
+      ],
+      "changes": null,
+      "description": "<p>At 7th level, the grenadier gains the ability to lay down covering fire with a firearm to help defend an ally. The grenadier's player declares that their character is covering the ally at the beginning of the round before initiative is rolled. The grenadier makes no attacks during the round (and therefore needs no initiative score), but all attacks made against the character being covered are made at a –4 penalty.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "grenadier",
+      "name": "Power Shot",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a grenadier gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the grenadier's player declares that their character is making a power shot. The grenadier automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the grenadier gets to add their dexterity score to the damage done by the attack as well as their dexterity bonus. See CHAPTER 11 – COMBAT for details of power shots.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "grenadier",
+      "name": "Powder Distillation",
+      "levels": [
+        14
+      ],
+      "changes": null,
+      "description": "<p>At 14th level, the grenadier is able to distil small amounts of red powder from the soil, sand, and earth. The grenadier does not gain enough red powder to fill a flask or use to power a firearm, but they do get enough red powder that they are able to make their daily amount of refined powder from it.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "grenadier",
+      "name": "Multi-attack",
+      "levels": [
+        10,
+        20,
+        30
+      ],
+      "changes": [
+        "2 ataques por rodada",
+        "3 ataques por rodada",
+        "4 ataques por rodada"
+      ],
+      "description": "<p>At 10th level, a grenadier is able to make two attacks per round against any creature that they are able to hit by rolling a 2+ on the attack roll (after modifiers). At 20th level, this rises to three attacks and at 30th level it rises to four attacks. See CHAPTER 11 – COMBAT for details of multiple attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mountebank",
+      "name": "Weak Magic",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>Although a mountebank can cast wizard spells, they have not had the rigorous training regime that wizards have had. Because of this, the spells of a mountebank are weak. For all purposes (range, duration, damage, etc.) a</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mountebank",
+      "name": "Item Use",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>Mountebanks are versatile users of magical items, and can use any magical item usable by mortals, even those normally only usable by members of a particular class. This includes the use of spell scrolls, and when using a spell scroll with a cleric or druid spell on it, treat the spell as if it were a wizard spell when determining if it is too high a circle for the mountebank to cast without a chance of failure.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Alertness",
+      "levels": [
+        2
+      ],
+      "changes": null,
+      "description": "<p>When a fight suddenly breaks out, or when two groups come face to face abruptly, a 2nd level or higher mystic</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Self Healing",
+      "levels": [
+        4
+      ],
+      "changes": null,
+      "description": "<p>Starting at 4th level, once per day a mystic can spend a round concentrating and heal themselves 1 hit point per level that they have.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Speak with Animals",
+      "levels": [
+        6
+      ],
+      "changes": null,
+      "description": "<p>A 6th level or higher mystic is able to understand the speech of any animal, and is able to make any animal understand their speech. This is a mental ability,</p><p>not a physical one. If conversing with a dog, the mystic does not actually growl and bark but talks normally – reaching into the dog's mind to make it understand.</p><p>This ability does not bestow any extra intelligence to the animal. Neither does it force the animal to obey or even cooperate with the character.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Parry",
+      "levels": [
+        7
+      ],
+      "changes": null,
+      "description": "<p>At 7th level, a mystic can choose to use the parry action. The mystic's player declares that their character is parrying at the beginning of the round before initiative is rolled. The mystic makes no attacks during the round (and therefore needs no initiative score), but all incoming attacks are made at a –4 penalty.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Spell Resistance",
+      "levels": [
+        8
+      ],
+      "changes": null,
+      "description": "<p>At 8th level and higher, a mystic only takes half damage from all spells and spell-like abilities. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Speak with Anyone",
+      "levels": [
+        10
+      ],
+      "changes": null,
+      "description": "<p>At 10th level, a mystic's Speak with Animals ability is no longer limited to animals and can now be used to speak with any creature or person that has at least animal-level intelligence or a natural language.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Power Attack",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a mystic gains the ability to make power attacks in melee. At the beginning of the round, the mystic's player declares that their character is making a single power attack. The mystic automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the mystic gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks. Mystics can make power attacks with both martial arts and other armed and unarmed melee attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Still Mind",
+      "levels": [
+        12
+      ],
+      "changes": null,
+      "description": "<p>Starting at 12th level, mystics are immune to Charm, Quest and Geas spells, Hold and Slow spells, and ESP.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Pass Unnoticed",
+      "levels": [
+        14
+      ],
+      "changes": null,
+      "description": "<p>At 14th level and higher, a mystic can make themselves fade from view once per day. This is a mental effect rather than a physical invisibility effect, so spells and abilities that can detect the presence of invisible creatures do not detect the character. The fade lasts for up to one round per level of the mystic, and stops instantly if the character does something to attract attention to themselves such as attacking or speaking.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mystic",
+      "name": "Gentle Touch",
+      "levels": [
+        18,
+        19,
+        20,
+        22,
+        24
+      ],
+      "changes": [
+        "Cureall",
+        "Charm Monster",
+        "Hold Monster",
+        "Quest",
+        "morte instantânea"
+      ],
+      "description": "<p>At 18th level and higher, a mystic is able to spend a round focusing their mental energy and transferring that energy into a target by touch.</p><p>At 18th level, the touch has the effect of a Cureall spell. At 19th level, the touch may instead have the effect of a Charm Monster spell. At 20th level it may have the effect of a Hold Monster spell. At 22nd level it may have the effect of a Quest spell. At 24th level it may cause the creature touched to die instantly. The mystic may always choose a lesser effect over a greater one.</p><p>The target does not get a save against the effect (although in the case of Charm Monster they will get subsequent saves as normal), but they must have fewer levels or hit dice than the mystic's level for the gentle touch to work.</p><p>Gentle touch may only be used once per day in total. If the target is not willing to be touched, the mystic must make an attack roll to touch them, although if the attack fails the ability is not expended and the mystic can try again in a later round.</p><p>MYSTIC TALENTS (TABLE 4–8C) Mystics are able to uses the following talents, with chances of success listed on TABLE 4–8C. See CHAPTER 5 – ABILITY CHECKS, SKILLS, & TALENTS for more information about how talents work and how they interact with skills.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "ranger",
+      "name": "Nimble",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>A ranger's agility and training gives them a +2 bonus to all ranged attacks and a +1 bonus to initiative checks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "ranger",
+      "name": "Parry",
+      "levels": [
+        7
+      ],
+      "changes": null,
+      "description": "<p>At 7th level, a ranger can choose to use the parry action. The ranger's player declares that their character is parrying</p><p>at the beginning of the round before initiative is rolled. The ranger makes no attacks during the round (and therefore needs no initiative score), but all incoming attacks are made at a –4 penalty.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "ranger",
+      "name": "Power Attack",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a ranger gains the ability to make power attacks in melee. At the beginning of the round, the ranger's player declares that their character is making a single power attack. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "ranger",
+      "name": "Power Shot",
+      "levels": [
+        11
+      ],
+      "changes": null,
+      "description": "<p>At 11th level, a ranger gains the ability to make power shots when using a ranged weapon. At the beginning of the round, the ranger's player declares that their character is making a power shot. The ranger automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the ranger gets to add their dexterity score to the damage done by the attack as well</p>",
+      "shared": false
+    },
+    {
+      "classKey": "ranger",
+      "name": "Multi-attack",
+      "levels": [
+        14,
+        26
+      ],
+      "changes": [
+        "2 ataques por rodada",
+        "3 ataques por rodada"
+      ],
+      "description": "<p>At 14th level, a ranger is able to make two attacks per round against any creature that they are able to</p><p>hit by rolling a 2+ on the attack roll (after modifiers). At 26th level, this rises to three attacks. See CHAPTER 11 – COMBAT for details of multi-attack.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "thief",
+      "name": "Sneak Attack",
+      "levels": [
+        1
+      ],
+      "changes": null,
+      "description": "<p>If a thief is able to strike an opponent who is not aware of the thief's location, the thief can add +4 to their attack roll and if the attack hits it does twice the normal damage that the attack would normally do. Should a thief</p><p>make two simultaneous attacks (because they are wielding two weapons) then both attacks get the +4 bonus and do double damage if they hit.</p><p>Simply being behind an enemy is not enough to get a sneak attack. Although the target may be aware that the thief is there somewhere, the thief must actually be hidden from sight, invisible, or otherwise concealed, and their exact location must not be known to their target.</p><p>The sneak attack may be made with a melee attack or with a missile, thrown or hurled weapon at short range.</p><p>THIEF TALENTS (TABLE 4–10C) Thieves are able to uses the following talents, with chances of success listed on TABLE 4–10C. See CHAPTER 5 – ABILITY CHECKS, SKILLS, & TALENTS for more information about how talents work and how they interact with skills.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "mountebank",
+      "name": "Breath Evasion",
+      "levels": [
+        16
+      ],
+      "changes": null,
+      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "shared": true
+    },
+    {
+      "classKey": "mystic",
+      "name": "Breath Evasion",
+      "levels": [
+        16
+      ],
+      "changes": null,
+      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "shared": true
+    },
+    {
+      "classKey": "ranger",
+      "name": "Breath Evasion",
+      "levels": [
+        16
+      ],
+      "changes": null,
+      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "shared": true
+    },
+    {
+      "classKey": "thief",
+      "name": "Breath Evasion",
+      "levels": [
+        16
+      ],
+      "changes": null,
+      "description": "<p>At 16th level and higher, a mystic only takes half damage from all breath weapons such as those used by dragons. If the attack normally allows a save for half damage then the mystic only takes a quarter of normal damage if they save successfully.</p>",
+      "shared": true
+    },
+    {
+      "classKey": "fighter",
+      "name": "Chivalric Vows",
+      "levels": [
+        9
+      ],
+      "changes": null,
+      "description": "<p>After reaching 9th level, a fighter who has received a title of nobility (knight or higher) might decide to take chivalric vows and dedicate themselves to a cause such as a religious order or a noble. Taking chivalric vows puts restrictions on the fighter's behaviour but gives them extra abilities in exchange. A fighter wishing to take chivalric vows must first find a suitable chivalric order with which they share an outlook, and then spend a month living with the order.</p><p>At the end of this time, the fighter undertakes a night long vigil, and then becomes a chevalier. Once the fighter has qualified in this way, the order places them with a particular temple or noble who is a supporter of the order. The fighter may or may not get a choice of liege, but betraying a liege is considered betrayal of the order and doing so strips the chevalier of all chivalric abilities and is also likely to incur the wrath of the order.</p><p>All chevaliers must obey a strict code of conduct, the exact details of which will vary from order to order but will usually involve a requirement to provide hospitality and/or sanctuary to fellow chevaliers of the same order. As a member of a chivalric order, the fighter gains the following benefits:</p><p>Detect Evil: The chevalier can cast a Detect Evil spell (as per the cleric spell of the same name) as often as they like. Casting this spell does take the fighter's action for a round, so cannot be done at the same time as attacking.</p><p>Spells: Chevaliers with a wisdom score of at least 9 can cast cleric spells as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can cast spells as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's casting and preparation of spells also apply to the chevalier.</p><p>Turn Undead: Chevaliers can turn undead as if a cleric of one third the chevalier's level. For example, a 17th level chevalier can turn undead as if a 6th level cleric. All the normal rules and restrictions that apply to a cleric's turning undead also apply to the chevalier.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "fighter",
+      "name": "Warden",
+      "levels": [
+        9
+      ],
+      "changes": null,
+      "description": "<p>Certain chivalric orders pledge their allegiance to an area of land rather than to a particular religion or noble. To these orders, it doesn't matter who rules the land as long as the land itself is healthy and free from monsters. Fighters who join these orders must relinquish their title of nobility as part of their investiture, and are known as wardens rather than chevaliers.</p><p>Wardens have exactly the same benefits and strictures as chevaliers, except that they cast druid spells rather than cleric spells, and get the command animals ability (as if a druid of one third their level) rather than turn undead.</p>",
+      "shared": false
+    },
+    {
+      "classKey": "fighter",
+      "name": "Warlord",
+      "levels": [
+        9
+      ],
+      "changes": null,
+      "description": "<p>Fighters who choose to become neither chevaliers nor wardens at 9th level become warlords instead. Unlike chevaliers or</p><p>wardens, a warlord need not pledge allegiance to any particular cause. Instead they rely on their great experience and expertise in strategy and tactics to become leaders of others.</p><p>Warlords are often found as the heads of mercenary companies or armies. A warlord retains all of their existing abilities and continues to rise in experience as normal, but also receives the following additional benefits:</p><p>Encouragement: Once per round, during the statement of intent phase, a warlord can exhort and encourage a single ally within earshot, helping them to put aside pain and exhaustion and keep fighting. The ally is immediately cured of 1d6+1 damage. The ally must be able to understand the warlord's words so it doesn't work on unconscious allies, on allies who can't hear the warlord, or on allies who don't share a common language with them.</p><p>A warlord can't encourage themselves, but two warlords can encourage each other. Giving encouragement does not count as an action for the warlord or the target. Each day, the warlord can give encouragement a total number of times equal to their level divided by three.</p><p>Tactics: At the beginning of each round, a warlord can assign some or all of the benefits that they receive from weapon feats with their current weapons (including their shield) to one or more allies who are within earshot and who can understand the warlord's words by a combination of advice, warnings and orders. See CHAPTER 6 – WEAPONS & WEAPON PROFICIENCY for more details about how the transferring of weapon feat bonuses works.</p><p>Strategy: During mass battles, a warlord adds half their level to the battle score of any army they command. See CHAPTER 15 – WAR! for details.</p>",
+      "shared": false
+    }
+  ],
+  "talentLinks": [
+    [
+      "thief",
+      "Open Locks",
+      1
+    ],
+    [
+      "thief",
+      "Locate Traps",
+      1
+    ],
+    [
+      "thief",
+      "Remove Traps",
+      1
+    ],
+    [
+      "thief",
+      "Climb Walls",
+      1
+    ],
+    [
+      "thief",
+      "Move Silently",
+      1
+    ],
+    [
+      "thief",
+      "Hide in Shadows",
+      1
+    ],
+    [
+      "thief",
+      "Pick Pockets",
+      1
+    ],
+    [
+      "thief",
+      "Hear Noise",
+      1
+    ],
+    [
+      "thief",
+      "Read Languages",
+      4
+    ],
+    [
+      "thief",
+      "Wizard Scroll Use",
+      10
+    ],
+    [
+      "mountebank",
+      "Climb Walls",
+      1
+    ],
+    [
+      "mountebank",
+      "Move Silently",
+      1
+    ],
+    [
+      "mountebank",
+      "Hide in Shadows",
+      1
+    ],
+    [
+      "mountebank",
+      "Pick Pockets",
+      1
+    ],
+    [
+      "mystic",
+      "Locate Traps",
+      1
+    ],
+    [
+      "mystic",
+      "Remove Traps",
+      1
+    ],
+    [
+      "mystic",
+      "Climb Walls",
+      1
+    ],
+    [
+      "mystic",
+      "Move Silently",
+      1
+    ],
+    [
+      "mystic",
+      "Hide in Shadows",
+      1
+    ],
+    [
+      "ranger",
+      "Climb Walls",
+      1
+    ],
+    [
+      "ranger",
+      "Move Silently",
+      1
+    ],
+    [
+      "ranger",
+      "Hide in Shadows",
+      1
+    ]
+  ]
+}

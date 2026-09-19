@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Speak with Animals",
+  "_id": "7daCsOjFCTyk069i",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7daCsOjFCTyk069i",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>A 6th level or higher mystic is able to understand the speech of any animal, and is able to make any animal understand their speech. This is a mental ability,</p><p>not a physical one. If conversing with a dog, the mystic does not actually growl and bark but talks normally – reaching into the dog's mind to make it understand.</p><p>This ability does not bestow any extra intelligence to the animal. Neither does it force the animal to obey or even cooperate with the character.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "mystic",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

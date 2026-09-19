@@ -1048,7 +1048,64 @@
         1
       ]
     ],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Climb Walls",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Item Use",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Pick Pockets",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Weak Magic",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      },
+      {
+        "name": "Breath Evasion",
+        "uuid": "",
+        "level": 16,
+        "target": null,
+        "classKey": "mountebank",
+        "changes": ""
+      }
+    ],
     "classItems": []
   }
 }

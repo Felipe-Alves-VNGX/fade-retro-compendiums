@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Speak with Anyone",
+  "_id": "IRJNSJJcPMXrvdtJ",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!IRJNSJJcPMXrvdtJ",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 10th level, a mystic's Speak with Animals ability is no longer limited to animals and can now be used to speak with any creature or person that has at least animal-level intelligence or a natural language.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "mystic",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

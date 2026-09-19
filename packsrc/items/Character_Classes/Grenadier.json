@@ -687,7 +687,112 @@
       }
     ],
     "spells": [],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 2,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 1"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 4,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 2"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 6,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 3"
+      },
+      {
+        "name": "Covering Fire",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 8,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 4"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "2 ataques por rodada"
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 5"
+      },
+      {
+        "name": "Power Shot",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 13,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 6"
+      },
+      {
+        "name": "Powder Distillation",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": ""
+      },
+      {
+        "name": "Powder Crafting",
+        "uuid": "",
+        "level": 17,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "Grade 7"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 20,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "3 ataques por rodada"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 30,
+        "target": null,
+        "classKey": "grenadier",
+        "changes": "4 ataques por rodada"
+      }
+    ],
     "classItems": []
   }
 }

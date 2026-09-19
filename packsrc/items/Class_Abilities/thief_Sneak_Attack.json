@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Sneak Attack",
+  "_id": "vRbvu6vXac1xhBV7",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vRbvu6vXac1xhBV7",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>If a thief is able to strike an opponent who is not aware of the thief's location, the thief can add +4 to their attack roll and if the attack hits it does twice the normal damage that the attack would normally do. Should a thief</p><p>make two simultaneous attacks (because they are wielding two weapons) then both attacks get the +4 bonus and do double damage if they hit.</p><p>Simply being behind an enemy is not enough to get a sneak attack. Although the target may be aware that the thief is there somewhere, the thief must actually be hidden from sight, invisible, or otherwise concealed, and their exact location must not be known to their target.</p><p>The sneak attack may be made with a melee attack or with a missile, thrown or hurled weapon at short range.</p><p>THIEF TALENTS (TABLE 4–10C) Thieves are able to uses the following talents, with chances of success listed on TABLE 4–10C. See CHAPTER 5 – ABILITY CHECKS, SKILLS, & TALENTS for more information about how talents work and how they interact with skills.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "thief",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

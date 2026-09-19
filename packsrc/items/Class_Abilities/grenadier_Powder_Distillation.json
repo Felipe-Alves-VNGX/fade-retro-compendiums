@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Powder Distillation",
+  "_id": "ikH0lo33UTD32HWr",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!ikH0lo33UTD32HWr",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 14th level, the grenadier is able to distil small amounts of red powder from the soil, sand, and earth. The grenadier does not gain enough red powder to fill a flask or use to power a firearm, but they do get enough red powder that they are able to make their daily amount of refined powder from it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "grenadier",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

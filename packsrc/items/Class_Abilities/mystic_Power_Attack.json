@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Power Attack",
+  "_id": "liAxyJARo5Se45d8",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!liAxyJARo5Se45d8",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>At 11th level, a mystic gains the ability to make power attacks in melee. At the beginning of the round, the mystic's player declares that their character is making a single power attack. The mystic automatically loses initiative, and takes a –5 penalty to their attack roll for the attack. However, if the attack hits then the mystic gets to add their strength score to the damage done by the attack as well as their strength bonus. See CHAPTER 11 – COMBAT for details of power attacks. Mystics can make power attacks with both martial arts and other armed and unarmed melee attacks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "mystic",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

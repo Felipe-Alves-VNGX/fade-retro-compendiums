@@ -687,7 +687,104 @@
       }
     ],
     "spells": [],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Climb Walls",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Hear Noise",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Locate Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Open Locks",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Pick Pockets",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Remove Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Sneak Attack",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Read Languages",
+        "uuid": "",
+        "level": 4,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Wizard Scroll Use",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      },
+      {
+        "name": "Breath Evasion",
+        "uuid": "",
+        "level": 16,
+        "target": null,
+        "classKey": "thief",
+        "changes": ""
+      }
+    ],
     "classItems": []
   }
 }

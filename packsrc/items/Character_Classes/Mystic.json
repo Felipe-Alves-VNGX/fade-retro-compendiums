@@ -687,7 +687,168 @@
       }
     ],
     "spells": [],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Climb Walls",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Locate Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Remove Traps",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Alertness",
+        "uuid": "",
+        "level": 2,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Self Healing",
+        "uuid": "",
+        "level": 4,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Speak with Animals",
+        "uuid": "",
+        "level": 6,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Parry",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Spell Resistance",
+        "uuid": "",
+        "level": 8,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Speak with Anyone",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Power Attack",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Still Mind",
+        "uuid": "",
+        "level": 12,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Pass Unnoticed",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Breath Evasion",
+        "uuid": "",
+        "level": 16,
+        "target": null,
+        "classKey": "mystic",
+        "changes": ""
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 18,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Cureall"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 19,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Charm Monster"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 20,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Hold Monster"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 22,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "Quest"
+      },
+      {
+        "name": "Gentle Touch",
+        "uuid": "",
+        "level": 24,
+        "target": null,
+        "classKey": "mystic",
+        "changes": "morte instantânea"
+      }
+    ],
     "classItems": []
   }
 }

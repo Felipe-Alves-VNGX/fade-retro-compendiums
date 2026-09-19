@@ -687,7 +687,72 @@
       }
     ],
     "spells": [],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Parry",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "fighter",
+        "changes": ""
+      },
+      {
+        "name": "Chivalric Vows",
+        "uuid": "",
+        "level": 9,
+        "target": null,
+        "classKey": "fighter",
+        "changes": ""
+      },
+      {
+        "name": "Warden",
+        "uuid": "",
+        "level": 9,
+        "target": null,
+        "classKey": "fighter",
+        "changes": ""
+      },
+      {
+        "name": "Warlord",
+        "uuid": "",
+        "level": 9,
+        "target": null,
+        "classKey": "fighter",
+        "changes": ""
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 10,
+        "target": null,
+        "classKey": "fighter",
+        "changes": "2 ataques por rodada"
+      },
+      {
+        "name": "Power Attack",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "fighter",
+        "changes": ""
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 20,
+        "target": null,
+        "classKey": "fighter",
+        "changes": "3 ataques por rodada"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 30,
+        "target": null,
+        "classKey": "fighter",
+        "changes": "4 ataques por rodada"
+      }
+    ],
     "classItems": []
   }
 }

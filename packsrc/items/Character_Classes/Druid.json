@@ -1012,7 +1012,16 @@
         9
       ]
     ],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Command Animal",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "druid",
+        "changes": ""
+      }
+    ],
     "classItems": []
   }
 }

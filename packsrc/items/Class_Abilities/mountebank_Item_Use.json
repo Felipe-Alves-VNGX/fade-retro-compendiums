@@ -1,0 +1,44 @@
+{
+  "folder": "pv3tV6QDZYfc2NYm",
+  "name": "Item Use",
+  "_id": "cLe0evk23vAExAVV",
+  "img": "icons/svg/upgrade.svg",
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!cLe0evk23vAExAVV",
+  "type": "specialAbility",
+  "system": {
+    "tags": [],
+    "description": "<p>Mountebanks are versatile users of magical items, and can use any magical item usable by mortals, even those normally only usable by members of a particular class. This includes the use of spell scrolls, and when using a spell scroll with a cleric or druid spell on it, treat the spell as if it were a wizard spell when determining if it is too high a circle for the mountebank to cast without a chance of failure.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": null,
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": null,
+    "customSaveCode": null,
+    "classKey": "mountebank",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  }
+}

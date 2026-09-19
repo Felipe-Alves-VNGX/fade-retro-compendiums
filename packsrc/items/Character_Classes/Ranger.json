@@ -687,7 +687,88 @@
       }
     ],
     "spells": [],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Climb Walls",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Hide in Shadows",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Move Silently",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Nimble",
+        "uuid": "",
+        "level": 1,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Parry",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Power Attack",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Power Shot",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "ranger",
+        "changes": "2 ataques por rodada"
+      },
+      {
+        "name": "Breath Evasion",
+        "uuid": "",
+        "level": 16,
+        "target": null,
+        "classKey": "ranger",
+        "changes": ""
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 26,
+        "target": null,
+        "classKey": "ranger",
+        "changes": "3 ataques por rodada"
+      }
+    ],
     "classItems": []
   }
 }

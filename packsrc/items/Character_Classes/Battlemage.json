@@ -1084,7 +1084,40 @@
         9
       ]
     ],
-    "specialAbilities": [],
+    "specialAbilities": [
+      {
+        "name": "Parry",
+        "uuid": "",
+        "level": 7,
+        "target": null,
+        "classKey": "battlemage",
+        "changes": ""
+      },
+      {
+        "name": "Power Attack",
+        "uuid": "",
+        "level": 11,
+        "target": null,
+        "classKey": "battlemage",
+        "changes": ""
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 14,
+        "target": null,
+        "classKey": "battlemage",
+        "changes": "2 ataques por rodada"
+      },
+      {
+        "name": "Multi-attack",
+        "uuid": "",
+        "level": 26,
+        "target": null,
+        "classKey": "battlemage",
+        "changes": "3 ataques por rodada"
+      }
+    ],
     "classItems": []
   }
 }

@@ -523,5 +523,20 @@
       "coreVersion": "13.347",
       "systemId": "fantastic-depths"
     }
+  },
+  "!folders!pv3tV6QDZYfc2NYm": {
+    "name": "Class Abilities",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "pv3tV6QDZYfc2NYm",
+    "description": "",
+    "sort": 700000,
+    "color": "#3c4a2f",
+    "flags": {},
+    "_stats": {
+      "coreVersion": "13.347",
+      "systemId": "fantastic-depths"
+    }
   }
 }
