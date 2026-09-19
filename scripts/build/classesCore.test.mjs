@@ -47,9 +47,9 @@ test("buildDocument maps levels without a thac0 override, leaving it at the sche
    assert.equal("thac0" in doc.system.levels[0], false);
 });
 
-test("buildDocument copies saves entries verbatim", () => {
+test("buildDocument remaps saves from the book's column labels to the real system's customSaveCode keys", () => {
    const doc = buildDocument(SAMPLE_RECORD);
-   assert.deepEqual(doc.system.saves[0], { level: 1, doom: 7, ray: 6, stasis: 7, blast: 4, spell: 5 });
+   assert.deepEqual(doc.system.saves[0], { level: 1, death: 7, wand: 6, paralysis: 7, breath: 4, spell: 5 });
 });
 
 test("buildDocument copies the spells 2D array for a caster", () => {

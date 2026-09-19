@@ -54,7 +54,28 @@ export function buildDocument(record) {
       attackRank: null,
    }));
 
-   const saves = record.saves.map((s) => ({ ...s }));
+   // The book's own column labels (doom/ray/stasis/blast/spell, kept
+   // verbatim in the parser's Record shape) are Dark Dungeons's renamed
+   // version of the classic save categories. The fantastic-depths
+   // system's own class sheet (templates/item/classdef/saves.hbs)
+   // renders this array by looking up each column's real customSaveCode
+   // (from separate specialAbility/category:"save" items — e.g. the
+   // official fade-compendiums module), not by these book-label keys,
+   // so they must be remapped: doom→death (Death Ray or Poison),
+   // ray→wand (Magic Wand), stasis→paralysis (Turn to Stone or
+   // Paralysis), blast→breath (Dragon Breath), spell→spell (Rods,
+   // Staves or Spells) — confirmed against the book's own "doom save"/
+   // "stasis save" usage (poison/death and lost-turn contexts
+   // respectively) and against real customSaveCode values found live
+   // in a Foundry world with fade-compendiums installed.
+   const saves = record.saves.map((s) => ({
+      level: s.level,
+      death: s.doom,
+      wand: s.ray,
+      paralysis: s.stasis,
+      breath: s.blast,
+      spell: s.spell,
+   }));
 
    return {
       folder: CLASSES_FOLDER_ID,

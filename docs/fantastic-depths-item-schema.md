@@ -422,9 +422,19 @@ Cada elemento de `levels`:
 `saves` (a propriedade em si) é `new ArrayField(new ObjectField({}), {...})`
 no schema real — um array de objetos genéricos, **sem sub-schema imposto pelo
 Foundry** (nenhuma coluna, tipo ou default é validado pelo `ObjectField({})`
-vazio). Este sub-projeto usa, por convenção própria (documentada na spec deste
-sub-projeto, seção 5, não porque o schema exige), a forma
-`{ level, doom, ray, stasis, blast, spell }` para cada elemento.
+vazio). Apesar de o schema não impor um formato, a ficha real
+(`templates/item/classdef/saves.hbs` + `ClassDefinitionItemSheet.ts`) NÃO lê
+essas chaves por nome fixo: ela busca itens `specialAbility` com
+`system.category === "save"` (ex.: fornecidos pelo módulo oficial
+`fade-compendiums`) e usa o `customSaveCode` de cada um para indexar
+`outerSaveData[...]`. Os valores reais de `customSaveCode` no sistema são
+`death`, `wand`, `paralysis`, `breath`, `spell` — não os nomes de coluna do
+livro (`doom`, `ray`, `stasis`, `blast`, `spell`). Por isso cada elemento de
+`saves` é escrito como `{ level, death, wand, paralysis, breath, spell }`,
+remapeado a partir do rótulo do livro no momento da build (ver
+`scripts/build/classesCore.mjs`); o parser (Task 1) continua usando os
+rótulos do livro (`doom/ray/stasis/blast/spell`) como forma interna do
+`Record`, já que esses são os nomes reais da Table 4-2b etc.
 
 **`key`**: identificador único da classe, único dentro do domínio (ex. `"fighter"`, `"battlemage"`).
 Corresponde ao arquivo `parsedKey` derivado pelo parser (Task 1) do nome na tabela do livro.
